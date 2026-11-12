@@ -1,0 +1,15 @@
+[debug] backend=cloud model=qwen3.6-35b-a3b-noreason
+[debug] Glossary loaded: 0 terms
+[debug] Block L3-3: 'The Moderator is the deterministic control plane inside `orc' -> 0 terms: []
+[debug] Block L7-7: 'Centralized factory creating role agent instances from valid' -> 0 terms: []
+[debug] Block L11-11: 'Every parameter either specified by caller OR taken from a d' -> 0 terms: []
+[debug] Block L13-17: '| Parameter | Default | Scope |\\n|-----------|---------|-----' -> 0 terms: []
+[debug] Block L19-19: 'Default whitelist managed centrally in `defaults/policy.yaml' -> 0 terms: []
+[debug] Block L23-23: 'After creation but before enqueue, verify:' -> 0 terms: []
+[debug] Block L25-27: '- Role identifier matches known role from `protocol-core/ind' -> 0 terms: []
+[fix] 'промпта' -> 'запроса' x1
+[debug] Block L31-31: 'Each session record includes `"role_agent_config"` section l' -> 0 terms: []
+[debug] Block L35-35: 'Factory injects scenario-specific context (task scope, scena' -> 0 terms: []
+[fix] 'промпта' -> 'запроса' x2
+
+Done: 15 ok, 22 skip, 0 fail

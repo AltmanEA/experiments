@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' translated as 'Субъекты' instead of 'Объекты обсуждения'.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' translated as 'Субъекты' instead of 'Объекты обсуждения'.",
+      "quote": "Субъекты, имеющие и `support`, и `oppose` в финальном раунде"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `severity` translated inside backticks; must be byte-identical to source.",
+      "quote": "`severity: Уровень серьёзности|null`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `severity` translated inside backticks; must be byte-identical to source.",
+      "quote": "`Уровень серьёзности`"
+    }
+  ],
+  "score": 30,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:49:38"
+  }
+}

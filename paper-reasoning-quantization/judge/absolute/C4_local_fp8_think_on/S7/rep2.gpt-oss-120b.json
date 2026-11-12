@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case agreement: noun \"Фаза\" should be in genitive after \"переход\".",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect noun form: \"Консенсус\" should be in genitive after \"правила\".",
+      "quote": "правила Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect noun form: \"Эскалация\" should be in genitive after \"целостности\".",
+      "quote": "шлюзы целостности Эскалация"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case agreement: \"Роль\" should be in genitive after \"наличие\".",
+      "quote": "наличие Роль Core"
+    }
+  ],
+  "score": 92,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:05:16"
+  }
+}

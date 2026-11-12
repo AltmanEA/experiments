@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The candidate translation consists entirely of internal reasoning, planning, and meta-text (chain-of-thought) instead of the actual translated content.",
+      "quote": "Wait, let's reconsider. The prompt says \"\nWait, should I translate \"Фаза_id\" to \"фаза_id\"?"
+    }
+  ],
+  "score": 75,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:24:08"
+  }
+}

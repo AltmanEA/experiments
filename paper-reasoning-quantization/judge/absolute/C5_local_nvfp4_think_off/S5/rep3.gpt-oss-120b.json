@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `locked_roles` is not enclosed in backticks.",
+      "quote": "locked_roles согласованы"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `operator_approval` is not enclosed in backticks.",
+      "quote": "operator_approval согласно"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "File path `service-contract/index.md` is not enclosed in backticks.",
+      "quote": "service-contract/index.md"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Token `awaiting-operator` is missing backticks in several table rows.",
+      "quote": "awaiting-operator"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `conditional` is not enclosed in backticks.",
+      "quote": "conditional"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `risk-threshold-breach` is not enclosed in backticks.",
+      "quote": "risk-threshold-breach"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:15:37"
+  }
+}

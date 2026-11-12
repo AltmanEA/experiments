@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Required glossary term 'Subject' (Объект обсуждения) was replaced with 'объекта задачи', which does not match the mandated equivalent.",
+      "quote": "объекта задачи"
+    }
+  ],
+  "score": 90,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:44:33"
+  }
+}

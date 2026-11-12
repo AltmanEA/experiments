@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Numeric transition representation changed from \"4→3\" to \"с 4 на 3\".",
+      "quote": "с 4 на 3"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:10:20"
+  }
+}

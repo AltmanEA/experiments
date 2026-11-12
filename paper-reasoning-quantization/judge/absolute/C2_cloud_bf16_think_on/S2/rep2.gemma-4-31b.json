@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Leaked reasoning and meta-text (English planning lines, draft notes, and verification steps) are present in the translation.",
+      "quote": "4. **Draft Translation:**\n \"Система направляет задачу оператору по одной из следующих трёх причин.\"\n\n Let's verify:\n - \"The system\" -> \"Система\""
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens must be byte-identical and retain backticks; backticks were omitted for several tokens.",
+      "quote": "timeout_at истекло, fallback_strategy из EscalationRecord"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Section headers were not translated into Russian.",
+      "quote": "## Escalation Protocol"
+    }
+  ],
+  "score": 40,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:23:44"
+  }
+}

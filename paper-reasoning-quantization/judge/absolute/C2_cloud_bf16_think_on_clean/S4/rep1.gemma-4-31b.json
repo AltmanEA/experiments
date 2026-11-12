@@ -1,0 +1,86 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `session_id` was translated.",
+      "quote": "`Сессия_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `phase_id` was translated.",
+      "quote": "`фаза_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `role_statuses` was translated.",
+      "quote": "`Роль_statuses`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `disagreement_subjects` was translated.",
+      "quote": "`Расхождение_subjects`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `escalation_id` was translated.",
+      "quote": "`эскалация_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `severity` was translated.",
+      "quote": "`Уровень серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resolution` was translated.",
+      "quote": "`Резолюция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Leaked reasoning/meta-text in the translation.",
+      "quote": "Use specified translation? Yes, Резолюция -> Резолюция."
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Source text left untranslated.",
+      "quote": "One per active role; no omissions"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' (Объект обсуждения) replaced by 'Предметы'.",
+      "quote": "Предметы со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' (Объект обсуждения) replaced by 'Темы'.",
+      "quote": "Темы, имеющие как `support`, так и `oppose` в финальном раунде"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The entire content of the ValidationResult section is missing.",
+      "quote": "### ValidationResult"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:32:31"
+  }
+}

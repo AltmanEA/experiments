@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'Phase' is translated as 'этап' instead of the required glossary equivalent 'Фаза'.",
+      "quote": "каждый этап"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'Resolution' is translated as 'разрешение' instead of the required glossary equivalent 'Резолюция'.",
+      "quote": "разрешение"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'Resolution' is translated as 'Разрешение' instead of the required glossary equivalent 'Резолюция'.",
+      "quote": "Разрешение оператора"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The phrase 'Documenter finding' is mistranslated as 'обнаружении... документа'. It should refer to a 'Вывод' (finding) made by the 'Документатор' (Documenter).",
+      "quote": "обнаружении высокого/критического документа"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'Finding' is translated as 'замечание' instead of the required glossary equivalent 'Вывод'.",
+      "quote": "Критическое замечание"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'Finding' is translated as 'замечаний' instead of the required glossary equivalent 'Выводов'.",
+      "quote": "Процесс валидации критических замечаний"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:42:17"
+  }
+}

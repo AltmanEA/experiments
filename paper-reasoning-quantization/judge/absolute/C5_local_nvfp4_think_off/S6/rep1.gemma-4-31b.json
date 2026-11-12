@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Finding' must be translated as 'Вывод', but 'результаты' was used.",
+      "quote": "результаты"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "'safe value' is mistranslated as 'безопасного замечания' (which means 'safe remark/note') instead of 'безопасного значения'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "'applied defaults' is mistranslated as 'применённые замечания по умолчанию' (which means 'applied remarks by default') instead of 'применённые значения по умолчанию'.",
+      "quote": "применённые замечания по умолчанию"
+    }
+  ],
+  "score": 70,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:14:46"
+  }
+}

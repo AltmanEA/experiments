@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens must be byte-identical to the source; state names were translated.",
+      "quote": "`ожидание-оператора`, `разрешено`, `неудачно`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Section headers were not translated, including those containing glossary terms (Phase, Role Status).",
+      "quote": "## Deterministic Control Plane\n\n## Phase State Machine\n\n## Role Status Handling"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Spelling error: 'Невоосстанавливаемая' should be 'Невосстанавливаемая'.",
+      "quote": "Невоосстанавливаемая"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect word order/grammar for 'Session Manifest'; should be 'Манифест сессии'.",
+      "quote": "Сессия Манифест"
+    }
+  ],
+  "score": 61,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:17:53"
+  }
+}

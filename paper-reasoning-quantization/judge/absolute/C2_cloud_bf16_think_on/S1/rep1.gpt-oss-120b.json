@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Leaked English meta and planning text present in the translation output, which should not be included.",
+      "quote": "Check constraints:"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "English explanatory note about keeping \"Council\" as is, which is not part of the translation.",
+      "quote": "Note: \"Council\" is kept as is since it refers to a specific project/tool."
+    }
+  ],
+  "score": 50,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S1",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:19:30"
+  }
+}

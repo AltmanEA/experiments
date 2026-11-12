@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "critical",
+      "description": "Leaked English meta‑commentary appears in the Russian translation.",
+      "quote": "- Grammar/Style check: In technical contexts, \"manifest documents\" often translates to \"манифест-документы\" or \"файлы манифеста\"."
+    },
+    {
+      "category": "fluency",
+      "severity": "critical",
+      "description": "English bullet list is left untranslated in the Russian version.",
+      "quote": "- The override records `reason` (free text explaining why the gate was bypassed)."
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Missing translation of the \"Gated transitions\" list (including the required term \"Resolution\" → \"Резолюция\").",
+      "quote": "### Scope and Enforcement Point"
+    }
+  ],
+  "score": 40,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:32:45"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Used plural form \"статусы Ролей\" instead of the required term \"Статус роли\" (Role Status).",
+      "quote": "статусы Ролей"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token altered: \"role_agent_config\" changed to \"Роль_agent_config\".",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Leaked meta‑text placeholder \"[Output]\" remains in the translation.",
+      "quote": "[Output]"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Leaked English planning line \"Check specific words: Сценарий->Сценарий, Фаза->Фаза, Роль->Роль, Задача->Задача. All present.\" should not appear in the target text.",
+      "quote": "Check specific words: Сценарий->Сценарий, Фаза->Фаза, Роль->Роль, Задача->Задача. All present."
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "The parameters table is corrupted and contains nonsensical fragments such as \"analytical-Задача reviews -> обзоры аналитических задач\" instead of proper rows.",
+      "quote": "analytical-Задача reviews -> обзоры аналитических задач"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Stray isolated number \"3.\" appears under the \"No prompt modification rule\" section with no context.",
+      "quote": "3."
+    }
+  ],
+  "score": 3,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:33:46"
+  }
+}

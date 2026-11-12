@@ -1,0 +1,74 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "English heading not translated; should use Russian equivalent for the protocol title.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "English heading \"Escalation Reasons\" not translated; required term \"Escalation Reason\" → \"Причина эскалации\".",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "English heading \"Escalation Document\" not translated; required term \"Escalation\" → \"Эскалация\" and document title should be in Russian.",
+      "quote": "### Escalation Document"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "English heading \"Escalation Resolution Paths\" not translated; required term \"Resolution\" → \"Резолюция\".",
+      "quote": "### Escalation Resolution Paths"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Duplicate paragraph about \"Неразрешимый конфликт\" appears three times, adding content not present in the source.",
+      "quote": " **Неразрешимый конфликт.** Две или более роли занимают принципиально разные позиции по вопросу, и обсуждение не приводит к согласию. Например, архитектор предлагает подключить два компонента напрямую ради производительности, тогда как специалист по безопасности категорически запрещает это из-за угрозы несанкционированного доступа. Аргументация обеих сторон сильна, и ни одна не готова уступить. Оператор получает сводку обеих позиций и приглашается принять окончательное решение."
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Leaked meta‑commentary line with English source text and arrow notation; such reasoning must not appear in the final translation.",
+      "quote": "\"For example, the Архитектор proposes connecting two components directly for performance\" -> \"Например, архитектор предлагает подключить два компонента напрямую ради производительности\"."
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Leaked meta‑commentary bullet about justification; extraneous content not part of the translation.",
+      "quote": "- only if the critical Вывод carries a justification -> только если критический вывод содержит обоснование"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Leaked meta‑commentary bullet about format validation; extraneous content not part of the translation.",
+      "quote": "- that passes format validation by the Модератор -> которое проходит форматную проверку модератором"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Leaked meta‑commentary bullet about non‑empty failure mode; extraneous content not part of the translation.",
+      "quote": "- (non-empty failure mode or attack Сценарий, naming at least one Объект обсуждения from the Задача's Объект обсуждения list). -> (непустой режим отказа или атакуемый сценарий, упоминающий как минимум один объект обсуждения из списка объектов обсуждения задачи)."
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Incorrect translation of the phrase \"is not subject to a vote\" – the term \"Объект обсуждения\" is mistakenly inserted.",
+      "quote": "- Here, the priority of safety and reliability is not Объект обсуждения to a vote."
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:30:04"
+  }
+}

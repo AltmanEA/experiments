@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` must be enclosed in backticks.",
+      "quote": "awaiting-operator"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `pre_check_override` must be enclosed in backticks.",
+      "quote": "pre_check_override"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `precheck.overridden` must be enclosed in backticks.",
+      "quote": "precheck.overridden"
+    }
+  ],
+  "score": 25,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:13:27"
+  }
+}

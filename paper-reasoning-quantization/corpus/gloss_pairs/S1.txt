@@ -1,0 +1,7 @@
+# EN term -> required RU equivalent (algorithmically extracted from docs/en/glossary/index.md)
+Role -> Роль
+Task -> Задача
+Consensus -> Консенсус
+Escalation -> Эскалация
+Artifact -> Артефакт
+Consensus Document -> Документ консенсуса

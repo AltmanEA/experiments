@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token must be backticked exactly as in source.",
+      "quote": "council.override_precheck"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token must be backticked exactly as in source.",
+      "quote": "precheck.overridden"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token must be backticked exactly as in source.",
+      "quote": "pre_check_override"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary requires Russian equivalent for 'Agree' (Согласие) instead of English term.",
+      "quote": "`agree`"
+    }
+  ],
+  "score": 15,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C1_cloud_bf16_think_off",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:14:33"
+  }
+}

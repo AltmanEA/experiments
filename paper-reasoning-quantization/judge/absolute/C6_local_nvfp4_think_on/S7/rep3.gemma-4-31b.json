@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `pre_check` in the header is missing required backticks.",
+      "quote": "## pre_check Gate"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Headers are not translated into Russian.",
+      "quote": "## pre_check Gate"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header is not translated into Russian.",
+      "quote": "### Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "English word 'verdict' left untranslated.",
+      "quote": "(`unavailable` verdict)"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary terms used without required Russian grammatical inflection (case endings), resulting in unnatural phrasing.",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary terms used without required Russian grammatical inflection (case endings), resulting in unnatural phrasing.",
+      "quote": "присутствие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary terms used without required Russian grammatical inflection (case endings), resulting in unnatural phrasing.",
+      "quote": "правила Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary terms used without required Russian grammatical inflection (case endings), resulting in unnatural phrasing.",
+      "quote": "шлюзы целостности Эскалация"
+    }
+  ],
+  "score": 13,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:28:48"
+  }
+}

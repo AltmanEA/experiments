@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Leaked reasoning/meta text (Literal/Refinement planning lines).",
+      "quote": "- Literal: Ни одна LLM не участвует в потоке управления или проверке безопасности.\n - Literal: Модератор может читать произвольный текст только для отображения; он никогда не интерпретирует его для принятия решения.\n - Refinement: Модератор может считывать произвольный текст исключительно для отображения; он никогда не анализирует его для принятия решений.\n - Literal: Загрузка сценария подагент обратно к `default-council-session` (см. `scenario/default-council-session.yaml`), когда явный `scenario_id` не предоставлен в манифесте сессии."
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The translation is incomplete; the 'Role Status Handling' section is missing the first sentence and the entire second half of the paragraph.",
+      "quote": " -> Извлечение с ошибкой `invalid-format` является блокирующей ошибкой протокола: -> сессия переходит в состояние `blocked-escalation` с параметром `escalation_reason = information-gap`, формируемым структурно конвейером извлечения,"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Leaked reasoning/meta text (arrow markers used as planning indicators).",
+      "quote": " -> Извлечение с ошибкой"
+    }
+  ],
+  "score": 25,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:36:31"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Leaked reasoning/meta text (English planning lines and translator's internal monologue) included in the translation.",
+      "quote": "Draft 1: Шлюз `pre_check` представляет собой проверку целостности артефактов документации до фиксации переходов состояний протокола."
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatically incorrect phrase 'Документатор реестр аудита' (literal translation of 'Documenter audit registry'); should be 'Реестр аудита Документатора'.",
+      "quote": "Документатор реестр аудита"
+    }
+  ],
+  "score": 73,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:32:42"
+  }
+}

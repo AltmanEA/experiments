@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “Resolution” must be rendered as the required glossary equivalent “Резолюция”, not as “разрешение”.",
+      "quote": "разрешение"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “Finding” must be translated using the glossary equivalent “Вывод”, but the translation uses “находок/находка”.",
+      "quote": "находок"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “Documenter” is left untranslated in several places; according to the glossary it must be rendered as “Документатор”.",
+      "quote": "Documenter"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Typographical/grammatical error: the phrase “НЕ ДОЛЖНОВ” is incorrect Russian; it should be “НЕ ДОЛЖЕН”.",
+      "quote": "НЕ ДОЛЖНОВ"
+    }
+  ],
+  "score": 92,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:43:15"
+  }
+}

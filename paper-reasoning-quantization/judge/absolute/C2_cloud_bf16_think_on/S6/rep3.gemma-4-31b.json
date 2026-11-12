@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "English article 'The' left untranslated at the beginning of the sentence.",
+      "quote": "The **Модератор**"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Role Status' (Статус роли) not used correctly; the translation 'статусы роль' is grammatically incorrect and fails to use the required equivalent.",
+      "quote": "статусы **роль**"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Finding' (Вывод) replaced by 'результаты'.",
+      "quote": "результаты"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Role' (Роль) used without required grammatical inflection (genitive plural), resulting in incorrect phrasing.",
+      "quote": "выходов **роль**"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The translation is incomplete. The entire 'RoleAgentFactory' section and all subsequent subsections ('Zero silent defaults policy', 'Contract validation hook', 'Session manifest traceability', 'No prompt modification rule') are missing.",
+      "quote": ""
+    }
+  ],
+  "score": 43,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:30:39"
+  }
+}

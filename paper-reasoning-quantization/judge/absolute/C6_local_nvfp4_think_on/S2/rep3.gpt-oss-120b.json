@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Heading left in English; should be translated into Russian.",
+      "quote": "Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Heading left in English; should be translated into Russian.",
+      "quote": "Escalation Reasons"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Heading left in English; should be translated into Russian.",
+      "quote": "Escalation Document"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Heading left in English; should be translated into Russian.",
+      "quote": "Escalation Resolution Paths"
+    }
+  ],
+  "score": 92,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:17:35"
+  }
+}

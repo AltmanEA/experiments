@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The phrase \"locked_roles согласованы с operator_approval\" changes the meaning of the source \"locked_roles resolved against operator_approval\"; \"согласованы\" (agreed) is not equivalent to \"resolved\".",
+      "quote": "locked_roles согласованы с operator_approval"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Typographical duplication \"не не\" in the sentence \"... но не не реализован ...\".",
+      "quote": "не не реализован"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:49:12"
+  }
+}

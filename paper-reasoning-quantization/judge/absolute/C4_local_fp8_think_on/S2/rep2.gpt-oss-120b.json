@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required Russian equivalent for the term “Escalation Reason(s)” (Причина эскалации) is omitted; the heading remains in English.",
+      "quote": "Escalation Reasons"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Resolution” (Резолюция) from the phrase “Escalation Resolution Paths” is not translated; the heading stays in English.",
+      "quote": "Escalation Resolution Paths"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:53:51"
+  }
+}

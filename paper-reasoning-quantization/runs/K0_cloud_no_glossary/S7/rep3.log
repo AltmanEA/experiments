@@ -1,0 +1,10 @@
+[debug] backend=cloud model=qwen3.6-35b-a3b-noreason
+[debug] Glossary loaded: 0 terms
+[debug] Block L5-5: 'The `pre_check` gate is an integrity check on documentation ' -> 0 terms: []
+[debug] Block L7-10: '- **Target scope:** all manifest documents relevant to the c' -> 0 terms: []
+[debug] Block L14-19: '| Condition | Verdict | Action |\\n|-----------|---------|----' -> 0 terms: []
+[FAIL] L15 — fallback
+[debug] Block L23-23: 'When Documenter cannot be reached (`unavailable` verdict), t' -> 0 terms: []
+[debug] Block L25-29: '- The override records `reason` (free text explaining why th' -> 0 terms: []
+
+Done: 16 ok, 14 skip, 1 fail

@@ -1,0 +1,15 @@
+[debug] backend=cloud model=qwen3.6-35b-a3b
+[debug] Glossary loaded: 56 terms
+[debug] Block L3-3: 'The following table maps each `ConsensusVerdict.outcome` val' -> 2 terms: ['Escalation Reason', 'Escalation']
+[linecount] expected 1, got 74 -> line-by-line fallback
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[debug] Block L5-10: '| `ConsensusVerdict.outcome` | Next phase / state | Escalati' -> 8 terms: ['Escalation Reason', 'Discussion Round', 'Escalation', 'Resolution', 'Consensus']
+[linecount] expected 6, got 139 -> line-by-line fallback
+[FAIL] L6 — fallback
+[gloss-apply] 'Resolution' -> 'Резолюция' x4
+[gloss-apply] 'Consensus' -> 'Консенсус' x4
+[gloss-apply] 'Artifact' -> 'Артефакт' x9
+[gloss-apply] 'Phase' -> 'Фаза' x3
+[debug] Block L12-15: 'Where:\\n- `no-consensus` applies when `no_consensus` budget r' -> 4 terms: ['Escalation', 'Consensus', 'Phase', 'Role']
+
+Done: 10 ok, 5 skip, 1 fail

@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token/JSON key modified; must be byte-identical to source.",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Finding' translated as 'результаты' instead of 'Вывод'.",
+      "quote": "объединяет результаты"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Role Status' translated as 'статусы Роль', ignoring the required equivalent 'Статус роли'.",
+      "quote": "статусы Роль"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The word 'value' (and 'defaults' in the second instance) is mistranslated as 'замечание' (remark/note) instead of 'значение'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The word 'defaults' is mistranslated as 'замечания' (remarks/notes) instead of 'значения'.",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Literal translation resulting in ungrammatical Russian phrase.",
+      "quote": "аналитическая-задача обзоры"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Failure to apply correct grammatical case for glossary terms after the preposition 'относительно'.",
+      "quote": "относительно Фаза и Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Failure to apply correct grammatical case for the glossary term 'Роль'.",
+      "quote": "выходов Роль"
+    }
+  ],
+  "score": 29,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:26:55"
+  }
+}

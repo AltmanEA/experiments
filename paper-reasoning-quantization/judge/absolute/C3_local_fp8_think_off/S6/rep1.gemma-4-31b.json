@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'safe value' is incorrectly translated as 'безопасного замечания' (safe remark/note). In this technical context, 'value' should be 'значение'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'applied defaults' is incorrectly translated as 'применённые замечания по умолчанию' (applied remarks by default). 'Defaults' should be 'значения по умолчанию'.",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The translation 'Задачи обзоров аналитических задач' for 'analytical-task reviews' is redundant and clunky (literally: 'Tasks of reviews of analytical tasks').",
+      "quote": "Задачи обзоров аналитических задач"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The phrase 'explicitly set' is translated as 'явно задача' (explicitly task), which completely changes the meaning. It should be 'явно задано' or 'явно установлено'.",
+      "quote": "явно задача"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'never inferred' is translated as 'никогда не выводится', which usually means 'never outputted' or 'never printed'. In the context of parameter defaults, 'inferred' means 'deduced' or 'guessed' by the system.",
+      "quote": "никогда не выводится"
+    }
+  ],
+  "score": 43,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:51:42"
+  }
+}

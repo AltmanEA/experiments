@@ -1,0 +1,9 @@
+[debug] backend=cloud model=Qwen3.6-35B-A3B-NVFP4
+[debug] Glossary loaded: 56 terms
+[debug] Block L3-12: '| Field | Type | Required | Rule |\\n|-------|------|---------' -> 6 terms: ['Disagreement', 'Escalation', 'Consensus', 'Session', 'Phase']
+[FAIL] L4 — fallback
+[debug] Block L16-16: '`{check: subject-reference|justification-format|status-extra' -> 2 terms: ['Severity', 'Subject']
+[debug] Block L20-33: '| Field | Type | Required | Rule |\\n|-------|------|---------' -> 7 terms: ['Escalation', 'Resolution', 'Severity', 'Session', 'Stance']
+[FAIL] L21 — fallback
+
+Done: 23 ok, 10 skip, 2 fail

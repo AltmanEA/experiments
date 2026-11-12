@@ -1,0 +1,92 @@
+{
+  "defects": [
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens in backticks must be byte-identical to the source. Enum values were translated.",
+      "quote": "`консенсус`, `blocked-эскалация`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' must be translated as 'Объект обсуждения', not 'Субъект'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "The entire code block for ValidationResult was translated, violating the byte-identical rule for backticked tokens.",
+      "quote": "`{check: ссылка-на-объект-обсуждения|формат-обоснования|извлечение-статуса, идентификатор_объекта_обсуждения: строка|null, корректность: логическое, код: VAL.*|PROT.*, сообщение: строка (закрыто), уровень_серьёзности: уровень_серьёзности|null}`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens in the EscalationRecord table were translated or modified.",
+      "quote": "`Эскалация_id`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens in the EscalationRecord table were translated or modified.",
+      "quote": "`raised_by_Роль`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens in the EscalationRecord table were translated or modified.",
+      "quote": "`причина`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens in the EscalationRecord table were translated or modified.",
+      "quote": "`причина_эскалации`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens in the EscalationRecord table were translated or modified.",
+      "quote": "`Уровень серьёзности`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens in the EscalationRecord table were translated or modified.",
+      "quote": "`resume_Фаза`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains leaked reasoning, meta-text, and planning notes.",
+      "quote": "(with markdown preserved)"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains leaked reasoning, meta-text, and planning notes.",
+      "quote": "✅"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains leaked reasoning, meta-text, and planning notes.",
+      "quote": "(I'll escape if needed, but raw text is fine)"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The EscalationRecord table is severely malformed, with repeated headers and missing fields (e.g., blocker, positions, resolution).",
+      "quote": "| Поле | Тип | Обязательно | Правило |"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:34:07"
+  }
+}

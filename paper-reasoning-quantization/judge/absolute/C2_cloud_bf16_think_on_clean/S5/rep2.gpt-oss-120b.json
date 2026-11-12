@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term \"Consensus\" should be capitalized as \"Консенсус\".",
+      "quote": "консенсус"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term \"Phase\" should be capitalized as \"Фаза\".",
+      "quote": "фаза"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `default-council-session` was altered to Russian text, breaking the literal token.",
+      "quote": "`default-council-Сессия`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `scenario/default-council-session.yaml` was altered to Russian text, breaking the literal token.",
+      "quote": "`scenario/default-council-Сессия.yaml`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Leaked translator commentary and meta‑text appear in the translation.",
+      "quote": "(I'll use \"пределах охвата\" as it's slightly more standard for \"scope\"). Actually, \"в рамках области\" is fine too."
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Stray backtick at the end of a table row breaks the markdown table syntax.",
+      "quote": "`| 3 | 4 | Достигнут лимит раундов, или нет новых `blocked-in-scope` |`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Row \"2 → 3\" from the original state machine is missing in the translation.",
+      "quote": "| 3 | 4 | Достигнут лимит раундов, или нет новых `blocked-in-scope` |"
+    }
+  ],
+  "score": 9,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:32:08"
+  }
+}

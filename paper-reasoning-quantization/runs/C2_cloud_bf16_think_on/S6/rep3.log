@@ -1,0 +1,65 @@
+[debug] backend=cloud model=qwen3.6-35b-a3b
+[debug] Glossary loaded: 56 terms
+[debug] Block L3-3: 'The Moderator is the deterministic control plane inside `orc' -> 6 terms: ['Escalation', 'Moderator', 'Consensus', 'Subject', 'Phase']
+[linecount] expected 1, got 47 -> line-by-line fallback
+[gloss-apply] 'Escalation' -> 'Эскалация' x2
+[gloss-apply] 'Moderator' -> 'Модератор' x1
+[gloss-apply] 'Consensus' -> 'Консенсус' x3
+[gloss-apply] 'Subject' -> 'Объект обсуждения' x8
+[gloss-apply] 'Phase' -> 'Фаза' x2
+[gloss-apply] 'Role' -> 'Роль' x5
+[debug] Block L7-7: 'Centralized factory creating role agent instances from valid' -> 3 terms: ['Role Agent', 'Scenario', 'Role']
+[linecount] expected 1, got 49 -> line-by-line fallback
+[gloss-apply] 'Role Agent' -> 'Ролевой агент' x5
+[gloss-apply] 'Scenario' -> 'Сценарий' x5
+[debug] Block L11-11: 'Every parameter either specified by caller OR taken from a d' -> 2 terms: ['Scenario', 'Session']
+[linecount] expected 1, got 81 -> line-by-line fallback
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[gloss-apply] 'Scenario' -> 'Сценарий' x4
+[gloss-apply] 'Session' -> 'Сессия' x14
+[debug] Block L13-17: '| Parameter | Default | Scope |\\n|-----------|---------|-----' -> 1 terms: ['Task']
+[linecount] expected 5, got 140 -> line-by-line fallback
+[gloss-apply] 'Task' -> 'Задача' x1
+[FAIL] L14 — fallback
+[gloss-apply] 'Task' -> 'Задача' x11
+[gloss-apply] 'Task' -> 'Задача' x21
+[gloss-apply] 'Task' -> 'Задача' x1
+[debug] Block L19-19: 'Default whitelist managed centrally in `defaults/policy.yaml' -> 0 terms: []
+[linecount] expected 1, got 48 -> line-by-line fallback
+[debug] Block L23-23: 'After creation but before enqueue, verify:' -> 0 terms: []
+[linecount] expected 1, got 45 -> line-by-line fallback
+[debug] Block L25-27: '- Role identifier matches known role from `protocol-core/ind' -> 2 terms: ['Scenario', 'Role']
+[linecount] expected 3, got 65 -> line-by-line fallback
+[fix] 'промпта' -> 'запроса' x1
+[gloss-apply] 'Scenario' -> 'Сценарий' x9
+[gloss-apply] 'Role' -> 'Роль' x9
+[debug] Block L31-31: 'Each session record includes `"role_agent_config"` section l' -> 4 terms: ['Resolution', 'Scenario', 'Session', 'Role']
+[linecount] expected 1, got 66 -> line-by-line fallback
+[gloss-apply] 'Session' -> 'Сессия' x2
+[debug] Block L35-35: 'Factory injects scenario-specific context (task scope, scena' -> 4 terms: ['Scenario', 'Phase', 'Role', 'Task']
+[linecount] expected 1, got 76 -> line-by-line fallback
+[fix] 'промпта' -> 'запроса' x2
+
+Done: 14 ok, 22 skip, 1 fail

@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Used \"статусы Ролей\" instead of the required term \"Статус роли\" for Role Status.",
+      "quote": "агрегирует статусы Ролей"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Session\" was left untranslated in the heading \"Session manifest traceability\".",
+      "quote": "Session manifest traceability"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Changed the code field name from \"role_agent_config\" to \"Роль_agent_config\", breaking the exact identifier.",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case agreement in \"Решения по Фаза и Консенсус\"; should be \"по Фазе и Консенсусу\".",
+      "quote": "Решения по Фаза и Консенсус"
+    }
+  ],
+  "score": 53,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:58:23"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required term for \"Severity\" is \"Уровень серьёзности\", but the translation uses \"уровень серьезности\" (spelling mismatch).",
+      "quote": "уровень серьезности"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading \"Escalation Reasons\" is left in English; the required Russian term is \"Причина эскалации\" (or appropriate plural).",
+      "quote": "Escalation Reasons"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading \"Escalation Resolution Paths\" is left in English; the term \"Resolution\" should be rendered as \"Резолюция\".",
+      "quote": "Escalation Resolution Paths"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Subject\" should be translated as \"Объект обсуждения\", but the translation uses \"субъекта\" / \"субъектов задачи\".",
+      "quote": "субъекта"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Finding\" is required to be \"Вывод\", but the translation uses \"заключение\".",
+      "quote": "заключение"
+    }
+  ],
+  "score": 90,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:33:37"
+  }
+}

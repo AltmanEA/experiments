@@ -1,0 +1,40 @@
+[debug] backend=cloud model=qwen3.6-35b-a3b
+[debug] Glossary loaded: 56 terms
+[debug] Block L3-3: 'Moderator control flow and every phase, consensus, and escal' -> 8 terms: ['Escalation', 'Moderator', 'Consensus', 'Scenario', 'Session']
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[debug] Block L7-7: 'States: `1` task submission, `2` individual review, `3` disc' -> 3 terms: ['Resolution', 'Consensus', 'Task']
+[linecount] expected 1, got 75 -> line-by-line fallback
+[gloss-apply] 'Resolution' -> 'Резолюция' x5
+[gloss-apply] 'Consensus' -> 'Консенсус' x5
+[gloss-apply] 'Task' -> 'Задача' x7
+[debug] Block L9-22: '| From | To | Guard |\\n|------|----|-------|\\n| 1 | 2 | Task v' -> 12 terms: ['Escalation', 'Resolution', 'Documenter', 'Consensus', 'Scenario']
+[linecount] expected 14, got 54 -> line-by-line fallback
+[FAIL] L10 — fallback
+[gloss-apply] 'Scenario' -> 'Сценарий' x8
+[gloss-apply] 'Session' -> 'Сессия' x9
+[gloss-apply] 'Task' -> 'Задача' x4
+[gloss-apply] 'Role' -> 'Роль' x3
+[gloss-apply] 'Role' -> 'Роль' x2
+[gloss-apply] 'Consensus' -> 'Консенсус' x12
+[gloss-apply] 'Phase' -> 'Фаза' x9
+[gloss-apply] 'Escalation' -> 'Эскалация' x1
+[gloss-apply] 'Escalation' -> 'Эскалация' x3
+[gloss-apply] 'Phase' -> 'Фаза' x3
+[gloss-apply] 'Escalation' -> 'Эскалация' x1
+[gloss-apply] 'Resolution' -> 'Резолюция' x1
+[gloss-apply] 'Documenter' -> 'Документатор' x4
+[gloss-apply] 'Consensus' -> 'Консенсус' x1
+[gloss-apply] 'Scenario' -> 'Сценарий' x1
+[gloss-apply] 'Artifact' -> 'Артефакт' x1
+[gloss-apply] 'Session' -> 'Сессия' x1
+[gloss-apply] 'Finding' -> 'Вывод' x4
+[gloss-apply] 'Phase' -> 'Фаза' x4
+[debug] Block L24-24: 'Only `orchestrator/` advances a phase. The operator never ed' -> 2 terms: ['Resolution', 'Phase']
+[linecount] expected 1, got 78 -> line-by-line fallback
+[gloss-apply] 'Resolution' -> 'Резолюция' x6
+[gloss-apply] 'Phase' -> 'Фаза' x23
+[debug] Block L28-28: '`extract_role_status()` is the only source of truth for cons' -> 7 terms: ['Role Status', 'Escalation', 'Consensus', 'Session', 'Finding']
+[linecount] expected 1, got 10 -> line-by-line fallback
+[gloss-apply] 'Agree' -> 'Согласие' x1
+
+Done: 17 ok, 12 skip, 1 fail

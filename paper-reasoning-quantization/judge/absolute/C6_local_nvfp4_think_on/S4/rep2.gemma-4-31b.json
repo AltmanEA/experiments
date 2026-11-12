@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' should be translated as 'Объект обсуждения' according to the glossary, but 'Субъекты' was used instead.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens must be byte-identical to the source; 'consensus' was translated.",
+      "quote": "`консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens must be byte-identical to the source; 'blocked-escalation' was translated.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens must be byte-identical to the source; 'subject-reference' was translated.",
+      "quote": "`Объект обсуждения-reference`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens must be byte-identical to the source; 'subject_id' was translated.",
+      "quote": "`Объект обсуждения_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens must be byte-identical to the source; 'severity: severity' was translated.",
+      "quote": "`Уровень серьёзности: Уровень серьёзности`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:23:59"
+  }
+}

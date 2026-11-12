@@ -1,0 +1,12 @@
+# EN term -> required RU equivalent (algorithmically extracted from docs/en/glossary/index.md)
+Role -> Роль
+Session -> Сессия
+Scenario -> Сценарий
+Phase -> Фаза
+Moderator -> Модератор
+Consensus -> Консенсус
+Finding -> Вывод
+Escalation -> Эскалация
+Artifact -> Артефакт
+Resolution -> Резолюция
+Documenter -> Документатор

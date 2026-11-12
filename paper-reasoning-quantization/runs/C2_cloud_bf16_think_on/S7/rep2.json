@@ -1,0 +1,26 @@
+{
+  "D1_linecount_fb": 3,
+  "D2_fix": 0,
+  "D2_fuzz_fix": 0,
+  "D2_path_fix": 0,
+  "D2_fail": 1,
+  "D3_code_total": 17,
+  "D3_code_missing": [],
+  "D4_num_total": 16,
+  "D4_num_lost": {},
+  "D5_terms_found": 10,
+  "D5_terms_missing": [],
+  "D5_nc_terms_found": 10,
+  "D5_nc_terms_missing": [],
+  "D6_echo": [
+    "(?im)^\\s*(translation|перевод)\\s*[:：]",
+    "(?i)\\b(Let's|Wait|I need to|As an AI)\\b"
+  ],
+  "D6_markers_lost": {},
+  "D7_contaminants": [
+    "артефакт"
+  ],
+  "D7_nc_contaminants": [
+    "артефакт"
+  ]
+}

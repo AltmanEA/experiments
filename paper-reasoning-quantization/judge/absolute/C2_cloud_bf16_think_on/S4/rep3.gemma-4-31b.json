@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' translated as 'Субъекты' instead of the required 'Объект обсуждения'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'redacted' is incorrectly translated as 'закрыто' (closed); it should be 'скрыто' or 'отредактировано'.",
+      "quote": "закрыто"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation is incomplete and contains leaked reasoning/meta text (internal monologue of the translator).",
+      "quote": "Wait, the prompt format is:\n\n | Field | Type | Required | Rule |\n\n Translation:"
+    }
+  ],
+  "score": 55,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-12T08:29:30"
+  }
+}

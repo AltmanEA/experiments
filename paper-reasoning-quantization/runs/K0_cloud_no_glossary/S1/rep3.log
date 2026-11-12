@@ -1,0 +1,9 @@
+[debug] backend=cloud model=qwen3.6-35b-a3b-noreason
+[debug] Glossary loaded: 0 terms
+[debug] Block L10-10: 'A framework for collaborative decision-making among multiple' -> 0 terms: []
+[debug] Block L12-12: 'The primary output artifact is a structured consensus docume' -> 0 terms: []
+[debug] Block L18-21: '1. **Multi-perspective evaluation.** Each design artifact is' -> 0 terms: []
+[debug] Block L27-30: '- Software code generation or code analysis\\n- Code execution' -> 0 terms: []
+[debug] Block L32-32: 'These capabilities may be built on top of Council, but they ' -> 0 terms: []
+
+Done: 11 ok, 22 skip, 0 fail

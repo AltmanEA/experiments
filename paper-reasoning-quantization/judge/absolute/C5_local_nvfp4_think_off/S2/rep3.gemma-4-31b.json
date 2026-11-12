@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The header is not translated and fails to use the required glossary equivalent for 'Escalation'.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The header is not translated and fails to use the required glossary equivalent for 'Escalation Reason'.",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The header is not translated and fails to use the required glossary equivalent for 'Escalation'.",
+      "quote": "### Escalation Document"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The header is not translated and fails to use the required glossary equivalent for 'Resolution'.",
+      "quote": "### Escalation Resolution Paths"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation changes the meaning: the operator is the one being asked to make a decision, but the Russian text suggests the operator is the one asking.",
+      "quote": "и просит принять"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Объект обсуждения' (Subject) is used where the English source uses 'subject' as part of the phrase 'subject to a vote' (meaning 'dependent on'), not as a noun.",
+      "quote": "по **Объекту обсуждения**"
+    }
+  ],
+  "score": 40,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:12:09"
+  }
+}

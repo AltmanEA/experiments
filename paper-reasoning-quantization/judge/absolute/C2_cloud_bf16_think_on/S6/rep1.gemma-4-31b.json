@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains leaked reasoning, planning lines, and meta-text (e.g., 'Draft:', 'Original:', 'Check against Constraints:'), which is strictly prohibited.",
+      "quote": "*Draft:* Он агрегирует статусы Ролей, объединяет выводы по `subject_id`, оценивает Консенсус через Layer 0 и маршрутизирует Эскалацию."
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Technical identifier/code token modified; must be byte-identical to the source.",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'value' (and 'defaults' in the second instance) is mistranslated as 'замечание' (remark/note), which is incorrect in this technical context.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'defaults' is mistranslated as 'замечания'.",
+      "quote": "применённые замечания по умолчанию"
+    }
+  ],
+  "score": 30,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:31:30"
+  }
+}

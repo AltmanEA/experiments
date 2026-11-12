@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required term 'Role Agent' (Ролевой агент) is not used; translation uses 'агентов ролей' instead.",
+      "quote": "агентов ролей"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required term 'Finding' (Вывод) is not used; translation uses 'результаты' instead.",
+      "quote": "результаты"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:40:43"
+  }
+}

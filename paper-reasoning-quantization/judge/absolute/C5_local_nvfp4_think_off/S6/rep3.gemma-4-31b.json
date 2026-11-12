@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'value' is incorrectly translated as 'замечание' (which means 'remark' or 'note'), leading to a loss of technical meaning regarding parameter values.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'defaults' is incorrectly translated as 'замечания по умолчанию', which is misleading in the context of configuration parameters.",
+      "quote": "применённые замечания по умолчанию"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:15:16"
+  }
+}

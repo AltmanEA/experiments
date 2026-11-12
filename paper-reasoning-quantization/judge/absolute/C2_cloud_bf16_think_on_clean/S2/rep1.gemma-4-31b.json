@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains leaked reasoning, meta-text, and internal planning lines from the translation process.",
+      "quote": "(Matches)\n\n - Specific terms: Информационный пробел -> Информационный пробел, Роль -> Роль, Задача -> Задача. All present and correctly adapted for case/gender/number in Russian.\n\n Text: **Информационный пробел.**"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains leaked meta-text/tags.",
+      "quote": "[Response]"
+    },
+    {
+      "category": "terminology",
+      "severity": "critical",
+      "description": "Code token `EscalationRecord` was translated into Russian; it must be byte-identical to the source.",
+      "quote": "`ЗаписиЭскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Section headers were left in English.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The phrase 'task's subject list' was translated as 'list of tasks of the subject of discussion', reversing the logical relationship.",
+      "quote": "списка задач объекта обсуждения"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect word order and lack of inflection for a noun phrase (literal translation of 'attack scenario').",
+      "quote": "атака сценарий"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the noun 'Роль' is used in the nominative case where the genitive/dative case is required by the adjective 'инициирующей'.",
+      "quote": "инициирующей Роль"
+    }
+  ],
+  "score": 9,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:29:47"
+  }
+}

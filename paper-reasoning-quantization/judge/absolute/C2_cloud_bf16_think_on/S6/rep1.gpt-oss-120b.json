@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case: \"Идентификатор Роль\" should be \"Идентификатор роли\".",
+      "quote": "Идентификатор Роль"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-12T08:29:53"
+  }
+}

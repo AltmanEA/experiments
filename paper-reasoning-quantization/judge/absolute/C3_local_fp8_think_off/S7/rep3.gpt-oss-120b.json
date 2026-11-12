@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Added the word \"правила\" before \"присутствия роли Core\", altering the original meaning of \"Core-role presence\".",
+      "quote": "правила присутствия роли Core"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:52:28"
+  }
+}

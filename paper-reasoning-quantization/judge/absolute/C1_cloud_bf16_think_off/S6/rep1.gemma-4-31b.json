@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Finding' (Вывод) replaced by 'результаты'.",
+      "quote": "объединяет результаты по `subject_id`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "'safe value' mistranslated as 'безопасного замечания' (remark/note) instead of 'безопасного значения'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "'applied defaults' mistranslated as 'применённые замечания по умолчанию' (remarks by default) instead of 'применённые значения по умолчанию'.",
+      "quote": "применённые замечания по умолчанию"
+    }
+  ],
+  "score": 70,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C1_cloud_bf16_think_off",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:16:04"
+  }
+}

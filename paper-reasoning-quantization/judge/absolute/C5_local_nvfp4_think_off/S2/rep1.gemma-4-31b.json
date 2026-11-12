@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Header not translated",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Header not translated",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Header not translated",
+      "quote": "### Escalation Document"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Header not translated",
+      "quote": "### Escalation Resolution Paths"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Addition of information not present in the source text (hallucination).",
+      "quote": "по **Объекту обсуждения**"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Объект обсуждения' replaced by a shortened version 'объект'.",
+      "quote": "объекта из списка объектов"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:09:07"
+  }
+}

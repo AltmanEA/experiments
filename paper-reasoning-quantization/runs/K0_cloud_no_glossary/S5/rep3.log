@@ -1,0 +1,10 @@
+[debug] backend=cloud model=qwen3.6-35b-a3b-noreason
+[debug] Glossary loaded: 0 terms
+[debug] Block L3-3: 'Moderator control flow and every phase, consensus, and escal' -> 0 terms: []
+[debug] Block L7-7: 'States: `1` task submission, `2` individual review, `3` disc' -> 0 terms: []
+[debug] Block L9-22: '| From | To | Guard |\\n|------|----|-------|\\n| 1 | 2 | Task v' -> 0 terms: []
+[FAIL] L10 — fallback
+[debug] Block L24-24: 'Only `orchestrator/` advances a phase. The operator never ed' -> 0 terms: []
+[debug] Block L28-28: '`extract_role_status()` is the only source of truth for cons' -> 0 terms: []
+
+Done: 17 ok, 12 skip, 1 fail

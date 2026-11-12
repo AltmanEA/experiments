@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation includes extraneous English meta‑commentary that is not present in the source.",
+      "quote": "- Let's check technical terms:"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The paragraph about the primary output artifact (structured consensus document) is omitted.",
+      "quote": "## Core Principles"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The sentence \"All artifacts produced by Council are written in technical English.\" is missing.",
+      "quote": "## Out of Scope"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The Out of Scope section is rendered as a single summary sentence instead of the original bullet list, altering the content.",
+      "quote": "Эти возможности могут быть реализованы поверх Council, но они не являются частью его базовой архитектуры."
+    }
+  ],
+  "score": 60,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:21:33"
+  }
+}

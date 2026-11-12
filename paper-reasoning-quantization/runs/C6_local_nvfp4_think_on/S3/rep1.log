@@ -1,0 +1,8 @@
+[debug] backend=cloud model=Qwen3.6-35B-A3B-NVFP4
+[debug] Glossary loaded: 56 terms
+[debug] Block L3-3: 'The following table maps each `ConsensusVerdict.outcome` val' -> 2 terms: ['Escalation Reason', 'Escalation']
+[debug] Block L5-10: '| `ConsensusVerdict.outcome` | Next phase / state | Escalati' -> 8 terms: ['Escalation Reason', 'Discussion Round', 'Escalation', 'Resolution', 'Consensus']
+[FAIL] L6 — fallback
+[debug] Block L12-15: 'Where:\\n- `no-consensus` applies when `no_consensus` budget r' -> 4 terms: ['Escalation', 'Consensus', 'Phase', 'Role']
+
+Done: 10 ok, 5 skip, 1 fail

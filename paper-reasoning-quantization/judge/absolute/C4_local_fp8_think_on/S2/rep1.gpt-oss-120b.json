@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token must be identical to source",
+      "quote": "`ЭскалацияRecord`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Missing required Russian term for 'Escalation Reason' heading",
+      "quote": "Escalation Reasons"
+    }
+  ],
+  "score": 73,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:53:56"
+  }
+}

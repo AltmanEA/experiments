@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Phase' translated as 'этап' instead of 'Фаза'.",
+      "quote": "каждый этап"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Header not translated.",
+      "quote": "Phase State Machine"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Resolution' translated as 'разрешение' instead of 'Резолюция'.",
+      "quote": "разрешение"
+    },
+    {
+      "category": "terminology",
+      "severity": "critical",
+      "description": "Glossary terms 'Documenter' and 'Finding' are both ignored or mistranslated; 'Documenter finding' is translated as 'документа' (document), which changes the meaning.",
+      "quote": "высокого/критического документа"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Header not translated.",
+      "quote": "Role Status Handling"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Finding' translated as 'замечание' instead of 'Вывод'.",
+      "quote": "замечание"
+    }
+  ],
+  "score": 41,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:43:17"
+  }
+}

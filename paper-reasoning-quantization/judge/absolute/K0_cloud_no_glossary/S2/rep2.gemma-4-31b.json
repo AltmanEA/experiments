@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Section headers were not translated from English to Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Finding' (Вывод) was replaced by 'заключение'.",
+      "quote": "критическое заключение"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' (Объект обсуждения) was replaced by 'лицо' and 'субъектов'.",
+      "quote": "лицо из списка субъектов"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Resolution' (Резолюция) was omitted in the translation of 'Escalation Resolution Paths'.",
+      "quote": "Возможны три варианта эскалации"
+    }
+  ],
+  "score": 60,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:35:04"
+  }
+}

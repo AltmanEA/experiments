@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token `awaiting-operator` was translated and backticks were removed.",
+      "quote": "ожидание оператора"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token `resolved` was translated and backticks were removed.",
+      "quote": "разрешено"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token `failed` was translated and backticks were removed.",
+      "quote": "не выполнено"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The state identifier `awaiting-operator` was translated in the table, which is inconsistent with other state identifiers like `resolved` and `failed` that were left in English.",
+      "quote": "ожидание-оператора"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect word order and grammar for the section title 'Session Manifest'.",
+      "quote": "§Сессия Манифест"
+    }
+  ],
+  "score": 13,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:53:45"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Leaked meta‑text and explanatory notes that are not part of the source document (e.g., \"\\\"config\\\" = конфигурация\", \"\\\"validated\\\" = валидированной / проверенной\").",
+      "quote": "\"config\" = конфигурация"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Leaked meta‑text and explanatory notes that are not part of the source document (e.g., \"\\\"validated\\\" = валидированной / проверенной\").",
+      "quote": "\"validated\" = валидированной / проверенной"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Extraneous empty fenced code block that does not exist in the source.",
+      "quote": "```text\n```"
+    }
+  ],
+  "score": 48,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:33:51"
+  }
+}

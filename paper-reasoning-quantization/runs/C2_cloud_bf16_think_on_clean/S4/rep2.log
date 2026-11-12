@@ -1,0 +1,20 @@
+[debug] backend=cloud model=qwen3.6-35b-a3b
+[debug] Glossary loaded: 56 terms
+[debug] Block L3-12: '| Field | Type | Required | Rule |\\n|-------|------|---------' -> 6 terms: ['Disagreement', 'Escalation', 'Consensus', 'Session', 'Phase']
+[linecount] expected 10, got 21 -> line-by-line fallback
+[FAIL] L4 — fallback
+[gloss-apply] 'Phase' -> 'Фаза' x4
+[gloss-apply] 'Role' -> 'Роль' x1
+[gloss-apply] 'Escalation' -> 'Эскалация' x10
+[debug] Block L16-16: '`{check: subject-reference|justification-format|status-extra' -> 2 terms: ['Severity', 'Subject']
+[debug] Block L20-33: '| Field | Type | Required | Rule |\\n|-------|------|---------' -> 7 terms: ['Escalation', 'Resolution', 'Severity', 'Session', 'Stance']
+[linecount] expected 14, got 135 -> line-by-line fallback
+[FAIL] L21 — fallback
+[gloss-apply] 'Session' -> 'Сессия' x22
+[gloss-apply] 'Severity' -> 'Уровень серьёзности' x3
+[gloss-apply] 'Stance' -> 'Позиция' x9
+[gloss-apply] 'Role' -> 'Роль' x11
+[gloss-apply] 'Resolution' -> 'Резолюция' x1
+[gloss-apply] 'Phase' -> 'Фаза' x27
+
+Done: 23 ok, 10 skip, 2 fail

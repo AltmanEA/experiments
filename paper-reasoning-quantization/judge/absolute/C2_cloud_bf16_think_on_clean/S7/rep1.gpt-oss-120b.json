@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `precheck.unavailable` is altered; uses `${precheck.unavailable}` instead of the required back‑ticked token.",
+      "quote": "${precheck.unavailable}"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Missing required event token `precheck.overridden` in the Override Mode description.",
+      "quote": "Исключение разрешает ровно один последующий переход фазы без нового аудита."
+    },
+    {
+      "category": "fluency",
+      "severity": "critical",
+      "description": "Leaked meta/analysis text present in the translation (English planning line).",
+      "quote": "Check specific word: Документатор -> Документатор. Used correctly."
+    },
+    {
+      "category": "fluency",
+      "severity": "critical",
+      "description": "Leaked meta mapping line `[Output] -> ...` that does not belong to the translation.",
+      "quote": "[Output] -> - **Контрольная точка:** вызывается при каждом переходе через границу фазы (`2 → 3`, `3 → 4`, `4 → 5`) перед фиксацией нового состояния фазы в Layer 1."
+    }
+  ],
+  "score": 15,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:35:08"
+  }
+}

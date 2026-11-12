@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Subject” is translated as “Субъекты” instead of the required “Объекты обсуждения”.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Subject” is translated as “Субъекты” instead of the required “Объекты обсуждения”.",
+      "quote": "Субъекты, имеющие как `support`, так и `oppose` в финальном раунде"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Disagreement” is not translated; the field name remains English “disagreement_subjects”.",
+      "quote": "`disagreement_subjects`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Consensus” is not translated in the section heading; it remains English “ConsensusVerdict”.",
+      "quote": "### ConsensusVerdict"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Escalation” is not translated in the section heading; it remains English “EscalationRecord”.",
+      "quote": "### EscalationRecord"
+    }
+  ],
+  "score": 50,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:11:08"
+  }
+}

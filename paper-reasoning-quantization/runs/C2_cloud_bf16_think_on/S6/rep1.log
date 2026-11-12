@@ -1,0 +1,47 @@
+[debug] backend=cloud model=qwen3.6-35b-a3b
+[debug] Glossary loaded: 56 terms
+[debug] Block L3-3: 'The Moderator is the deterministic control plane inside `orc' -> 6 terms: ['Escalation', 'Moderator', 'Consensus', 'Subject', 'Phase']
+[linecount] expected 1, got 82 -> line-by-line fallback
+[gloss-apply] 'Escalation' -> 'Эскалация' x3
+[gloss-apply] 'Moderator' -> 'Модератор' x1
+[gloss-apply] 'Consensus' -> 'Консенсус' x2
+[gloss-apply] 'Subject' -> 'Объект обсуждения' x2
+[gloss-apply] 'Phase' -> 'Фаза' x2
+[gloss-apply] 'Role' -> 'Роль' x2
+[debug] Block L7-7: 'Centralized factory creating role agent instances from valid' -> 3 terms: ['Role Agent', 'Scenario', 'Role']
+[linecount] expected 1, got 61 -> line-by-line fallback
+[debug] Block L11-11: 'Every parameter either specified by caller OR taken from a d' -> 2 terms: ['Scenario', 'Session']
+[linecount] expected 1, got 81 -> line-by-line fallback
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[debug] Block L13-17: '| Parameter | Default | Scope |\\n|-----------|---------|-----' -> 1 terms: ['Task']
+[linecount] expected 5, got 113 -> line-by-line fallback
+[FAIL] L14 — fallback
+[gloss-apply] 'Task' -> 'Задача' x19
+[gloss-apply] 'Task' -> 'Задача' x1
+[debug] Block L19-19: 'Default whitelist managed centrally in `defaults/policy.yaml' -> 0 terms: []
+[linecount] expected 1, got 64 -> line-by-line fallback
+[debug] Block L23-23: 'After creation but before enqueue, verify:' -> 0 terms: []
+[linecount] expected 1, got 53 -> line-by-line fallback
+[debug] Block L25-27: '- Role identifier matches known role from `protocol-core/ind' -> 2 terms: ['Scenario', 'Role']
+[linecount] expected 3, got 49 -> line-by-line fallback
+[fix] 'промпта' -> 'запроса' x13
+[gloss-apply] 'Scenario' -> 'Сценарий' x1
+[gloss-apply] 'Role' -> 'Роль' x3
+[gloss-apply] 'Scenario' -> 'Сценарий' x3
+[gloss-apply] 'Role' -> 'Роль' x3
+[debug] Block L31-31: 'Each session record includes `"role_agent_config"` section l' -> 4 terms: ['Resolution', 'Scenario', 'Session', 'Role']
+[linecount] expected 1, got 92 -> line-by-line fallback
+[gloss-apply] 'Resolution' -> 'Резолюция' x6
+[gloss-apply] 'Scenario' -> 'Сценарий' x4
+[gloss-apply] 'Session' -> 'Сессия' x3
+[gloss-apply] 'Role' -> 'Роль' x9
+[debug] Block L35-35: 'Factory injects scenario-specific context (task scope, scena' -> 4 terms: ['Scenario', 'Phase', 'Role', 'Task']
+[linecount] expected 1, got 95 -> line-by-line fallback
+[fix] 'промпта' -> 'запроса' x29
+[gloss-apply] 'Scenario' -> 'Сценарий' x8
+[gloss-apply] 'Phase' -> 'Фаза' x13
+[gloss-apply] 'Role' -> 'Роль' x6
+[gloss-apply] 'Task' -> 'Задача' x7
+
+Done: 14 ok, 22 skip, 1 fail

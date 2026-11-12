@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “Subject” (required Russian equivalent “Объект обсуждения”) is omitted; a generic “объекта” is used instead.",
+      "quote": "объекта из списка объектов задачи"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “Escalation Reason” (required Russian equivalent “Причина эскалации”) is omitted in the heading.",
+      "quote": "Escalation Reasons"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “Resolution” (required Russian equivalent “Резолюция”) is omitted in the heading.",
+      "quote": "Escalation Resolution Paths"
+    }
+  ],
+  "score": 94,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:44:52"
+  }
+}

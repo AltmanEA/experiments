@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The section header was not translated into Russian.",
+      "quote": "Outcome-to-Transition Table"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Technical identifier 'phase_state' was partially translated. Technical identifiers/variable names should remain in their original form to ensure consistency with the code/contract.",
+      "quote": "Фаза_state"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:22:45"
+  }
+}

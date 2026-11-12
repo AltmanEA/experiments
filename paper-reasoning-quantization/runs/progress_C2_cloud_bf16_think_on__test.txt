@@ -1,0 +1,2 @@
+[16:22:33] START C2_cloud_bf16_think_on worker=test fixtures=[] model=qwen3.6-35b-a3b
+[16:22:33] WORKER DONE []

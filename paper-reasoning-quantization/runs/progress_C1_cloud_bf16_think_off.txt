@@ -1,0 +1,85 @@
+[14:53:43] START C1_cloud_bf16_think_off model=qwen3.6-35b-a3b-noreason (5/2 done)
+[14:53:43] skip S2 rep1 (exists)
+[14:53:43] gate OK session 896/1200 week 4168/6000 rpm 60/60
+[14:53:55] DONE S2 rep2 exit=0 wall=12s (6/2)
+[14:53:58] ALL DONE 6/2
+[14:54:05] START C1_cloud_bf16_think_off model=qwen3.6-35b-a3b-noreason (6/21 done)
+[14:54:05] skip S1 rep1 (exists)
+[14:54:05] skip S1 rep2 (exists)
+[14:54:05] skip S1 rep3 (exists)
+[14:54:05] skip S2 rep1 (exists)
+[14:54:05] skip S2 rep2 (exists)
+[14:54:07] gate OK session 887/1200 week 4159/6000 rpm 60/60
+[14:54:19] DONE S2 rep3 exit=0 wall=12s (7/21)
+[14:54:22] skip S3 rep1 (exists)
+[14:54:22] gate OK session 878/1200 week 4150/6000 rpm 51/60
+[14:54:26] DONE S3 rep2 exit=0 wall=4s (8/21)
+[14:54:29] gate OK session 875/1200 week 4147/6000 rpm 48/60
+[14:54:34] DONE S3 rep3 exit=0 wall=5s DEGRADED -> pause 60s, requeue once
+[14:55:12] START C1_cloud_bf16_think_off model=qwen3.6-35b-a3b-noreason (8/21 done)
+[14:55:12] skip S1 rep1 (exists)
+[14:55:12] skip S1 rep2 (exists)
+[14:55:12] skip S1 rep3 (exists)
+[14:55:12] skip S2 rep1 (exists)
+[14:55:12] skip S2 rep2 (exists)
+[14:55:12] skip S2 rep3 (exists)
+[14:55:12] skip S3 rep1 (exists)
+[14:55:12] skip S3 rep2 (exists)
+[14:55:15] gate OK session 872/1200 week 4144/6000 rpm 60/60
+[14:55:31] DONE S3 rep3 exit=0 wall=16s (9/21)
+[14:55:36] gate OK session 869/1200 week 4141/6000 rpm 57/60
+[14:55:45] DONE S4 rep1 exit=0 wall=9s (10/21)
+[14:55:49] gate OK session 866/1200 week 4138/6000 rpm 54/60
+[14:55:57] DONE S4 rep2 exit=0 wall=8s (11/21)
+[14:56:00] gate OK session 863/1200 week 4135/6000 rpm 60/60
+[14:56:24] START C1_cloud_bf16_think_off model=qwen3.6-35b-a3b-noreason (12/21 done)
+[14:56:24] skip S1 rep1 (exists)
+[14:56:24] skip S1 rep2 (exists)
+[14:56:24] skip S1 rep3 (exists)
+[14:56:24] skip S2 rep1 (exists)
+[14:56:24] skip S2 rep2 (exists)
+[14:56:24] skip S2 rep3 (exists)
+[14:56:24] skip S3 rep1 (exists)
+[14:56:24] skip S3 rep2 (exists)
+[14:56:24] skip S3 rep3 (exists)
+[14:56:24] skip S4 rep1 (exists)
+[14:56:24] skip S4 rep2 (exists)
+[14:56:24] gate OK session 860/1200 week 4132/6000 rpm 57/60
+[14:56:33] DONE S4 rep3 exit=0 wall=8s (12/21)
+[14:56:37] gate OK session 857/1200 week 4129/6000 rpm 54/60
+[14:56:51] DONE S5 rep1 exit=0 wall=13s (13/21)
+[14:56:55] gate OK session 852/1200 week 4124/6000 rpm 49/60
+[14:57:09] DONE S5 rep2 exit=0 wall=14s (14/21)
+[14:57:13] gate OK session 847/1200 week 4119/6000 rpm 58/60
+[14:57:31] START C1_cloud_bf16_think_off model=qwen3.6-35b-a3b-noreason (15/21 done)
+[14:57:31] skip S1 rep1 (exists)
+[14:57:31] skip S1 rep2 (exists)
+[14:57:31] skip S1 rep3 (exists)
+[14:57:31] skip S2 rep1 (exists)
+[14:57:31] skip S2 rep2 (exists)
+[14:57:31] skip S2 rep3 (exists)
+[14:57:31] skip S3 rep1 (exists)
+[14:57:31] skip S3 rep2 (exists)
+[14:57:31] skip S3 rep3 (exists)
+[14:57:31] skip S4 rep1 (exists)
+[14:57:31] skip S4 rep2 (exists)
+[14:57:31] skip S4 rep3 (exists)
+[14:57:31] skip S5 rep1 (exists)
+[14:57:31] skip S5 rep2 (exists)
+[14:57:31] skip S5 rep3 (exists)
+[14:57:33] gate OK session 842/1200 week 4114/6000 rpm 53/60
+[14:57:44] DONE S6 rep1 exit=0 wall=11s (16/21)
+[14:57:45] pace: 9 req in 11s -> sleep 2s
+[14:57:51] gate OK session 833/1200 week 4105/6000 rpm 44/60
+[14:58:06] DONE S6 rep2 exit=0 wall=15s (17/21)
+[14:58:10] gate OK session 824/1200 week 4096/6000 rpm 56/60
+[14:58:20] DONE S6 rep3 exit=0 wall=9s (18/21)
+[14:58:20] pace: 9 req in 9s -> sleep 4s
+[14:58:28] gate OK session 815/1200 week 4087/6000 rpm 47/60
+[14:58:38] DONE S7 rep1 exit=0 wall=10s (19/21)
+[14:58:41] gate OK session 810/1200 week 4082/6000 rpm 42/60
+[14:58:48] DONE S7 rep2 exit=0 wall=6s (20/21)
+[14:58:48] pace: 5 req in 6s -> sleep 1s
+[14:58:52] gate OK session 805/1200 week 4077/6000 rpm 37/60
+[14:59:00] DONE S7 rep3 exit=0 wall=7s (21/21)
+[14:59:03] ALL DONE 21/21

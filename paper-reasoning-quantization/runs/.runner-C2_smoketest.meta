@@ -1,0 +1,1 @@
+runner: cond=C2_smoketest model=qwen3.6-35b-a3b gloss=../../docs/en/glossary/index.md

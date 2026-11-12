@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token/key modified; must be byte-identical to source.",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Mistranslation of 'safe value' as 'безопасного замечания' (safe remark/note).",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Mistranslation of 'applied defaults' as 'применённые замечания по умолчанию' (applied remarks by default).",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Incorrect translation of 'explicitly set, never inferred'. 'задача явно' is nonsensical here, and 'никогда не выводится' means 'never outputted' rather than 'never inferred'.",
+      "quote": "задача явно, никогда не выводится"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Ungrammatical literal translation of 'analytical-task reviews'.",
+      "quote": "аналитическая-задача обзоры"
+    }
+  ],
+  "score": 43,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:25:00"
+  }
+}

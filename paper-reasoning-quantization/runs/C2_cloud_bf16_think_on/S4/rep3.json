@@ -1,0 +1,45 @@
+{
+  "D1_linecount_fb": 1,
+  "D2_fix": 0,
+  "D2_fuzz_fix": 0,
+  "D2_path_fix": 0,
+  "D2_fail": 2,
+  "D3_code_total": 32,
+  "D3_code_missing": [
+    "blocked-escalation",
+    "blocker",
+    "consensus",
+    "escalation_id",
+    "outcome = blocked-escalation",
+    "resolution",
+    "resume_phase",
+    "severity",
+    "subject_id",
+    "{check: subject-reference|justification-format|status-extraction, subject_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), severity: severity|null}",
+    "{role_id, stance, summary}",
+    "{state: pending\\|accepted\\|rejected\\|superseded\\|expired, note, operator_id, resolved_at}"
+  ],
+  "D4_num_total": 3,
+  "D4_num_lost": {
+    "1": 1,
+    "2000": 1
+  },
+  "D5_terms_found": 10,
+  "D5_terms_missing": [
+    "Session",
+    "Disagreement",
+    "Resolution"
+  ],
+  "D5_nc_terms_found": 2,
+  "D5_nc_terms_missing": [],
+  "D6_echo": [
+    "(?im)^\\s*(translation|перевод)\\s*[:：]",
+    "(?i)\\b(Let's|Wait|I need to|As an AI)\\b"
+  ],
+  "D6_markers_lost": {},
+  "D7_contaminants": [],
+  "D7_nc_contaminants": [
+    "позиция",
+    "эскалация"
+  ]
+}

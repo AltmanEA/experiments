@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Unexpected backticked token `[Response]` not present in source.",
+      "quote": "`[Response]`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked token `ЗаписиЭскалации` does not match source token `EscalationRecord`.",
+      "quote": "`ЗаписиЭскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Extra backticks introduced around bullet line for \"Частичное продолжение\".",
+      "quote": "`- **Частичное продолжение.`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Heading \"Escalation Protocol\" not translated; required term \"Escalation\" should be rendered as \"Эскалация\".",
+      "quote": "Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Heading \"Escalation Reasons\" not translated; required term \"Escalation\" should be rendered as \"Эскалация\".",
+      "quote": "Escalation Reasons"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Heading \"Escalation Document\" not translated; required term \"Escalation\" should be rendered as \"Эскалация\".",
+      "quote": "Escalation Document"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Heading \"Escalation Resolution Paths\" not translated; required term \"Escalation\" should be rendered as \"Эскалация\".",
+      "quote": "Escalation Resolution Paths"
+    }
+  ],
+  "score": 17,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:27:32"
+  }
+}

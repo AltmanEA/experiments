@@ -1,0 +1,16 @@
+# EN term -> required RU equivalent (algorithmically extracted from docs/en/glossary/index.md)
+Role -> Роль
+Architect -> Архитектор
+Session -> Сессия
+Task -> Задача
+Subject -> Объект обсуждения
+Scenario -> Сценарий
+Moderator -> Модератор
+Finding -> Вывод
+Severity -> Уровень серьёзности
+Escalation -> Эскалация
+Information Gap -> Информационный пробел
+Irresolvable Conflict -> Неразрешимый конфликт
+Risk Threshold Breach -> Превышение порога риска
+Escalation Reason -> Причина эскалации
+Resolution -> Резолюция

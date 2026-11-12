@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains extensive leaked reasoning and meta-text in English, which is strictly prohibited.",
+      "quote": "Let's translate carefully:\n \"Centralized factory creating Ролевой агент instances from validated Сценарий config.\"\n -> Централизованная фабрика, создающая экземпляры Ролевого агента на основе проверенной конфигурации Сценария."
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation is incomplete; it omits the 'Contract validation hook', 'Session manifest traceability', and 'No prompt modification rule' sections.",
+      "quote": "| Параметр | По умолчанию | Область |"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'value' (and 'defaults') is incorrectly translated as 'замечание' (remark/note) instead of 'значение'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'defaults' is incorrectly translated as 'замечания по умолчанию'.",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'Role Status' (Статус роли) was not used; instead, a literal combination 'статусы Роль' was used.",
+      "quote": "статусы Роль"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of proper Russian case inflection for glossary terms, resulting in ungrammatical phrasing.",
+      "quote": "Решения по Фаза и Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of proper Russian case inflection for glossary terms.",
+      "quote": "выходов Роль"
+    }
+  ],
+  "score": 24,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-12T08:40:05"
+  }
+}

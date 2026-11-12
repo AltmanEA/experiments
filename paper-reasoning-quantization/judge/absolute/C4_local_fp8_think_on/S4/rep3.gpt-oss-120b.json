@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code snippet is not byte‑identical to the source; backticks and translated content differ.",
+      "quote": "``` `{check: Объект обсуждения-reference|justification-format|status-extraction, Объект обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (замазана), уровень серьёзности: уровень серьёзности|null}` ```"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Term “Subject” is translated as “Субъекты” instead of the required glossary equivalent “Объект обсуждения”.",
+      "quote": "Субъекты со статусом блокировки"
+    }
+  ],
+  "score": 73,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:56:36"
+  }
+}

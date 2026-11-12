@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required glossary term \"Finding\" (Вывод) is not used; the translation uses \"результаты\" instead of the required term.",
+      "quote": "результаты"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required glossary term \"Session\" (Сессия) is not used; the translation uses \"сеанса\" instead of the required term.",
+      "quote": "запись сеанса"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:40:26"
+  }
+}

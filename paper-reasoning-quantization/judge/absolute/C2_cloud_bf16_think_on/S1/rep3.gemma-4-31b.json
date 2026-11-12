@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The candidate translation is not a final translation but a leak of the translator's internal reasoning, planning, and fragmented drafts (meta-text).",
+      "quote": "Let's check technical terms:"
+    }
+  ],
+  "score": 75,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:21:54"
+  }
+}

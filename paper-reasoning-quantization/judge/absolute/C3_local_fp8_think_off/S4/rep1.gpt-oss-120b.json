@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Heading \"ConsensusVerdict\" does not contain the required glossary term \"Консенсус\" for the source term \"Consensus\".",
+      "quote": "ConsensusVerdict"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Heading \"EscalationRecord\" omits the required glossary term \"Эскалация\" for the source term \"Escalation\".",
+      "quote": "EscalationRecord"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "In the description of `blocking_subjects` the term \"Субъекты\" is used instead of the required glossary equivalent \"Объекты обсуждения\" for the source term \"Subject\".",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "In the description of `disagreement_subjects` the term \"Субъекты\" is used instead of the required glossary equivalent \"Объекты обсуждения\" for the source term \"Subject\".",
+      "quote": "Субъекты, имеющие и `support`, и `oppose` в финальном раунде"
+    }
+  ],
+  "score": 92,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:47:22"
+  }
+}

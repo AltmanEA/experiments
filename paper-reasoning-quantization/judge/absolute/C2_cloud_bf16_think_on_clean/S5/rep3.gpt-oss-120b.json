@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required term 'Role Status' is not translated to the glossary equivalent 'Статус роли'; the English token 'RoleStatus' is kept.",
+      "quote": "Каждая активная роль имеет `RoleStatus` со значением `extraction = parsed`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The translation contains meta‑commentary and notes that are not part of the source text.",
+      "quote": "Mappings exact? Резолюция->Резолюция, Консенсус->Консенсус, Задача->Задача. All match."
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The heading 'Phase State Machine' is left in English instead of being translated into Russian.",
+      "quote": "## Phase State Machine"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "The markdown table is malformed; the header row is missing and the separator line is misplaced.",
+      "quote": "|------|----|-------|"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The sentence mixes English and Russian, resulting in unnatural phrasing (e.g., 'Every active Роль has `RoleStatus`').",
+      "quote": "Every active Роль has `RoleStatus` with `extraction = parsed`"
+    }
+  ],
+  "score": 82,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:33:33"
+  }
+}

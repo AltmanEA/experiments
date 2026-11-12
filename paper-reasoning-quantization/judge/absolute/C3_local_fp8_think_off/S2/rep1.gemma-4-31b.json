@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The header was not translated into Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The header was not translated into Russian.",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The header was not translated into Russian.",
+      "quote": "### Escalation Document"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The header was not translated into Russian.",
+      "quote": "### Escalation Resolution Paths"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required glossary term 'Объект обсуждения' for 'Subject' was not used; instead, 'обсуждаемое' and 'объектов задачи' were used.",
+      "quote": "обсуждаемое из списка объектов задачи"
+    }
+  ],
+  "score": 50,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:47:14"
+  }
+}

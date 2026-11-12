@@ -1,0 +1,80 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `session_id` was translated to Russian and therefore does not match the required identifier.",
+      "quote": "`Сессия_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `phase_id` was changed to `фаза_id`, breaking the required identifier.",
+      "quote": "`фаза_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `role_statuses` was altered to `Роль_statuses`, violating the required code token.",
+      "quote": "`Роль_statuses`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `disagreement_subjects` was replaced with `Расхождение_subjects`, which is not the required identifier.",
+      "quote": "`Расхождение_subjects`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `escalation_id` was translated to `эскалация_id`, breaking the required code token.",
+      "quote": "`эскалация_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `severity` was replaced with the Russian term `Уровень серьёзности`, which is not the required identifier.",
+      "quote": "`Уровень серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `resolution` was translated to `Резолюция`, violating the required code token.",
+      "quote": "`Резолюция`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Required field `reason` is missing from the EscalationRecord table.",
+      "quote": "`reason`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The rule description “По одной на каждую активную роль; без пропусков” is placed under the `outcome` row instead of the `role_statuses` row.",
+      "quote": "По одной на каждую активную роль; без пропусков"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Stray Markdown code fence appears inside the table, breaking the document structure.",
+      "quote": "```"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Inconsistent translation of `disagreement_subjects` description; uses “Темы” instead of the required “Объекты обсуждения”.",
+      "quote": "Темы, имеющие как `support`, так и `oppose` в финальном раунде"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:30:36"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Technical identifier/key modified; must be byte-identical to source.",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'value' is mistranslated as 'замечание' (remark/note).",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'defaults' is mistranslated as 'замечания' (remarks/notes).",
+      "quote": "примененные замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: nouns following the preposition 'по' must be in the dative case, not nominative.",
+      "quote": "Решения по Фаза и Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect use of hyphen in 'аналитических-задач'; should be two separate words.",
+      "quote": "аналитических-задач"
+    }
+  ],
+  "score": 51,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:04:27"
+  }
+}

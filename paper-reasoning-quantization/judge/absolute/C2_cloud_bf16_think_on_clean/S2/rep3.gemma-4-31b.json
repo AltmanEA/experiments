@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains extensive leaked reasoning, meta-text, English planning lines, and multiple draft versions of the same paragraphs.",
+      "quote": "\"For example, the Архитектор proposes connecting two components directly for performance\" -> \"Например, архитектор предлагает подключить два компонента напрямую ради производительности\"."
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Section headers were not translated into Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Section headers were not translated into Russian.",
+      "quote": "### Escalation Reasons"
+    }
+  ],
+  "score": 55,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:32:07"
+  }
+}

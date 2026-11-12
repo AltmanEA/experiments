@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token altered: original `blocked-escalation` changed to Russian text.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token altered: original `no-consensus` changed to Russian text.",
+      "quote": "`no-Консенсус`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the glossary term; should be genitive (выходов роли).",
+      "quote": "выходов Роль"
+    }
+  ],
+  "score": 48,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:57:27"
+  }
+}

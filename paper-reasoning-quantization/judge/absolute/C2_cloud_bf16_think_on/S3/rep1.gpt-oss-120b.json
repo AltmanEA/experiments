@@ -1,0 +1,68 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The translation contains English explanatory text and meta‑comments that are not part of the source document.",
+      "quote": "Let's verify the exact words in the prompt list vs input:\n - `Escalation Reason` -> `Причина эскалации`\n - `Phase` -> `Фаза`\n - `Consensus` -> `Консенсус` (not directly in the row except in the code block)\n - `Notes` -> `Примечания` (standard)\n\n Mapping:\n - `` `ConsensusVerdict.outcome` `` -> `` `ConsensusVerdict.outcome` `` (keep as is, it's a code/variable)\n - `Next Фаза / state` -> `Следующая фаза / состояние`\n - `Причина эскалации` -> `Причина эскалации`\n - `Notes` -> `Примечания`\n\n3. **Construct Output:**\n Combine them into the table row format:\n `| `ConsensusVerdict.outcome` | Следующая фаза / состояние | Причина эскалации | Примечания |`\n\n Check constraints:\n - \"Translate only the text between markers.\" -> Yes.\n - \"Keep markdown formatting intact: **bold**, `code`, and list markers.\" -> The backticks around the first column are preserved.\n - Specific translations applied correctly.\n\n One minor point: Should I capitalize \"Причина эскалации\" or keep it lowercase as in the source? The source has \"Escalation reason\". In Russian table headers, it's common to capitalize the first letter. I'll use \"Причина эскалации\".\n \"Next phase / state\" -> \"Следующая фаза / состояние\"\n \"Notes\" -> \"Примечания\"\n\n Let's assemble:\n `| `ConsensusVerdict.outcome` | Следующая фаза / состояние | Причина эскалации | Примечания |`\n\n Double check the exact prompt: \"Escalation Reason -> Причина эскалации\". The input has \"Escalation reason\". I will translate it as \"Причина эскалации\".\n All good.\n\n Output matches the requested format. I will output just the translated line.✅\n Final string: `| `ConsensusVerdict.outcome` | Следующая фаза / состояние | Причина эскалации | Примечания |`\n Wait, should I preserve the exact spacing? Yes.\n `| `ConsensusVerdict.outcome` | Next Фаза / state | Причина эскалации | Notes |`\n becomes\n `| `ConsensusVerdict.outcome` | Следующая фаза / состояние | Причина эскалации | Примечания |`\n\n Looks solid. Proceeds.\n One thing: The prompt says \"\n|----------------------------|-------------------|-------------------|-------|\n\n Translation:\" The text between ` ` is `|----------------------------|-------------------|-------------------|-------|`.\n I will just output that exact string. No changes needed.\n\n Let's verify if there's any hidden trick. Sometimes prompts have empty tables or just separators. I'll stick to the exact string.\n Output: `|----------------------------|-------------------|-------------------|-------|`\n Done.✅\n I will produce exactly that. No extra text. Follow constraints strictly.🌟\n Wait, should I include \"Translation:\" in the output? The prompt ends with \"Translation:\". I should just provide the translated text.\n I will output exactly the table row.\n Self-Correction/Refinement during thought:\n The prompt says \"Translate only the text between markers.\" So I will just output the exact markdown line. If it's just a separator, it stays the same.\n Final answer: `|----------------------------|-------------------|-------------------|-------|`✅"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The candidate includes stray punctuation and an unrelated sentence that breaks the markdown table structure.",
+      "quote": "\". \"Примечания\" is standard for tables."
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Consensus\" from the glossary is not rendered as the required Russian equivalent \"Консенсус\" in the table rows.",
+      "quote": "`consensus`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Phase\" is not translated to the required \"Фаза\" in the table headers.",
+      "quote": "Phase"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Escalation Reason\" is not consistently rendered as \"Причина эскалации\" in the table header.",
+      "quote": "Escalation reason"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Notes\" is not translated to the required \"Примечания\" in the table header.",
+      "quote": "Notes"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Discussion Round\" is not translated to the required \"Раунд обсуждения\" in the row for `no-consensus`.",
+      "quote": "re-enter discussion round"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Artifact\" is not translated to the required \"Артефакт\" in the note for `consensus`.",
+      "quote": "artifact production"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Resolution\" is not translated to the required \"Резолюция\" in the phase description.",
+      "quote": "Resolution Formation"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:22:33"
+  }
+}

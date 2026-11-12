@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The heading \"## Deterministic Control Plane\" is not translated into Russian.",
+      "quote": "## Deterministic Control Plane"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The heading \"## Phase State Machine\" is not translated into Russian.",
+      "quote": "## Phase State Machine"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The heading \"## Role Status Handling\" is not translated into Russian.",
+      "quote": "## Role Status Handling"
+    }
+  ],
+  "score": 94,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-12T08:26:45"
+  }
+}

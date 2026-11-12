@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `blocked-эскалация` does not match the required token `blocked-escalation` (must be byte‑identical).",
+      "quote": "`blocked-эскалация`"
+    }
+  ],
+  "score": 75,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:54:39"
+  }
+}

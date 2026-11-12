@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Leaked reasoning and meta-text (English planning lines) included in the translation.",
+      "quote": "-официальный\" might be better. I'll use \"Это основной справочник для маршрутизации результатов.\""
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token is not byte-identical to the source (typo).",
+      "quote": "`ConsensusVerdict.outoutcome`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token translated; must be byte-identical to source.",
+      "quote": "`no-Консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token translated; must be byte-identical to source.",
+      "quote": "`no_Консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token translated; must be byte-identical to source.",
+      "quote": "`Фаза_state`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token translated; must be byte-identical to source.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Partial translation of table header; 'state' and 'Notes' left in English.",
+      "quote": "Next Фаза / state | Причина эскалации | Notes"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Header not translated.",
+      "quote": "### Outcome-to-Transition Table"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S3",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:03:22"
+  }
+}

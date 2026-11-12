@@ -1,0 +1,7 @@
+[debug] backend=cloud model=qwen3.6-35b-a3b-noreason
+[debug] Glossary loaded: 0 terms
+[debug] Block L3-3: 'The following table maps each `ConsensusVerdict.outcome` val' -> 0 terms: []
+[debug] Block L5-10: '| `ConsensusVerdict.outcome` | Next phase / state | Escalati' -> 0 terms: []
+[debug] Block L12-15: 'Where:\\n- `no-consensus` applies when `no_consensus` budget r' -> 0 terms: []
+
+Done: 11 ok, 5 skip, 0 fail

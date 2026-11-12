@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'safe value' is incorrectly translated as 'безопасного замечания' (safe remark/note). In this technical context, 'value' should be 'значение'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'applied defaults' is incorrectly translated as 'применённые замечания по умолчанию' (applied remarks by default). 'Defaults' here refers to 'default values' (значения по умолчанию).",
+      "quote": "применённые замечания по умолчанию"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:15:18"
+  }
+}

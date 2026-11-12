@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "critical",
+      "description": "Code token `consensus` must be byte-identical; it was translated using the glossary.",
+      "quote": "Консенсус"
+    },
+    {
+      "category": "terminology",
+      "severity": "critical",
+      "description": "Code token `no-consensus` must be byte-identical; it was partially translated.",
+      "quote": "no-Консенсус"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The table structure is corrupted with repeated headers, redundant separators, and duplicate content rows.",
+      "quote": "| `ConsensusVerdict.outcome` | Next Фаза / state | Причина эскалации | Notes |"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Mixed English and Russian in the table header.",
+      "quote": "Next Фаза / state"
+    }
+  ],
+  "score": 15,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:31:07"
+  }
+}

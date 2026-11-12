@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "The paragraph regarding the primary output artifact is duplicated with slight variations.",
+      "quote": "Основной выходной артефакт представляет собой структурированный документ консенсуса, в котором фиксируются решения, открытые вопросы и оценка рисков. Все артефакты, создаваемые Советом, написаны на техническом английском языке."
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Core Principle 3 is duplicated with slight variations.",
+      "quote": "3. **Возможность эскалации.** Система явно отслеживает ситуации, в которых согласование невозможно, и перенаправляет такие инциденты человеческому оператору. Эскалация является нормальным результатом, а не ошибкой."
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Unnecessary backticks wrapping the text of Core Principle 4.",
+      "quote": "`4. **Итеративная эволюция.** Роли, протоколы и правила эскалации обновляются по мере использования системы. Мы начинаем с минимализма и дорабатываем систему на практике.`"
+    },
+    {
+      "category": "fluency",
+      "severity": "critical",
+      "description": "Leaked reasoning/meta text containing English source fragments and translation arrows.",
+      "quote": "\"Roles, protocols, and Эскалация rules are updated as the system is used.\" -> Роли, протоколы и правила эскалации обновляются по мере использования системы."
+    },
+    {
+      "category": "fluency",
+      "severity": "critical",
+      "description": "Leaked reasoning/meta text providing alternative phrasing options.",
+      "quote": "(or основной архитектуры)"
+    },
+    {
+      "category": "fluency",
+      "severity": "critical",
+      "description": "Leaked reasoning/meta text containing output markers and planning notes.",
+      "quote": "[Output]: Эти возможности могут быть реализованы поверх Council, но они не являются частью его базовой архитектуры. (or similar)"
+    }
+  ],
+  "score": 3,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:29:15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The following headers were left untranslated in English: '## Escalation Protocol', '### Escalation Reasons', '### Escalation Document', '### Escalation Resolution Paths'.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'Subject' is translated as 'объект' instead of the required glossary equivalent 'Объект обсуждения'.",
+      "quote": "объекта из списка объектов задачи"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender mismatch: the feminine adjective 'непустая' is used with the masculine noun 'режим'.",
+      "quote": "непустая режим отказа"
+    }
+  ],
+  "score": 86,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C1_cloud_bf16_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:09:36"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading \"Moderator\" is not translated to the required Russian term \"Модератор\".",
+      "quote": "## Moderator"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading \"RoleAgentFactory\" contains the term \"RoleAgent\" which should be rendered using the required Russian equivalent \"Ролевой агент\".",
+      "quote": "## RoleAgentFactory"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading \"Session manifest traceability\" does not translate the term \"Session\" to the required Russian equivalent \"Сессия\".",
+      "quote": "### Session manifest traceability"
+    }
+  ],
+  "score": 94,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:51:32"
+  }
+}

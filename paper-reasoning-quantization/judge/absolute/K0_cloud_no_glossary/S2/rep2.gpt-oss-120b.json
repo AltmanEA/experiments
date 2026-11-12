@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required term for \"Subject\" is \"Объект обсуждения\", but the translation uses \"субъектов задачи\".",
+      "quote": "субъектов задачи"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required term for \"Finding\" is \"Вывод\", but the translation uses \"заключение\".",
+      "quote": "заключение"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required term for \"Severity\" is \"Уровень серьёзности\", but the translation uses \"уровень серьезности\" (different spelling).",
+      "quote": "уровень серьезности"
+    }
+  ],
+  "score": 78,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:33:31"
+  }
+}

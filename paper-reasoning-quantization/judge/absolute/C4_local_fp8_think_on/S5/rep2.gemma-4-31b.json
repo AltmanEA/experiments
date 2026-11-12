@@ -1,0 +1,86 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token modified: 'consensus' translated to 'Консенсус'.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token modified: 'blocked-escalation' translated to 'blocked-Эскалация'.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token modified: 'escalation_reason' translated to 'Эскалация_reason'.",
+      "quote": "`Эскалация_reason`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token modified: 'escalation_id' translated to 'Эскалация_id'.",
+      "quote": "`Эскалация_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token modified: 'agree' translated to 'Согласие'.",
+      "quote": "`Согласие`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistent translation of section title: 'Session Manifest' partially translated as 'Сессия Manifest'.",
+      "quote": "§Сессия Manifest"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammar error: incorrect case for 'Фаза' (should be 'Фазу').",
+      "quote": "возврат в Фаза 3"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammar error: incorrect case for 'Фаза' (should be 'фазы').",
+      "quote": "границах Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammar error: lack of inflection for 'Вывод' and 'Документатор' (should be 'выводе Документатора').",
+      "quote": "Вывод Документатор"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistent translation of section title: 'Critical Finding Validation Process' partially translated as 'Critical Вывод Validation Process'.",
+      "quote": "§Critical Вывод Validation Process"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammar error: lack of inflection for 'Роль' (should be 'роли').",
+      "quote": "Отсутствие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammar error: lack of inflection for 'Роль' (should be 'роли').",
+      "quote": "Наличие Роль Core"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:59:25"
+  }
+}

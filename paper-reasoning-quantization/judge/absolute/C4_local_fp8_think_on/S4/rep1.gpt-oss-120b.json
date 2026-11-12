@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Subject” should be translated as “Объект обсуждения”, but the translation uses “Субъекты”.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Enum value “consensus” is not translated to the required term “Консенсус”.",
+      "quote": "`consensus`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Enum value “no-consensus” contains the term “consensus” which should be translated to “Консенсус”.",
+      "quote": "`no-consensus`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Enum value “blocked-escalation” contains the term “escalation” which should be translated to “Эскалация”.",
+      "quote": "`blocked-escalation`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside the ValidationResult snippet are altered (identifiers must be byte‑identical).",
+      "quote": "Объект обсуждения-reference"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field names in EscalationRecord are changed (code tokens must remain unchanged).",
+      "quote": "`эскалация_id`"
+    }
+  ],
+  "score": 42,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:55:58"
+  }
+}

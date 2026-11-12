@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Subject” should be translated as “Объект обсуждения”, but the translation uses “Субъекты”.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Subject” should be translated as “Объект обсуждения”, but the translation uses “Субъекты”.",
+      "quote": "Субъекты, имеющие как `support` и `oppose` в финальном раунде"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `severity` was altered to a Russian phrase, breaking the required byte‑identical token.",
+      "quote": "`Уровень серьёзности`"
+    }
+  ],
+  "score": 55,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:12:12"
+  }
+}

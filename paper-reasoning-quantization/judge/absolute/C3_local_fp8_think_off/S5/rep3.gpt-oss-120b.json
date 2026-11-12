@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading \"Phase\" is not translated to the required Russian term \"Фаза\".",
+      "quote": "## Phase State Machine"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading \"Role Status\" is not translated to the required Russian term \"Статус роли\".",
+      "quote": "## Role Status Handling"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:50:08"
+  }
+}

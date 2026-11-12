@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation contains English meta‑commentary and suggestions (e.g., \"- Let's adjust to be closer to technical style:\", \"Wait, let's think about standard technical/project management terminology\"), which are not part of the source text and make the translation inaccurate.",
+      "quote": "- Let's adjust to be closer to technical style: \"Поток управления Модератора и каждое решение относительно Фазы, Консенсуса и Эскалации являются детерминированными функциями валидированных выходов Ролей.\""
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "The output includes bullet points, English explanatory sentences, and internal notes, violating the requirement to provide only the translated Russian text with markdown preserved.",
+      "quote": "- Let's adjust to be closer to technical style: \"...\""
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:25:53"
+  }
+}

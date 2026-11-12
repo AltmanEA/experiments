@@ -1,0 +1,86 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “role” is not translated to the required Russian equivalent «Роль».",
+      "quote": "role_statuses"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “subject” is not translated to the required Russian equivalent «Объект обсуждения».",
+      "quote": "blocking_subjects"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “disagreement” (and “subject”) is not translated to the required Russian equivalents «Расхождение» and «Объект обсуждения».",
+      "quote": "disagreement_subjects"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “escalation” is not translated to the required Russian equivalent «Эскалация».",
+      "quote": "escalation_reason"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The field name “subject_id” is not translated to the required Russian equivalent «Объект обсуждения».",
+      "quote": "subject_id"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The field name “severity” is not translated to the required Russian equivalent «Уровень серьёзности».",
+      "quote": "severity"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “escalation” in the column name is not translated to the required Russian equivalent «Эскалация».",
+      "quote": "escalation_id"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “session” is not translated to the required Russian equivalent «Сессия».",
+      "quote": "session_id"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “role” in the column name is not translated to the required Russian equivalent «Роль».",
+      "quote": "raised_by_role"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The field name “role_id” inside the positions object is not translated to the required Russian equivalent «Роль».",
+      "quote": "role_id"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “phase” is not translated to the required Russian equivalent «Фаза».",
+      "quote": "resume_phase"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “phase” is not translated to the required Russian equivalent «Фаза».",
+      "quote": "phase_id"
+    }
+  ],
+  "score": 76,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:20:49"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token altered: original `no-consensus` changed to `no-консенсус`.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token altered: original `blocked-escalation` changed to `blocked-эскалация`.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token altered: original `escalation_reason` changed to `эскалация_reason`.",
+      "quote": "`эскалация_reason`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token altered: original `escalation_id` changed to `эскалация_id`.",
+      "quote": "`эскалация_id`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:57:30"
+  }
+}

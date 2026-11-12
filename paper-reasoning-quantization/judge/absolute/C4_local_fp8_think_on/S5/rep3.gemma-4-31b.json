@@ -1,0 +1,92 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token translated; must be byte-identical to source.",
+      "quote": "`консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token translated; must be byte-identical to source.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token translated; must be byte-identical to source.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token translated; must be byte-identical to source.",
+      "quote": "`эскалация_reason = information-gap`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token translated; must be byte-identical to source.",
+      "quote": "`эскалация_id`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token translated; must be byte-identical to source.",
+      "quote": "`Согласие`"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Inconsistent translation of section reference; mixed English and Russian.",
+      "quote": "§Сессия Manifest"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Inconsistent translation of section reference; mixed English and Russian.",
+      "quote": "§Critical Вывод Validation Process"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/grammar for glossary terms (Documenter finding).",
+      "quote": "Вывод Документатор"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for glossary term 'Фаза'.",
+      "quote": "в Фаза 3"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for glossary term 'Фаза'.",
+      "quote": "границах Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for glossary term 'Роль'.",
+      "quote": "Отсутствие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for glossary term 'Роль'.",
+      "quote": "Наличие Роль Core"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:04:26"
+  }
+}

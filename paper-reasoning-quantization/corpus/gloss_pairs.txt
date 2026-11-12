@@ -1,0 +1,55 @@
+# EN term -> required RU equivalent (algorithmically extracted from docs/en/glossary/index.md)
+Role -> Роль
+Role Agent -> Ролевой агент
+Auxiliary Agent -> Вспомогательный агент
+Primary agent -> Основной агент
+Subagent -> Подагент
+Architect -> Архитектор
+Reliability & Security Specialist -> Специалист по надёжности и безопасности
+Human-Centric Designer -> Человекоцентричный проектировщик
+Operations Engineer -> Инженер по эксплуатации
+Session -> Сессия
+Task -> Задача
+Subject -> Объект обсуждения
+Scenario -> Сценарий
+Phase -> Фаза
+Discussion Round -> Раунд обсуждения
+Targeted Resolution Round -> Целевой раунд разрешения
+Moderator -> Модератор
+Consensus -> Консенсус
+Disagreement -> Расхождение
+Finding -> Вывод
+Severity -> Уровень серьёзности
+Critical Finding Justification -> Обоснование критического вывода
+Stance -> Позиция
+Role Status -> Статус роли
+Agree -> Согласие
+Concerns -> Замечания
+Blocked In-Scope -> Заблокировано внутри домена
+Blocked Escalation -> Заблокировано для эскалации
+Escalation -> Эскалация
+Information Gap -> Информационный пробел
+Irresolvable Conflict -> Неразрешимый конфликт
+Risk Threshold Breach -> Превышение порога риска
+Escalation Reason -> Причина эскалации
+Artifact -> Артефакт
+Role Review -> Отзыв роли
+Consensus Document -> Документ консенсуса
+Escalation record -> Запись эскалации
+Session working file -> Рабочий файл сессии
+Session artifact -> Артефакт сессии
+Resolution -> Резолюция
+Documenter -> Документатор
+Orchestration -> Оркестрация
+State Persistence -> Сохранение состояния
+LLM Abstraction Layer -> Абстракция над LLM
+Execution Runtime -> Среда исполнения
+Execution Port -> Порт исполнения
+Supporting Service -> Вспомогательный сервис
+Intent Record -> Журнал намерения
+Roll-forward -> Прямая докатка
+Commit Order -> Порядок коммита
+Trust Floor -> Базовый уровень доверия
+Mechanical Edit -> Механическое изменение
+Effective Trust Level -> Фактический уровень доверия
+Trust Tier -> Ступень доверия

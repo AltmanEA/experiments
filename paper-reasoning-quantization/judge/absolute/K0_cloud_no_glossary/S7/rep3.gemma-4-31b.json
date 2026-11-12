@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Documenter' should be translated as 'Документатор'.",
+      "quote": "компонента Documenter"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Resolution' should be translated as 'Резолюция'.",
+      "quote": "разрешение"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Finding' should be translated as 'Вывод'.",
+      "quote": "находок"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Finding' should be translated as 'Вывод'.",
+      "quote": "находка"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Documenter' should be translated as 'Документатор'.",
+      "quote": "Documenter недоступен"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Documenter' should be translated as 'Документатор'.",
+      "quote": "Реестр аудитов Documenter"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Typo in the word 'ДОЛЖЕН'.",
+      "quote": "НЕ ДОЛЖНОВ"
+    }
+  ],
+  "score": 38,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:44:18"
+  }
+}

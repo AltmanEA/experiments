@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Added an unrelated phrase \"по Объекту обсуждения\" which does not exist in the source and changes the meaning of the sentence about safety and reliability not being subject to a vote.",
+      "quote": "приоритет безопасности и надежности не подлежит голосованию по Объекту обсуждения"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Used the glossary term \"Объект обсуждения\" (Subject) where the English source does not contain the term, violating the terminology rule.",
+      "quote": "по Объекту обсуждения"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:07:58"
+  }
+}

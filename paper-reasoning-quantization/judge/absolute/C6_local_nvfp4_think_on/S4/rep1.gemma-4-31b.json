@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' is translated as 'Субъекты' instead of the required glossary equivalent 'Объект обсуждения'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens (enum values) must be byte-identical and not translated.",
+      "quote": "`консенсус`, `условный`, `отсутствие-консенсуса`, `блокировка-эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token in the rule must be byte-identical and not translated.",
+      "quote": "`блокировка-эскалации`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Field names in the 'Field' column are identifiers and must not be translated.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Field names in the 'Field' column are identifiers and must not be translated.",
+      "quote": "Резолюция"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token 'stance' inside the object definition is translated and backticks are missing.",
+      "quote": "{role_id, Позиция, summary}"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticks are missing from the object definition.",
+      "quote": "{state: pending\\|accepted\\|rejected\\|superseded\\|expired, note, operator_id, resolved_at}"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Inconsistent field reference: 'subject_id' is kept in English, but 'severity' is translated to 'Уровень серьёзности' in the same sentence.",
+      "quote": "Уровень серьёзности"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:24:08"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The candidate contains large blocks of English explanatory notes, drafts and meta‑text (e.g., \"Draft 1:\", \"Sentence 2:\", \"Check specific word:\") that are not part of the source and should not appear in the translation.",
+      "quote": "Draft 1: Шлюз `pre_check` представляет собой проверку целостности артефактов документации до фиксации переходов состояний протокола."
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Many source headings and sentences are left untranslated or only partially translated (e.g., \"Scope and Enforcement Point\", \"Verdict Logic\", \"Documenter Unavailable — Override Mode\").",
+      "quote": "### Scope and Enforcement Point"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Required glossary term \"Session\" is not translated; the source phrase \"current session\" remains untranslated.",
+      "quote": "current session"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Required glossary term \"Scenario\" is not translated; the source phrase \"active scenario\" remains untranslated.",
+      "quote": "active scenario"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Required glossary term \"Phase\" is not translated; occurrences such as \"Phase boundary transition\" and \"Phase transition\" are left in English.",
+      "quote": "Phase boundary transition"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Required glossary term \"Moderator\" is not translated; the source word \"moderator\" appears in English.",
+      "quote": "moderator MVP"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Required glossary term \"Consensus\" is not translated; the source phrase \"consensus check\" remains in English.",
+      "quote": "consensus check"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Required glossary term \"Finding\" is not translated; the source phrase \"high/critical findings\" is left in English.",
+      "quote": "high/critical findings"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Required glossary term \"Escalation\" is not translated; the source phrase \"escalation integrity gates\" remains in English.",
+      "quote": "escalation integrity gates"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Required glossary term \"Artifact\" is not translated; the source word \"artifacts\" (documentation artifacts) is left in English.",
+      "quote": "documentation artifacts"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Required glossary term \"Resolution\" is not translated; the source word \"Resolution\" appears in English.",
+      "quote": "Resolution"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Code token `audit(pre_check=true)` is correctly preserved, but surrounding text adds an English possessive \"Documenter's\" which is not translated and breaks the natural Russian phrasing.",
+      "quote": "to Documenter’s `audit(pre_check=true)`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The translation mixes Russian and English within the same sentence, resulting in poor fluency (e.g., \"Layer 2 (operator surface) as a synchronous call to Документатор's `audit(pre_check=true)`\").",
+      "quote": "Layer 2 (operator surface) as a synchronous call to Документатор's `audit(pre_check=true)`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:30:05"
+  }
+}

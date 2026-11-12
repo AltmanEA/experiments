@@ -1,0 +1,68 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The candidate contains English meta‑text and instructions that are not part of the translation (e.g., \"4. **Draft Translation:**\", \"Let's verify:\", \"One minor point:\", etc.). These should not appear in the final Russian document.",
+      "quote": "4. **Draft Translation:**"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The candidate includes English code snippets and back‑ticked text that are not translated (e.g., `The operator receives a summary of both positions and is asked to make the final decision.`). Code tokens must be translated or kept consistent with the source, but the English text inside backticks is a defect.",
+      "quote": "`The operator receives a summary of both positions and is asked to make the final decision.`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The candidate repeats the English source phrase \"Escalation Reasons\" as a heading without translating it to Russian.",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The candidate leaves the English term \"Escalation Protocol\" in the top heading instead of translating it to Russian (should be \"Протокол эскалации\").",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"role\" is translated as \"роль\" in lower case, but the glossary requires the exact form \"Роль\" when used as a term. In the sentence \"роль безопасности\" the term is not capitalized as required.",
+      "quote": "роль безопасности"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Architect\" is rendered as \"архитектор\" (lowercase) whereas the glossary specifies the term \"Архитектор\".",
+      "quote": "архитектор"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The candidate includes explanatory English commentary inside the Russian text (e.g., \"One minor point: The prompt says ...\"). This is not part of the translation.",
+      "quote": "One minor point: The prompt says ..."
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The candidate contains stray markdown list markers and numbering that do not correspond to the source structure (e.g., \"4. **Draft Translation:**\", \"5. **Final Output Generation:**\").",
+      "quote": "5. **Final Output Generation:**"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The phrase \"Агенты готовы приступить к работе над задачей, но им не хватает входных данных, необходимых для принятия обоснованного решения\" uses \"обоснованного\" where a more natural term would be \"обоснованного\" is acceptable, but the source uses \"informed decision\"; this is a stylistic nuance, not a defect per the rules, but the sentence is overly literal and could be smoother.",
+      "quote": "принимая обоснованного решения"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:21:59"
+  }
+}

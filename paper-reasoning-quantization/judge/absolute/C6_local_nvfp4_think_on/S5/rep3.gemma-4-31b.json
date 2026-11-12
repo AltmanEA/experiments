@@ -1,0 +1,80 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `consensus` was translated to `Консенсус`.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `no-consensus` was translated to `no-Консенсус`.",
+      "quote": "`no-Консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `no_consensus_budget` was translated to `no_Консенсус_budget`.",
+      "quote": "`no_Консенсус_budget`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` was translated to `blocked-Эскалация`.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `escalation_reason` was translated to `Эскалация_reason`.",
+      "quote": "`Эскалация_reason`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `escalation_id` was translated to `Эскалация_id`.",
+      "quote": "`Эскалация_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `agree` was translated to `Согласие`.",
+      "quote": "`Согласие`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect word order in section reference; should be 'Манифест сессии'.",
+      "quote": "§Сессия Манифест"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: 'Фаза' should be in the plural genitive case ('фаз').",
+      "quote": "границах Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: 'Вывод Документатор' should be 'выводе Документатора'.",
+      "quote": "Вывод Документатор"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: 'Роль' should be in the genitive case ('роли').",
+      "quote": "Наличие Роль Core"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:26:10"
+  }
+}

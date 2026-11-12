@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains extensive leaked reasoning, internal planning, and meta-text in English, which is strictly forbidden.",
+      "quote": "Let's stick closely to the original structure while ensuring natural Russian phrasing"
+    }
+  ],
+  "score": 75,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:23:22"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Extraneous meta commentary and self‑correction notes are not part of the source text.",
+      "quote": "*Self-Correction/Refinement during thought*"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "A code block with triple backticks and additional explanatory text is inserted, which does not exist in the source.",
+      "quote": "```text\nThe **Модератор** — это детерминированная управляющая плоскость внутри `orchestrator/`. Он агрегирует статусы ролей, объединяет выводы по `subject_id`, оценивает консенсус через Layer 0 и маршрутизирует эскалацию. Он не выполняет интерпретацию свободного текста, не обладает правом принятия решений и не содержит вызовов LLM. Решения по фазе и консенсусу являются детерминированными функциями валидированных выходов ролей; ни одна модель не участвует в управлении потоком или проверке безопасности.\n```"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical form of the required term \"Роль\" – used as \"роль\" after a noun, which is ungrammatical.",
+      "quote": "агрегирует статусы **роль**"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical form of the required term \"Роль\" – used as \"роль\" in the phrase \"выходов роль\".",
+      "quote": "выходов **роль**"
+    }
+  ],
+  "score": 76,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:28:27"
+  }
+}

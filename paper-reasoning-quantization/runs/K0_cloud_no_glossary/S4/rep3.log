@@ -1,0 +1,9 @@
+[debug] backend=cloud model=qwen3.6-35b-a3b-noreason
+[debug] Glossary loaded: 0 terms
+[debug] Block L3-12: '| Field | Type | Required | Rule |\\n|-------|------|---------' -> 0 terms: []
+[FAIL] L4 — fallback
+[debug] Block L16-16: '`{check: subject-reference|justification-format|status-extra' -> 0 terms: []
+[debug] Block L20-33: '| Field | Type | Required | Rule |\\n|-------|------|---------' -> 0 terms: []
+[FAIL] L21 — fallback
+
+Done: 23 ok, 10 skip, 2 fail

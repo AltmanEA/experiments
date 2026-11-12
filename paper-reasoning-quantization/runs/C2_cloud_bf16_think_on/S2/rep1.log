@@ -1,0 +1,35 @@
+[debug] backend=cloud model=qwen3.6-35b-a3b
+[debug] Glossary loaded: 56 terms
+[debug] Block L3-3: 'Escalation is a mechanism that triggers when the agent group' -> 1 terms: ['Escalation']
+[linecount] expected 1, got 18 -> line-by-line fallback
+[gloss-apply] 'Escalation' -> 'Эскалация' x2
+[debug] Block L7-7: 'The system routes a task to the operator for one of the foll' -> 1 terms: ['Task']
+[linecount] expected 1, got 30 -> line-by-line fallback
+[debug] Block L9-9: '**Information gap.** The agents are ready to work on the tas' -> 3 terms: ['Information Gap', 'Role', 'Task']
+[linecount] expected 1, got 67 -> line-by-line fallback
+[gloss-apply] 'Information Gap' -> 'Информационный пробел' x1
+[gloss-apply] 'Role' -> 'Роль' x5
+[gloss-apply] 'Task' -> 'Задача' x4
+[debug] Block L11-11: '**Irresolvable conflict.** Two or more roles take fundamenta' -> 2 terms: ['Irresolvable Conflict', 'Architect']
+[linecount] expected 1, got 86 -> line-by-line fallback
+[gloss-apply] 'Irresolvable Conflict' -> 'Неразрешимый конфликт' x1
+[gloss-apply] 'Architect' -> 'Архитектор' x5
+[debug] Block L13-13: '**Risk threshold breach.** An agent identifies a risk it ass' -> 2 terms: ['Risk Threshold Breach', 'Subject']
+[debug] Block L15-15: "The veto's force depends on form, not on persuasion: the esc" -> 8 terms: ['Escalation', 'Moderator', 'Scenario', 'Severity', 'Subject']
+[debug] Block L19-19: 'Every request to the operator is accompanied by a structured' -> 3 terms: ['Escalation', 'Severity', 'Role']
+[linecount] expected 1, got 68 -> line-by-line fallback
+[gloss-apply] 'Escalation' -> 'Эскалация' x5
+[gloss-apply] 'Severity' -> 'Уровень серьёзности' x4
+[gloss-apply] 'Role' -> 'Роль' x5
+[debug] Block L23-23: 'There are three possible escalation outcomes:' -> 1 terms: ['Escalation']
+[linecount] expected 1, got 66 -> line-by-line fallback
+[gloss-apply] 'Escalation' -> 'Эскалация' x4
+[debug] Block L25-27: '- **Operator intervention.** The human provides the missing ' -> 3 terms: ['Escalation', 'Session', 'Task']
+[linecount] expected 3, got 86 -> line-by-line fallback
+[gloss-apply] 'Escalation' -> 'Эскалация' x5
+[gloss-apply] 'Session' -> 'Сессия' x3
+[gloss-apply] 'Task' -> 'Задача' x1
+[gloss-apply] 'Escalation' -> 'Эскалация' x2
+[gloss-apply] 'Task' -> 'Задача' x2
+
+Done: 11 ok, 17 skip, 0 fail

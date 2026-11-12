@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Header is not translated.",
+      "quote": "Verdict Logic"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Header is not translated; glossary term 'Documenter' is not replaced by 'Документатор'.",
+      "quote": "Documenter Unavailable — Override Mode"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:19:18"
+  }
+}

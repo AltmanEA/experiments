@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `blocked-эскалацию` is not byte‑identical to the source token `blocked-escalation`.",
+      "quote": "`blocked-эскалацию`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `reason_эскалации` is not byte‑identical to the source token `escalation_reason`.",
+      "quote": "`reason_эскалации`"
+    }
+  ],
+  "score": 50,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:20:54"
+  }
+}

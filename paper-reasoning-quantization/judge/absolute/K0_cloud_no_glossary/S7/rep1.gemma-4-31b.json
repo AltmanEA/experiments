@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Documenter' was not translated to 'Документатор'.",
+      "quote": "компонента Documenter"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Resolution' was translated as 'разрешение' instead of the required 'Резолюция'.",
+      "quote": "разрешение"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Finding' was translated as 'результатов/результат' instead of the required 'Вывод'.",
+      "quote": "нет результатов `high`/`critical`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Finding' was translated as 'результат' instead of the required 'Вывод'.",
+      "quote": "Присутствует любой результат `high` или `critical`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Documenter' was not translated to 'Документатор'.",
+      "quote": "Documenter недоступен"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Documenter' was not translated to 'Документатор'.",
+      "quote": "Реестр аудитов Documenter"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Documenter' was not translated to 'Документатор' in the section header.",
+      "quote": "Documenter Unavailable — Override Mode"
+    }
+  ],
+  "score": 30,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:44:32"
+  }
+}

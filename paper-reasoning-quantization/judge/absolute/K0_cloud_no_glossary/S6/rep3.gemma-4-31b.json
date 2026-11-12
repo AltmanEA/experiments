@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Finding' (Вывод) is replaced by 'результаты'.",
+      "quote": "результаты"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Role Agent' (Ролевой агент) is translated as 'агентов ролей', which uses a different lemma/structure.",
+      "quote": "агентов ролей"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender agreement error: 'фактической' (feminine) does not agree with 'инстанциирования' (neuter).",
+      "quote": "фактической инстанциирования"
+    }
+  ],
+  "score": 78,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-12T08:47:42"
+  }
+}

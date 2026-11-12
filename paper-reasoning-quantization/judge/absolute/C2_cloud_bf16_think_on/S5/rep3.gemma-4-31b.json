@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'falls back to' is mistranslated as 'выполняется с использованием замечания по умолчанию'. 'Замечание' means 'remark' or 'note', which is incorrect in the context of a software fallback mechanism.",
+      "quote": "замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The section header '## Phase State Machine' was left untranslated in English.",
+      "quote": "## Phase State Machine"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains leaked internal reasoning and planning notes from the translator.",
+      "quote": "Wait, let's verify the exact wording for technical/process contexts."
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The translation is incomplete; the entire 'Phase State Machine' table and the 'Role Status Handling' section are missing.",
+      "quote": "Wait, let's verify the exact wording for technical/process contexts."
+    }
+  ],
+  "score": 30,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-12T08:30:09"
+  }
+}

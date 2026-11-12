@@ -1,0 +1,14 @@
+# EN term -> required RU equivalent (algorithmically extracted from docs/en/glossary/index.md)
+Role -> Роль
+Role Agent -> Ролевой агент
+Session -> Сессия
+Task -> Задача
+Subject -> Объект обсуждения
+Scenario -> Сценарий
+Phase -> Фаза
+Moderator -> Модератор
+Consensus -> Консенсус
+Finding -> Вывод
+Role Status -> Статус роли
+Escalation -> Эскалация
+Resolution -> Резолюция

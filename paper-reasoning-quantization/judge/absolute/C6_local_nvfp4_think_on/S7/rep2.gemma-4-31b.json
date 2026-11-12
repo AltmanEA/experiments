@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around the code token `pre_check` in the header.",
+      "quote": "pre_check Gate"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header is left untranslated.",
+      "quote": "Scope and Enforcement Point"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header is left untranslated.",
+      "quote": "Verdict Logic"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Documenter' is not translated in the header.",
+      "quote": "Documenter Unavailable — Override Mode"
+    }
+  ],
+  "score": 45,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:29:44"
+  }
+}

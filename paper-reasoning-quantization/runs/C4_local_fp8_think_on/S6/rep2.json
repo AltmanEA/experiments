@@ -1,0 +1,34 @@
+{
+  "D1_linecount_fb": 0,
+  "D2_fix": 2,
+  "D2_fuzz_fix": 2,
+  "D2_path_fix": 0,
+  "D2_fail": 1,
+  "D3_code_total": 7,
+  "D3_code_missing": [
+    "\"role_agent_config\""
+  ],
+  "D4_num_total": 5,
+  "D4_num_lost": {},
+  "D5_terms_found": 11,
+  "D5_terms_missing": [
+    "Role Agent",
+    "Subject",
+    "Phase"
+  ],
+  "D5_nc_terms_found": 10,
+  "D5_nc_terms_missing": [
+    "Role Agent",
+    "Phase"
+  ],
+  "D6_echo": [],
+  "D6_markers_lost": {},
+  "D7_contaminants": [
+    "вывод",
+    "замечания"
+  ],
+  "D7_nc_contaminants": [
+    "вывод",
+    "замечания"
+  ]
+}

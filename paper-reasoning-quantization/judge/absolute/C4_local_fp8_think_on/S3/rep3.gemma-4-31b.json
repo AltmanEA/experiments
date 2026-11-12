@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'outcome value' is incorrectly translated as 'замечания' (which is the glossary equivalent for 'Concerns'), leading to a meaning error.",
+      "quote": "каждого замечания `ConsensusVerdict.outcome`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` was partially translated, violating the requirement for byte-identical backticked tokens.",
+      "quote": "`blocked-эскалация`"
+    }
+  ],
+  "score": 65,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:55:16"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect case agreement in the phrase \"Роль, подавшей вывод\" (should be in genitive: \"роли, подавшей вывод\" or nominative with appropriate participle). This grammatical error makes the sentence ungrammatical.",
+      "quote": "Роль, подавшей вывод"
+    }
+  ],
+  "score": 90,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:18:03"
+  }
+}

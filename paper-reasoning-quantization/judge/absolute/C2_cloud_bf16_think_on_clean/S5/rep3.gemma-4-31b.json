@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The candidate translation contains extensive leaked reasoning, internal translator notes, and brainstorming fragments instead of a clean final text.",
+      "quote": "- Mappings exact? Резолюция->Резолюция, Консенсус->Консенсус, Задача->Задача. All match."
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The 'Phase State Machine' table is completely destroyed and replaced by fragmented, repetitive translation attempts.",
+      "quote": "| 1 | 2 | Задача проверена; сценарий загружен; locked_roles проверены по operator_approval согласно `service-contract/index.md` §Сессия Manifest |"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The entire 'Role Status Handling' section is missing from the translation.",
+      "quote": "## Role Status Handling"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens (backticked) have been modified by inserting Russian translations into them, violating the byte-identical requirement.",
+      "quote": "`resume_Фаза`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens (backticked) have been modified by inserting Russian translations into them, violating the byte-identical requirement.",
+      "quote": "`Эскалация_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens (backticked) have been modified by inserting Russian translations into them, violating the byte-identical requirement.",
+      "quote": "`no-Консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens (backticked) have been modified by inserting Russian translations into them, violating the byte-identical requirement.",
+      "quote": "`no_Консенсус_budget`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Incorrect translation of 'falls back to'. 'Замечания по умолчанию' means 'default remarks/notes', whereas the source refers to a fallback mechanism.",
+      "quote": "с использованием замечания по умолчанию"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:35:25"
+  }
+}

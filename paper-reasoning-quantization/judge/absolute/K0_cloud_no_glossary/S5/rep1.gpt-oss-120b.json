@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Used \"этап\" instead of required glossary term \"Фаза\".",
+      "quote": "каждый этап"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Used \"разрешение\" where the required term is \"Резолюция\" (Resolution).",
+      "quote": "`5` разрешение"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Used \"замечание\" instead of required glossary term \"Вывод\" (Finding).",
+      "quote": "Критическое замечание"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Used \"документа\" instead of required glossary term \"Документатор\" (Documenter).",
+      "quote": "высокого/критического документа"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `locked_roles` is not backticked as required.",
+      "quote": "locked_roles"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `operator_approval` is not backticked as required.",
+      "quote": "operator_approval"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `council.override_precheck` is not backticked as required.",
+      "quote": "council.override_precheck"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `pre_check_override` is not backticked as required.",
+      "quote": "pre_check_override"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:40:16"
+  }
+}

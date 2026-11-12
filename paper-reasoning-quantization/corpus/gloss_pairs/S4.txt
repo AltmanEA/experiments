@@ -1,0 +1,11 @@
+# EN term -> required RU equivalent (algorithmically extracted from docs/en/glossary/index.md)
+Role -> Роль
+Session -> Сессия
+Subject -> Объект обсуждения
+Phase -> Фаза
+Consensus -> Консенсус
+Disagreement -> Расхождение
+Severity -> Уровень серьёзности
+Stance -> Позиция
+Escalation -> Эскалация
+Resolution -> Резолюция

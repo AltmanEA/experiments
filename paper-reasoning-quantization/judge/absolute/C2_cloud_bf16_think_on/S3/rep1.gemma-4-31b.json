@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains leaked reasoning and internal planning notes in English.",
+      "quote": "\". \"Примечания\" is standard for tables.\n\n Let's verify the exact words in the prompt list vs input:"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token modified; must be byte-identical to source.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token modified; must be byte-identical to source.",
+      "quote": "`no-Консенсус`"
+    }
+  ],
+  "score": 25,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:23:42"
+  }
+}

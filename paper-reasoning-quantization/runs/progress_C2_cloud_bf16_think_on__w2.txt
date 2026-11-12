@@ -1,0 +1,8 @@
+[16:22:36] START C2_cloud_bf16_think_on worker=w2 fixtures=[S7] model=qwen3.6-35b-a3b
+[16:22:38] gate OK session 891/1200 week 3736/6000 rpm 58/60 parallel_limit 16
+[16:31:36] DONE S7 rep1 exit=0 wall=538s
+[16:31:36] gate OK session 818/1200 week 3663/6000 rpm 54/60 parallel_limit 16
+[16:37:38] DONE S7 rep2 exit=0 wall=362s
+[16:37:38] gate OK session 771/1200 week 3616/6000 rpm 55/60 parallel_limit 16
+[16:40:00] DONE S7 rep3 exit=0 wall=142s
+[16:40:00] WORKER DONE [S7]

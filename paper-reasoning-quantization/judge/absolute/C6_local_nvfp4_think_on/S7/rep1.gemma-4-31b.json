@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header is not translated.",
+      "quote": "### Scope and Enforcement Point"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header is not translated.",
+      "quote": "### Verdict Logic"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header is not translated.",
+      "quote": "### Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The word 'verdict' is not translated and is not a code token.",
+      "quote": "(`unavailable` verdict)"
+    }
+  ],
+  "score": 68,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:26:22"
+  }
+}

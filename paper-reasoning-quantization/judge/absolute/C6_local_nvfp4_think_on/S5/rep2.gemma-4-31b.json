@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked token must be byte-identical to source `awaiting-operator`.",
+      "quote": "`ожидает оператора`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked token must be byte-identical to source `resolved`.",
+      "quote": "`решено`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked token must be byte-identical to source `failed`.",
+      "quote": "`ошибка`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked token must be byte-identical to source `blocked-escalation`.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked token must be byte-identical to source `agree`.",
+      "quote": "`Согласие`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for 'Фаза' (should be Accusative 'Фазу').",
+      "quote": "возврат в Фаза 3"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for 'Роль' (should be Genitive 'роли').",
+      "quote": "Отсутствие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for 'Роль' (should be Genitive 'роли').",
+      "quote": "Наличие Роль Core"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:24:30"
+  }
+}

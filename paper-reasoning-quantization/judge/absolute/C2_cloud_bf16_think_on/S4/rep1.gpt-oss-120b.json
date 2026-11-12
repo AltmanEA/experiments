@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code identifiers inside backticks were altered; they must remain byte‑identical to the source.",
+      "quote": "`Сессия_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code identifiers inside backticks were altered; they must remain byte‑identical to the source.",
+      "quote": "`фаза_id`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The translation contains extensive unrelated commentary and meta‑text that should not appear in the output.",
+      "quote": "Wait, let's think carefully."
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Many required table rows and fields from the source are missing or omitted in the candidate translation.",
+      "quote": "### ConsensusVerdict"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The candidate does not provide a complete translation of the source tables; numerous fields (e.g., `role_statuses`, `blocking_subjects`, `disagreement_subjects`, etc.) are absent.",
+      "quote": "`role_statuses`"
+    }
+  ],
+  "score": 5,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:23:51"
+  }
+}

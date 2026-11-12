@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Header not translated into Russian.",
+      "quote": "Verdict Logic"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Header not translated into Russian.",
+      "quote": "Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect grammatical case: the glossary term 'Фаза' is used in the nominative case instead of the genitive ('переход фазы').",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect grammatical case: the glossary term 'Роль' is used in the nominative case instead of the genitive ('наличие роли Core').",
+      "quote": "наличие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect grammatical case: the glossary term 'Консенсус' is used in the nominative case instead of the genitive ('правила консенсуса').",
+      "quote": "правила Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect grammatical case: the glossary term 'Эскалация' is used in the nominative case instead of the genitive ('шлюзы целостности эскалации').",
+      "quote": "шлюзы целостности Эскалация"
+    }
+  ],
+  "score": 56,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:09:59"
+  }
+}

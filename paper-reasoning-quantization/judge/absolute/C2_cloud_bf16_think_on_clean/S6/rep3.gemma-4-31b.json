@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains extensive leaked reasoning, internal notes, and planning lines (e.g., translation options, checkmarks, and English source fragments) instead of a clean final Russian text.",
+      "quote": "\"config\" = конфигурация\n \"validated\" = валидированной / проверенной"
+    }
+  ],
+  "score": 75,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:35:21"
+  }
+}

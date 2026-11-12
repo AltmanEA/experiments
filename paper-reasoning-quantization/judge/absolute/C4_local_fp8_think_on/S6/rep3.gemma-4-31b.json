@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Role Status' (Статус роли) is incorrectly translated as 'статусы Роль'.",
+      "quote": "статусы Роль"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Finding' (Вывод) is replaced by 'результаты'.",
+      "quote": "результаты"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'value' is incorrectly translated as 'замечание' (remark/note) instead of 'значение'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'defaults' (referring to values) is incorrectly translated as 'замечания' (remarks).",
+      "quote": "примененные замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Literal word-for-word translation resulting in grammatically incorrect Russian.",
+      "quote": "аналитическая-задача обзоры"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Glossary term 'Эскалация' is used in the nominative case where the accusative is required.",
+      "quote": "маршрутизирует Эскалация"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Glossary terms 'Фаза' and 'Консенсус' are used in the nominative case where the dative/prepositional is required.",
+      "quote": "Решения по Фаза и Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Glossary term 'Роль' is used in the nominative case where the genitive is required.",
+      "quote": "выходов Роль"
+    }
+  ],
+  "score": 44,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:05:26"
+  }
+}

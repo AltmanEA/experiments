@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `consensus` was translated to `Консенсус`, breaking the required byte‑identical token.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `conditional` lost its backticks and was not preserved exactly.",
+      "quote": "conditional"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `no-consensus` was altered to `no-Консенсус`, violating the token integrity rule.",
+      "quote": "`no-Консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Table structure is corrupted: duplicate header rows, stray lines, and mismatched column separators, making the table unreadable.",
+      "quote": "| `ConsensusVerdict.outcome` | Next Фаза / state | Причина эскалации | Notes |"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Discussion Round” should be rendered as “Раунд обсуждения”, but appears in lower‑case “раунд обсуждения”.",
+      "quote": "раунд обсуждения"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Role” should be rendered as “Роль”, but appears in lower‑case “роли”.",
+      "quote": "роли"
+    }
+  ],
+  "score": 11,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:29:30"
+  }
+}

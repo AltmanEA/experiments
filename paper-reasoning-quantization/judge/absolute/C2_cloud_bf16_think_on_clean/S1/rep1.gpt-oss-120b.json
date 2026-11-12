@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Leaked meta‑commentary and English explanatory text that does not belong in the translation.",
+      "quote": "- \"Эскалация capability.\" -> **Возможность эскалации.** (or **Функция эскалации.**) \"Capability\" here likely means \"ability/capacity\". \"Возможность эскалации\" works well."
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Stray backticks and malformed inline formatting appear in the translation, which were not present in the source.",
+      "quote": "`4. на практике.` or `Начинаем с малого и оттачиваем в процессе.`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The paragraph for \"Iterative evolution\" is duplicated, causing redundancy.",
+      "quote": "4. **Итеративная эволюция.** Роли, протоколы и правила эскалации обновляются по мере использования системы. Мы начинаем с минимума и оттачиваем детали на практике."
+    }
+  ],
+  "score": 71,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S1",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:25:39"
+  }
+}

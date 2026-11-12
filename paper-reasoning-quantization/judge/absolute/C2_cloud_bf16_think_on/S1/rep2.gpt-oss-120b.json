@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Leaked English planning/meta commentary is present in the translation.",
+      "quote": "Wait, let's be careful with punctuation and structure. The original has an em dash. In Russian, it's also an em dash (—)."
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation includes extraneous and duplicate content not present in the source (multiple revision notes, self‑correction comments, and repeated sections).",
+      "quote": "Let's refine: Фреймворк для совместного принятия решений несколькими ИИ-агентами при проектировании систем, объединяющих людей, модели ИИ и алгоритмическое программное обеспечение."
+    }
+  ],
+  "score": 65,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S1",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:20:34"
+  }
+}

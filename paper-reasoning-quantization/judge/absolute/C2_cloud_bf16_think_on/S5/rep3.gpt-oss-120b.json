@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The translation contains English meta‑commentary and planning text that should not appear in the target document.",
+      "quote": "Wait, let's verify the exact wording for technical/process contexts. Often \"Задача submission\" is \"подача задачи\" or \"отправка задачи\". \"Individual review\" -> \"индивидуальный обзор\"..."
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "The original markdown table under \"Phase State Machine\" is not preserved; the translator replaced it with free‑form prose, breaking the required markdown table format.",
+      "quote": "## Phase State Machine\n\nWait, let's verify the exact wording for technical/process contexts..."
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Section headings such as \"## Phase State Machine\" and \"## Role Status Handling\" are left untranslated.",
+      "quote": "## Phase State Machine"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translator added English explanatory sentences like \"Check constraints:\" and \"Let's assemble:\" which are not part of the source text.",
+      "quote": "Check constraints:\n- Terminology..."
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "The translation does not preserve the original markdown structure for the table rows and code tokens; the content is re‑phrased and the pipe‑separated table is missing.",
+      "quote": "States: `1` task submission, `2` individual review, `3` discussion, `4` consensus check, `5` resolution, plus `awaiting-operator`, `resolved`, `failed`."
+    }
+  ],
+  "score": 35,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:26:55"
+  }
+}

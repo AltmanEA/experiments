@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token `no-consensus` was translated; it must be byte-identical to the source.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token `no_consensus` was translated; it must be byte-identical to the source.",
+      "quote": "`no_консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token `phase_state` was translated; it must be byte-identical to the source.",
+      "quote": "`фаза_состояние`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token `blocked-escalation` was translated; it must be byte-identical to the source.",
+      "quote": "`blocked-эскалация`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:20:06"
+  }
+}

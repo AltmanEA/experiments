@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code block content inside backticks does not match the source English text; code tokens must be byte‑identical.",
+      "quote": "`4. **Итеративная эволюция.** Роли, протоколы и правила эскалации обновляются по мере использования системы.`"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Duplicate bullet point for \"Возможность эскалации\" appears twice, causing unnecessary repetition.",
+      "quote": "3. **Возможность эскалации.** Система явно отслеживает ситуации, в которых согласование невозможно, и перенаправляет такие проблемы оператору-человеку. Эскалация является нормальным результатом, а не ошибкой."
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Extraneous English sentence with mixed language is inserted, which is not present in the source document.",
+      "quote": "\"Roles, protocols, and Эскалация rules are updated as the system is used.\" -> Роли, протоколы и правила эскалации обновляются по мере использования системы."
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Additional meta‑note about architecture appears, which is not part of the original English source.",
+      "quote": "Эти возможности могут быть реализованы поверх Council, но они не являются частью его базовой архитектуры. (or основной архитектуры)"
+    }
+  ],
+  "score": 61,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:27:08"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Header left untranslated.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Header left untranslated; fails to use glossary term 'Причина эскалации' for 'Escalation Reasons'.",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Header left untranslated.",
+      "quote": "### Escalation Document"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Header left untranslated; fails to use glossary term 'Резолюция' for 'Resolution'.",
+      "quote": "### Escalation Resolution Paths"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Finding' translated as 'заключение' instead of 'Вывод'.",
+      "quote": "критическое заключение"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' translated as 'субъект' instead of 'Объект обсуждения'.",
+      "quote": "субъекта из списка субъектов задачи"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Finding' translated as 'Заключение' instead of 'Вывод'.",
+      "quote": "Заключение, не прошедшее"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary terms 'Severity' (Уровень серьёзности) and 'Finding' (Вывод) replaced by 'высокоприоритетное заключение'.",
+      "quote": "высокоприоритетное заключение"
+    }
+  ],
+  "score": 20,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:35:26"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation is not a final document; it contains repeated lines, draft notes, and leaked reasoning/meta-text.",
+      "quote": "(with proper formatting)"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The entire 'ValidationResult' section is missing from the translation.",
+      "quote": "### ValidationResult"
+    },
+    {
+      "category": "terminology",
+      "severity": "critical",
+      "description": "Code tokens (backticked) must be byte-identical. Multiple identifiers were translated.",
+      "quote": "`Фаза_id`"
+    },
+    {
+      "category": "terminology",
+      "severity": "critical",
+      "description": "Code tokens (backticked) must be byte-identical. Multiple identifiers were translated.",
+      "quote": "`Роль_statuses`"
+    },
+    {
+      "category": "terminology",
+      "severity": "critical",
+      "description": "Code tokens (backticked) must be byte-identical. Multiple identifiers were translated.",
+      "quote": "`Эскалация_reason`"
+    },
+    {
+      "category": "terminology",
+      "severity": "critical",
+      "description": "Code tokens (backticked) must be byte-identical. Multiple identifiers were translated.",
+      "quote": "`Сессия_id`"
+    },
+    {
+      "category": "terminology",
+      "severity": "critical",
+      "description": "Code tokens (backticked) must be byte-identical. Multiple identifiers were translated.",
+      "quote": "`уровень_серьёзности`"
+    },
+    {
+      "category": "terminology",
+      "severity": "critical",
+      "description": "Code tokens (backticked) must be byte-identical. Multiple identifiers were translated.",
+      "quote": "`Резолюция`"
+    },
+    {
+      "category": "terminology",
+      "severity": "critical",
+      "description": "Code tokens (backticked) must be byte-identical. Multiple identifiers were translated.",
+      "quote": "`resume_Фаза`"
+    },
+    {
+      "category": "terminology",
+      "severity": "critical",
+      "description": "Enum values (constants) must not be translated.",
+      "quote": "`консенсус`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'Subject' was translated as 'Темы' and 'Субъекты' instead of the required glossary equivalent 'Объект обсуждения'.",
+      "quote": "Темы со статусом блокировки"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:32:50"
+  }
+}

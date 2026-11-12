@@ -1,0 +1,13 @@
+{
+  "defects": [],
+  "score": 100,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:53:36"
+  }
+}

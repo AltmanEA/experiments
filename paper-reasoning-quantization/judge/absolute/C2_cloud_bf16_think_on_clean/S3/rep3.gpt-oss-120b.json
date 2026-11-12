@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `consensus` was translated to Russian ``консенсус`` instead of being kept byte‑identical.",
+      "quote": "`консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` was translated to Russian ``blocked-Эскалация`` instead of being kept byte‑identical.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `no-consensus` was translated to Russian ``no-Консенсус`` instead of being kept byte‑identical.",
+      "quote": "`no-Консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `no_consensus` was translated to Russian ``no_Консенсус`` instead of being kept byte‑identical.",
+      "quote": "`no_Консенсус`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Table header line mixes English and Russian words (e.g., \"Next Фаза / state\" and \"Notes\"), which is inconsistent with the source format.",
+      "quote": "Next Фаза / state"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:29:55"
+  }
+}

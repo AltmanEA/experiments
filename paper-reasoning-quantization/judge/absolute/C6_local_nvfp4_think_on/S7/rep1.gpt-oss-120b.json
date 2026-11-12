@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token must be enclosed in backticks and be byte‑identical to the source.",
+      "quote": "audit(pre_check=true)"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token must be enclosed in backticks and be byte‑identical to the source.",
+      "quote": "council.override_precheck(reason, operator_id)"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token must be enclosed in backticks and be byte‑identical to the source.",
+      "quote": "target_id"
+    }
+  ],
+  "score": 25,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:24:31"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains extensive leaked reasoning, meta-text, and internal translation notes (e.g., 'analytical-Задача reviews ->', 'Check specific words', '[Output] ->'), making it a draft rather than a final translation.",
+      "quote": "analytical-Задача reviews -> обзоры аналитических задач (or аналитическо-задачные обзоры)"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The table is completely corrupted, containing repeated rows, English fragments, and translation notes instead of a clean Markdown table.",
+      "quote": "| температура | 0.1 | обзоры аналитических задач |\n\n- Задача -> Задача."
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token modified: the key \"role_agent_config\" was translated/altered, violating the requirement for byte-identical code tokens.",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'value' (in 'safe value' and 'applied defaults') is incorrectly translated as 'замечание' (remark/note) instead of 'значение'.",
+      "quote": "задокументированного безопасного замечания"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for the glossary term 'Роль' in the phrase 'Идентификатор Роль'.",
+      "quote": "Идентификатор Роль"
+    }
+  ],
+  "score": 13,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:35:21"
+  }
+}

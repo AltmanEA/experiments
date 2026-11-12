@@ -1,0 +1,92 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Role\" in the type name should be translated according to the glossary (Role → Роль).",
+      "quote": "RoleStatus[]"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Subject\" is not translated to the required Russian equivalent (Объект обсуждения).",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The field name \"escalation_reason\" should contain the Russian term for Escalation (Эскалация).",
+      "quote": "escalation_reason"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The field name \"severity\" should be translated to the required Russian equivalent (Уровень серьёзности).",
+      "quote": "severity"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The field name \"resolution\" should be translated to the required Russian equivalent (Резолюция).",
+      "quote": "resolution"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The field name \"resume_phase\" should contain the Russian term for Phase (Фаза).",
+      "quote": "resume_phase"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "In the description of the \"positions\" field, the key \"role_id\" is not translated (Role → Роль).",
+      "quote": "role_id"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "In the description of the \"positions\" field, the key \"stance\" is not translated (Stance → Позиция).",
+      "quote": "stance"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The description for \"operator_request\" is left in English instead of Russian.",
+      "quote": "One concrete decision or missing input"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The description for \"fallback_strategy\" is left in English instead of Russian.",
+      "quote": "What happens if the operator does not answer"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The description for \"timeout_at\" is left in English instead of Russian.",
+      "quote": "`null` when no deadline is set"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The description for \"resume_phase\" is left in English instead of Russian.",
+      "quote": "Exact phase to resume"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The phrase \"per side\" in the description of \"positions\" is not translated to Russian.",
+      "quote": "per side"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-12T08:27:06"
+  }
+}

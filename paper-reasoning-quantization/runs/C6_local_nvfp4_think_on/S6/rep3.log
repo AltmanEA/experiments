@@ -1,0 +1,19 @@
+[debug] backend=cloud model=Qwen3.6-35B-A3B-NVFP4
+[debug] Glossary loaded: 56 terms
+[debug] Block L3-3: 'The Moderator is the deterministic control plane inside `orc' -> 6 terms: ['Escalation', 'Moderator', 'Consensus', 'Subject', 'Phase']
+[debug] Block L7-7: 'Centralized factory creating role agent instances from valid' -> 3 terms: ['Role Agent', 'Scenario', 'Role']
+[debug] Block L11-11: 'Every parameter either specified by caller OR taken from a d' -> 2 terms: ['Scenario', 'Session']
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[debug] Block L13-17: '| Parameter | Default | Scope |\\n|-----------|---------|-----' -> 1 terms: ['Task']
+[FAIL] L14 — fallback
+[debug] Block L19-19: 'Default whitelist managed centrally in `defaults/policy.yaml' -> 0 terms: []
+[debug] Block L23-23: 'After creation but before enqueue, verify:' -> 0 terms: []
+[debug] Block L25-27: '- Role identifier matches known role from `protocol-core/ind' -> 2 terms: ['Scenario', 'Role']
+[fix] 'промпта' -> 'запроса' x1
+[debug] Block L31-31: 'Each session record includes `"role_agent_config"` section l' -> 4 terms: ['Resolution', 'Scenario', 'Session', 'Role']
+[gloss-apply] 'Role' -> 'Роль' x1
+[debug] Block L35-35: 'Factory injects scenario-specific context (task scope, scena' -> 4 terms: ['Scenario', 'Phase', 'Role', 'Task']
+[fix] 'промпта' -> 'запроса' x2
+
+Done: 14 ok, 22 skip, 1 fail

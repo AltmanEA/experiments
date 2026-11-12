@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `consensus` was translated to Russian, breaking the requirement for byte‑identical tokens.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` was altered to Russian.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `escalation_reason` was altered to Russian.",
+      "quote": "`Эскалация_reason`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `escalation_id` was altered to Russian.",
+      "quote": "`Эскалация_id`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `agree` was translated to Russian, violating the exact‑match rule.",
+      "quote": "`Согласие`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term \"Role Status\" was not translated in the section heading.",
+      "quote": "## Role Status Handling"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case agreement: \"Отсутствие Роль Core\" should be \"Отсутствие Роли Core\".",
+      "quote": "Отсутствие Роль Core"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:57:12"
+  }
+}

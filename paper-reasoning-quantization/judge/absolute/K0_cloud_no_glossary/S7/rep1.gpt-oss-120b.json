@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required glossary term “Documenter” is not translated; the English term is used instead of the required Russian equivalent “Документатор”.",
+      "quote": "компонента Documenter"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term “Finding” is translated as “результат” instead of the required Russian equivalent “Вывод”.",
+      "quote": "нет результатов `high`/`critical`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term “Resolution” is translated as “разрешение” instead of the required Russian equivalent “Резолюция”.",
+      "quote": "`4 → 5` (разрешение)"
+    }
+  ],
+  "score": 70,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:42:53"
+  }
+}

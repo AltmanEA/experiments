@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary term 'Phase' (Фаза) is not inflected, resulting in grammatically incorrect Russian.",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary term 'Role' (Роль) is not inflected, resulting in grammatically incorrect Russian.",
+      "quote": "наличие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary term 'Consensus' (Консенсус) is not inflected, resulting in grammatically incorrect Russian.",
+      "quote": "правила Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary term 'Escalation' (Эскалация) is not inflected, resulting in grammatically incorrect Russian.",
+      "quote": "шлюзы целостности Эскалация"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Section header left untranslated.",
+      "quote": "Documenter Unavailable — Override Mode"
+    }
+  ],
+  "score": 58,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:10:39"
+  }
+}

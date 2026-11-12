@@ -1,0 +1,13 @@
+[debug] backend=cloud model=Qwen3.6-35B-FP8
+[debug] Glossary loaded: 56 terms
+[debug] Block L3-3: 'Escalation is a mechanism that triggers when the agent group' -> 1 terms: ['Escalation']
+[debug] Block L7-7: 'The system routes a task to the operator for one of the foll' -> 1 terms: ['Task']
+[debug] Block L9-9: '**Information gap.** The agents are ready to work on the tas' -> 3 terms: ['Information Gap', 'Role', 'Task']
+[debug] Block L11-11: '**Irresolvable conflict.** Two or more roles take fundamenta' -> 2 terms: ['Irresolvable Conflict', 'Architect']
+[debug] Block L13-13: '**Risk threshold breach.** An agent identifies a risk it ass' -> 2 terms: ['Risk Threshold Breach', 'Subject']
+[debug] Block L15-15: "The veto's force depends on form, not on persuasion: the esc" -> 8 terms: ['Escalation', 'Moderator', 'Scenario', 'Severity', 'Subject']
+[debug] Block L19-19: 'Every request to the operator is accompanied by a structured' -> 3 terms: ['Escalation', 'Severity', 'Role']
+[debug] Block L23-23: 'There are three possible escalation outcomes:' -> 1 terms: ['Escalation']
+[debug] Block L25-27: '- **Operator intervention.** The human provides the missing ' -> 3 terms: ['Escalation', 'Session', 'Task']
+
+Done: 11 ok, 17 skip, 0 fail

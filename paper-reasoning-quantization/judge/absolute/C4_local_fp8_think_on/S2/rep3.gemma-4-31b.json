@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Section headers were not translated into Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation changes the meaning of the sentence: the operator is the one being asked to make a decision, but the Russian text says the operator is the one asking.",
+      "quote": "и просит принять окончательное решение"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `EscalationRecord` was partially translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`ЭскалацияRecord`"
+    }
+  ],
+  "score": 55,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:56:11"
+  }
+}

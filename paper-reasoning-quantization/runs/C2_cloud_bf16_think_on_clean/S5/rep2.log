@@ -1,0 +1,47 @@
+[debug] backend=cloud model=qwen3.6-35b-a3b
+[debug] Glossary loaded: 56 terms
+[debug] Block L3-3: 'Moderator control flow and every phase, consensus, and escal' -> 8 terms: ['Escalation', 'Moderator', 'Consensus', 'Scenario', 'Session']
+[linecount] expected 1, got 94 -> line-by-line fallback
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[fuzz-fix] 'значения' -> 'замечания' (ratio 0.71)
+[gloss-apply] 'Escalation' -> 'Эскалация' x10
+[gloss-apply] 'Moderator' -> 'Модератор' x5
+[gloss-apply] 'Consensus' -> 'Консенсус' x11
+[gloss-apply] 'Scenario' -> 'Сценарий' x7
+[gloss-apply] 'Session' -> 'Сессия' x12
+[gloss-apply] 'Phase' -> 'Фаза' x10
+[gloss-apply] 'Role' -> 'Роль' x5
+[debug] Block L7-7: 'States: `1` task submission, `2` individual review, `3` disc' -> 3 terms: ['Resolution', 'Consensus', 'Task']
+[linecount] expected 1, got 101 -> line-by-line fallback
+[gloss-apply] 'Resolution' -> 'Резолюция' x7
+[gloss-apply] 'Consensus' -> 'Консенсус' x6
+[gloss-apply] 'Task' -> 'Задача' x9
+[debug] Block L9-22: '| From | To | Guard |\\n|------|----|-------|\\n| 1 | 2 | Task v' -> 12 terms: ['Escalation', 'Resolution', 'Documenter', 'Consensus', 'Scenario']
+[linecount] expected 14, got 47 -> line-by-line fallback
+[FAIL] L10 — fallback
+[gloss-apply] 'Role' -> 'Роль' x5
+[gloss-apply] 'Phase' -> 'Фаза' x1
+[gloss-apply] 'Consensus' -> 'Консенсус' x4
+[gloss-apply] 'Escalation' -> 'Эскалация' x1
+[gloss-apply] 'Resolution' -> 'Резолюция' x1
+[gloss-apply] 'Documenter' -> 'Документатор' x1
+[gloss-apply] 'Consensus' -> 'Консенсус' x2
+[gloss-apply] 'Phase' -> 'Фаза' x3
+[gloss-apply] 'Escalation' -> 'Эскалация' x1
+[gloss-apply] 'Resolution' -> 'Резолюция' x1
+[gloss-apply] 'Documenter' -> 'Документатор' x1
+[gloss-apply] 'Consensus' -> 'Консенсус' x1
+[gloss-apply] 'Scenario' -> 'Сценарий' x1
+[gloss-apply] 'Artifact' -> 'Артефакт' x8
+[gloss-apply] 'Session' -> 'Сессия' x1
+[gloss-apply] 'Finding' -> 'Вывод' x1
+[gloss-apply] 'Phase' -> 'Фаза' x1
+[gloss-apply] 'Escalation' -> 'Эскалация' x1
+[gloss-apply] 'Resolution' -> 'Резолюция' x2
+[fuzz-fix] 'операция' -> 'оркестрация' (ratio 0.74)
+[debug] Block L24-24: 'Only `orchestrator/` advances a phase. The operator never ed' -> 2 terms: ['Resolution', 'Phase']
+[linecount] expected 1, got 63 -> line-by-line fallback
+[debug] Block L28-28: '`extract_role_status()` is the only source of truth for cons' -> 7 terms: ['Role Status', 'Escalation', 'Consensus', 'Session', 'Finding']
+[linecount] expected 1, got 141 -> line-by-line fallback
+
+Done: 17 ok, 12 skip, 1 fail

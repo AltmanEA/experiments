@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case and wording in phrase; should be \"переход Фазы\" (genitive) rather than \"переход Фаза\".",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Awkward and grammatically incorrect construction; the sentence should use proper case and prepositions (e.g., \"наличие роли Core, правила Консенсуса или шлюзы целостности Эскалации\").",
+      "quote": "Обход никогда не обходит наличие Роль Core, правила Консенсус или шлюзы целостности Эскалация."
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:04:15"
+  }
+}

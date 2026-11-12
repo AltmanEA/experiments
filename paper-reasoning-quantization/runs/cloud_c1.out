@@ -1,0 +1,5 @@
+skip C1_cloud_bf16_think_off/S1 rep1
+skip C1_cloud_bf16_think_off/S1 rep2
+skip C1_cloud_bf16_think_off/S1 rep3
+skip C1_cloud_bf16_think_off/S2 rep1
+skip C1_cloud_bf16_think_off/S3 rep1

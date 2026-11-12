@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains extensive leaked reasoning, internal translator notes, and English planning lines.",
+      "quote": "- to Документатор's `audit(pre_check=true)` -> к методу/функции Документатор's `audit(pre_check=true)` -> к `audit(pre_check=true)` класса/модуля Документатор"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation is fragmented and contains raw English source lines and repeated content instead of a clean target text.",
+      "quote": "| No `high`/`critical` findings for target scope | `pass` | Proceed with transition |"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation introduces non-existent syntax/tokens (template markers) not present in the source.",
+      "quote": "${precheck.unavailable}"
+    }
+  ],
+  "score": 25,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:36:53"
+  }
+}

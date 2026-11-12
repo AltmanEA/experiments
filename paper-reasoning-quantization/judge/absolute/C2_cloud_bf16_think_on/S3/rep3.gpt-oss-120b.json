@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token inside backticks must be byte‑identical to the source; the term \"escalation\" was translated inside the backticks.",
+      "quote": "`blocked-Эскалация`"
+    }
+  ],
+  "score": 75,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:23:38"
+  }
+}

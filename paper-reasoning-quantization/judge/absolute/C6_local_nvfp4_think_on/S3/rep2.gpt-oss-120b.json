@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The word “замечания” is used to translate the term “outcome”, which is inaccurate.",
+      "quote": "замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `no-consensus` was altered to `no-консенсус`, breaking the required exact match.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `blocked-escalation` was altered to `blocked-эскалация`, breaking the required exact match.",
+      "quote": "`blocked-эскалация`"
+    }
+  ],
+  "score": 40,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S3",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:18:39"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "English meta‑commentary and instructions are included in the translation, which are not part of the source document.",
+      "quote": "** - Let's stick closely to the original structure while ensuring natural Russian phrasing:"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Headings such as \"Escalation Protocol\", \"Escalation Reasons\", \"Escalation Document\" and \"Escalation Resolution Paths\" are not translated using the required Russian equivalents from the glossary.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Bullet title \"Operator intervention.\" is not translated to the required Russian term (e.g., \"Вмешательство оператора\").",
+      "quote": "**Operator intervention.**"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Bullet title \"Deferred fallback.\" is not translated to the required Russian term (e.g., \"Отложенный фоллбэк\").",
+      "quote": "**Deferred fallback.**"
+    }
+  ],
+  "score": 60,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:22:03"
+  }
+}

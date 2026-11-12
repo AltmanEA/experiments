@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `locked_roles` is not enclosed in backticks as required.",
+      "quote": "locked_roles"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `precheck.overridden` is missing backticks.",
+      "quote": "precheck.overridden"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `council.override_precheck` is missing backticks.",
+      "quote": "council.override_precheck"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Nonsensical word \"подагент\" inserted, corrupting the meaning of the sentence.",
+      "quote": "подагент"
+    }
+  ],
+  "score": 15,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:33:51"
+  }
+}

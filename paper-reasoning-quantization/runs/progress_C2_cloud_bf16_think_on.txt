@@ -1,0 +1,42 @@
+[15:09:41] START C2_cloud_bf16_think_on model=qwen3.6-35b-a3b (0/21 done)
+[15:09:41] gate OK session 1094/1200 week 3939/6000 rpm 50/60
+[15:12:43] DONE S1 rep1 exit=0 wall=181s (1/21)
+[15:12:51] gate OK session 1083/1200 week 3928/6000 rpm 57/60
+[15:16:23] DONE S1 rep2 exit=0 wall=212s (2/21)
+[15:16:50] limits unavailable, sleep 60
+[15:17:50] gate HOLD: [15:16:50] limits unavailable, sleep 60 -> sleep 120s
+[15:19:50] gate OK session 1071/1200 week 3916/6000 rpm 60/60
+[15:23:43] DONE S1 rep3 exit=0 wall=233s (3/21)
+[15:23:46] gate OK session 1055/1200 week 3900/6000 rpm 57/60
+[15:28:13] DONE S2 rep1 exit=0 wall=266s (4/21)
+[15:28:16] gate OK session 1037/1200 week 3882/6000 rpm 59/60
+[15:33:49] DONE S2 rep2 exit=0 wall=332s (5/21)
+[15:33:53] gate OK session 1020/1200 week 3865/6000 rpm 59/60
+[15:39:28] DONE S2 rep3 exit=0 wall=335s (6/21)
+[15:39:32] gate OK session 1003/1200 week 3848/6000 rpm 58/60
+[15:42:23] DONE S3 rep1 exit=0 wall=170s (7/21)
+[15:42:30] gate OK session 994/1200 week 3839/6000 rpm 58/60
+[15:48:31] DONE S3 rep2 exit=0 wall=360s DEGRADED -> pause 60s, requeue once
+[15:49:33] gate OK session 980/1200 week 3825/6000 rpm 60/60
+[15:51:41] DONE S3 rep2 exit=0 wall=128s (8/21)
+[15:51:48] gate OK session 972/1200 week 3817/6000 rpm 56/60
+[15:56:57] DONE S3 rep3 exit=0 wall=309s (9/21)
+[15:57:10] gate OK session 958/1200 week 3803/6000 rpm 60/60
+[16:07:22] DONE S4 rep1 exit=0 wall=612s (10/21)
+[16:07:26] gate OK session 930/1200 week 3775/6000 rpm 59/60
+[16:18:35] DONE S4 rep2 exit=0 wall=669s (11/21)
+[16:18:39] gate OK session 903/1200 week 3748/6000 rpm 59/60
+[16:24:27] DONE S4 rep3 exit=0 wall=348s (14/21)
+[16:24:31] gate OK session 877/1200 week 3722/6000 rpm 56/60
+[16:29:28] DONE S5 rep1 exit=0 wall=297s (15/21)
+[16:29:32] gate OK session 836/1200 week 3681/6000 rpm 58/60
+[16:39:01] DONE S5 rep2 exit=0 wall=569s (20/21)
+[16:39:05] gate OK session 756/1200 week 3601/6000 rpm 60/60
+[16:46:48] DONE S5 rep3 exit=0 wall=463s (21/21)
+[16:46:52] skip S6 rep1 (exists)
+[16:46:52] skip S6 rep2 (exists)
+[16:46:52] skip S6 rep3 (exists)
+[16:46:52] skip S7 rep1 (exists)
+[16:46:52] skip S7 rep2 (exists)
+[16:46:52] skip S7 rep3 (exists)
+[16:46:52] ALL DONE 21/21

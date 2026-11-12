@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Extraneous English meta‑commentary and instructions are present in the output, which should contain only the Russian translation.",
+      "quote": "Check against constraints:"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "The heading \"## Escalation Protocol\" is not translated into Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation is incomplete; large portions of the source (Escalation Reasons, Irresolvable Conflict, Risk Threshold Breach, Escalation Document, Escalation Resolution Paths) are missing.",
+      "quote": "### Escalation Resolution Paths"
+    }
+  ],
+  "score": 70,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:20:56"
+  }
+}

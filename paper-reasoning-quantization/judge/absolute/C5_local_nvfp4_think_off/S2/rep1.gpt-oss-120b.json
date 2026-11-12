@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required glossary term “Subject” (Объект обсуждения) is not used; the translation uses “объекта” and “списка объектов задачи” instead of the exact term.",
+      "quote": "объекта из списка объектов задачи"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Subject” is incorrectly inserted as “по Объекту обсуждения”, which does not correspond to any source concept and misuses the required term.",
+      "quote": "по Объекту обсуждения"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The sentence “Приоритет безопасности и надежности не подлежит голосованию по Объекту обсуждения.” mistranslates the source “the priority of safety and reliability is not subject to a vote.” The added “по Объекту обсуждения” is incorrect and changes the meaning.",
+      "quote": "Приоритет безопасности и надежности не подлежит голосованию по Объекту обсуждения."
+    }
+  ],
+  "score": 70,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:06:13"
+  }
+}

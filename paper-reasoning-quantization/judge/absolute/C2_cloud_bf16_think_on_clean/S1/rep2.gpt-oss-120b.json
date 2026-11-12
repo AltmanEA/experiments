@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "English source fragment and meta‑commentary left in the translation.",
+      "quote": "\"primary output Артефакт\" -> Основной итоговый артефакт / Первичный выходной артефакт. \"Основной итоговый артефакт\" sounds better in Russian."
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "English source fragment and meta‑commentary left in the translation.",
+      "quote": "\"Each design Артефакт is analyzed independently by different roles before agreement is reached.\" -> Каждый дизайн-артефакт анализируется независимо представителями разных ролей до достижения согласия."
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "English source fragment and meta‑commentary left in the translation.",
+      "quote": "\"This prevents the \"blind spots\" that inevitably arise from a single-perspective view of a Задача.\" -> Это предотвращает появление «слепых зон», которые неизбежно возникают при одностороннем взгляде на задачу."
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "English source fragment and meta‑commentary left in the translation.",
+      "quote": "\"A recommendation is not considered final until all participants converge or the Эскалация path is triggered.\" -> \"Рекомендация не считается окончательной, пока все участники не сойдутся во мнениях или не будет запущен путь эскалации.\""
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "English meta‑commentary about mandatory words left in the translation.",
+      "quote": "Mandatory words: Эскалация, Консенсус, Артефакт, Задача. Only Артефакт and Задача are in the source. They are translated correctly."
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "English source fragment left in the translation.",
+      "quote": "Эскалация is a normal outcome, not a failure."
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Duplicate rendering of principle 2 (\"Консенсус перед обязательством\") creates redundancy.",
+      "quote": "2. **Консенсус перед обязательством.** Рекомендация не считается окончательной, пока все участники не сойдутся во мнениях или не будет инициирован путь эскалации. Ни один агент не обладает монополией на принятие решения."
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S1",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:26:45"
+  }
+}

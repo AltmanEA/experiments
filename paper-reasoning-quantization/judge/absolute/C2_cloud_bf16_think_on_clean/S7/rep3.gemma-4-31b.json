@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The entire bullet point regarding 'Gated transitions' is missing from the translation.",
+      "quote": ""
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Duplicate header line with an ellipsis.",
+      "quote": "- **Передача вердикта на уровень 1:** ..."
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Typo in the word 'Документатора'.",
+      "quote": "Докуматора"
+    }
+  ],
+  "score": 86,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:37:30"
+  }
+}

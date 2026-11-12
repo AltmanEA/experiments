@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Missing required translation of the term \"Resolution\" (should be \"Резолюция\"). The source includes \"`4 → 5` (resolution)\" which is omitted in the Russian version.",
+      "quote": "`4 → 5`"
+    }
+  ],
+  "score": 90,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:35:58"
+  }
+}

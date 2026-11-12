@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Added phrase \"по Объекту обсуждения\" which does not exist in the source and incorrectly introduces the term \"Subject\" where it is not required.",
+      "quote": "по **Объекту обсуждения**"
+    }
+  ],
+  "score": 90,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C1_cloud_bf16_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:09:23"
+  }
+}

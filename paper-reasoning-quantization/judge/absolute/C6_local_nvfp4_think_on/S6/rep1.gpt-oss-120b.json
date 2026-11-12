@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Used \"статусы ролей\" instead of the required glossary term \"Статус роли\".",
+      "quote": "статусы ролей"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token key changed from \"role_agent_config\" to \"Роль_agent_config\", breaking byte‑identical requirement.",
+      "quote": "\"Роль_agent_config\""
+    }
+  ],
+  "score": 73,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:23:23"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Header not translated.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Header not translated.",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Header not translated.",
+      "quote": "### Escalation Document"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Header not translated.",
+      "quote": "### Escalation Resolution Paths"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation 'и просит' (and asks) incorrectly makes the operator the subject who is requesting the decision, whereas the source 'is asked' indicates the operator is the recipient of the request.",
+      "quote": "и просит принять окончательное решение"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Объект обсуждения' is replaced by 'объект'.",
+      "quote": "объекта из списка объектов"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Уровень серьёзности' is replaced by 'степень серьёзности'.",
+      "quote": "высокой степени серьёзности"
+    }
+  ],
+  "score": 46,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:47:51"
+  }
+}

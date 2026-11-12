@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect term for role statuses; the required glossary term is \"Статус роли\" (or appropriate inflection), not \"Роль\".",
+      "quote": "статусы Роль"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Uses a non‑glossary word \"результаты\" instead of the required term \"Вывод\" for findings.",
+      "quote": "объединяет результаты"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical case error in the phrase \"выходов Роль\"; the noun should agree in case with \"выходов\".",
+      "quote": "выходов Роль"
+    }
+  ],
+  "score": 78,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:59:45"
+  }
+}

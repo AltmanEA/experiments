@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'findings' should be translated as 'выводы' according to the glossary, but 'результаты' was used instead.",
+      "quote": "результаты"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'resolution' should be translated as 'резолюция' according to the glossary, but 'разрешения' was used instead.",
+      "quote": "разрешения"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:42:15"
+  }
+}

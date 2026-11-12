@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Phase' should be translated as 'Фаза', not 'этап'.",
+      "quote": "каждый этап"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Resolution' should be translated as 'Резолюция', not 'разрешение'.",
+      "quote": "разрешение"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The phrase 'Documenter finding' is incorrectly translated as 'документа' (document). It should use glossary terms 'Документатор' and 'Вывод'.",
+      "quote": "высокого/критического документа"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Finding' should be translated as 'Вывод', not 'замечание'.",
+      "quote": "замечание"
+    }
+  ],
+  "score": 84,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:42:45"
+  }
+}

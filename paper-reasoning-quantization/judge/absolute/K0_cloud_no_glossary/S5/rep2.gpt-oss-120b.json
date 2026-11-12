@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Used \"этап\" instead of the required term \"Фаза\" for \"phase\".",
+      "quote": "каждый этап"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Heading \"Phase State Machine\" left in English; the required term \"Фаза\" is missing.",
+      "quote": "Phase State Machine"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Used \"документа\" instead of the required term \"Документатор\" for \"Documenter\".",
+      "quote": "документа"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Heading \"Role Status Handling\" left in English; the required term \"Статус роли\" is missing.",
+      "quote": "Role Status"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Used \"Разрешение\" instead of the required term \"Резолюция\" for \"Resolution\".",
+      "quote": "Разрешение"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Used \"замечание\" instead of the required term \"Вывод\" for \"Finding\".",
+      "quote": "замечание"
+    }
+  ],
+  "score": 40,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:40:17"
+  }
+}

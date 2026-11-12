@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Heading left in English instead of Russian translation.",
+      "quote": "Scope and Enforcement Point"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case agreement: should be \"переход Фазы\".",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case agreement: should be \"правила Консенсуса\".",
+      "quote": "правила Консенсус"
+    }
+  ],
+  "score": 94,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:24:59"
+  }
+}

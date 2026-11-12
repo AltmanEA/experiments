@@ -1,0 +1,26 @@
+[debug] backend=cloud model=qwen3.6-35b-a3b
+[debug] Glossary loaded: 56 terms
+[debug] Block L3-3: 'The following table maps each `ConsensusVerdict.outcome` val' -> 2 terms: ['Escalation Reason', 'Escalation']
+[linecount] expected 1, got 44 -> line-by-line fallback
+[gloss-apply] 'Escalation Reason' -> 'Причина эскалации' x1
+[debug] Block L5-10: '| `ConsensusVerdict.outcome` | Next phase / state | Escalati' -> 8 terms: ['Escalation Reason', 'Discussion Round', 'Escalation', 'Resolution', 'Consensus']
+[linecount] expected 6, got 28 -> line-by-line fallback
+[gloss-apply] 'Escalation Reason' -> 'Причина эскалации' x7
+[gloss-apply] 'Phase' -> 'Фаза' x8
+[gloss-apply] 'Resolution' -> 'Резолюция' x5
+[gloss-apply] 'Consensus' -> 'Консенсус' x2
+[gloss-apply] 'Artifact' -> 'Артефакт' x8
+[gloss-apply] 'Phase' -> 'Фаза' x3
+[gloss-apply] 'Escalation' -> 'Эскалация' x17
+[debug] Block L12-15: 'Where:\\n- `no-consensus` applies when `no_consensus` budget r' -> 4 terms: ['Escalation', 'Consensus', 'Phase', 'Role']
+[linecount] expected 4, got 1 -> line-by-line fallback
+[gloss-apply] 'Escalation' -> 'Эскалация' x1
+[gloss-apply] 'Consensus' -> 'Консенсус' x23
+[gloss-apply] 'Phase' -> 'Фаза' x2
+[gloss-apply] 'Role' -> 'Роль' x1
+[gloss-apply] 'Escalation' -> 'Эскалация' x8
+[fuzz-fix] 'задана' -> 'задача' (ratio 0.83)
+[gloss-apply] 'Escalation' -> 'Эскалация' x7
+[gloss-apply] 'Role' -> 'Роль' x3
+
+Done: 11 ok, 5 skip, 0 fail

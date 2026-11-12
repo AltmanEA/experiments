@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains extensive leaked reasoning, internal planning, and meta-text in English, failing to provide a clean target translation.",
+      "quote": "Let's assemble carefully:\n Фреймворк для совместного принятия решений несколькими ИИ-агентами при проектировании систем, объединяющих людей, модели ИИ и алгоритмическое программное обеспечение."
+    }
+  ],
+  "score": 75,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S1",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:19:52"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Section headers were not translated into Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The passive construction 'is asked to make the final decision' is translated as 'просит принять окончательное решение' (active), which incorrectly implies that the operator is the one making the request rather than receiving it.",
+      "quote": "просит принять окончательное решение"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token modified; backticked tokens must be byte-identical to the source.",
+      "quote": "`ЭскалацияRecord`"
+    }
+  ],
+  "score": 55,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:55:03"
+  }
+}

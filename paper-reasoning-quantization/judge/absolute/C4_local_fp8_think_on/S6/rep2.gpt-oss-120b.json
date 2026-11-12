@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Incorrect translation of \"documented safe value\" as \"задокументированного безопасного замечания\"; the term \"замечание\" does not convey the meaning of \"value\".",
+      "quote": "задокументированного безопасного замечания"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token changed: original key \"role_agent_config\" was altered to \"Роль_agent_config\", breaking the exact token requirement.",
+      "quote": "\"Роль_agent_config\""
+    }
+  ],
+  "score": 73,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:58:48"
+  }
+}

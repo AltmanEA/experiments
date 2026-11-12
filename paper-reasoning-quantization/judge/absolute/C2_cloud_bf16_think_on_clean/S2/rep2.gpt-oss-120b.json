@@ -1,0 +1,68 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The heading \"Escalation Reasons\" is not translated and does not use the required term \"Причина эскалации\".",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The heading \"Escalation Resolution Paths\" is not translated and does not use the required term \"Резолюция\".",
+      "quote": "### Escalation Resolution Paths"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"role\" is rendered in lowercase \"роль\" instead of the required capitalized form \"Роль\".",
+      "quote": "роль безопасности"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Escalation\" is sometimes written in lowercase \"эскалация\" instead of the required \"Эскалация\".",
+      "quote": "эскалация активируется только если"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "An English source sentence is left unchanged inside backticks instead of being translated.",
+      "quote": "`The operator receives a summary of both positions and is asked to make the final decision.`"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "The translation contains arrows and explanatory comments (e.g., \"-> Оператор получает…\") that are not part of the target document.",
+      "quote": "-> Оператор получает сводку/резюме обеих позиций и просится принять окончательное решение."
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The paragraph for \"Неразрешимый конфликт\" is duplicated, causing redundancy.",
+      "quote": "**Неразрешимый конфликт.** Две или более роли занимают принципиально разные позиции..."
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The phrase \"as a high-Уровень серьёзности Вывод\" is garbled and does not form a correct Russian sentence.",
+      "quote": "as a high-Уровень серьёзности Вывод"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "An English verb \"activates\" is left in a Russian sentence, breaking language consistency.",
+      "quote": "the Эскалация activates only if"
+    }
+  ],
+  "score": 58,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:29:27"
+  }
+}

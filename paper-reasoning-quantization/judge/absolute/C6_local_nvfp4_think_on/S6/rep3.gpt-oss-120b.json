@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect translation of \"Role Status\"; used \"статусы Роль\" instead of the required \"Статус роли\".",
+      "quote": "агрегирует статусы Роль"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"findings\" was translated as \"результаты\"; the required glossary equivalent is \"Вывод\".",
+      "quote": "объединяет результаты по `subject_id`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect form of \"role\" in the phrase \"выходов Роль\"; should be \"выходов роли\" (using the required term \"Роль\").",
+      "quote": "выходов Роль"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token/key name changed from \"role_agent_config\" to \"Роль_agent_config\", breaking byte‑identical requirement.",
+      "quote": "\"Роль_agent_config\""
+    }
+  ],
+  "score": 53,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:24:36"
+  }
+}

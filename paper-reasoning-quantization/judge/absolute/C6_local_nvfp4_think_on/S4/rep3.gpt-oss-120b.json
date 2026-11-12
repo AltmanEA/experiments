@@ -1,0 +1,80 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The field name uses the English term “Session” instead of the required Russian equivalent “Сессия”.",
+      "quote": "`session_id`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The field name uses the English term “Phase” instead of the required Russian equivalent “Фаза”.",
+      "quote": "`phase_id`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The field name contains the English term “Role” instead of the required Russian equivalent “Роль”.",
+      "quote": "`role_statuses`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The array name contains the English term “Subject” instead of the required Russian equivalent “Объект обсуждения”.",
+      "quote": "`blocking_subjects`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The array name contains the English term “Disagreement” instead of the required Russian equivalent “Расхождение”.",
+      "quote": "`disagreement_subjects`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The field name uses the English term “Severity” instead of the required Russian equivalent “Уровень серьёзности”.",
+      "quote": "`severity`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The field name uses the English term “Resolution” instead of the required Russian equivalent “Резолюция”.",
+      "quote": "`resolution`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The type name contains the English term “Escalation” instead of the required Russian equivalent “Эскалация”.",
+      "quote": "EscalationRecord"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token altered: the original token “subject” was replaced with “Объект обсуждения”, breaking the required byte‑identical code snippet.",
+      "quote": "`Объект обсуждения-reference`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token altered: the original token “subject_id” was replaced with “Объект обсуждения_id”, violating the byte‑identical requirement.",
+      "quote": "`Объект обсуждения_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token altered: the original token “severity” was replaced with “Уровень серьёзности”, breaking the byte‑identical rule.",
+      "quote": "`Уровень серьёзности`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:20:51"
+  }
+}

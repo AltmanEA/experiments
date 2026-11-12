@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header not translated",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header not translated",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header not translated",
+      "quote": "### Escalation Document"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header not translated",
+      "quote": "### Escalation Resolution Paths"
+    }
+  ],
+  "score": 60,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:19:51"
+  }
+}

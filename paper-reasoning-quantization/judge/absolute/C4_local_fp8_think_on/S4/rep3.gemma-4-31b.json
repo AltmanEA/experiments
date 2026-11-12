@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (enum values) inside backticks must be byte-identical to the source.",
+      "quote": "консенсус"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (enum values) inside backticks must be byte-identical to the source.",
+      "quote": "no-консенсус"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (enum values) inside backticks must be byte-identical to the source.",
+      "quote": "blocked-эскалация"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' must be translated as 'Объект обсуждения', not 'Субъект'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source.",
+      "quote": "Объект обсуждения-reference"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source.",
+      "quote": "Объект обсуждения_id"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source.",
+      "quote": "замазана"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source.",
+      "quote": "уровень серьёзности"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:59:05"
+  }
+}

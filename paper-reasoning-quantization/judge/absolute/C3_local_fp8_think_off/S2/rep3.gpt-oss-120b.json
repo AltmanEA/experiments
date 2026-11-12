@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading \"Escalation Reasons\" is left in English; the term should be translated according to the glossary (Escalation Reason → Причина эскалации).",
+      "quote": "Escalation Reasons"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The generic word \"объекта\" is used instead of the required glossary term \"Объект обсуждения\" (Subject).",
+      "quote": "списка объектов задачи"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:45:00"
+  }
+}

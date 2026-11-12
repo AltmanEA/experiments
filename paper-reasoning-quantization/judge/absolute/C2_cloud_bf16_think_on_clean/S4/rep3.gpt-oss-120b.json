@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Subject\" is translated as \"Субъекты\" instead of the required \"Объект обсуждения\".",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Subject\" is translated as \"Субъекты\" instead of the required \"Объект обсуждения\".",
+      "quote": "Субъекты, имеющие как `support`, так и `oppose` в финальном раунде"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `escalation_id` was altered to `Эскалация_id`, breaking the required identifier.",
+      "quote": "`Эскалация_id`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `raised_by_role` was altered to `raised_by_Роль`, violating the exact token requirement.",
+      "quote": "`raised_by_Роль`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `severity` was replaced with the Russian phrase `Уровень серьёзности`, which is not allowed.",
+      "quote": "`Уровень серьёзности`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `resume_phase` was changed to `resume_Фаза`, breaking the required identifier.",
+      "quote": "`resume_Фаза`"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "The markdown table for EscalationRecord is malformed: stray lines, missing backticks around field names, and duplicated rows make the structure unreadable.",
+      "quote": "` | Поле | Тип | Обязательно | Правило |`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:31:51"
+  }
+}

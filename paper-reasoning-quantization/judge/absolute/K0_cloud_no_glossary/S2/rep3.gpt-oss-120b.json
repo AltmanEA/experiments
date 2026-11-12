@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Finding” is required to be translated as “Вывод”, but the translation uses “заключение”.",
+      "quote": "критическое заключение"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Subject” is required to be translated as “Объект обсуждения”, but the translation uses “субъекта”.",
+      "quote": "субъекта"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “Severity” should be rendered as “Уровень серьёзности”, but the translation uses the spelling “уровень серьезности”.",
+      "quote": "уровень серьезности"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The heading “Escalation Reasons” (English) is not translated; the required term “Escalation Reason” should be rendered as “Причина эскалации”.",
+      "quote": "Escalation Reasons"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The heading “Escalation Resolution Paths” (English) is not translated; the required term “Resolution” should be rendered as “Резолюция”.",
+      "quote": "Escalation Resolution Paths"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading “Escalation Protocol” (English) is not translated; the term “Escalation” should be rendered as “Эскалация”.",
+      "quote": "Escalation Protocol"
+    }
+  ],
+  "score": 56,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:34:38"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains leaked reasoning, internal notes, and meta-text (e.g., 'Checked', '✅', 'using производства to match production exactly').",
+      "quote": " (using производства to match production exactly)"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The output is fragmented and contains multiple repeated versions of the same table rows and headers, making it unusable as a final translation.",
+      "quote": "| `ConsensusVerdict.outcome` | Следующая фаза / состояние | Причина эскалации | Примечания |"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `consensus` was translated into Russian, violating the requirement for byte-identical code tokens.",
+      "quote": "`консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` was partially translated/modified, violating the requirement for byte-identical code tokens.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `no-consensus` was partially translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`no-Консенсус`"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The translation starts with a fragmented sentence remnant.",
+      "quote": "очник для маршрутизации результатов."
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Mixed English and Russian within a table header.",
+      "quote": "Next Фаза / state"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:31:11"
+  }
+}

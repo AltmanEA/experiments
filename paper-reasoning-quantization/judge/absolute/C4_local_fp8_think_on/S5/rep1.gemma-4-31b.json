@@ -1,0 +1,68 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token 'consensus' was translated; must be byte-identical.",
+      "quote": "Консенсус"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token 'no-consensus' was partially translated; must be byte-identical.",
+      "quote": "no-Консенсус"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token 'blocked-escalation' was partially translated; must be byte-identical.",
+      "quote": "blocked-Эскалация"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token 'agree' was translated; must be byte-identical.",
+      "quote": "Согласие"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/inflection for glossary term 'Роль'.",
+      "quote": "выходов Роль"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Awkward phrasing and incorrect word order for 'Session Manifest'.",
+      "quote": "§Сессия Manifest"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/inflection for glossary term 'Фаза'.",
+      "quote": "границах Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/inflection for glossary term 'Документатор'.",
+      "quote": "Вывод Документатор"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/inflection for glossary term 'Статус роли'.",
+      "quote": "извлечения Статус роли"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:04:37"
+  }
+}

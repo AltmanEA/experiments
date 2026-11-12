@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: nouns following the preposition 'по' should be in the dative case, not nominative.",
+      "quote": "Решения по Фаза и Консенсус"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Mistranslation of 'safe value' as 'безопасного замечания' (safe remark/note). Should be 'безопасного значения'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Mistranslation of 'applied defaults' as 'применённые замечания по умолчанию' (applied remarks by default). Should be 'применённые значения по умолчанию'.",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender mismatch: 'инстанциирования' is neuter, but the adjective 'фактической' is feminine.",
+      "quote": "фактической инстанциирования"
+    }
+  ],
+  "score": 76,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-12T09:33:40"
+  }
+}

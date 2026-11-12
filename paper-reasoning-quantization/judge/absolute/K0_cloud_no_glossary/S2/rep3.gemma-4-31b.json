@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Section headers are not translated into Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'Risk Threshold Breach' is translated as 'Нарушение порога риска' instead of the required 'Превышение порога риска'.",
+      "quote": "Нарушение порога риска"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'finding' is translated as 'заключение' instead of the required 'Вывод'.",
+      "quote": "заключение"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'subject' is translated as 'субъект' instead of the required 'Объект обсуждения'.",
+      "quote": "субъекта из списка субъектов"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'high-severity finding' is translated as 'высокоуровневое заключение', which fails to use the required equivalents for both 'Severity' (Уровень серьёзности) and 'Finding' (Вывод).",
+      "quote": "высокоуровневое заключение"
+    }
+  ],
+  "score": 82,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "K0_cloud_no_glossary",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:37:12"
+  }
+}

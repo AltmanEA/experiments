@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token (backticked) translated; must be byte-identical to source.",
+      "quote": "`blocked-эскалацию`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token (backticked) translated and word order changed; must be byte-identical to source.",
+      "quote": "`reason_эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token (backticked) translated; must be byte-identical to source.",
+      "quote": "`согласие`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case/construction for glossary terms.",
+      "quote": "Вывод Документатор"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for glossary term 'Консенсус'.",
+      "quote": "для консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for glossary term 'Фаза'.",
+      "quote": "возврат в Фаза 3"
+    }
+  ],
+  "score": 19,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:24:00"
+  }
+}

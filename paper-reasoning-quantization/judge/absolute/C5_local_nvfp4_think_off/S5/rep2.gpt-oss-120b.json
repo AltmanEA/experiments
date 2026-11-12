@@ -1,0 +1,68 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `locked_roles` lost backticks.",
+      "quote": "locked_roles разрешены"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` missing backticks in transition row.",
+      "quote": "2 | awaiting-operator"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` missing backticks in transition row.",
+      "quote": "4 | awaiting-operator"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resolved` missing backticks; replaced with Russian word.",
+      "quote": "5 | resolved"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` missing backticks on left side of transition row.",
+      "quote": "awaiting-operator | `resume_phase`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `failed` missing backticks; replaced with Russian word.",
+      "quote": "any | failed"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resolved` replaced with Russian word `разрешено` and lost backticks in states list.",
+      "quote": "`разрешено`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `failed` replaced with Russian word `неудачно` and lost backticks in states list.",
+      "quote": "`неудачно`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` missing backticks in the states list (should be backticked).",
+      "quote": "`awaiting-operator`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:13:56"
+  }
+}

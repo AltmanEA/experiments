@@ -1,0 +1,38 @@
+[debug] backend=cloud model=qwen3.6-35b-a3b
+[debug] Glossary loaded: 56 terms
+[debug] Block L5-5: 'The `pre_check` gate is an integrity check on documentation ' -> 1 terms: ['Documenter']
+[linecount] expected 1, got 37 -> line-by-line fallback
+[gloss-apply] 'Documenter' -> 'Документатор' x7
+[debug] Block L7-10: '- **Target scope:** all manifest documents relevant to the c' -> 5 terms: ['Resolution', 'Consensus', 'Scenario', 'Session', 'Phase']
+[linecount] expected 4, got 140 -> line-by-line fallback
+[gloss-apply] 'Scenario' -> 'Сценарий' x1
+[gloss-apply] 'Session' -> 'Сессия' x1
+[gloss-apply] 'Consensus' -> 'Консенсус' x2
+[gloss-apply] 'Phase' -> 'Фаза' x13
+[gloss-apply] 'Resolution' -> 'Резолюция' x6
+[gloss-apply] 'Consensus' -> 'Консенсус' x6
+[debug] Block L14-19: '| Condition | Verdict | Action |\\n|-----------|---------|----' -> 2 terms: ['Documenter', 'Finding']
+[linecount] expected 6, got 144 -> line-by-line fallback
+[FAIL] L15 — fallback
+[gloss-apply] 'Finding' -> 'Вывод' x5
+[gloss-apply] 'Finding' -> 'Вывод' x11
+[debug] Block L23-23: 'When Documenter cannot be reached (`unavailable` verdict), t' -> 3 terms: ['Documenter', 'Moderator', 'Council']
+[linecount] expected 1, got 37 -> line-by-line fallback
+[gloss-apply] 'Documenter' -> 'Документатор' x4
+[gloss-apply] 'Moderator' -> 'Модератор' x8
+[debug] Block L25-29: '- The override records `reason` (free text explaining why th' -> 4 terms: ['Escalation', 'Consensus', 'Phase', 'Role']
+[linecount] expected 5, got 150 -> line-by-line fallback
+[gloss-apply] 'Escalation' -> 'Эскалация' x1
+[gloss-apply] 'Consensus' -> 'Консенсус' x1
+[gloss-apply] 'Phase' -> 'Фаза' x1
+[gloss-apply] 'Role' -> 'Роль' x1
+[gloss-apply] 'Escalation' -> 'Эскалация' x2
+[gloss-apply] 'Consensus' -> 'Консенсус' x2
+[gloss-apply] 'Phase' -> 'Фаза' x15
+[gloss-apply] 'Role' -> 'Роль' x2
+[gloss-apply] 'Escalation' -> 'Эскалация' x5
+[gloss-apply] 'Consensus' -> 'Консенсус' x5
+[gloss-apply] 'Phase' -> 'Фаза' x2
+[gloss-apply] 'Role' -> 'Роль' x22
+
+Done: 16 ok, 14 skip, 1 fail

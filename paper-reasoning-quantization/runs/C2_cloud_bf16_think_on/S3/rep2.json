@@ -1,0 +1,27 @@
+{
+  "D1_linecount_fb": 2,
+  "D2_fix": 0,
+  "D2_fuzz_fix": 2,
+  "D2_path_fix": 0,
+  "D2_fail": 1,
+  "D3_code_total": 11,
+  "D3_code_missing": [
+    "no_consensus"
+  ],
+  "D4_num_total": 5,
+  "D4_num_lost": {},
+  "D5_terms_found": 9,
+  "D5_terms_missing": [
+    "Role"
+  ],
+  "D5_nc_terms_found": 8,
+  "D5_nc_terms_missing": [
+    "Role"
+  ],
+  "D6_echo": [
+    "(?i)\\b(Let's|Wait|I need to|As an AI)\\b"
+  ],
+  "D6_markers_lost": {},
+  "D7_contaminants": [],
+  "D7_nc_contaminants": []
+}

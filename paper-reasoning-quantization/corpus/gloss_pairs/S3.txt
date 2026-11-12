@@ -1,0 +1,10 @@
+# EN term -> required RU equivalent (algorithmically extracted from docs/en/glossary/index.md)
+Role -> Роль
+Phase -> Фаза
+Discussion Round -> Раунд обсуждения
+Consensus -> Консенсус
+Concerns -> Замечания
+Escalation -> Эскалация
+Escalation Reason -> Причина эскалации
+Artifact -> Артефакт
+Resolution -> Резолюция

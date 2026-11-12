@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around the code token `unavailable`; code tokens must be byte‑identical.",
+      "quote": "Документатор недоступен (ошибка сети, таймаут, сервис не работает)"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around the code token `fail`; code tokens must be byte‑identical.",
+      "quote": "Реестр аудита Документатора отсутствует/поврежден/недоступен для чтения"
+    }
+  ],
+  "score": 50,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:14:05"
+  }
+}

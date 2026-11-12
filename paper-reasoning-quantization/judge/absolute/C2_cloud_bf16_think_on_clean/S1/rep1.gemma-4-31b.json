@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Leaked translator reasoning and meta-text included in the final output, resulting in duplicated content and internal notes.",
+      "quote": "- \"Эскалация capability.\" -> **Возможность эскалации.** (or **Функция эскалации.**) \"Capability\" here likely means \"ability/capacity\". \"Возможность эскалации\" works well."
+    }
+  ],
+  "score": 75,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S1",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:28:34"
+  }
+}

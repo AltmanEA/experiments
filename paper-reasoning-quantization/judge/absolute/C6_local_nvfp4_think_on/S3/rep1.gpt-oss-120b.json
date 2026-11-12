@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token altered: hyphenated identifier must be identical to source.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token altered: underscore identifier must be identical to source.",
+      "quote": "`no_консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token altered: identifier must be identical to source.",
+      "quote": "`фаза_состояние`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token altered: hyphenated identifier must be identical to source.",
+      "quote": "`blocked-эскалация`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:18:20"
+  }
+}

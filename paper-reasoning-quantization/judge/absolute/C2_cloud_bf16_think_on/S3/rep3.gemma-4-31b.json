@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains extensive leaked reasoning, planning lines, and meta-text from the translation process instead of a clean final translation.",
+      "quote": "Let's stick closely to the original structure:"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens in backticks must be byte-identical; the term 'consensus' was translated to 'консенсус'.",
+      "quote": "`консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens in backticks must be byte-identical; the term 'blocked-escalation' was translated to 'blocked-эскалация'.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens in backticks must be byte-identical; the term 'blocked-escalation' was translated to 'blocked-Эскалация'.",
+      "quote": "`blocked-Эскалация`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:02:54"
+  }
+}

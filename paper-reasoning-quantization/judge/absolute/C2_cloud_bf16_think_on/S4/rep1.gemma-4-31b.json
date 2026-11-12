@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains leaked reasoning, planning lines, and meta-text from the translation process.",
+      "quote": "3. **Draft Translation:**\n `| `Сессия_id` | строка | да | |` \n\n4. **Verify Constraints:**"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The translation is incomplete; the vast majority of the source text (ValidationResult, EscalationRecord, and most of ConsensusVerdict) is missing.",
+      "quote": "*(Note: The provided text consists solely of Markdown table formatting characters with no translatable content.)*"
+    }
+  ],
+  "score": 50,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-12T08:26:29"
+  }
+}

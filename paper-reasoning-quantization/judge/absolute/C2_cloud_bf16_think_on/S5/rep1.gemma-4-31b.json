@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains extensive leaked reasoning, internal planning lines, and drafting notes in English.",
+      "quote": "- *Sentence 2:* \"No LLM participates in control flow or safety verification.\"\n - Literal: Ни одна LLM не участвует в потоке управления или проверке безопасности."
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The translation is incomplete and cuts off mid-sentence at the end of the document.",
+      "quote": "Should I"
+    }
+  ],
+  "score": 50,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T08:27:38"
+  }
+}

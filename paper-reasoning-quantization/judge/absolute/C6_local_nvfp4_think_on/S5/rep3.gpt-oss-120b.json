@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token changed: original `no_consensus_budget` must remain unchanged.",
+      "quote": "`no_Консенсус_budget`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token changed: original `consensus` must remain unchanged.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token changed: original `no-consensus` must remain unchanged.",
+      "quote": "`no-Консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token changed: original `blocked-escalation` must remain unchanged.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token changed: original `escalation_reason` must remain unchanged.",
+      "quote": "`Эскалация_reason`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token changed: original `escalation_id` must remain unchanged.",
+      "quote": "`Эскалация_id`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-12T09:21:28"
+  }
+}
