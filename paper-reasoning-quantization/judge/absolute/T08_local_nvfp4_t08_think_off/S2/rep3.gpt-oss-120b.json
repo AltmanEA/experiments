@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Added unnecessary phrase \"по объекту обсуждения\" which is not present in the source text.",
+      "quote": "не подлежит голосованию по объекту обсуждения"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T08_local_nvfp4_t08_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:03:58"
+  }
+}

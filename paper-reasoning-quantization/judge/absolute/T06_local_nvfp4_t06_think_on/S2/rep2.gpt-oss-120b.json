@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token must be byte‑identical to the source; the token `EscalationRecord` was replaced with a Russian phrase.",
+      "quote": "`Записи об эскалации`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Required glossary term for \"Escalation Reason\" (Причина эскалации) is omitted; the heading remains in English.",
+      "quote": "### Escalation Reasons"
+    }
+  ],
+  "score": 73,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:35:03"
+  }
+}

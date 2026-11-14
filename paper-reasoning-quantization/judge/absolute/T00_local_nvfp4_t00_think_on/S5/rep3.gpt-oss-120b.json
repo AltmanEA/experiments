@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token changed from `consensus` to Russian `Консенсус`.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `blocked-escalation` altered to `blocked-Эскалация`.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `blocked-escalation` altered to `blocked-эскалацию` (different case and Cyrillic).",
+      "quote": "`blocked-эскалацию`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `blocked-escalation` altered to `blocked-эскалацией`.",
+      "quote": "`blocked-эскалацией`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `escalation_reason` replaced with Russian `причина_эскалации`.",
+      "quote": "`причина_эскалации`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `agree` replaced with Russian `согласие`.",
+      "quote": "`согласие`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term \"Role Status\" not translated; English heading used instead of required Russian \"Статус роли\".",
+      "quote": "## Role Status Handling"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:27:57"
+  }
+}

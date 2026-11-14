@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error and redundant phrase: \"Вывод с высоким Уровень серьёзности (уровнем серьёзности)\" should be \"Вывод с высоким уровнем серьёзности\" without the redundant parenthetical.",
+      "quote": "Вывод с высоким Уровень серьёзности (уровнем серьёзности)"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T04_local_nvfp4_t04_think_on",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:28:26"
+  }
+}

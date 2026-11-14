@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The following headers were not translated into Russian: '## Escalation Protocol', '### Escalation Reasons', '### Escalation Document', and '### Escalation Resolution Paths'.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation incorrectly states that the operator is the one asking for a decision ('и просит'), whereas the source text states that the operator is the one being asked ('is asked').",
+      "quote": "и просит принять окончательное решение"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:52:02"
+  }
+}

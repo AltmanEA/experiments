@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token modified; backticked tokens must be byte-identical to the source.",
+      "quote": "ЭскалацияRecord"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Header not translated.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Header not translated.",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Header not translated.",
+      "quote": "### Escalation Document"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Header not translated.",
+      "quote": "### Escalation Resolution Paths"
+    }
+  ],
+  "score": 35,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-13T08:26:27"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` was translated to Russian text, breaking the required exact token.",
+      "quote": "ожидание-оператора"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` was translated to Russian text in a second table row.",
+      "quote": "ожидание-оператора"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` was translated to Russian text in the transition definition.",
+      "quote": "ожидание-оператора"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `any` was replaced with Russian word, breaking exact token requirement.",
+      "quote": "любой"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `operator_approval` is not enclosed in backticks.",
+      "quote": "operator_approval"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `locked_roles` is not enclosed in backticks.",
+      "quote": "locked_roles"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `precheck.overridden` is not enclosed in backticks.",
+      "quote": "precheck.overridden"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `pre_check_override` is not enclosed in backticks.",
+      "quote": "pre_check_override"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `council.override_precheck` is not enclosed in backticks.",
+      "quote": "council.override_precheck"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `service-contract/error-management/index.md` is not enclosed in backticks.",
+      "quote": "service-contract/error-management/index.md"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T04_local_nvfp4_t04_think_off",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:50:04"
+  }
+}

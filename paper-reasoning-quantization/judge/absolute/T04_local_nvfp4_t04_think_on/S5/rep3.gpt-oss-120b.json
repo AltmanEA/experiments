@@ -1,0 +1,74 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `operator_approval` is not enclosed in backticks.",
+      "quote": "operator_approval"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` is not enclosed in backticks.",
+      "quote": "awaiting-operator"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `consensus` was replaced with Russian term inside backticks.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` was replaced with Russian term inside backticks.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resolved` is not enclosed in backticks.",
+      "quote": "resolved"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `council.override_precheck` is not enclosed in backticks.",
+      "quote": "council.override_precheck"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `precheck.overridden` is not enclosed in backticks.",
+      "quote": "precheck.overridden"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `pre_check_override` is not enclosed in backticks.",
+      "quote": "pre_check_override"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `failed` is not enclosed in backticks.",
+      "quote": "failed"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `agree` was replaced with Russian term inside backticks.",
+      "quote": "`Согласие`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T04_local_nvfp4_t04_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:31:28"
+  }
+}

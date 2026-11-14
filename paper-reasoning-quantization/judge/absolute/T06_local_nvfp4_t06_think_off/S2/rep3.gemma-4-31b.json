@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Header not translated.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Header not translated.",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Header not translated.",
+      "quote": "### Escalation Document"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Header not translated.",
+      "quote": "### Escalation Resolution Paths"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The translator mistook the idiom 'subject to a vote' (meaning 'dependent on a vote') for the glossary term 'Subject' (Объект обсуждения), leading to a complete change in meaning.",
+      "quote": "по Объекту обсуждения"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'subject' and 'subject list' are not translated according to the glossary ('Объект обсуждения'). 'Subject list' is incorrectly translated as 'списка задач' (list of tasks).",
+      "quote": "объекта из списка задач"
+    }
+  ],
+  "score": 25,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:56:56"
+  }
+}

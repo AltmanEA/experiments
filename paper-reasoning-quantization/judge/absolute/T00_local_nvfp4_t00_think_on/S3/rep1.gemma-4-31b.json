@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token translated; must be byte-identical to source.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token translated; must be byte-identical to source.",
+      "quote": "`no_консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token translated; must be byte-identical to source.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Technical identifier 'phase_state' translated and wrapped in backticks, which changes the meaning/reference.",
+      "quote": "`фаза_состояние`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the glossary term 'Роль' is not inflected to the genitive case required by the preceding word 'Отсутствие'.",
+      "quote": "Роль Core"
+    }
+  ],
+  "score": 13,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:23:50"
+  }
+}

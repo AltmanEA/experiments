@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Heading not translated: English heading left unchanged.",
+      "quote": "Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Heading not translated: English heading left unchanged.",
+      "quote": "Escalation Reasons"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Heading not translated: English heading left unchanged.",
+      "quote": "Escalation Document"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Heading not translated: English heading left unchanged.",
+      "quote": "Escalation Resolution Paths"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Translation of \"Deferred fallback\" as \"Отложенный откат\" changes the meaning (fallback ≠ rollback).",
+      "quote": "Отложенный откат"
+    }
+  ],
+  "score": 90,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T06_local_nvfp4_t06_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:54:41"
+  }
+}

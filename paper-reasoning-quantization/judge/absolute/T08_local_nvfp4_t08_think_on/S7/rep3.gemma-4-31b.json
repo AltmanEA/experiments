@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header not translated",
+      "quote": "Scope and Enforcement Point"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header not translated",
+      "quote": "Verdict Logic"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Required glossary equivalent 'Документатор' replaced by English 'Documenter' in the header",
+      "quote": "Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of noun inflection (genitive case required)",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of noun inflection (genitive case required)",
+      "quote": "наличие Core-Роль"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of noun inflection (genitive case required)",
+      "quote": "правила Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of noun inflection (genitive case required)",
+      "quote": "шлюзы целостности Эскалация"
+    }
+  ],
+  "score": 62,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:51:56"
+  }
+}

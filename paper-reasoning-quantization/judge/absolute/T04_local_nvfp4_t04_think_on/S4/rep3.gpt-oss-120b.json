@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Enum value changed; code tokens must be byte‑identical to source.",
+      "quote": "`консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Enum value changed; code tokens must be byte‑identical to source.",
+      "quote": "`условный`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Enum value changed; code tokens must be byte‑identical to source.",
+      "quote": "`без-консенсуса`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Enum value changed; code tokens must be byte‑identical to source.",
+      "quote": "`заблокированная-эскалация`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Missing translation of term “Consensus” as required by glossary.",
+      "quote": "ConsensusVerdict"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Missing translation of term “Escalation” as required by glossary.",
+      "quote": "EscalationRecord"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Term “Subject” should be translated as “Объект обсуждения”.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Term “Subject” should be translated as “Объект обсуждения”.",
+      "quote": "Субъекты"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T04_local_nvfp4_t04_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:31:01"
+  }
+}

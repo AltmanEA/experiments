@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Header left untranslated",
+      "quote": "### Outcome-to-Transition Table"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender mismatch between adjective 'следующей' (feminine) and noun 'переходом' (masculine)",
+      "quote": "его следующей переходом"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T04_local_nvfp4_t04_think_off",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:51:13"
+  }
+}

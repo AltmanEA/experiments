@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token \"role_agent_config\" was changed to \"Роль_agent_config\"; code identifiers must be byte‑identical.",
+      "quote": "\"Роль_agent_config\""
+    }
+  ],
+  "score": 75,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:27:39"
+  }
+}

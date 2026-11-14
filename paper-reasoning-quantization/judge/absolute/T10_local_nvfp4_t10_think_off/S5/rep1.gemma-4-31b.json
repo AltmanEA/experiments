@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The state token `awaiting-operator` (defined as a code token in the 'States' list) was translated into Russian, which breaks the state machine logic.",
+      "quote": "ожидание-оператора"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Mistranslation of 'Precheck unavailable' as 'Availability of precheck is unavailable', creating a tautology.",
+      "quote": "Доступность precheck недоступна"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect word order and case for 'Documenter finding'.",
+      "quote": "высокого/критического Документатором вывода"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The glossary term 'Phase' (Фаза) is not inflected correctly for the preposition 'в' (should be 'в Фазу 3').",
+      "quote": "в Фаза 3"
+    }
+  ],
+  "score": 61,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T04:30:09"
+  }
+}

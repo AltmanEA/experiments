@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header left untranslated.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header left untranslated.",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header left untranslated.",
+      "quote": "### Escalation Document"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header left untranslated.",
+      "quote": "### Escalation Resolution Paths"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Addition of information not present in the source text.",
+      "quote": "по **Объекту обсуждения**"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Уровень серьёзности' replaced by a different lemma 'степени серьёзности'.",
+      "quote": "степени серьёзности"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Объект обсуждения' replaced by a shortened version 'объекта/объектов'.",
+      "quote": "объекта из списка объектов"
+    }
+  ],
+  "score": 46,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:13:47"
+  }
+}

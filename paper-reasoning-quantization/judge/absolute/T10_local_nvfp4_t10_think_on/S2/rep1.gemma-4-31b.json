@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Headers are not translated from English to Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the glossary term 'Роль' (should be genitive 'Роли' to agree with 'прерогативе').",
+      "quote": "инициирующей Роль"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:52:46"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'non-rejection principle' is mistranslated as 'принципу невведения в заблуждение' (principle of not misleading), whereas in this context it refers to the principle of not rejecting the review (downgrading it instead).",
+      "quote": "принципу невведения в заблуждение"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender mismatch: 'отклонение' is a neuter noun, but the adjective 'полный' is masculine. It should be 'полное отклонение'.",
+      "quote": "полный отклонение"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "State identifiers 'awaiting-operator', 'resolved', and 'failed' are translated in the list but kept in English in the transition table, creating technical inconsistency.",
+      "quote": "ожидание-оператора`, `разрешено`, `неудача`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Literal translation of 'Session Manifest' as 'Сессия Манифест' violates Russian grammar; it should be 'Манифест сессии'.",
+      "quote": "Сессия Манифест"
+    }
+  ],
+  "score": 84,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_off",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:14:16"
+  }
+}

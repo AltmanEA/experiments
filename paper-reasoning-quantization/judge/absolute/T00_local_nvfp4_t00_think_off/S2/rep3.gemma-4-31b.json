@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Section headers were not translated into Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required glossary term 'Объект обсуждения' was replaced by the lemma 'объект'.",
+      "quote": "объекта из списка объектов задачи"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required glossary term 'Уровень серьёзности' was replaced by 'степени серьёзности'.",
+      "quote": "степени серьёзности"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'Объект обсуждения' was used where the English term 'Subject' does not occur in the source text.",
+      "quote": "по **Объекту обсуждения**"
+    }
+  ],
+  "score": 84,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:14:48"
+  }
+}

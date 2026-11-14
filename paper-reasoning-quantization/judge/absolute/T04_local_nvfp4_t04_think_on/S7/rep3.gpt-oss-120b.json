@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the noun \"Фаза\"; should be in genitive (\"переход Фазы\") or appropriate form.",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/agreement for \"Эскалация\"; should be in genitive (\"шлюзы целостности Эскалации\") or appropriate form.",
+      "quote": "шлюзы целостности Эскалация"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T04_local_nvfp4_t04_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:33:36"
+  }
+}

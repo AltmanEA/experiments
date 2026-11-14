@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Header left untranslated.",
+      "quote": "Scope and Enforcement Point"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Header left untranslated.",
+      "quote": "Verdict Logic"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Header left untranslated.",
+      "quote": "Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/inflection of the glossary term 'Фаза'.",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/inflection of the glossary term 'Роль'.",
+      "quote": "присутствие Роль"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/inflection of the glossary term 'Эскалация'.",
+      "quote": "шлюзы целостности Эскалация"
+    }
+  ],
+  "score": 64,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:58:24"
+  }
+}

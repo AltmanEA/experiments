@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Required glossary term \"Объект обсуждения\" is omitted; the translation uses generic \"объекта\" instead of the mandated term.",
+      "quote": "как минимум одного объекта из списка объектов задачи"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation adds the phrase \"по Объекту обсуждения\" which does not exist in the source and changes the meaning of the sentence about safety and reliability not being subject to a vote.",
+      "quote": "по Объекту обсуждения"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T04_local_nvfp4_t04_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:48:08"
+  }
+}

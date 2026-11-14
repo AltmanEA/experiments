@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The main title is left in English; the required Russian term «Эскалация» is omitted.",
+      "quote": "Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading \"Escalation Reasons\" is not translated; the required Russian term «Причина эскалации» (or plural) is missing.",
+      "quote": "Escalation Reasons"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading \"Escalation Document\" is not translated; the required Russian term «Документ эскалации» is missing.",
+      "quote": "Escalation Document"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading \"Escalation Resolution Paths\" is not translated; the required Russian term «Резолюция» (or related) is missing.",
+      "quote": "Escalation Resolution Paths"
+    }
+  ],
+  "score": 92,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:50:24"
+  }
+}

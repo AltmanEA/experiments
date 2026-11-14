@@ -1,0 +1,68 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `locked_roles` is not backticked.",
+      "quote": "locked_roles согласованы с operator_approval"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `operator_approval` is not backticked.",
+      "quote": "locked_roles согласованы с operator_approval"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked token `consensus` was replaced with Russian word `Консенсус`; also `conditional` is missing backticks.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` was translated to `blocked-Эскалация` and backticked incorrectly.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `escalation_reason` was translated to `Эскалация_reason` and not backticked.",
+      "quote": "`Эскалация_reason = information-gap`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `information-gap` is not backticked.",
+      "quote": "information-gap"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `council.override_precheck` is not backticked.",
+      "quote": "council.override_precheck"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `pre_check_override` is not backticked.",
+      "quote": "pre_check_override"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `risk-threshold-breach` is not backticked.",
+      "quote": "risk-threshold-breach"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:27:44"
+  }
+}

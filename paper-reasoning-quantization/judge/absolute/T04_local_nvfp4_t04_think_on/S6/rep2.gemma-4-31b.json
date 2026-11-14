@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'value' is incorrectly translated as 'замечание' (remark/note) instead of 'значение'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'defaults' (referring to default values) is incorrectly translated as 'замечания по умолчанию' (default remarks).",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Broken grammar and literal substitution; the phrase 'analytical-task reviews' is translated as a non-grammatical string of words.",
+      "quote": "аналитическая-Задача обзоры"
+    }
+  ],
+  "score": 70,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T04_local_nvfp4_t04_think_on",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:32:40"
+  }
+}

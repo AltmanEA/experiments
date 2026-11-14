@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical gender mismatch: the masculine pronoun 'Он' refers to the feminine subject 'Контрольная точка'.",
+      "quote": "Он выполняется"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Unnatural translation of 'surface' as 'поверхность' in a technical context, and inconsistent with the previous translation 'интерфейс' for the same term ('operator surface').",
+      "quote": "поверхность записывает"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistent translation of the term 'gate': translated as 'Контрольная точка' at the beginning and 'шлюз' at the end.",
+      "quote": "шлюз был обойден"
+    }
+  ],
+  "score": 94,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T09:02:02"
+  }
+}

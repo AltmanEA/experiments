@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Section headers are not translated into Russian.",
+      "quote": "## Escalation Protocol\n\n### Escalation Reasons\n\n### Escalation Document\n\n### Escalation Resolution Paths"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Объект обсуждения' (Subject) is incorrectly used to translate the English word 'subject' in the phrase 'not subject to a vote', where 'subject' is an adjective meaning 'dependent on' or 'under the control of', not the technical term for a discussion object.",
+      "quote": "по **Объекту обсуждения**"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T04_local_nvfp4_t04_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:50:16"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading \"Escalation Reasons\" is not translated; the required Russian equivalent for the term \"Escalation Reason\" is \"Причина эскалации\" (plural form appropriate for the heading).",
+      "quote": "Escalation Reasons"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading \"Escalation Resolution Paths\" is not translated; the term \"Resolution\" should be rendered as the required Russian equivalent \"Резолюция\".",
+      "quote": "Escalation Resolution Paths"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:14:39"
+  }
+}

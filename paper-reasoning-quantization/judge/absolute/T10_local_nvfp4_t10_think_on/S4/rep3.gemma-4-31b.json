@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Subject' must be translated as 'Объект обсуждения', but 'Субъекты' was used instead.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token 'severity' was translated in the descriptive text; it must remain byte-identical to the source.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names in the EscalationRecord table were translated; they must remain byte-identical to the source.",
+      "quote": "`id_эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens/objects in the EscalationRecord rules were translated; they must remain byte-identical to the source.",
+      "quote": "`{id_роли, позиция, описание}`"
+    }
+  ],
+  "score": 15,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:56:05"
+  }
+}

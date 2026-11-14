@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `reason` was translated, which is forbidden; backticked tokens must be byte-identical to the source.",
+      "quote": "`причину`"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The glossary term 'Фаза' is not inflected, resulting in ungrammatical phrasing ('переход Фаза' instead of 'переход фазы').",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary terms 'Роль', 'Консенсус', and 'Эскалация' are not inflected, resulting in ungrammatical phrasing.",
+      "quote": "присутствие Core-Роль, правила Консенсус или шлюзы целостности Эскалация"
+    }
+  ],
+  "score": 55,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:44:16"
+  }
+}

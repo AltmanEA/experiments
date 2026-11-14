@@ -1,0 +1,68 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` missing backticks.",
+      "quote": "awaiting-operator"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resolved` missing backticks.",
+      "quote": "resolved"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Incorrect code token `blocked-Эскалация` used instead of `blocked-escalation`.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Incorrect code token `blocked-эскалация` used instead of `blocked-escalation`.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Incorrect code token `Эскалация_reason` used instead of `escalation_reason`.",
+      "quote": "`Эскалация_reason`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Incorrect code token `Согласие` used instead of `agree`.",
+      "quote": "`Согласие`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `pre_check_override` missing backticks.",
+      "quote": "pre_check_override"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Typographical error: \"percheck\" instead of \"precheck\".",
+      "quote": "percheck"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Function name token altered and backticks misused: `extract_Роль_status()` instead of `extract_role_status()`.",
+      "quote": "`extract_Роль_status()`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:45:57"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Missing required Russian term for English heading \"Phase\"; should use \"Фаза\" in the heading.",
+      "quote": "## Phase State Machine"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Missing required Russian term for English heading \"Role Status\"; should use \"Статус роли\" in the heading.",
+      "quote": "## Role Status Handling"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T04_local_nvfp4_t04_think_off",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:52:23"
+  }
+}

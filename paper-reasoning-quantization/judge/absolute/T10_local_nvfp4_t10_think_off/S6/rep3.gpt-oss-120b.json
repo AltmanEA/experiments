@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The source term “findings” (required translation “Вывод”) is rendered as “результаты”, which does not match the required glossary equivalent.",
+      "quote": "объединяет результаты"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The source phrase “role statuses” (required translation “Статус роли”) is rendered as “состояния ролей”, which does not use the required glossary term.",
+      "quote": "агрегирует состояния ролей"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:19:18"
+  }
+}

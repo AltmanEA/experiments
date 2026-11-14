@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Section header left untranslated.",
+      "quote": "Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The technical term 'fail-closed' (meaning the system defaults to a secure/blocked state upon failure) is translated literally as 'отказ закрыт', which in Russian sounds like a failure ticket or issue has been closed/resolved.",
+      "quote": "отказ закрыт"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:21:59"
+  }
+}

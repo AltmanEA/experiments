@@ -1,0 +1,68 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens must be byte-identical; state names were translated.",
+      "quote": "`ожидание оператора`, `разрешено`, `провалено`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token was translated instead of being kept byte-identical.",
+      "quote": "`Согласие`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of grammatical inflection for glossary terms, resulting in unnatural phrasing (nominative case used instead of genitive/prepositional).",
+      "quote": "границах Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of grammatical inflection for glossary terms, resulting in unnatural phrasing.",
+      "quote": "Вывод Документатор"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of grammatical inflection for glossary terms, resulting in unnatural phrasing.",
+      "quote": "для Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of grammatical inflection for glossary terms, resulting in unnatural phrasing.",
+      "quote": "Отсутствие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of grammatical inflection for glossary terms, resulting in unnatural phrasing.",
+      "quote": "Присутствие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistent partial translation of technical references (mixing English and Russian within a section title).",
+      "quote": "§Сессия Manifest"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistent partial translation of technical references (mixing English and Russian within a section title).",
+      "quote": "§Critical Вывод Validation Process"
+    }
+  ],
+  "score": 36,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:40:58"
+  }
+}

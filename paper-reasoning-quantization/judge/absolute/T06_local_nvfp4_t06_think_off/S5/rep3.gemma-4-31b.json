@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` was translated and backticks were removed.",
+      "quote": "ожидание-оператора"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `agree` was translated and backticks were removed.",
+      "quote": "согласием"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Section headers were not translated into Russian.",
+      "quote": "## Deterministic Control Plane"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender agreement error: 'отклонение' is neuter, but the adjective 'полный' is masculine.",
+      "quote": "полный отклонение"
+    }
+  ],
+  "score": 46,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_off",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T04:25:18"
+  }
+}

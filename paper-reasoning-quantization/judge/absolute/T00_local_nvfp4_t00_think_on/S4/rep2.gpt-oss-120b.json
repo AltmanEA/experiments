@@ -1,0 +1,98 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary requires the term “Subject” to be translated as “Объект обсуждения”, but the translation uses “Субъекты”.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `escalation_id` was changed to a Russian label `id_эскалации`.",
+      "quote": "`id_эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `session_id` was changed to a Russian label `id_сессии`.",
+      "quote": "`id_сессии`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `raised_by_role` was changed to a Russian label `роль_заявившего`.",
+      "quote": "`роль_заявившего`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `reason` was changed to a Russian label `причина`.",
+      "quote": "`причина`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `severity` was changed to a Russian label `уровень_серьёзности`.",
+      "quote": "`уровень_серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `blocker` was changed to a Russian label `блокатор`.",
+      "quote": "`блокатор`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `positions` was changed to a Russian label `позиции`.",
+      "quote": "`позиции`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `operator_request` was changed to a Russian label `запрос_оператора`.",
+      "quote": "`запрос_оператора`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `fallback_strategy` was changed to a Russian label `стратегия_резервирования`.",
+      "quote": "`стратегия_резервирования`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `timeout_at` was changed to a Russian label `время_таймаута`.",
+      "quote": "`время_таймаута`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resolution` was changed to a Russian label `резолюция`.",
+      "quote": "`резолюция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resume_phase` was changed to a Russian label `фаза_возобновления`.",
+      "quote": "`фаза_возобновления`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "In the ValidationResult description the field name `severity` was replaced with the Russian phrase “Уровень серьёзности”.",
+      "quote": "`Уровень серьёзности`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:25:15"
+  }
+}

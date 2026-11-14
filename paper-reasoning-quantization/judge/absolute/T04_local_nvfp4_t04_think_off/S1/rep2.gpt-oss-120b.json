@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required term \"Consensus Document\" is not used; the translation uses the lower‑case phrase \"документ консенсуса\" instead of the required \"Документ консенсуса\".",
+      "quote": "документ консенсуса"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T04_local_nvfp4_t04_think_off",
+    "fixture": "S1",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:48:06"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked file path token altered; should be `scenario/default-council-session.yaml`.",
+      "quote": "`scenario/default-callback-session.yaml`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked token `default-council-session` changed to `default-callback-session`.",
+      "quote": "`default-callback-session`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked token `no-consensus` changed to `no-Консенсус`, breaking byte‑identical requirement.",
+      "quote": "`no-Консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked token `blocked-escalation` changed to `blocked-Эскалация`, breaking byte‑identical requirement.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Misspelled term \"precheck\" as \"percheck\".",
+      "quote": "percheck"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:53:36"
+  }
+}

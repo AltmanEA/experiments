@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token in backticks must be byte-identical to the source.",
+      "quote": "`консенсус`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token in backticks must be byte-identical to the source.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token in backticks must be byte-identical to the source.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token in backticks must be byte-identical to the source.",
+      "quote": "`эскалация_reason`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token in backticks must be byte-identical to the source.",
+      "quote": "`Согласие`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for the term 'Роль' (should be genitive 'роли').",
+      "quote": "Отсутствие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for the term 'Роль' (should be genitive 'роли').",
+      "quote": "Присутствие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for 'Фаза' (should be accusative 'Фазу').",
+      "quote": "вход в Фаза 3"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-13T03:45:37"
+  }
+}

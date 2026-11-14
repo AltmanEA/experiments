@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect term used for \"Role Status\"; should be \"Статус роли\" (or appropriate inflection) instead of \"Роль\".",
+      "quote": "агрегирует статусы Роль"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the noun \"Эскалация\"; should be in accusative (\"Эскалацию\").",
+      "quote": "маршрутизирует Эскалация"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the noun \"Фаза\"; should be in dative (\"Фазе\").",
+      "quote": "по Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the noun \"Роль\"; should be genitive (\"роли\").",
+      "quote": "данных Роль"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token changed; the original token \"role_agent_config\" must be preserved exactly.",
+      "quote": "\"Роль_agent_config\""
+    }
+  ],
+  "score": 59,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:48:29"
+  }
+}

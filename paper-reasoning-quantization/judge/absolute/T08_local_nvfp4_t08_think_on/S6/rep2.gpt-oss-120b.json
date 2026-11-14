@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the term \"Роль\"; should be in genitive (\"запроса роли\").",
+      "quote": "запроса Роль"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The phrase \"безопасного замечания\" mistranslates the source \"safe value\", altering the intended meaning.",
+      "quote": "безопасного замечания"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:48:08"
+  }
+}

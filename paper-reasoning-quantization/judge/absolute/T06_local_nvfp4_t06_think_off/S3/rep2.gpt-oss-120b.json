@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Typographical error: \"Запрокол\" should be \"Запуск\" (or similar correct word).",
+      "quote": "Запрокол протокола эскалации"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T06_local_nvfp4_t06_think_off",
+    "fixture": "S3",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:56:09"
+  }
+}

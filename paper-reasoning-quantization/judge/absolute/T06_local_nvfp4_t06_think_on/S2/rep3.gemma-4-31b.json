@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `EscalationRecord` was modified; it must be byte-identical to the source.",
+      "quote": "`ЭскалацияRecord`"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Section headers were left untranslated in English.",
+      "quote": "## Escalation Protocol"
+    }
+  ],
+  "score": 65,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:37:17"
+  }
+}

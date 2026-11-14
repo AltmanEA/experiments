@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The technical value `blocked-escalation` was partially translated. Technical identifiers and values must remain byte-identical to the source.",
+      "quote": "blocked-Эскалация"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the glossary term 'Роль' is used in the nominative case, but the context ('Отсутствие...') requires the genitive case ('роли').",
+      "quote": "Отсутствие Роль Core"
+    }
+  ],
+  "score": 73,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T04_local_nvfp4_t04_think_on",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:29:42"
+  }
+}

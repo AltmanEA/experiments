@@ -15,7 +15,7 @@ for f in $FIXTURES; do
     R=runs/$COND/$f; mkdir -p "$R"
     [ -s "$R/rep$k.md" ] && { echo "skip $COND/$f rep$k"; continue; }
     s=$(date +%s)
-    python3 ../../tools/local_translate.py en ru ../../docs/en/glossary/index.md \
+    python3 ../../../council/tools/local_translate.py en ru ../../../council/docs/en/glossary/index.md \
       < corpus/$f.md > "$R/rep$k.md" 2> "$R/rep$k.log"
     e=$?; echo "$(date +%FT%T) $COND $f rep$k exit=$e wall=$(( $(date +%s)-s ))s" >> runs/runlog.txt
   done

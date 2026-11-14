@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The English term \"phase\" inside the identifier \"phase_state\" was incorrectly replaced with the Russian equivalent, resulting in \"Фаза_state\". Glossary terms should not be altered within technical identifiers.",
+      "quote": "Фаза_state"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T04_local_nvfp4_t04_think_on",
+    "fixture": "S3",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:28:18"
+  }
+}

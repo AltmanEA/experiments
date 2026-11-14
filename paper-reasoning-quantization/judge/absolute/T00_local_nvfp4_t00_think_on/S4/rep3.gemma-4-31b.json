@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' is translated as 'Субъекты' instead of the required glossary equivalent 'Объект обсуждения'.",
+      "quote": "Субъекты с блокирующим статусом"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `severity` was translated and lost its backticks.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens (field names and internal identifiers) in the EscalationRecord table were translated instead of remaining byte-identical to the source.",
+      "quote": "id_эскалации"
+    }
+  ],
+  "score": 40,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:26:52"
+  }
+}

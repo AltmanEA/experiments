@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'Subject' should be translated as 'Объект обсуждения' per the glossary, but 'Субъекты' was used instead.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens (enum values) must be byte-identical to the source.",
+      "quote": "`консенсус`, `условный`, `отсутствие-консенсуса`, `блокировка-эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token translated; must be byte-identical to the source.",
+      "quote": "`блокировка-эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens in the ValidationResult definition were translated; they must be byte-identical to the source.",
+      "quote": "`объект-обсуждения-reference|justification-format|status-extraction, объект_обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), уровень_серьёзности: уровень_серьёзности|null`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens in the text were translated; they must be byte-identical to the source.",
+      "quote": "`объект_обсуждения_id` и `уровень_серьёзности`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:55:14"
+  }
+}

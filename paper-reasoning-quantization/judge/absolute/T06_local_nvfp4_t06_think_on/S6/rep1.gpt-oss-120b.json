@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading \"RoleAgentFactory\" is not translated to the required Russian term for \"Role Agent\" (Ролевой агент) and the factory concept.",
+      "quote": "## RoleAgentFactory"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading \"Session manifest traceability\" is not translated; the term \"Session\" should be rendered as \"Сессия\".",
+      "quote": "## Session manifest traceability"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The code token \"role_agent_config\" was altered to \"Роль_agent_config\", breaking byte‑identical requirement.",
+      "quote": "\"Роль_agent_config\""
+    }
+  ],
+  "score": 71,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:38:34"
+  }
+}

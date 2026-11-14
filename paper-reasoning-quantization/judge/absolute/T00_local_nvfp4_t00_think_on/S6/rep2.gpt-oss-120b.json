@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect term used for \"Role Status\"; should be \"Статус роли\" (singular) instead of \"статусы ролей\".",
+      "quote": "статусы ролей"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error in phrase \"по Фаза и Консенсус\"; correct case is needed (e.g., \"по Фазе и Консенсусу\").",
+      "quote": "по Фаза и Консенсус"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token altered; the original token \"role_agent_config\" was changed to \"Роль_agent_config\", breaking byte‑identical requirement.",
+      "quote": "Роль_agent_config"
+    }
+  ],
+  "score": 71,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:28:12"
+  }
+}

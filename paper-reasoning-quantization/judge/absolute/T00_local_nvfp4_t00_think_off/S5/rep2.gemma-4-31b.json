@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect word order and grammar for a section title; should be 'Манифест сессии' instead of a literal word-for-word translation.",
+      "quote": "§Сессия Манифест"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case inflection; the preposition 'в' (into/in) requires the accusative case 'Фазу' for the feminine noun 'Фаза'.",
+      "quote": "в Фаза 3"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: 'Не восстанавливаемая' should be written as a single word 'Невосстановимая' when used as an adjective without opposition.",
+      "quote": "Не восстанавливаемая"
+    }
+  ],
+  "score": 94,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:47:02"
+  }
+}

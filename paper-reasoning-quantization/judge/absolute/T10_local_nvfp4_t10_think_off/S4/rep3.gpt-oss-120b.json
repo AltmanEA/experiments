@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token 'severity' was translated to Russian, breaking the requirement for byte‑identical code tokens.",
+      "quote": "Уровень серьёзности: severity|null"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' rendered as 'Подписи' instead of the required 'Объект обсуждения'.",
+      "quote": "Подписи с блокирующим статусом"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' rendered as 'Подписи' instead of the required 'Объект обсуждения'.",
+      "quote": "Подписи, имеющие и `support`, и `oppose` в финальном раунде"
+    }
+  ],
+  "score": 55,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:17:45"
+  }
+}

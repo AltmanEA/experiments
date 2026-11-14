@@ -1,0 +1,92 @@
+{
+  "defects": [
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token `consensus` translated to `консенсус`.",
+      "quote": "`консенсус`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token `no-consensus` translated to `no-консенсус`.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` translated to `blocked-эскалация`.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token `escalation_reason` translated to `причина_эскалации`.",
+      "quote": "`причина_эскалации`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token `escalation_id` translated to `id_эскалации`.",
+      "quote": "`id_эскалации`"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary term 'Session Manifest' translated literally as 'Сессия Манифест' without proper word order or case.",
+      "quote": "§Сессия Манифест"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary term 'Phase' (Фаза) used without required genitive case inflection.",
+      "quote": "границах Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary term 'Documenter' (Документатор) used without required genitive case inflection.",
+      "quote": "выводе Документатор"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary term 'Consensus' (Консенсус) used without required genitive case inflection.",
+      "quote": "для Консенсус"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Section title 'Critical Finding Validation Process' translated as a mix of English and Russian, breaking consistency.",
+      "quote": "§Critical Вывод Validation Process"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary term 'Role' (Роль) used without required genitive case inflection.",
+      "quote": "Отсутствие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary term 'Role' (Роль) used without required genitive case inflection.",
+      "quote": "наличия Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Glossary term 'Role Status' (Статус роли) used without required genitive case inflection for the head noun.",
+      "quote": "извлечения Статус роли"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:40:59"
+  }
+}

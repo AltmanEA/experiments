@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Technical identifier/key changed; must remain byte-identical to source.",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Mistranslation of 'value' as 'замечание' (remark/note).",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Mistranslation of 'defaults' as 'замечания по умолчанию' (default remarks).",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Broken grammar and awkward mixing of languages in a technical term.",
+      "quote": "analytical-задача обзоры"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of required Russian noun declension for glossary terms, resulting in unnatural 'robotic' phrasing.",
+      "quote": "Идентификатор Роль"
+    }
+  ],
+  "score": 51,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:47:59"
+  }
+}

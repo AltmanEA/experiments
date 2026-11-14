@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'non-rejection principle' is mistranslated as 'принципу непризнания' (non-recognition principle). In this context, it refers to the principle of not rejecting the review (as clarified by the subsequent phrase 'rather than causing an outright review rejection'), whereas 'непризнание' means a failure to recognize or acknowledge.",
+      "quote": "принципу непризнания"
+    }
+  ],
+  "score": 90,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_off",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T04:22:25"
+  }
+}

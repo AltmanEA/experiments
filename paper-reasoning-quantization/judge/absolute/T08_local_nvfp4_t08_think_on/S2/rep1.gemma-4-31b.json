@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Header not translated",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Header not translated; glossary term 'Escalation Reason' omitted",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Header not translated",
+      "quote": "### Escalation Document"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Header not translated; glossary terms 'Escalation' and 'Resolution' omitted",
+      "quote": "### Escalation Resolution Paths"
+    }
+  ],
+  "score": 60,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:44:41"
+  }
+}

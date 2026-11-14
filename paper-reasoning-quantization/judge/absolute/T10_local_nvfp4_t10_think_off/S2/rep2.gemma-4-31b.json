@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Several headers were not translated from English to Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'critical' (referring to a specific severity level) is translated as 'важный' (important), which is inaccurate in a technical context where 'critical' is a distinct level.",
+      "quote": "важный вывод"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The phrase 'в отношении Объекта обсуждения' was added to the sentence and is not present in the source text.",
+      "quote": "в отношении Объекта обсуждения"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'Объект обсуждения' (Subject) was replaced by the shorter lemma 'объект'.",
+      "quote": "объект"
+    }
+  ],
+  "score": 76,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:18:07"
+  }
+}

@@ -1,0 +1,4 @@
+[02:50:24] gate HOLD 60s
+[03:00:45] gate HOLD 60s
+[03:05:41] gate HOLD 60s
+[03:09:28] gate HOLD 60s

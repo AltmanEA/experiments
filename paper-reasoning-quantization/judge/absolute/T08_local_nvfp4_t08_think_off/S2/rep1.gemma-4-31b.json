@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Section headers were left untranslated in English.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The meaning is changed from passive ('is asked to make') to active ('asks to make'), implying the operator is the one requesting the decision rather than the one being asked to provide it.",
+      "quote": "просит вынести"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Объект обсуждения' was inserted into the text where the English term 'Subject' does not occur.",
+      "quote": "Объект обсуждения"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Вывод' was replaced by the lemma 'выявление'.",
+      "quote": "выявление"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Объект обсуждения' was replaced by 'объект' (omission of 'обсуждения').",
+      "quote": "объектов"
+    }
+  ],
+  "score": 66,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-13T03:12:32"
+  }
+}

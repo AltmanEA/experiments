@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `unavailable` is missing backticks and is translated instead of being kept byte‑identical.",
+      "quote": "Документатор недоступен (ошибка сети, тайм-аут, недоступность сервиса)"
+    }
+  ],
+  "score": 75,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:28:58"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Subject' is translated as 'Субъекты' instead of the required 'Объект обсуждения'.",
+      "quote": "Субъекты с блокирующим статусом"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The field name 'severity' is translated in the descriptive text, which should remain as a code identifier.",
+      "quote": "`Уровень серьёзности`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Field names in the 'EscalationRecord' table (identifiers) have been translated into Russian, which is prohibited for technical identifiers.",
+      "quote": "`id_эскалации`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The field reference 'escalation_reason' is translated as 'причина_эскалации'.",
+      "quote": "`причина_эскалации`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code tokens/object properties within the 'positions' rule are translated instead of remaining byte-identical to the source.",
+      "quote": "{id_роли, позиция, краткое описание}"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:27:41"
+  }
+}

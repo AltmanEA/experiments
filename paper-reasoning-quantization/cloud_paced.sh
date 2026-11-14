@@ -8,7 +8,7 @@
 # Usage: [GLOSS=path] FIXTURES="S1.." REPS=3 cloud_paced.sh <condition-id> <model>
 set -u
 cd "$(dirname "$0")"
-COND=$1; MODEL=$2; GLOS=${GLOSS:-../../docs/en/glossary/index.md}
+COND=$1; MODEL=$2; GLOS=${GLOSS:-../../../council/docs/en/glossary/index.md}
 FIXTURES=${FIXTURES:-S1 S2 S3 S4 S5 S6 S7}; REPS=${REPS:-3}
 PROG="runs/progress_${COND}.txt"
 log() { echo "[$(date +%H:%M:%S)] $*" | tee -a "$PROG"; }
@@ -78,7 +78,7 @@ for f in $FIXTURES; do
     wait_for_gate || { log "ABORT: gate unresolvable"; exit 5; }
     used_before=$(session_used)
     s=$(date +%s)
-    python3 ../../tools/local_translate.py en ru "$GLOS" < "corpus/$f.md" > "$R/rep$k.md" 2> "$R/rep$k.log"
+    python3 ../../../council/tools/local_translate.py en ru "$GLOS" < "corpus/$f.md" > "$R/rep$k.md" 2> "$R/rep$k.log"
     e=$?; w=$(( $(date +%s)-s ))
     echo "$(date +%FT%T) $COND $f rep$k exit=$e wall=${w}s" >> runs/runlog.txt
     grep -q "model=$MODEL" "$R/rep$k.log" || { rm -f "$R/rep$k.md" "$R/rep$k.log"; log "ABORT MODEL-MISMATCH $f rep$k"; exit 6; }
@@ -89,7 +89,7 @@ for f in $FIXTURES; do
       rm -f "$R/rep$k.md" "$R/rep$k.log"; sleep 60
       wait_for_gate || exit 5
       s=$(date +%s)
-      python3 ../../tools/local_translate.py en ru "$GLOS" < "corpus/$f.md" > "$R/rep$k.md" 2> "$R/rep$k.log"
+      python3 ../../../council/tools/local_translate.py en ru "$GLOS" < "corpus/$f.md" > "$R/rep$k.md" 2> "$R/rep$k.log"
       e=$?; w=$(( $(date +%s)-s ))
       echo "$(date +%FT%T) $COND $f rep$k requeue exit=$e wall=${w}s" >> runs/runlog.txt
       grep -q '\[retry\]\|429' "$R/rep$k.log" && { log "SECOND-FAILURE $f rep$k -> stop"; exit 7; }

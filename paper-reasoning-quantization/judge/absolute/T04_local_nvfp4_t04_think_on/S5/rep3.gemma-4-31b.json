@@ -1,0 +1,74 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token translated; must be byte-identical to source.",
+      "quote": "ожидание оператора"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token translated; must be byte-identical to source.",
+      "quote": "разрешено"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token translated; must be byte-identical to source.",
+      "quote": "не удалось"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token translated; must be byte-identical to source.",
+      "quote": "Консенсус"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token partially translated; must be byte-identical to source.",
+      "quote": "blocked-Эскалация"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token translated; must be byte-identical to source.",
+      "quote": "Согласие"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case ending for glossary term 'Фаза' (should be genitive 'Фазы').",
+      "quote": "границах Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case ending for glossary term 'Документатор' (should be genitive 'Документатора').",
+      "quote": "Выводе Документатор"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case ending for glossary term 'Роль' (should be genitive 'Роли').",
+      "quote": "наличие Роль ядра"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case ending for glossary term 'Статус роли' (should be genitive 'Статуса роли').",
+      "quote": "извлечения Статус роли"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T04_local_nvfp4_t04_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:33:56"
+  }
+}

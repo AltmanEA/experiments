@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Documenter' is not translated in the section header.",
+      "quote": "Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect grammatical case for glossary terms 'Role', 'Consensus', and 'Escalation' in the final sentence, resulting in unnatural phrasing.",
+      "quote": "наличие Core-роль, правила Консенсус или гейты целостности Эскалация"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:59:25"
+  }
+}

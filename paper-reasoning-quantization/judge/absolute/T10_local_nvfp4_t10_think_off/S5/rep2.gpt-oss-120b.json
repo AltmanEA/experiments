@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing code token `scenario/default-council-session.yaml` which must appear verbatim.",
+      "quote": "При загрузке сценария, если в манифесте сессии не указан явный `scenario_id`, происходит возврат к `default-council-session`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` was translated to Russian and lost backticks; must remain unchanged.",
+      "quote": "ожидающий-оператор"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "State token `resolved` is not enclosed in backticks; code tokens must be byte‑identical.",
+      "quote": "resolved"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "State token `failed` is not enclosed in backticks; code tokens must be byte‑identical.",
+      "quote": "failed"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Variable `pre_check_override` is not backticked; code tokens must be byte‑identical.",
+      "quote": "pre_check_override"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Event name `precheck.overridden` is not backticked; code tokens must be byte‑identical.",
+      "quote": "precheck.overridden"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term \"Role Status\" not translated in heading; should use required Russian equivalent \"Статус роли\".",
+      "quote": "## Role Status Handling"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term \"Phase\" not translated in heading; should use required Russian equivalent \"Фаза\".",
+      "quote": "## Phase State Machine"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:18:24"
+  }
+}

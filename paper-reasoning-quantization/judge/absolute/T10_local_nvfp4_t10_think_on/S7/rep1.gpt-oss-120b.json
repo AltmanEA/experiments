@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case: should be \"граница фазы\".",
+      "quote": "граница фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case: should be \"нового состояния фазы\".",
+      "quote": "нового состояния фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for glossary term \"Консенсус\": should be \"Консенсуса\".",
+      "quote": "проверка консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case: should be \"переход Фазы\".",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for glossary term \"Консенсус\": should be \"Консенсуса\".",
+      "quote": "правила Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for glossary term \"Эскалация\": should be \"Эскалации\".",
+      "quote": "контрольные точки целостности Эскалация"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:56:08"
+  }
+}

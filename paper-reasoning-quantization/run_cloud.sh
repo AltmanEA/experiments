@@ -7,7 +7,7 @@ if [ "${CLOUD_ALLOWED:-0}" != "1" ]; then
   echo "Set CLOUD_ALLOWED=1 only after explicit operator approval." >&2
   exit 9
 fi
-COND=$1; MODEL=$2; GLOS=${GLOSS:-../../docs/en/glossary/index.md}; FIXTURES=${FIXTURES:-S1 S2 S3 S4 S5 S6 S7}; REPS=${REPS:-3}
+COND=$1; MODEL=$2; GLOS=${GLOSS:-../../../council/docs/en/glossary/index.md}; FIXTURES=${FIXTURES:-S1 S2 S3 S4 S5 S6 S7}; REPS=${REPS:-3}
 export TRANSLATE_BACKEND=cloud
 export CLOUD_MODEL="$MODEL"          # BUGFIX: model arg was never exported -> all runs used default
 unset CLOUD_CHAT_KWARGS
@@ -53,7 +53,7 @@ for f in $FIXTURES; do
     R=runs/$COND/$f; mkdir -p "$R"
     [ -s "$R/rep$k.md" ] && { echo "skip $COND/$f rep$k"; continue; }
     s=$(date +%s)
-    python3 ../../tools/local_translate.py en ru "$GLOS" < corpus/$f.md > "$R/rep$k.md" 2> "$R/rep$k.log"
+    python3 ../../../council/tools/local_translate.py en ru "$GLOS" < corpus/$f.md > "$R/rep$k.md" 2> "$R/rep$k.log"
     e=$?; echo "$(date +%FT%T) $COND $f rep$k exit=$e wall=$(( $(date +%s)-s ))s" >> runs/runlog.txt
     grep -q "model=$MODEL" "$R/rep$k.log" || echo "MODEL-MISMATCH $COND $f rep$k expected=$MODEL" >> runs/runlog.txt
     if grep -q '\[retry\]\|\[FAIL\]' "$R/rep$k.log"; then

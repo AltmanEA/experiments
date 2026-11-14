@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term \"Subject\" (Объект обсуждения) is inserted where the English source does not contain the term, altering the meaning.",
+      "quote": "по **Объекту обсуждения**"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required glossary equivalent for \"Subject\" is replaced by a different lemma \"объекта\"; the phrase should use the term \"Объект обсуждения\".",
+      "quote": "назван хотя бы один объект из списка объектов задачи"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T04_local_nvfp4_t04_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:48:19"
+  }
+}

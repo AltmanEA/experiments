@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect word order and lack of inflection for a section title; should be 'Манифест сессии'.",
+      "quote": "§Сессия Манифест"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the glossary term 'Фаза' after the preposition 'в' (should be accusative 'Фазу').",
+      "quote": "возврат в Фаза 3"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the glossary term 'Согласие' after the verb 'считается' (should be instrumental 'согласием' or phrased as 'считается имеющей статус «Согласие»').",
+      "quote": "Роль никогда не считается `Согласие`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the glossary term 'Роль' after 'наличия' (should be genitive 'Роли').",
+      "quote": "наличия Core-Роль"
+    }
+  ],
+  "score": 92,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:48:39"
+  }
+}

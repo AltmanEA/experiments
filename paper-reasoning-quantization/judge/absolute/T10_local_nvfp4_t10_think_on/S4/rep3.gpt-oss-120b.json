@@ -1,0 +1,92 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Subject” from the source is translated as “Субъекты”, which does not match the required glossary equivalent “Объект обсуждения”.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name should be the exact code token `escalation_id`; translated as `id_эскалации`.",
+      "quote": "id_эскалации"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name should be the exact code token `session_id`; translated as `id_сессии`.",
+      "quote": "id_сессии"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name should be the exact code token `raised_by_role`; translated as `повышено_ролью`.",
+      "quote": "повышено_ролью"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name should be the exact code token `reason`; translated as `причина`.",
+      "quote": "причина"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name should be the exact code token `severity`; translated as `уровень_серьёзности`.",
+      "quote": "уровень_серьёзности"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name should be the exact code token `blocker`; translated as `блокатор`.",
+      "quote": "блокатор"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name should be the exact code token `positions`; translated as `позиции`.",
+      "quote": "позиции"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name should be the exact code token `operator_request`; translated as `запрос_оператора`.",
+      "quote": "запрос_оператора"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name should be the exact code token `fallback_strategy`; translated as `резервная_стратегия`.",
+      "quote": "резервная_стратегия"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name should be the exact code token `timeout_at`; translated as `дата_окончания`.",
+      "quote": "дата_окончания"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name should be the exact code token `resolution`; translated as `резолюция`.",
+      "quote": "резолюция"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name should be the exact code token `resume_phase`; translated as `фаза_возобновления`.",
+      "quote": "фаза_возобновления"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:53:05"
+  }
+}

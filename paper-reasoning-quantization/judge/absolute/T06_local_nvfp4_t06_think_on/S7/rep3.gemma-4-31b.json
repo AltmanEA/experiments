@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Section headers are left untranslated in English.",
+      "quote": "### Scope and Enforcement Point"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case ending for the term 'Фаза' (should be genitive 'фазы' to agree with 'переход').",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case ending for the term 'Роль' (should be genitive 'Роли' to agree with 'присутствие').",
+      "quote": "присутствие Core-Роль"
+    }
+  ],
+  "score": 86,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:43:56"
+  }
+}

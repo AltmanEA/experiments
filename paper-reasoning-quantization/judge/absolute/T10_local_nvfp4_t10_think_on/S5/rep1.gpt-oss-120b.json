@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Heading \"Phase State Machine\" does not use the required Russian equivalent for the term \"Phase\".",
+      "quote": "## Phase State Machine"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Heading \"Role Status Handling\" does not use the required Russian equivalent for the term \"Role Status\".",
+      "quote": "## Role Status Handling"
+    },
+    {
+      "category": "terminology",
+      "severity": "critical",
+      "description": "Code token `agree` was replaced with the Russian word `Согласие`, breaking the requirement for byte‑identical backticked tokens.",
+      "quote": "`Согласие`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Typographical error: \"percheck\" instead of the source term \"precheck\".",
+      "quote": "percheck"
+    }
+  ],
+  "score": 53,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:53:19"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `no-consensus` was translated; it must be byte-identical to the source.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `phase_state` was translated; it must be byte-identical to the source.",
+      "quote": "`Фаза_state`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` was translated; it must be byte-identical to the source.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for the glossary term 'Роль' (should be genitive 'роли' after 'Отсутствие').",
+      "quote": "Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The section header was not translated into Russian.",
+      "quote": "Outcome-to-Transition Table"
+    }
+  ],
+  "score": 21,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:47:30"
+  }
+}

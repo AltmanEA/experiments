@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token in backticks must be byte-identical to the source; glossary translation should not be applied inside backticks.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token in backticks must be byte-identical to the source; glossary translation should not be applied inside backticks.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token in backticks must be byte-identical to the source; glossary translation should not be applied inside backticks.",
+      "quote": "`Согласие`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for glossary terms 'Роль' and 'Фаза' (nominative used instead of genitive/accusative).",
+      "quote": "Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistent partial translation of section titles, mixing Russian and English.",
+      "quote": "§Сессия Manifest"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistent partial translation of section titles, mixing Russian and English.",
+      "quote": "§Critical Вывод Validation Process"
+    }
+  ],
+  "score": 19,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T04_local_nvfp4_t04_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-13T03:39:20"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token altered; must be byte‑identical to source.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token altered; must be byte‑identical to source.",
+      "quote": "`no_консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token altered; must be byte‑identical to source.",
+      "quote": "`фаза_state`"
+    }
+  ],
+  "score": 25,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:24:45"
+  }
+}

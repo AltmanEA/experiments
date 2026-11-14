@@ -1,0 +1,86 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` translated to Russian.",
+      "quote": "ожидание оператора"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resolved` translated to Russian.",
+      "quote": "разрешено"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `failed` translated to Russian.",
+      "quote": "сбой"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` partially translated/modified.",
+      "quote": "blocked-Эскалация"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `escalation_reason` partially translated/modified.",
+      "quote": "Эскалация_reason"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `extract_role_status()` partially translated/modified.",
+      "quote": "extract_Роль_status()"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` partially translated/modified.",
+      "quote": "blocked-эскалация"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `agree` translated to Russian.",
+      "quote": "Согласие"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for 'Фаза' (should be 'Фазу').",
+      "quote": "в Фаза 3"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for 'Фаза' (should be 'Фаз' or 'Фазы').",
+      "quote": "на границах Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for 'Роль' (should be 'Роли').",
+      "quote": "Отсутствие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for 'Роль' (should be 'Роли').",
+      "quote": "Присутствие Роль Core"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:48:23"
+  }
+}

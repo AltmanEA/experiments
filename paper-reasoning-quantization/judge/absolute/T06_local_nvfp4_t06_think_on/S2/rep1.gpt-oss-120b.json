@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the term \"Роль\"; should be genitive \"роли\" in the phrase \"имя роли\".",
+      "quote": "имя Роль"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token altered; backticked identifier must be byte‑identical to the source `EscalationRecord`.",
+      "quote": "`ЭскалацияRecord`"
+    }
+  ],
+  "score": 73,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:34:37"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Section header is not translated into Russian.",
+      "quote": "Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Glossary terms are incorrectly wrapped in backticks (which were not present in the source) and lack required grammatical inflection, resulting in poor fluency.",
+      "quote": "`Фаза`"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Glossary terms are incorrectly wrapped in backticks (which were not present in the source) and lack required grammatical inflection, resulting in poor fluency.",
+      "quote": "`Роль` Core"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Glossary terms are incorrectly wrapped in backticks (which were not present in the source) and lack required grammatical inflection, resulting in poor fluency.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Glossary terms are incorrectly wrapped in backticks (which were not present in the source) and lack required grammatical inflection, resulting in poor fluency.",
+      "quote": "`Эскалация`"
+    }
+  ],
+  "score": 90,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:51:03"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Finding' (Вывод) replaced by 'результаты'.",
+      "quote": "объединяет результаты по `subject_id`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The word 'value' (значение) and 'defaults' (значения по умолчанию) are mistranslated as 'замечание' (remark/note).",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The word 'defaults' is mistranslated as 'замечания по умолчанию'.",
+      "quote": "Все применённые замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect grammar and word order; 'analytical-task reviews' translated as a literal string of nouns without proper declension.",
+      "quote": "аналитическая-задача обзоры"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The term 'inferred' (derived/deduced) is mistranslated as 'выводится' (outputted/printed).",
+      "quote": "никогда не выводится"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token modified: 'role_agent_config' was partially translated.",
+      "quote": "\"Роль_agent_config\""
+    }
+  ],
+  "score": 33,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T04_local_nvfp4_t04_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:31:35"
+  }
+}

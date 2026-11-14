@@ -1,0 +1,86 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token mismatch: 'council' replaced by 'callback'.",
+      "quote": "default-callback-session"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token mismatch: 'council' replaced by 'callback'.",
+      "quote": "scenario/default-callback-session.yaml"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token mismatch: backticked token translated.",
+      "quote": "Консенсус"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token mismatch: backticked token translated.",
+      "quote": "no-Консенсус"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token mismatch: backticked token translated.",
+      "quote": "blocked-Эскалация"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token mismatch: backticked token translated.",
+      "quote": "Согласие"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "The entire line is wrapped in a code block, which is not present in the source.",
+      "quote": "`Состояния: `1` отправка задачи, `2` индивидуальная проверка, `3` обсуждение, `4` проверка консенсуса, `5` резолюция, плюс `awaiting-operator`, `resolved`, `failed`."
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of grammatical inflection for glossary terms 'Вывод' and 'Документатор'.",
+      "quote": "Вывод Документатор"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of grammatical inflection for glossary term 'Роль'.",
+      "quote": "Отсутствие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of grammatical inflection for glossary term 'Роль'.",
+      "quote": "Наличие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of grammatical inflection for glossary term 'Фаза'.",
+      "quote": "границах Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistent translation of a title/proper noun.",
+      "quote": "Сессия Manifest"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:57:23"
+  }
+}

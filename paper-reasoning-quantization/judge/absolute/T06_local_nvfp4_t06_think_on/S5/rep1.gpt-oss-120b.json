@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Term \"role\" should be capitalized as the required glossary equivalent \"Роль\".",
+      "quote": "роль"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Term \"role\" in phrase \"отсутствие роли Core\" should be the glossary equivalent \"Роль\".",
+      "quote": "роли Core"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Term \"артефакт\" should be capitalized as the required glossary equivalent \"Артефакт\".",
+      "quote": "артефакт"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token inside backticks must be identical to source; \"`консенсус`\" should be \"`consensus`\".",
+      "quote": "`консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token inside backticks must be identical to source; \"`no-консенсус`\" should be \"`no-consensus`\".",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token inside backticks must be identical to source; \"`blocked-эскалация`\" should be \"`blocked-escalation`\".",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token inside backticks must be identical to source; \"`причина_эскалации`\" should be \"`escalation_reason`\".",
+      "quote": "`причина_эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token inside backticks must be identical to source; \"`id_эскалации`\" should be \"`escalation_id`\".",
+      "quote": "`id_эскалации`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:38:23"
+  }
+}

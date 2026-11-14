@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The header is not translated into Russian.",
+      "quote": "### Verdict Logic"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The header is not translated into Russian and uses the English term 'Documenter' instead of the required glossary equivalent 'Документатор'.",
+      "quote": "### Documenter Unavailable — Override Mode"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:51:16"
+  }
+}

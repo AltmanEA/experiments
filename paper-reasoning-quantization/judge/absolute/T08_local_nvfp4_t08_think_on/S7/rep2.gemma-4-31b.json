@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "English word 'indefinitely' left untranslated in the middle of a Russian sentence.",
+      "quote": "indefinitely"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Section headers left untranslated.",
+      "quote": "### Scope and Enforcement Point"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:51:06"
+  }
+}

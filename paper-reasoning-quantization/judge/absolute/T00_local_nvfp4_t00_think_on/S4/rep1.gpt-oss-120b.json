@@ -1,0 +1,98 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token changed: \"subject-reference\" was translated to \"Объект обсуждения-reference\".",
+      "quote": "Объект обсуждения-reference"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token changed: \"subject_id\" was translated to \"Объект обсуждения_id\".",
+      "quote": "Объект обсуждения_id"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token changed: \"severity\" was translated to \"Уровень серьёзности\".",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Field name backticked token changed from \"escalation_id\" to \"Эскалация_id\".",
+      "quote": "`Эскалация_id`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Field name backticked token changed from \"session_id\" to \"Сессия_id\".",
+      "quote": "`Сессия_id`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Field name backticked token changed from \"raised_by_role\" to \"raised_by_Роль\".",
+      "quote": "`raised_by_Роль`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Field name backticked token changed from \"severity\" to \"Уровень_серьёзности\".",
+      "quote": "`Уровень_серьёзности`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Enum value token changed from \"escalation_reason\" to \"Эскалация_reason\".",
+      "quote": "`Эскалация_reason`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Field name backticked token changed from \"resolution\" to \"Резолюция\".",
+      "quote": "`Резолюция`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Field name backticked token changed from \"resume_phase\" to \"resume_Фаза\".",
+      "quote": "`resume_Фаза`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Enum value changed from \"consensus\" to \"консенсус\".",
+      "quote": "`консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Enum value changed from \"blocked-escalation\" to \"blocked-эскалация\".",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term \"Subject\" was replaced with \"Субъекты\" instead of required \"Объекты обсуждения\" in description of blocking_subjects.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term \"Subject\" was replaced with \"Субъекты\" instead of required \"Объекты обсуждения\" in description of disagreement_subjects.",
+      "quote": "Субъекты, имеющие как `support` и `oppose` в финальном раунде"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:25:45"
+  }
+}

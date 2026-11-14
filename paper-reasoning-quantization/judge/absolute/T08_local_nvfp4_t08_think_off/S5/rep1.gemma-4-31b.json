@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'override' is translated as 'перенаправление' (redirection), which is technically incorrect. In the context of 'override_precheck', it refers to bypassing or superseding a check, not redirecting a flow.",
+      "quote": "разрешено перенаправление"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'override' is translated as 'перенаправление' (redirection), which is technically incorrect. In the context of 'pre_check_override', it refers to bypassing or superseding a check, not redirecting a flow.",
+      "quote": "Перенаправление записывается"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'override' is translated as 'перенаправление' (redirection), which is technically incorrect. In the context of 'new override required', it refers to bypassing or superseding a check, not redirecting a flow.",
+      "quote": "новое перенаправление"
+    }
+  ],
+  "score": 70,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_off",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-13T03:18:18"
+  }
+}

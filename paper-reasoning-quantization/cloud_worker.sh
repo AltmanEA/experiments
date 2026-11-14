@@ -10,7 +10,7 @@
 set -u
 cd "$(dirname "$0")"
 COND=$1; MODEL=$2; FIXTURES=$3; TAG=${4:-w1}
-GLOS=${GLOSS:-../../docs/en/glossary/index.md}
+GLOS=${GLOSS:-../../../council/docs/en/glossary/index.md}
 REPS=${REPS:-3}
 PROG="runs/progress_${COND}__${TAG}.txt"
 log() { echo "[$(date +%H:%M:%S)] $*" | tee -a "$PROG"; }
@@ -71,7 +71,7 @@ for f in $FIXTURES; do
     [ -s "$R/rep$k.md" ] && { log "skip $f rep$k (exists)"; continue; }
     wait_gate || { log "ABORT $TAG: gate unresolvable"; exit 5; }
     s=$(date +%s)
-    python3 ../../tools/local_translate.py en ru "$GLOS" < "corpus/$f.md" > "$R/rep$k.md" 2> "$R/rep$k.log"
+    python3 ../../../council/tools/local_translate.py en ru "$GLOS" < "corpus/$f.md" > "$R/rep$k.md" 2> "$R/rep$k.log"
     e=$?; w=$(( $(date +%s)-s ))
     echo "$(date +%FT%T) $COND $f rep$k exit=$e wall=${w}s concurrency=3 worker=$TAG" >> runs/runlog.txt
     grep -q "model=$MODEL" "$R/rep$k.log" || { rm -f "$R/rep$k.md" "$R/rep$k.log"; log "ABORT MODEL-MISMATCH $f rep$k"; exit 6; }
@@ -81,7 +81,7 @@ for f in $FIXTURES; do
       rm -f "$R/rep$k.md" "$R/rep$k.log"; sleep 60
       wait_gate || exit 5
       s=$(date +%s)
-      python3 ../../tools/local_translate.py en ru "$GLOS" < "corpus/$f.md" > "$R/rep$k.md" 2> "$R/rep$k.log"
+      python3 ../../../council/tools/local_translate.py en ru "$GLOS" < "corpus/$f.md" > "$R/rep$k.md" 2> "$R/rep$k.log"
       e=$?; w=$(( $(date +%s)-s ))
       echo "$(date +%FT%T) $COND $f rep$k requeue exit=$e wall=${w}s worker=$TAG" >> runs/runlog.txt
       grep -q '\[retry\]\|429' "$R/rep$k.log" && { log "SECOND-FAILURE $f rep$k -> stop worker"; exit 7; }

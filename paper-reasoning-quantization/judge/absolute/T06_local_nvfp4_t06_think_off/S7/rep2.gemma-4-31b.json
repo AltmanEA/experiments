@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation incorrectly attributes the method name. It suggests that 'Документатор' is the name of the method, whereas 'audit' is the method and 'Documenter' is the object/class it belongs to.",
+      "quote": "вызова `audit(pre_check=true)` метода `Документатор`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender agreement error: 'граница' is feminine, so it should be 'на каждой границе' instead of 'на каждом границе'.",
+      "quote": "на каждом границе"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Missing preposition 'об' (about/of), resulting in an ungrammatical phrase.",
+      "quote": "Запись обходе"
+    }
+  ],
+  "score": 86,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_off",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:04:20"
+  }
+}

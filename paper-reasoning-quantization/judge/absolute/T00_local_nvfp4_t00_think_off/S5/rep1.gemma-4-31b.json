@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Section headers are left in English, ignoring required glossary equivalents for 'Phase' (Фаза) and 'Role Status' (Статус роли).",
+      "quote": "## Deterministic Control Plane\n\n## Phase State Machine\n\n## Role Status Handling"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for the term 'Фаза' (should be accusative 'Фазу' after 'вход в').",
+      "quote": "в Фаза 3"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Unnatural word order for the translated section title; 'Session Manifest' should be 'Манифест сессии'.",
+      "quote": "§Сессия Манифест"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Spelling error: 'невосстановимая' should be written as one word in this context.",
+      "quote": "Не восстанавливаемая"
+    }
+  ],
+  "score": 84,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:47:11"
+  }
+}

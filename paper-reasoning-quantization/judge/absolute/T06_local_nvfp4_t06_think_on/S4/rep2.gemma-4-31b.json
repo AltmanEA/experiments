@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Subject' (Объект обсуждения) replaced by 'Вопросы'.",
+      "quote": "Вопросы со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Subject' (Объект обсуждения) replaced by 'Вопросы'.",
+      "quote": "Вопросы, получившие как `support`, так и `oppose`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The text refers to the field name 'severity' from the preceding code block; translating it to 'Уровень серьёзности' breaks the reference to the technical key.",
+      "quote": "`Уровень серьёзности` необязательны"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Technical field name 'severity' translated to 'Уровень серьёзности'. Field names must remain byte-identical to the source.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Technical key 'stance' inside an object definition translated to 'Позиция'. Code-like structures must remain byte-identical.",
+      "quote": "Позиция"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Technical field name 'resolution' translated to 'Резолюция'. Field names must remain byte-identical to the source.",
+      "quote": "Резолюция"
+    }
+  ],
+  "score": 11,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:39:27"
+  }
+}

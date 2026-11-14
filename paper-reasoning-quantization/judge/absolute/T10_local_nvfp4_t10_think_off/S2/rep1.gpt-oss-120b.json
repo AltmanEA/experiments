@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required term for \"Resolution\" (Резолюция) is not used; the translation uses \"исхода\" instead of the mandated equivalent.",
+      "quote": "исхода"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Escalation Reason\" (Причина эскалации) is required but the heading is left in English as \"Escalation Reasons\".",
+      "quote": "Escalation Reasons"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:14:11"
+  }
+}

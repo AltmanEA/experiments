@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/declension of the term 'Консенсус' (should be 'консенсуса').",
+      "quote": "проверка консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/declension of the term 'Фаза' (should be 'фазы').",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/declension of the term 'Роль' (should be 'Роли').",
+      "quote": "присутствие Core-Роль"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/declension of the term 'Консенсус' (should be 'консенсуса').",
+      "quote": "правила Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/declension of the term 'Эскалация' (should be 'эскалации').",
+      "quote": "барьеры целостности Эскалация"
+    }
+  ],
+  "score": 90,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:42:51"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Section headers are not translated into Russian.",
+      "quote": "## `pre_check` Gate\n\n### Scope and Enforcement Point\n\n### Verdict Logic\n\n### Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender mismatch: the masculine pronoun 'Он' refers to the feminine subject 'Контрольная точка'.",
+      "quote": "Он выполняется"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-13T08:37:49"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens (enum values) must be byte-identical to the source.",
+      "quote": "`консенсус`, `условный`, `без-консенсуса`, `блокировка-эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens must be byte-identical to the source.",
+      "quote": "`outcome = блокировка-эскалации`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' must be translated as 'Объект обсуждения', not 'Темы'.",
+      "quote": "Темы с блокирующим статусом"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' must be translated as 'Объект обсуждения', not 'Темы'.",
+      "quote": "Темы, имеющие"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The entire backticked block is a code token and must be byte-identical to the source.",
+      "quote": "`{check: ссылка-на-Объект-обсуждения|формат-обоснования|извлечение-статуса, Объект-обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), severity: Уровень-серьёзности|null}`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens must be byte-identical to the source.",
+      "quote": "`Объект-обсуждения_id` и `Уровень-серьёзности`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:48:55"
+  }
+}

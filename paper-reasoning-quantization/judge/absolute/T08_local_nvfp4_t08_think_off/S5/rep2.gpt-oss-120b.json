@@ -1,0 +1,74 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `locked_roles` is not backticked.",
+      "quote": "locked_roles согласованы с operator_approval"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `operator_approval` is not backticked.",
+      "quote": "operator_approval"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` in the transition column is not backticked.",
+      "quote": "2 | awaiting-operator | Любой статус `invalid-format`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` in the transition column is not backticked.",
+      "quote": "4 | awaiting-operator | Согласно таблице протокола §Outcome-to-Transition: `blocked-escalation`; ИЛИ `no-consensus` при исчерпанном бюджете (`no_consensus_budget` достигает нуля → `blocked-escalation` с `escalation_reason = information-gap`) → `awaiting-operator`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` in the transition column is not backticked.",
+      "quote": "awaiting-operator | `resume_phase` | Резолюция оператора привязана к `escalation_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resolved` is not backticked.",
+      "quote": "5 | resolved | Финальный артефакт сохранён; манифест обновлён в последнюю очередь"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `council.override_precheck` is not backticked.",
+      "quote": "разрешение на обход через council.override_precheck"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `precheck.overridden` is not backticked.",
+      "quote": "(событие precheck.overridden)"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `pre_check_override` is not backticked.",
+      "quote": "Обход записывается в манифест как pre_check_override"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `failed` is not backticked.",
+      "quote": "any | failed | Невосстановимая ошибка IO или нарушение протокола"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T08_local_nvfp4_t08_think_off",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:09:25"
+  }
+}

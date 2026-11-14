@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Heading left in English; should be translated to Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Heading left in English; should be translated to Russian.",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Heading left in English; should be translated to Russian.",
+      "quote": "### Escalation Document"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Heading left in English; should be translated to Russian.",
+      "quote": "### Escalation Resolution Paths"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Missing required glossary term \"Причина эскалации\" for \"Escalation Reason\".",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Missing required glossary term \"Резолюция\" for \"Resolution\".",
+      "quote": "### Escalation Resolution Paths"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Added unwarranted phrase \"по Объекту обсуждения\" which is not present in the source.",
+      "quote": "приоритет безопасности и надежности не подлежит голосованию по **Объекту обсуждения**"
+    }
+  ],
+  "score": 86,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T06_local_nvfp4_t06_think_off",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:54:51"
+  }
+}

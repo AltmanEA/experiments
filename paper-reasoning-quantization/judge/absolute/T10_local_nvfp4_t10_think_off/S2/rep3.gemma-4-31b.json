@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Section headers are left untranslated in English.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Объект обсуждения' is used where the English term 'Subject' (as a noun) does not occur; the phrase 'subject to a vote' was mistranslated as a noun.",
+      "quote": "Объект обсуждения"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required glossary equivalent 'Объект обсуждения' is replaced by the lemma 'объект'.",
+      "quote": "объекта из списка объектов задачи"
+    }
+  ],
+  "score": 78,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:17:27"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' is translated as 'Подписи' (signatures) instead of the required glossary equivalent 'Объект обсуждения'.",
+      "quote": "Подписи с блокирующим статусом"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' is translated as 'Подписи' (signatures) instead of the required glossary equivalent 'Объект обсуждения'.",
+      "quote": "Подписи, имеющие и `support`, и `oppose` в финальном раунде"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token 'severity' inside backticks was translated to 'Уровень серьёзности', violating the requirement that backticked tokens must be byte-identical.",
+      "quote": "Уровень серьёзности: severity|null"
+    }
+  ],
+  "score": 55,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:20:52"
+  }
+}

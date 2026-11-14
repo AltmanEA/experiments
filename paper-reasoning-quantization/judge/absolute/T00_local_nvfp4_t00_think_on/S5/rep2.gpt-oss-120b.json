@@ -1,0 +1,80 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `consensus` was translated to Russian and is no longer byte‑identical.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` was translated to Russian and is no longer byte‑identical.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `resolved` lost its backticks; should be `resolved`.",
+      "quote": "resolved"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `council.override_precheck` lost its backticks.",
+      "quote": "council.override_precheck"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `precheck.overridden` lost its backticks.",
+      "quote": "precheck.overridden"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `pre_check_override` lost its backticks.",
+      "quote": "pre_check_override"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `failed` lost its backticks.",
+      "quote": "failed"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` was translated to Russian (`blocked-эскалацию`) and is no longer byte‑identical.",
+      "quote": "`blocked-эскалацию`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` was translated to Russian (`blocked-эскалацией`) and is no longer byte‑identical.",
+      "quote": "`blocked-эскалацией`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `escalation_reason` was translated to Russian (`причина_эскалации`) and is no longer byte‑identical.",
+      "quote": "`причина_эскалации`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `agree` was translated to Russian (`согласие`) and lost its backticks.",
+      "quote": "`согласие`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:28:05"
+  }
+}

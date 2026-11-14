@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Subject\" should be translated as the required glossary equivalent \"Объект обсуждения\", but \"Субъекты\" is used.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Subject\" should be translated as the required glossary equivalent \"Объект обсуждения\", but \"Субъекты\" is used.",
+      "quote": "Субъекты, имеющие и `support`, и `oppose` в финальном раунде"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token inside backticks must be byte‑identical to the source. The enum value `blocked-escalation` was changed to `blocked-эскалация`.",
+      "quote": "`blocked-эскалация`"
+    }
+  ],
+  "score": 55,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:37:40"
+  }
+}

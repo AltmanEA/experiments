@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'value' is incorrectly translated as 'замечание' (remark/note).",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'defaults' is incorrectly translated as 'замечания' (remarks/notes).",
+      "quote": "примененные замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect hyphenation and case usage for 'analytical-task'.",
+      "quote": "аналитической-Задачи"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of proper grammatical case inflection for glossary terms 'Роль' and 'Ролью'.",
+      "quote": "Идентификатор Роль соответствует известной Ролью"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of proper grammatical case inflection for glossary terms 'Роль' and 'Сценарий'.",
+      "quote": "определения Роль и контекста Сценарий"
+    }
+  ],
+  "score": 74,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:57:38"
+  }
+}

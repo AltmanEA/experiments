@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for the glossary term 'Фаза'. It should be in the accusative case ('в Фазу 3') after the preposition 'в'.",
+      "quote": "в Фаза 3"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Literal translation of the English noun phrase 'Session Manifest' with incorrect word order. In Russian, the head noun should come first: 'Манифест сессии'.",
+      "quote": "§Сессия Манифест"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Spelling error: 'Не восстанавливаемая' should be written as one word ('Невосстановимая') when used as a qualitative adjective without contrast.",
+      "quote": "Не восстанавливаемая"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Unnecessary bolding of glossary terms (e.g., консенсуса, сессия, роль) that is not present in the source text.",
+      "quote": "**консенсуса**"
+    }
+  ],
+  "score": 92,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:51:59"
+  }
+}

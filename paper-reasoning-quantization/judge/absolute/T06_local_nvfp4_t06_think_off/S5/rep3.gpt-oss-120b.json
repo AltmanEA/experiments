@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` was replaced with Russian text and lost backticks.",
+      "quote": "ожидание-оператора"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` was replaced with Russian text and lost backticks in the left‑hand side of the row for transition to awaiting‑operator.",
+      "quote": "ожидание-оператора"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` was replaced with Russian text and lost backticks in the right‑hand side of the transition row.",
+      "quote": "`ожидание-оператора`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` was replaced with Russian text and lost backticks in the row defining the operator resolution transition.",
+      "quote": "ожидание-оператора"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T06_local_nvfp4_t06_think_off",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:58:02"
+  }
+}

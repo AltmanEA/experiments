@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Headers were not translated from English to Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Объект обсуждения' used where the English term 'Subject' does not occur (mistranslation of the phrase 'subject to a vote').",
+      "quote": "по Объекту обсуждения"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Объект обсуждения' replaced by the lemma 'объект'.",
+      "quote": "объекта из списка объектов задачи"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Уровень серьёзности' replaced by 'степень серьёзности'.",
+      "quote": "высокой степени серьёзности"
+    }
+  ],
+  "score": 76,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:14:19"
+  }
+}

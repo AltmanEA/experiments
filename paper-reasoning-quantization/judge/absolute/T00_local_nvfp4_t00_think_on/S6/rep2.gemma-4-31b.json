@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Technical identifier (JSON key) was partially translated; must be byte-identical to source.",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'value' (and 'defaults' in the second instance) was mistranslated as 'замечание' (remark/note) instead of 'значение'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for the glossary term 'Фаза' (should be 'Фазам' or 'Фазе').",
+      "quote": "Решения по Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Literal, ungrammatical translation of 'analytical-task reviews'.",
+      "quote": "аналитическая-задача обзоры"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender mismatch: 'инстанциирование' is neuter, but the adjective 'фактической' is feminine.",
+      "quote": "фактической инстанциирования"
+    }
+  ],
+  "score": 59,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-13T08:36:04"
+  }
+}

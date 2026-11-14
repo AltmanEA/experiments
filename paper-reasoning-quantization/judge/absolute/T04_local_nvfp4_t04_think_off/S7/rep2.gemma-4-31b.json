@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'Documenter' was not translated in the section header.",
+      "quote": "Documenter Unavailable — Override Mode"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T04_local_nvfp4_t04_think_off",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-13T03:00:25"
+  }
+}

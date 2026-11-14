@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term “Task” is not translated; the English phrase “analytical-task reviews” is left unchanged.",
+      "quote": "analytical-task reviews"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The heading “Session manifest traceability” contains the English term “Session” instead of the required Russian equivalent “Сессия”.",
+      "quote": "Session manifest traceability"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T06_local_nvfp4_t06_think_off",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:58:27"
+  }
+}

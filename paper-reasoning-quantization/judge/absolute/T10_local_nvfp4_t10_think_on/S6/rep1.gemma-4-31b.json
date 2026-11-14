@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token/key modified: 'role_agent_config' was partially translated.",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Technical term 'value' mistranslated as 'замечание' (remark/note) instead of 'значение'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Technical term 'defaults' mistranslated as 'замечания по умолчанию' (default remarks) instead of 'значения по умолчанию'.",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammar and literal translation of the compound term 'analytical-task reviews'.",
+      "quote": "аналитическая-задача обзоры"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Mistranslation of 'inferred' (deduced/implied) as 'выводится' (outputted/printed).",
+      "quote": "никогда не выводится"
+    }
+  ],
+  "score": 51,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:56:34"
+  }
+}

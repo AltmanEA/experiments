@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Incorrect translation of “value” as “замечание”. Should be “значение”.",
+      "quote": "задокументированного безопасного замечания"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect translation of the term “Task” in the table header. Should be “задача” (lowercase, no hyphen).",
+      "quote": "обзоры аналитической-Задачи"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "“Standard whitelist” mistranslated from “Default whitelist”.",
+      "quote": "Стандартный белый список"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case agreement in “Идентификатор Роль соответствует известной Ролью”. Should be “Идентификатор роли соответствует известной роли”.",
+      "quote": "Идентификатор Роль соответствует известной Ролью"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Wrong case in “определения Роль”. Should be “определения роли”.",
+      "quote": "определения Роль"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Wrong case in “контекста Сценарий”. Should be “контекста сценария”.",
+      "quote": "контекста Сценарий"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:55:58"
+  }
+}

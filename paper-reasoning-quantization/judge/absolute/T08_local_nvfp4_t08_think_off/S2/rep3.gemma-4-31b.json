@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Multiple headers were left untranslated in English.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Mistranslation of passive voice ('is asked') to active voice ('просит'), which incorrectly suggests the operator is the one making the request rather than receiving it.",
+      "quote": "и просит принять окончательное решение"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Объект обсуждения' (Subject) was used where the English word 'subject' is a predicate ('subject to a vote') and not the noun defined in the glossary.",
+      "quote": "по объекту обсуждения"
+    }
+  ],
+  "score": 70,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:07:49"
+  }
+}

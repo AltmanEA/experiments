@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required term for \"Subject\" (Объект обсуждения) is replaced with \"Субъекты\", which is not the glossary equivalent.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required term for \"Subject\" (Объект обсуждения) is replaced with \"Субъекты\" in the second occurrence.",
+      "quote": "Субъекты, имеющие как `support`, так и `oppose` в финальном раунде"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required term for \"Resolution\" (Резолюция) is omitted; the English term \"resolution\" is used instead of the glossary equivalent.",
+      "quote": "`resolution` | object | да | `{state: pending\\|accepted\\|rejected\\|superseded\\|expired, note, operator_id, resolved_at}`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required term for \"Escalation\" (Эскалация) is omitted in the section heading; the English heading \"EscalationRecord\" is used instead of a translation containing the glossary term.",
+      "quote": "### EscalationRecord"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required term for \"Consensus\" (Консенсус) is omitted in the section heading; the English heading \"ConsensusVerdict\" is used instead of a translation containing the glossary term.",
+      "quote": "### ConsensusVerdict"
+    }
+  ],
+  "score": 50,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T08_local_nvfp4_t08_think_off",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:07:37"
+  }
+}

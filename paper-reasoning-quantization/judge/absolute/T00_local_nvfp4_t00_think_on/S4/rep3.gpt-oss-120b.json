@@ -1,0 +1,98 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `session_id` was replaced with `id_сессии` in EscalationRecord table.",
+      "quote": "`id_сессии`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `escalation_id` was replaced with `id_эскалации` in EscalationRecord table.",
+      "quote": "`id_эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `raised_by_role` was replaced with `роль_заявившего` in EscalationRecord table.",
+      "quote": "`роль_заявившего`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `reason` was replaced with `причина` in EscalationRecord table.",
+      "quote": "`причина`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `severity` was replaced with `уровень_серьёзности` in EscalationRecord table.",
+      "quote": "`уровень_серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `blocker` was replaced with `блокатор` in EscalationRecord table.",
+      "quote": "`блокатор`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `positions` was replaced with `позиции` in EscalationRecord table.",
+      "quote": "`позиции`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `operator_request` was replaced with `запрос_оператора` in EscalationRecord table.",
+      "quote": "`запрос_оператора`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `fallback_strategy` was replaced with `стратегия_резервирования` in EscalationRecord table.",
+      "quote": "`стратегия_резервирования`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `timeout_at` was replaced with `время_таймаута` in EscalationRecord table.",
+      "quote": "`время_таймаута`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resolution` was replaced with `резолюция` in EscalationRecord table.",
+      "quote": "`резолюция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resume_phase` was replaced with `фаза_возобновления` in EscalationRecord table.",
+      "quote": "`фаза_возобновления`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Subject\" was translated as \"Субъекты\" instead of the required \"Объект обсуждения\".",
+      "quote": "Субъекты с блокирующим статусом"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Subject\" was translated as \"Субъекты\" instead of the required \"Объект обсуждения\".",
+      "quote": "Субъекты, имеющие как `support`, так и `oppose` в финальном раунде"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:25:10"
+  }
+}

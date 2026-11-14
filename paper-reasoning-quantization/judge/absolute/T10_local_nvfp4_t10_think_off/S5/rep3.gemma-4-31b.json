@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token (state name) must be byte-identical to the source.",
+      "quote": "`ожидание-оператора`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token (state name) must be byte-identical to the source.",
+      "quote": "`разрешено`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token (state name) must be byte-identical to the source.",
+      "quote": "`неудача`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Mistranslation of 'non-rejection principle'. 'Непризнание' means 'non-recognition', whereas the context refers to the principle of not rejecting the review.",
+      "quote": "принципу непризнания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Partial translation of the section reference; the word 'Manifest' is omitted.",
+      "quote": "§Сессия"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender mismatch: 'Вывод' (Finding) is masculine, but the adjectives 'высокой/критической' are feminine.",
+      "quote": "высокой/критической Выводе Документатора"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Typo: the word contains a Latin 'c' instead of a Cyrillic 'с'.",
+      "quote": "Невоcстановимая"
+    }
+  ],
+  "score": 9,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:23:19"
+  }
+}

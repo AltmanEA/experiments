@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect word order and lack of inflection for a section title; should be 'Манифест сессии'.",
+      "quote": "§Сессия Манифест"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the term 'Фаза' after the preposition 'в' (should be accusative 'Фазу').",
+      "quote": "возврат в Фаза 3"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the term 'Роль' (should be genitive 'Роли' after 'Отсутствие' and 'Наличие').",
+      "quote": "Отсутствие Core Роль"
+    }
+  ],
+  "score": 94,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-13T03:54:36"
+  }
+}

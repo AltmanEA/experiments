@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Section headers were not translated into Russian.",
+      "quote": "### Scope and Enforcement Point"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'on override' refers to the action of bypassing the gate (Override Mode), not to overwriting a value ('перезапись').",
+      "quote": "при перезаписи"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_off",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:13:55"
+  }
+}

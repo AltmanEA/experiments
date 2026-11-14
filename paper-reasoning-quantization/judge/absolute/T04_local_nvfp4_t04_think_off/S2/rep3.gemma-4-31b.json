@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Headers are not translated into Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Added information not present in the source text ('is not subject to a vote').",
+      "quote": "по **Объекту обсуждения**"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'subject' is translated as 'объект', but the glossary requires 'Объект обсуждения'.",
+      "quote": "объект из списка объектов"
+    }
+  ],
+  "score": 78,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T04_local_nvfp4_t04_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:50:39"
+  }
+}

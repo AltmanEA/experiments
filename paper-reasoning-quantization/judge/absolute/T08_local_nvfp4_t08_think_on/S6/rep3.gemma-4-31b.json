@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token/identifier modified; must be byte-identical to source.",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'safe value' is mistranslated as 'безопасного замечания' (safe remark/note) instead of 'безопасного значения'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'applied defaults' is mistranslated as 'примененные замечания' (applied remarks/notes) instead of 'примененные значения по умолчанию'.",
+      "quote": "примененные замечания"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Glossary term 'Роль' is not inflected to the correct case (genitive plural required).",
+      "quote": "статусы Роль"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Glossary term 'Эскалация' is not inflected to the correct case (accusative required).",
+      "quote": "маршрутизирует Эскалация"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Glossary terms 'Фаза' and 'Консенсус' are not inflected to the correct case (dative required).",
+      "quote": "Решения по Фаза и Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Glossary term 'Роль' is not inflected to the correct case (genitive required).",
+      "quote": "выходных данных Роль"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect use of hyphen in 'аналитических-задач'; should be a separate adjective and noun.",
+      "quote": "аналитических-задач"
+    }
+  ],
+  "score": 45,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:51:41"
+  }
+}

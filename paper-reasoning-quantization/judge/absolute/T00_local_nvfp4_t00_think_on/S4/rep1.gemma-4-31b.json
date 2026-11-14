@@ -1,0 +1,104 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' should be translated as 'Объект обсуждения' per glossary, but 'Субъекты' was used instead.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'consensus' was translated.",
+      "quote": "консенсус"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'blocked-escalation' was translated.",
+      "quote": "blocked-эскалация"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'subject-reference' was translated.",
+      "quote": "Объект обсуждения-reference"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'subject_id' was translated.",
+      "quote": "Объект обсуждения_id"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'severity' was translated.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'escalation_id' was translated.",
+      "quote": "Эскалация_id"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'session_id' was translated.",
+      "quote": "Сессия_id"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'raised_by_role' was translated.",
+      "quote": "raised_by_Роль"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'escalation_reason' was translated.",
+      "quote": "Эскалация_reason"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'severity' was translated.",
+      "quote": "Уровень_серьёзности"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'role_id' was translated.",
+      "quote": "Роль_id"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'stance' was translated.",
+      "quote": "Позиция"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'resolution' was translated.",
+      "quote": "Резолюция"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'resume_phase' was translated.",
+      "quote": "resume_Фаза"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:28:17"
+  }
+}

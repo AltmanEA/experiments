@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “Subject” (Объект обсуждения) required by the glossary is replaced with “Субъекты”.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “Subject” (Объект обсуждения) required by the glossary is replaced with “Субъекты”.",
+      "quote": "Субъекты, получившие и `support` и `oppose` в последнем раунде"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside the ValidationResult example are altered (field names changed), breaking the requirement for byte‑identical code snippets.",
+      "quote": "`{check: Объект обсуждения-reference|justification-format|status-extraction, Объект обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), Уровень серьёзности: Уровень серьёзности|null}`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "All field names in the EscalationRecord table are translated to Russian, which violates the requirement that code tokens remain unchanged.",
+      "quote": "`escalation_id` → `id_эскалации`"
+    }
+  ],
+  "score": 46,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:44:52"
+  }
+}

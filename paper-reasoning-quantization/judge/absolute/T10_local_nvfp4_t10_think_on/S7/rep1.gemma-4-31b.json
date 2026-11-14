@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The term 'Phase' (Фаза) is used in the nominative case where the genitive case is grammatically required.",
+      "quote": "границу фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The term 'Phase' (Фаза) is used in the nominative case where the genitive case is grammatically required.",
+      "quote": "состояния фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The term 'Consensus' (Консенсус) is used in the nominative case where the genitive case is grammatically required.",
+      "quote": "проверка консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The word 'manifest' is used in the nominative case where the genitive case is required.",
+      "quote": "поле манифест"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The term 'Phase' (Фаза) is used in the nominative case where the genitive case is grammatically required.",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The term 'Role' (Роль) is used in the nominative case where the genitive case is grammatically required.",
+      "quote": "Core-Роль"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The term 'Consensus' (Консенсус) is used in the nominative case where the genitive case is grammatically required.",
+      "quote": "правила Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The term 'Escalation' (Эскалация) is used in the nominative case where the genitive case is grammatically required.",
+      "quote": "целостности Эскалация"
+    }
+  ],
+  "score": 28,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:58:14"
+  }
+}

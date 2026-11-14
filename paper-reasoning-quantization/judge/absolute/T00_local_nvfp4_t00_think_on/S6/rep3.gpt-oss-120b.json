@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect term used for \"Role Status\"; required term is \"Статус роли\", but translation uses \"статусы ролей\".",
+      "quote": "статусы ролей"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token changed; required exact token is \"role_agent_config\", but translation uses \"Роль_agent_config\".",
+      "quote": "\"Роль_agent_config\""
+    }
+  ],
+  "score": 65,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:28:29"
+  }
+}

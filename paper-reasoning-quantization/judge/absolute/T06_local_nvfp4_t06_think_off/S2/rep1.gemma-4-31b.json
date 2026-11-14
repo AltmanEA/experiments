@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header not translated",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Escalation Reason' (Причина эскалации) omitted; header not translated",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header not translated",
+      "quote": "### Escalation Document"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Resolution' (Резолюция) omitted; header not translated",
+      "quote": "### Escalation Resolution Paths"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Incorrect subject: the source states the operator 'is asked' (passive), but the translation 'и просит' implies the operator is the one asking (active).",
+      "quote": "и просит принять"
+    }
+  ],
+  "score": 50,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:57:04"
+  }
+}

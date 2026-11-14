@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required glossary term for \"Escalation Reason\" is omitted; the heading remains in English.",
+      "quote": "Escalation Reasons"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Subject\" should be translated as the glossary phrase \"Объект обсуждения\", but the translation uses only \"объекта\".",
+      "quote": "объекта"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term \"Finding\" must be rendered as \"Вывод\", but the translation uses \"выявление\".",
+      "quote": "выявление"
+    }
+  ],
+  "score": 70,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T08_local_nvfp4_t08_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:03:39"
+  }
+}

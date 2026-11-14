@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code tokens (enum values) must be byte-identical to the source. Translating them breaks the API contract.",
+      "quote": "консенсус"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code tokens (enum values/references) must be byte-identical to the source.",
+      "quote": "blocked-эскалация"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' must be translated as 'Объект обсуждения' per the glossary.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The word 'severity' refers to a specific field name in the technical specification and should not be translated, especially since 'subject_id' was left untranslated in the same sentence.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistent translation of the 'Required' column: 'yes' was translated as 'да' in the first table but left as 'yes' in the third table.",
+      "quote": "yes"
+    }
+  ],
+  "score": 28,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:39:58"
+  }
+}

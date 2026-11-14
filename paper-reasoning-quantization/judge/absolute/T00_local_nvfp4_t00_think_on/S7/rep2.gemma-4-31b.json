@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender mismatch: the masculine pronoun 'Он' refers to the feminine subject 'Контрольная точка'.",
+      "quote": "Он выполняется"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Unnatural literal translation of 'the surface' as 'поверхность'; inconsistent with the earlier translation of 'operator surface' as 'интерфейс оператора'.",
+      "quote": "поверхность записывает"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-13T08:38:08"
+  }
+}

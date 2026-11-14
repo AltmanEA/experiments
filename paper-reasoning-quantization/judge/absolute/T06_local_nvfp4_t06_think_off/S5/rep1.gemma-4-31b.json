@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token `awaiting-operator` must be byte-identical; it was translated into Russian.",
+      "quote": "`ожидание-оператора`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token `resolved` must be byte-identical; it was translated into Russian.",
+      "quote": "`разрешено`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token `failed` must be byte-identical; it was translated into Russian.",
+      "quote": "`неудача`"
+    }
+  ],
+  "score": 25,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_off",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:01:55"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token changed: the required key \"role_agent_config\" must be byte‑identical, but the translation uses \"Роль_agent_config\".",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect term used: \"РолИ\" is not the required glossary equivalent for \"Role\" (should be \"Роль\").",
+      "quote": "РолИ"
+    }
+  ],
+  "score": 73,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:55:12"
+  }
+}

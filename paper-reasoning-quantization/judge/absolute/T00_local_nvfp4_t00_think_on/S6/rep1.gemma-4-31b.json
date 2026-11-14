@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token (JSON key) modified; must be byte-identical to source.",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'value' and 'defaults' are incorrectly translated as 'замечание' (remark/note) instead of 'значение' (value).",
+      "quote": "задокументированного безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'defaults' is incorrectly translated as 'замечания' (remarks/notes).",
+      "quote": "Все применённые замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect grammar and word order; literal translation of a compound English modifier resulting in 'word salad'.",
+      "quote": "аналитическая-задача обзоры"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender agreement error: 'фактической' (feminine) does not agree with 'инстанциирования' (neuter).",
+      "quote": "фактической инстанциирования"
+    }
+  ],
+  "score": 43,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-13T08:36:14"
+  }
+}

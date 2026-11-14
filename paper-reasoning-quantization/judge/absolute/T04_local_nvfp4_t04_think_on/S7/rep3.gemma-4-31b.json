@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Section headers are not translated into Russian.",
+      "quote": "Scope and Enforcement Point"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Section headers are not translated into Russian.",
+      "quote": "Verdict Logic"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Section headers are not translated into Russian.",
+      "quote": "Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The word 'verdict' is left untranslated in the text.",
+      "quote": "(`unavailable` verdict)"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Lack of required grammatical inflection (genitive case) for the glossary term 'Phase' (Фаза).",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Lack of required grammatical inflection (genitive case) for the glossary term 'Role' (Роль).",
+      "quote": "Core-Роль"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Lack of required grammatical inflection (genitive case) for the glossary term 'Consensus' (Консенсус).",
+      "quote": "правила Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Lack of required grammatical inflection (genitive case) for the glossary term 'Escalation' (Эскалация).",
+      "quote": "целостности Эскалация"
+    }
+  ],
+  "score": 28,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T04_local_nvfp4_t04_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:37:00"
+  }
+}

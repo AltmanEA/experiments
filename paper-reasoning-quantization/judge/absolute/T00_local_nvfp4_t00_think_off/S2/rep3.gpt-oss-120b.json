@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "A glossary term is used where the English source does not contain it, altering the meaning.",
+      "quote": "по **Объекту обсуждения**"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Required glossary term \"Объект обсуждения\" is omitted; a generic word \"объекта\" is used instead.",
+      "quote": "объекта из списка объектов задачи"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:11:27"
+  }
+}

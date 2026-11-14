@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'safe value' is mistranslated as 'безопасного замечания' (safe remark/note). In this technical context, 'value' should be 'значение'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'applied defaults' is mistranslated as 'применённые замечания по умолчанию' (applied remarks by default). 'Defaults' should be 'значения по умолчанию'.",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The phrase 'analytical-task reviews' is translated as 'анализ-задачи, отзывы', which is grammatically incorrect and awkward in Russian.",
+      "quote": "анализ-задачи, отзывы"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The phrase 'explicitly set' is mistranslated as 'явно задача' (explicitly task), which completely changes the meaning of the technical requirement.",
+      "quote": "явно задача"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'never inferred' is mistranslated as 'никогда не выводится' (never outputted/printed). 'Inferred' in the context of parameter defaults means 'deduced' or 'implied'.",
+      "quote": "никогда не выводится"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the glossary term 'Роль' is used in the nominative case instead of the required genitive case ('роли') to indicate possession ('the role's base prompt template').",
+      "quote": "подсказки Роль"
+    }
+  ],
+  "score": 41,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_off",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:12:42"
+  }
+}

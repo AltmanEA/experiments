@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Missing required term \"Объект обсуждения\" for English term \"Subjects\" in description of `blocking_subjects`.",
+      "quote": "Темы с блокирующим статусом"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Missing required term \"Объект обсуждения\" for English term \"Subjects\" in description of `disagreement_subjects`.",
+      "quote": "Темы, имеющие и `поддержку`, и `против` в финальном раунде"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `subject-reference` altered inside backticks.",
+      "quote": "ссылка-на-Объект-обсуждения"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `justification-format` altered inside backticks.",
+      "quote": "формат-обоснования"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `status-extraction` altered inside backticks.",
+      "quote": "извлечение-статуса"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `subject_id` altered inside backticks.",
+      "quote": "Объект-обсуждения_id"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `severity` altered inside backticks.",
+      "quote": "Уровень-серьёзности"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:45:57"
+  }
+}

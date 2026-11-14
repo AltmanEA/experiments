@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens (enum values) must be byte-identical to the source; they were translated into Russian.",
+      "quote": "`консенсус`, `условный`, `без-консенсуса`, `блокированная-эскалация`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' should be translated as 'Объект обсуждения' per glossary, but 'Субъекты' was used instead.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token must be byte-identical to the source.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens (keys and values) in the schema definition must be byte-identical to the source; they were translated into Russian.",
+      "quote": "`{check: Объект обсуждения-reference|justification-format|status-extraction, Объект обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), Уровень серьёзности: Уровень серьёзности|null}`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token must be byte-identical to the source.",
+      "quote": "`Объект обсуждения_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token must be byte-identical to the source.",
+      "quote": "`Уровень серьёзности`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T04_local_nvfp4_t04_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-13T03:37:15"
+  }
+}

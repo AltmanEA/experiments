@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Heading not translated into Russian; should be localized.",
+      "quote": "### Scope and Enforcement Point"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Heading not translated into Russian; should be localized.",
+      "quote": "### Verdict Logic"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Heading not translated into Russian; should be localized.",
+      "quote": "### Documenter Unavailable — Override Mode"
+    }
+  ],
+  "score": 94,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T04_local_nvfp4_t04_think_off",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:52:11"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Section headers were not translated into Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `EscalationRecord` was partially translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`ЭскалацияRecord`"
+    }
+  ],
+  "score": 65,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-13T08:28:21"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Замечания' (required for 'Concerns') is used to translate 'outcome', which is incorrect.",
+      "quote": "каждого замечания `ConsensusVerdict.outcome`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The section header was not translated into Russian.",
+      "quote": "Outcome-to-Transition Table"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:17:07"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Role Status' (Статус роли) replaced by 'состояния ролей'.",
+      "quote": "состояния ролей"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Finding' (Вывод) replaced by 'результаты'.",
+      "quote": "результаты"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The word 'value' (and 'defaults') is incorrectly translated as 'замечание' (remark/note) instead of 'значение'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The word 'defaults' is incorrectly translated as 'замечания' (remarks/notes) instead of 'значения по умолчанию'.",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Broken grammar/literal translation of 'analytical-task reviews'.",
+      "quote": "аналитическая-задача отзывы"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'inferred' (deduced/implied) is incorrectly translated as 'выводится' (outputted/printed).",
+      "quote": "никогда не выводится"
+    }
+  ],
+  "score": 56,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:20:32"
+  }
+}

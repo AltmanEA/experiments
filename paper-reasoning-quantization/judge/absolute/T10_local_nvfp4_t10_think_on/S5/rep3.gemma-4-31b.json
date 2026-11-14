@@ -1,0 +1,74 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'consensus' was translated; must be byte-identical.",
+      "quote": "`консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'no-consensus' was translated; must be byte-identical.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'blocked-escalation' was translated; must be byte-identical.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'escalation_reason' was translated; must be byte-identical.",
+      "quote": "`причина_эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'agree' was translated; must be byte-identical.",
+      "quote": "`Согласие`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Inconsistent translation of section title: 'Session' translated, 'Manifest' left in English.",
+      "quote": "§Сессия Manifest"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Inconsistent translation of section title: 'Finding' translated, other words left in English.",
+      "quote": "§Critical Вывод Validation Process"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for glossary term 'Документатор' (should be genitive 'Документатора').",
+      "quote": "Выводе Документатор"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for glossary term 'Фаза' (should be accusative 'Фазу').",
+      "quote": "в Фаза 3"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammar/word order for 'targeted-round budget'.",
+      "quote": "целевой раунд бюджет"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:57:37"
+  }
+}

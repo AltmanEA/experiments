@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `consensus` must be byte-identical; translated as `Консенсус`.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` must be byte-identical; translated as `blocked-Эскалация`.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `escalation_reason` must be byte-identical; translated as `Эскалация_reason`.",
+      "quote": "`Эскалация_reason`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` must be byte-identical; translated as `blocked-эскалацию`.",
+      "quote": "`blocked-эскалацию`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `escalation_reason` must be byte-identical; translated as `причина_эскалации`.",
+      "quote": "`причина_эскалации`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `agree` must be byte-identical; translated as `согласие`.",
+      "quote": "`согласие`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` must be byte-identical; translated as `blocked-эскалацией`.",
+      "quote": "`blocked-эскалацией`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the glossary term 'Фаза' (should be accusative 'Фазу' after 'в').",
+      "quote": "в Фаза 3"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T08:55:11"
+  }
+}

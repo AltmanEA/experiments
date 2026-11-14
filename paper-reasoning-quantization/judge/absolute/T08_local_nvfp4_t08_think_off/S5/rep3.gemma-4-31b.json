@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The state identifier 'awaiting-operator' is translated as 'ожидание-оператора' in the table, while other state identifiers ('resolved', 'failed') are kept in English and 'awaiting-operator' is kept in English in the 'States' list. This creates a critical inconsistency in technical identifiers.",
+      "quote": "ожидание-оператора"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'resolved against' in the context of determining values from a manifest is mistranslated as 'разрешены' (permitted/allowed), which changes the technical meaning.",
+      "quote": "разрешены"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The phrase '(percheck failed)' is mistranslated as '(перекрёстная проверка не пройдена)'. 'percheck' is likely a typo for 'precheck' (as seen in the next sentence), and translating it as 'cross-check' is an incorrect interpretation.",
+      "quote": "перекрёстная проверка не пройдена"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical case error: 'в Фаза 3' should be 'в Фазу 3' (accusative case).",
+      "quote": "в Фаза 3"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The word 'недиспровержения' is a non-existent neologism and is not standard Russian; it is a clumsy attempt to translate 'non-rejection'.",
+      "quote": "недиспровержения"
+    }
+  ],
+  "score": 66,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_off",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T04:28:37"
+  }
+}

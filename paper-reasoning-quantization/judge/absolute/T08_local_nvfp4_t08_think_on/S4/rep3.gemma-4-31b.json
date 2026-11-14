@@ -1,0 +1,110 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'Subject' should be translated as 'Объект обсуждения' per the glossary, not 'Субъект'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source. The identifiers in the ValidationResult block were translated.",
+      "quote": "Объект обсуждения-reference|justification-format|status-extraction, Объект обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), Уровень серьёзности: Уровень серьёзности|null"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source. The field names in the EscalationRecord table were translated.",
+      "quote": "id_эскалации"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source. The field names in the EscalationRecord table were translated.",
+      "quote": "id_сессии"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source. The field names in the EscalationRecord table were translated.",
+      "quote": "роль_инициатора"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source. The field names in the EscalationRecord table were translated.",
+      "quote": "причина"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source. The field names in the EscalationRecord table were translated.",
+      "quote": "причина_эскалации"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source. The field names in the EscalationRecord table were translated.",
+      "quote": "уровень_серьёзности"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source. The field names in the EscalationRecord table were translated.",
+      "quote": "блокатор"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source. The field names in the EscalationRecord table were translated.",
+      "quote": "позиции"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source. The object keys in the positions field were translated.",
+      "quote": "{id_роли, позиция, описание}"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source. The field names in the EscalationRecord table were translated.",
+      "quote": "запрос_оператора"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source. The field names in the EscalationRecord table were translated.",
+      "quote": "стратегия_резервного_варианта"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source. The field names in the EscalationRecord table were translated.",
+      "quote": "время_таймаута"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source. The field names in the EscalationRecord table were translated.",
+      "quote": "резолюция"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source. The field names in the EscalationRecord table were translated.",
+      "quote": "фаза_возобновления"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:48:10"
+  }
+}

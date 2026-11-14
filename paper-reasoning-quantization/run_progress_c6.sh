@@ -22,7 +22,7 @@ for f in S4 S5 S6 S7; do
     [ -s "$R/rep$k.md" ] && { log "skip $f rep$k (exists)"; continue; }
     log "START $f rep$k ($(done_n)/$TOTAL done so far)"
     s=$(date +%s)
-    python3 ../../tools/local_translate.py en ru ../../docs/en/glossary/index.md \
+    python3 ../../../council/tools/local_translate.py en ru ../../../council/docs/en/glossary/index.md \
       < corpus/$f.md > "$R/rep$k.md" 2> "$R/rep$k.log"
     e=$?
     w=$(( $(date +%s)-s ))

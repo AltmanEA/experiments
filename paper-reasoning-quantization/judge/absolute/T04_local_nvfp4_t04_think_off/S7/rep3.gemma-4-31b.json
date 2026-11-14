@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The header is left untranslated; the glossary term 'Documenter' should be translated as 'Документатор'.",
+      "quote": "Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The source 'The override records `reason`' uses 'records' as a verb (the process of overriding performs the recording), whereas the translation 'Записи обхода содержат' treats 'records' as a plural noun (the records contain the reason), changing the grammatical meaning.",
+      "quote": "Записи обхода содержат `reason`"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T04_local_nvfp4_t04_think_off",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T02:55:54"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' (Объект обсуждения) translated as 'Субъект'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked enum values must be byte-identical to the source; they were translated.",
+      "quote": "`Консенсус`, `условный`, `без-консенсуса`, `заблокированная-эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token translated.",
+      "quote": "`outcome = blocked-эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field name 'severity' was translated and backticks were removed.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and code tokens in the EscalationRecord table were translated.",
+      "quote": "`эскалация_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and code tokens in the EscalationRecord table were translated.",
+      "quote": "`сессия_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and code tokens in the EscalationRecord table were translated.",
+      "quote": "`поднятая_ролью`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and code tokens in the EscalationRecord table were translated.",
+      "quote": "`эскалация_reason`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and code tokens in the EscalationRecord table were translated.",
+      "quote": "`уровень_серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and code tokens in the EscalationRecord table were translated.",
+      "quote": "`роль_id, позиция, summary`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and code tokens in the EscalationRecord table were translated.",
+      "quote": "`резолюция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and code tokens in the EscalationRecord table were translated.",
+      "quote": "`resume_фаза`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:39:48"
+  }
+}

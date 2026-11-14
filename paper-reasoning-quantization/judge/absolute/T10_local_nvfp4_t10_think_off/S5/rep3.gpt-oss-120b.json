@@ -1,0 +1,74 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `locked_roles` is not enclosed in backticks.",
+      "quote": "locked_roles согласованы"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `operator_approval` is not enclosed in backticks.",
+      "quote": "operator_approval"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` is not enclosed in backticks (multiple occurrences).",
+      "quote": "awaiting-operator"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resolved` is not enclosed in backticks.",
+      "quote": "resolved"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `council.override_precheck` is not enclosed in backticks.",
+      "quote": "council.override_precheck"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `failed` is not enclosed in backticks.",
+      "quote": "failed"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `pre_check_override` is not enclosed in backticks.",
+      "quote": "pre_check_override"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `service-contract/index.md` is not enclosed in backticks.",
+      "quote": "service-contract/index.md"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `service-contract/error-management/index.md` is not enclosed in backticks.",
+      "quote": "service-contract/error-management/index.md"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term \"Agree\" should be translated to the required Russian equivalent \"Согласие\", but the English token `agree` is kept.",
+      "quote": "`agree`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:19:28"
+  }
+}

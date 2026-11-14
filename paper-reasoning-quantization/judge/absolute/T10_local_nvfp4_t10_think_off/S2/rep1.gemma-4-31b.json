@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Section headers are not translated from English to Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Объект обсуждения' (Subject) is used where the English source contains the phrase 'subject to' (meaning 'dependent on'), not the noun 'Subject'.",
+      "quote": "по объекту обсуждения"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required glossary equivalent 'Объект обсуждения' is replaced by the word 'обсуждаемое'.",
+      "quote": "одно обсуждаемое из списка обсуждаемых задачи"
+    }
+  ],
+  "score": 70,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-13T03:16:09"
+  }
+}

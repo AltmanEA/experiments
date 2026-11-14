@@ -10,7 +10,10 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(sys.argv[sys.argv.index("--root") + 1]) if "--root" in sys.argv else Path(".")
-GLOSS = ROOT / "../../docs/en/glossary/index.md"
+import os
+GLOSS = (Path(os.environ["GLOSS"]) if "GLOSS" in os.environ
+         else (Path(os.environ.get("COUNCIL_DIR", os.path.expanduser("~/council")))
+               / "docs/en/glossary/index.md"))
 CONDS = sorted(p.name for p in (ROOT / "runs").iterdir()
                if p.is_dir() and not p.name.startswith((".", "_")))
 FIXES = ["S1", "S2", "S3", "S4", "S5", "S6", "S7"]
