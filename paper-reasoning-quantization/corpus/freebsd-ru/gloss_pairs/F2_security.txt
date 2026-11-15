@@ -1,0 +1,15 @@
+# EN term -> required RU equivalent (FreeBSD Handbook, F2_security)
+remote administration -> удалённое администрирование
+brute force attacks -> атаки методом грубой силы
+authentication -> аутентификация
+pubkey authentication -> аутентификация по открытому ключу
+password -> пароль
+OpenSSH server configuration file -> конфигурационный файл сервера OpenSSH
+reload its configuration file -> перезагрузить файл конфигурации
+service -> служба
+command line tool -> инструмент командной строки
+cryptography toolkit -> набор криптографических инструментов
+private key -> закрытый ключ
+public key -> открытый ключ
+certificate -> сертификат
+cipher -> шифр

@@ -1,0 +1,13 @@
+# EN term -> required RU equivalent (FreeBSD Handbook, F3_disks)
+disk quota -> дисковая квота
+file system -> файловая система
+block quota -> блочная квота
+inode quota -> квота inode
+hard limit -> жёсткий лимит
+soft limit -> мягкий лимит
+grace period -> льготный период
+disk space -> дисковое пространство
+quota database -> база квот
+quota file -> файл квот
+kernel configuration -> конфигурация ядра
+quota support -> поддержка квот

@@ -15,6 +15,14 @@ Usage:
   judge_batch.py --mode absolute --limit 4          # smoke test
   judge_batch.py --mode pairwise --pairs C3:C4,C5:C6,C1:C2_clean
   judge_batch.py --aggregate --mode absolute        # -> results/judge_absolute.csv
+
+Second domain (FreeBSD Handbook, corpus/freebsd-ru) stays fully separate from
+the Council corpus: --tag redirects results, judge outputs and the CSV, so the
+main tables are never overwritten:
+  judge_batch.py --mode absolute --tag _freebsd \
+      --fixtures F1_config F2_security F3_disks F4_network-servers F5_firewalls \
+      --corpus-dir corpus/freebsd-ru/source --pairs-dir corpus/freebsd-ru/gloss_pairs \
+      --conditions F_C5_local_nvfp4_think_off
 """
 import argparse, csv, json, os, re, statistics, subprocess, sys, threading, time
 from collections import defaultdict
@@ -26,6 +34,11 @@ from judge import MQM_SYS, PAIR_SYS, credentials, extract_json  # noqa: E402
 
 FIXES = ["S1", "S2", "S3", "S4", "S5", "S6", "S7"]
 REPS = [1, 2, 3]
+# Domain layout, overridable from the CLI (see --fixtures/--corpus-dir/--pairs-dir/--tag).
+# Council is the default so existing commands and outputs are unchanged.
+CORPUS_DIR = ROOT / "corpus"
+PAIRS_DIR = ROOT / "corpus" / "gloss_pairs"
+TAG = ""
 CLEAN_ALIAS = {"C2_clean": "C2_cloud_bf16_think_on_clean"}
 DEFAULT_CONDS = ["C1_cloud_bf16_think_off", "C2_cloud_bf16_think_on", "K0_cloud_no_glossary",
                  "C3_local_fp8_think_off", "C4_local_fp8_think_on",
@@ -122,13 +135,13 @@ def task_list(mode, conds, pairs):
 
 def out_path(mode, task, judge):
     slug = re.sub(r"[^A-Za-z0-9._-]+", "_", judge)
-    p = ROOT / "judge" / mode / task["cond"] / task["fix"]
+    p = ROOT / f"judge{TAG}" / mode / task["cond"] / task["fix"]
     p.mkdir(parents=True, exist_ok=True)
     return p / f"rep{task['rep']}.{slug}.json"
 
 # ---------------------------------------------------------------- one request
 def build_user(mode, task, gloss):
-    en = (ROOT / "corpus" / f"{task['fix']}.md").read_text(encoding="utf-8")
+    en = (CORPUS_DIR / f"{task['fix']}.md").read_text(encoding="utf-8")
     if mode == "absolute":
         ru = Path(task["ru"]).read_text(encoding="utf-8")
         return f"=== EN SOURCE ===\n{en}\n=== GLOSSARY PAIRS ===\n{gloss}\n=== RU CANDIDATE ===\n{ru}"
@@ -141,7 +154,7 @@ def call(model, system, user, key, base, timeout=240):
     payload = {"model": model, "temperature": 0.0, "top_p": 1.0, "stream": False,
                "messages": [{"role": "system", "content": system},
                             {"role": "user", "content": user}]}
-    tmp = ROOT / "judge" / f".payload.{os.getpid()}.{threading.get_ident()}.json"
+    tmp = ROOT / f"judge{TAG}" / f".payload.{os.getpid()}.{threading.get_ident()}.json"
     tmp.parent.mkdir(parents=True, exist_ok=True)
     tmp.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
     try:
@@ -169,7 +182,7 @@ def log(msg, to="run"):
     line = f"[{time.strftime('%H:%M:%S')}] {msg}"
     with LOG_LOCK:
         print(line, flush=True)
-        d = ROOT / "judge"
+        d = ROOT / f"judge{TAG}"
         d.mkdir(exist_ok=True)
         with open(d / f"{to}log.txt", "a", encoding="utf-8") as fh:
             fh.write(line + "\n")
@@ -197,7 +210,7 @@ def worker(tasks, args, pacer, counters):
                         continue
                 except json.JSONDecodeError:
                     pass
-            gloss_file = ROOT / "corpus" / "gloss_pairs" / f"{task['fix']}.txt"
+            gloss_file = PAIRS_DIR / f"{task['fix']}.txt"
             gloss = gloss_file.read_text(encoding="utf-8") if gloss_file.exists() else "(none)"
             system = MQM_SYS if args.mode == "absolute" else PAIR_SYS
             user = build_user(args.mode, task, gloss)
@@ -234,7 +247,7 @@ def worker(tasks, args, pacer, counters):
 def repair_tasks(mode):
     """Tasks for judge cells previously written as _status=fail."""
     grouped = {}
-    for f in sorted((ROOT / "judge" / mode).glob("*/*/rep*.json")):
+    for f in sorted((ROOT / f"judge{TAG}" / mode).glob("*/*/rep*.json")):
         try:
             d = json.loads(f.read_text())
         except json.JSONDecodeError:
@@ -251,6 +264,22 @@ def repair_tasks(mode):
             tasks.append({"cond": cond, "fix": fx, "rep": rep, "ru": str(ru),
                           "judges": sorted(judges)})
     return tasks
+
+def apply_domain(a):
+    """Bind module-level domain paths to CLI choices (Council defaults)."""
+    global FIXES, CORPUS_DIR, PAIRS_DIR, TAG
+    if a.fixtures:
+        FIXES = list(a.fixtures)
+    CORPUS_DIR = Path(a.corpus_dir)
+    if not CORPUS_DIR.is_absolute():
+        CORPUS_DIR = ROOT / CORPUS_DIR
+    PAIRS_DIR = Path(a.pairs_dir)
+    if not PAIRS_DIR.is_absolute():
+        PAIRS_DIR = ROOT / PAIRS_DIR
+    TAG = a.tag
+    missing = [f for f in FIXES if not (CORPUS_DIR / f"{f}.md").exists()]
+    if missing:
+        sys.exit(f"missing fixtures in {CORPUS_DIR}: {', '.join(missing)}")
 
 def run(args):
     conds = args.conditions or DEFAULT_CONDS
@@ -282,7 +311,7 @@ def run(args):
     return 0 if counters["failed"] == 0 else 3
 
 def aggregate(mode):
-    base = ROOT / "judge" / mode
+    base = ROOT / f"judge{TAG}" / mode
     rows = []
     for f in sorted(base.glob("*/*/rep*.json")):
         try:
@@ -305,7 +334,7 @@ def aggregate(mode):
         rows.append(row)
     if not rows:
         print("no judge results"); return 1
-    out = ROOT / "results" / f"judge_{mode}.csv"
+    out = ROOT / "results" / f"judge_{mode}{TAG}.csv"
     out.parent.mkdir(exist_ok=True)
     with open(out, "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
@@ -325,6 +354,15 @@ def main():
     ap.add_argument("--mode", choices=["absolute", "pairwise"], default="absolute")
     ap.add_argument("--judges", default="gpt-oss-120b,gemma-4-31b")
     ap.add_argument("--conditions", nargs="*")
+    ap.add_argument("--fixtures", nargs="*",
+                    help="fixture ids (default: S1..S7); for the FreeBSD domain pass F1_config ...")
+    ap.add_argument("--corpus-dir", default="corpus",
+                    help="directory with <fixture>.md EN sources (default: corpus)")
+    ap.add_argument("--pairs-dir", default="corpus/gloss_pairs",
+                    help="directory with <fixture>.txt judge glossary pairs")
+    ap.add_argument("--tag", default="",
+                    help="output suffix for a second domain, e.g. _freebsd "
+                         "(judge<TAG>/, results/judge_<mode><TAG>.csv)")
     ap.add_argument("--pairs", help="comma list condA:condB (pairwise only)")
     ap.add_argument("--workers", type=int, default=2)
     ap.add_argument("--rpm", type=int, default=36)
@@ -336,6 +374,7 @@ def main():
     ap.add_argument("--timeout", type=int, default=240)
     a = ap.parse_args()
     a.judges = [j.strip() for j in a.judges.split(",") if j.strip()]
+    apply_domain(a)
     if a.aggregate:
         return aggregate(a.mode)
     return run(a)

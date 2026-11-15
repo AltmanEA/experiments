@@ -1,0 +1,15 @@
+# EN term -> required RU equivalent (FreeBSD Handbook, F4_network-servers)
+Domain Name System -> Система доменных имён
+name server -> сервер имён
+authoritative name server -> авторитетный сервер имён
+caching name server -> кэширующий сервер имён
+resolver -> резолвер
+zone -> зона
+root zone -> корневая зона
+Forward DNS -> Прямая запись DNS
+Reverse DNS -> Обратная запись DNS
+Top Level Domain -> домен верхнего уровня
+slave -> подчиненный сервер
+forwarders -> серверы пересылки
+base system -> базовая система
+Ports Collection -> коллекция портов

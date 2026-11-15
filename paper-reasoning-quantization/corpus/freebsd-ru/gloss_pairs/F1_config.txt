@@ -1,0 +1,15 @@
+# EN term -> required RU equivalent (FreeBSD Handbook, F1_config)
+Management Information Base -> База управляющей информации
+virtual memory -> виртуальная память
+kernel -> ядро
+filesystem -> файловая система
+network -> сеть
+hardware -> оборудование
+userland -> пользовательское пространство
+debugging parameters -> параметры отладки
+machine dependent -> зависимые от аппаратного обеспечения
+kernel state -> состояние ядра
+running system -> работающая система
+privilege -> привилегия
+system settings -> системные настройки
+readable variables -> доступные для чтения переменные

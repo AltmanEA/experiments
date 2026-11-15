@@ -1,0 +1,13 @@
+# EN term -> required RU equivalent (FreeBSD Handbook, F5_firewalls)
+firewall -> межсетевой экран
+ruleset -> набор правил
+packet -> пакет
+kernel -> ядро
+sysctl -> sysctl
+logging -> ведение журнала
+interface -> интерфейс
+stateful -> с отслеживанием состояния
+tcpdump -> tcpdump
+loopback -> loopback
+firewall_enable -> firewall_enable
+firewall_type -> firewall_type

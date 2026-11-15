@@ -2,12 +2,14 @@
 # Local-model run with progress indicator (serial; one model at a time).
 # Usage: run_progress.sh <condition-id> <true|false> <model-id> [fixtures]
 # Env: BASE=server URL, TEMP=temperature (default 0.2; set e.g. 0.6/1.0 for P-004),
-#      COUNCIL_DIR=path to council checkout (default ~/council), GLOSS=glossary path.
+#      COUNCIL_DIR=path to council checkout (default ~/council), GLOSS=glossary path,
+#      CORPUS_DIR=fixtures directory (default corpus; second domain: corpus/freebsd-ru/source).
 set -u
 cd "$(dirname "$0")"
 COUNCIL_DIR=${COUNCIL_DIR:-$HOME/council}
 TRANSLATE_PY=$COUNCIL_DIR/tools/local_translate.py
 GLOSS=${GLOSS:-$COUNCIL_DIR/docs/en/glossary/index.md}
+CORPUS_DIR=${CORPUS_DIR:-corpus}
 COND=$1; THINK=$2; MODEL=$3; FIXTURES=${4:-S1 S2 S3 S4 S5 S6 S7}
 BASE=${BASE:-http://127.0.0.1:8000/v1}
 TEMP=${TEMP:-0.2}
@@ -36,7 +38,7 @@ for f in $FIXTURES; do
     [ -s "$R/rep$k.md" ] && { log "skip $f rep$k (exists)"; continue; }
     s=$(date +%s)
     python3 "$TRANSLATE_PY" en ru "$GLOSS" \
-      < "corpus/$f.md" > "$R/rep$k.md" 2> "$R/rep$k.log"
+      < "$CORPUS_DIR/$f.md" > "$R/rep$k.md" 2> "$R/rep$k.log"
     e=$?; w=$(( $(date +%s)-s ))
     echo "$(date +%FT%T) $COND $f rep$k exit=$e wall=${w}s" >> runs/runlog.txt
     fails=$(grep -c '\[FAIL\]' "$R/rep$k.log" || true)

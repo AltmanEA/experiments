@@ -6,3 +6,9 @@ __pycache__/
 # Environment / secrets
 .env
 .env.*
+
+# Local CLI settings (model, limits) - per-machine, not shared
+.kodacli/
+
+# Preprocessing snapshots kept on disk only, not in history
+.backup_*/
