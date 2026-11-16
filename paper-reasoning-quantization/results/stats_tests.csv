@@ -1,0 +1,89 @@
+level,family,contrast,metric,n,nonzero,delta,W,p_raw,p_holm,thr_p95,sig_test,sig_vs_noise
+mqm,thinking,"thinking ON vs OFF, FP8",MQM,21,18,-26.428571,2.0,0.000276,0.001932,28.75,True,False
+mqm,thinking,"thinking ON vs OFF, NVFP4 T=0.0",MQM,21,19,-43.714286,5.0,0.000293,0.001932,20.0,True,True
+mqm,thinking,"thinking ON vs OFF, NVFP4 T=0.2",MQM,21,17,-26.5,10.0,0.001644,0.00822,40.95,True,False
+mqm,thinking,"thinking ON vs OFF, NVFP4 T=0.4",MQM,21,20,-26.214286,21.5,0.001805,0.00822,60.675,True,False
+mqm,thinking,"thinking ON vs OFF, NVFP4 T=0.6",MQM,21,18,-19.5,22.5,0.00607,0.018209,71.8,True,False
+mqm,thinking,"thinking ON vs OFF, NVFP4 T=0.8",MQM,21,19,-11.261905,50.5,0.073184,0.146367,81.6,False,False
+mqm,thinking,"thinking ON vs OFF, NVFP4 T=1.0",MQM,21,17,-6.380952,61.0,0.463107,0.463107,38.6,False,False
+mqm,quantization,"FP8 vs cloud bf16, thinking OFF",MQM,21,17,-3.095238,51.5,0.236236,0.708707,19.0,False,False
+mqm,quantization,"NVFP4 vs FP8, thinking OFF",MQM,21,18,-3.738095,61.0,0.285407,0.708707,27.675,False,False
+mqm,quantization,"NVFP4 vs FP8, thinking ON",MQM,21,17,-3.809524,71.0,0.794586,0.794586,63.025,False,False
+mqm,temperature,"T=0.2 vs T=0 anchor, thinking OFF",MQM,21,15,-11.380952,10.0,0.004474,0.040263,27.675,True,False
+mqm,temperature,"T=0.2 vs T=0 anchor, thinking ON",MQM,21,17,5.833333,62.0,0.492459,0.758979,40.95,False,False
+mqm,temperature,"T=0.4 vs T=0 anchor, thinking OFF",MQM,21,17,-3.785714,58.0,0.379489,0.758979,36.575,False,False
+mqm,temperature,"T=0.4 vs T=0 anchor, thinking ON",MQM,21,17,13.714286,26.5,0.017889,0.107336,41.0,False,False
+mqm,temperature,"T=0.6 vs T=0 anchor, thinking OFF",MQM,21,18,-7.714286,46.5,0.089268,0.267805,35.1,False,False
+mqm,temperature,"T=0.6 vs T=0 anchor, thinking ON",MQM,21,14,16.5,11.5,0.010021,0.076435,68.0,False,False
+mqm,temperature,"T=0.8 vs T=0 anchor, thinking OFF",MQM,21,17,-7.857143,30.0,0.027611,0.110445,19.475,False,False
+mqm,temperature,"T=0.8 vs T=0 anchor, thinking ON",MQM,21,16,24.595238,23.0,0.019888,0.107336,81.6,False,False
+mqm,temperature,"T=1.0 vs T=0 anchor, thinking OFF",MQM,21,17,-14.333333,12.5,0.002431,0.024313,25.5,True,False
+mqm,temperature,"T=1.0 vs T=0 anchor, thinking ON",MQM,21,18,23.0,26.0,0.009554,0.076435,38.85,False,False
+mqm,other,"no glossary vs glossary, cloud",MQM,21,19,-8.190476,63.0,0.19747,0.19747,27.125,False,False
+mqm,other,post-processing (clean vs raw),MQM,21,21,-23.619048,37.0,0.006355,0.01271,59.975,True,False
+mqm,other,"thinking ON (clean) vs OFF, cloud",MQM,21,21,-56.5,0.0,5.9e-05,0.000178,53.15,True,True
+defect,defect/code_missing,"thinking ON vs OFF, FP8",D3 code,21,10,1.428571,0.0,0.003604,0.072076,2.0,False,False
+defect,defect/code_missing,"thinking ON vs OFF, NVFP4 T=0.0",D3 code,21,15,2.714286,0.0,0.000474,0.010911,1.0,True,True
+defect,defect/code_missing,"thinking ON vs OFF, NVFP4 T=0.2",D3 code,21,8,1.285714,0.0,0.010712,0.182096,2.0,False,False
+defect,defect/code_missing,"thinking ON vs OFF, NVFP4 T=0.4",D3 code,21,7,1.47619,0.0,0.016748,0.267962,3.95,False,False
+defect,defect/code_missing,"thinking ON vs OFF, NVFP4 T=0.6",D3 code,21,11,1.52381,0.0,0.003012,0.063258,6.0,False,False
+defect,defect/code_missing,"thinking ON vs OFF, NVFP4 T=0.8",D3 code,21,10,1.714286,6.0,0.026384,0.369378,6.9,False,False
+defect,defect/code_missing,"thinking ON vs OFF, NVFP4 T=1.0",D3 code,21,7,2.238095,0.0,0.017756,0.267962,8.85,False,False
+defect,defect/code_missing,"FP8 vs cloud bf16, thinking OFF",D3 code,21,5,0.428571,0.0,0.03936,0.432955,1.0,False,False
+defect,defect/code_missing,"NVFP4 vs FP8, thinking OFF",D3 code,21,3,-0.190476,0.0,0.10247,0.819763,1.0,False,False
+defect,defect/code_missing,"NVFP4 vs FP8, thinking ON",D3 code,21,11,-0.333333,22.0,0.285049,0.819763,3.0,False,False
+defect,defect/code_missing,"T=0.2 vs T=0 anchor, thinking OFF",D3 code,21,3,0.285714,0.0,0.083265,0.749381,0.0,False,False
+defect,defect/code_missing,"T=0.2 vs T=0 anchor, thinking ON",D3 code,21,12,-1.142857,4.5,0.005119,0.097254,2.0,False,False
+defect,defect/code_missing,"T=0.4 vs T=0 anchor, thinking OFF",D3 code,21,2,0.333333,0.0,0.179712,0.819763,0.95,False,False
+defect,defect/code_missing,"T=0.4 vs T=0 anchor, thinking ON",D3 code,21,13,-0.904762,16.0,0.032172,0.398716,2.0,False,False
+defect,defect/code_missing,"T=0.6 vs T=0 anchor, thinking OFF",D3 code,21,3,0.238095,0.0,0.10247,0.819763,0.0,False,False
+defect,defect/code_missing,"T=0.6 vs T=0 anchor, thinking ON",D3 code,21,11,-0.952381,13.0,0.067173,0.67173,6.0,False,False
+defect,defect/code_missing,"T=0.8 vs T=0 anchor, thinking OFF",D3 code,21,3,0.190476,0.0,0.10247,0.819763,1.0,False,False
+defect,defect/code_missing,"T=0.8 vs T=0 anchor, thinking ON",D3 code,21,11,-0.809524,15.5,0.115136,0.819763,6.9,False,False
+defect,defect/code_missing,"T=1.0 vs T=0 anchor, thinking OFF",D3 code,21,3,0.190476,0.0,0.10247,0.819763,1.0,False,False
+defect,defect/code_missing,"T=1.0 vs T=0 anchor, thinking ON",D3 code,21,14,-0.285714,19.5,0.03067,0.398716,8.85,False,False
+defect,defect/code_missing,"no glossary vs glossary, cloud",D3 code,21,1,-0.047619,0.0,0.317311,0.819763,0.0,False,False
+defect,defect/code_missing,post-processing (clean vs raw),D3 code,21,9,0.761905,0.0,0.006606,0.118911,7.0,False,False
+defect,defect/code_missing,"thinking ON (clean) vs OFF, cloud",D3 code,21,12,3.428571,0.0,0.002031,0.044686,2.0,True,True
+defect,defect/num_lost,post-processing (clean vs raw),D4 num,21,6,0.52381,0.0,0.025597,0.033895,3.0,True,False
+defect,defect/num_lost,"thinking ON (clean) vs OFF, cloud",D4 num,21,7,0.761905,0.0,0.016947,0.033895,2.95,True,False
+defect,defect/term_missing_nc,"thinking ON vs OFF, FP8",D5nc term,21,7,-0.238095,4.0,0.058782,1.0,1.0,False,False
+defect,defect/term_missing_nc,"thinking ON vs OFF, NVFP4 T=0.0",D5nc term,21,6,0.0,10.5,1.0,1.0,1.0,False,False
+defect,defect/term_missing_nc,"thinking ON vs OFF, NVFP4 T=0.2",D5nc term,21,6,-0.142857,6.0,0.317311,1.0,1.95,False,False
+defect,defect/term_missing_nc,"thinking ON vs OFF, NVFP4 T=0.4",D5nc term,21,5,-0.047619,6.0,0.654721,1.0,1.0,False,False
+defect,defect/term_missing_nc,"thinking ON vs OFF, NVFP4 T=0.6",D5nc term,21,8,-0.095238,14.5,0.607766,1.0,1.0,False,False
+defect,defect/term_missing_nc,"thinking ON vs OFF, NVFP4 T=0.8",D5nc term,21,7,-0.142857,9.5,0.429017,1.0,2.0,False,False
+defect,defect/term_missing_nc,"thinking ON vs OFF, NVFP4 T=1.0",D5nc term,21,8,-0.142857,12.0,0.365712,1.0,1.0,False,False
+defect,defect/term_missing_nc,"FP8 vs cloud bf16, thinking OFF",D5nc term,21,1,0.095238,0.0,0.317311,1.0,1.0,False,False
+defect,defect/term_missing_nc,"NVFP4 vs FP8, thinking OFF",D5nc term,21,3,0.142857,0.0,0.083265,1.0,1.0,False,False
+defect,defect/term_missing_nc,"NVFP4 vs FP8, thinking ON",D5nc term,21,7,0.238095,6.0,0.159724,1.0,1.95,False,False
+defect,defect/term_missing_nc,"T=0.2 vs T=0 anchor, thinking OFF",D5nc term,21,5,0.238095,0.0,0.025347,0.557641,0.0,False,False
+defect,defect/term_missing_nc,"T=0.2 vs T=0 anchor, thinking ON",D5nc term,21,8,0.095238,13.5,0.4795,1.0,1.95,False,False
+defect,defect/term_missing_nc,"T=0.4 vs T=0 anchor, thinking OFF",D5nc term,21,4,0.190476,0.0,0.0455,0.910005,0.0,False,False
+defect,defect/term_missing_nc,"T=0.4 vs T=0 anchor, thinking ON",D5nc term,21,10,0.142857,20.0,0.405381,1.0,1.0,False,False
+defect,defect/term_missing_nc,"T=0.6 vs T=0 anchor, thinking OFF",D5nc term,21,3,0.190476,0.0,0.10247,1.0,1.0,False,False
+defect,defect/term_missing_nc,"T=0.6 vs T=0 anchor, thinking ON",D5nc term,21,9,0.095238,18.0,0.563703,1.0,1.0,False,False
+defect,defect/term_missing_nc,"T=0.8 vs T=0 anchor, thinking OFF",D5nc term,21,5,0.238095,0.0,0.025347,0.557641,0.0,False,False
+defect,defect/term_missing_nc,"T=0.8 vs T=0 anchor, thinking ON",D5nc term,21,7,0.095238,10.5,0.527089,1.0,2.0,False,False
+defect,defect/term_missing_nc,"T=1.0 vs T=0 anchor, thinking OFF",D5nc term,21,3,0.190476,0.0,0.10247,1.0,1.0,False,False
+defect,defect/term_missing_nc,"T=1.0 vs T=0 anchor, thinking ON",D5nc term,21,7,0.047619,12.0,0.705457,1.0,1.0,False,False
+defect,defect/term_missing_nc,"no glossary vs glossary, cloud",D5nc term,21,15,1.190476,0.0,0.000478,0.011002,1.95,True,False
+defect,defect/term_missing_nc,post-processing (clean vs raw),D5nc term,21,4,0.238095,0.0,0.058782,1.0,1.95,False,False
+defect,defect/term_missing_nc,"thinking ON (clean) vs OFF, cloud",D5nc term,21,7,0.0,14.0,1.0,1.0,2.0,False,False
+defect,defect/echo,post-processing (clean vs raw),D6 echo,21,21,-1.571429,0.0,3.4e-05,6.8e-05,1.0,True,True
+defect,defect/echo,"thinking ON (clean) vs OFF, cloud",D6 echo,21,3,0.142857,0.0,0.083265,0.083265,1.0,False,False
+defect,defect/contam_nc,"thinking ON vs OFF, FP8",D7nc contr,21,1,-0.047619,0.0,0.317311,1.0,0.0,False,False
+defect,defect/contam_nc,"thinking ON vs OFF, NVFP4 T=0.4",D7nc contr,21,1,-0.047619,0.0,0.317311,1.0,0.0,False,False
+defect,defect/contam_nc,"thinking ON vs OFF, NVFP4 T=0.6",D7nc contr,21,2,-0.095238,0.0,0.157299,1.0,0.0,False,False
+defect,defect/contam_nc,"thinking ON vs OFF, NVFP4 T=0.8",D7nc contr,21,1,-0.047619,0.0,0.317311,1.0,0.0,False,False
+defect,defect/contam_nc,"thinking ON vs OFF, NVFP4 T=1.0",D7nc contr,21,3,-0.047619,2.0,0.563703,1.0,1.0,False,False
+defect,defect/contam_nc,"FP8 vs cloud bf16, thinking OFF",D7nc contr,21,1,0.047619,0.0,0.317311,1.0,0.0,False,False
+defect,defect/contam_nc,"NVFP4 vs FP8, thinking OFF",D7nc contr,21,1,-0.047619,0.0,0.317311,1.0,0.0,False,False
+defect,defect/contam_nc,"T=0.4 vs T=0 anchor, thinking OFF",D7nc contr,21,1,0.047619,0.0,0.317311,1.0,0.0,False,False
+defect,defect/contam_nc,"T=0.6 vs T=0 anchor, thinking OFF",D7nc contr,21,2,0.095238,0.0,0.157299,1.0,0.0,False,False
+defect,defect/contam_nc,"T=0.8 vs T=0 anchor, thinking OFF",D7nc contr,21,1,0.047619,0.0,0.317311,1.0,0.0,False,False
+defect,defect/contam_nc,"T=1.0 vs T=0 anchor, thinking OFF",D7nc contr,21,2,0.095238,0.0,0.157299,1.0,1.0,False,False
+defect,defect/contam_nc,"T=1.0 vs T=0 anchor, thinking ON",D7nc contr,21,1,0.047619,0.0,0.317311,1.0,0.0,False,False
+defect,defect/contam_nc,"no glossary vs glossary, cloud",D7nc contr,21,3,-0.142857,0.0,0.083265,1.0,0.0,False,False
+defect,defect/contam_nc,post-processing (clean vs raw),D7nc contr,21,11,-0.952381,0.0,0.002525,0.037872,2.0,True,False
+defect,defect/contam_nc,"thinking ON (clean) vs OFF, cloud",D7nc contr,21,5,0.285714,0.0,0.033895,0.474528,1.0,False,False

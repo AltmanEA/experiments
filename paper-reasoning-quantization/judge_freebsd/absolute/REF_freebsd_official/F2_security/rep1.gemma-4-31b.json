@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'drive by attacks' is mistranslated as 'сканирование уязвимостей' (vulnerability scanning). A drive-by attack is an opportunistic attack, whereas scanning is merely the process of searching for vulnerabilities.",
+      "quote": "сканирование уязвимостей"
+    }
+  ],
+  "score": 90,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "REF_freebsd_official",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-15T12:21:27"
+  }
+}

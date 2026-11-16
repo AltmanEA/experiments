@@ -1,0 +1,15 @@
+[debug] Glossary loaded: 77 terms
+[debug] Block L1-1: '# Firewalls' -> 0 terms
+[debug] Block L3-3: '## IPFW' -> 0 terms
+[debug] Block L5-5: '### Enabling IPFW' -> 0 terms
+[debug] Block L7-7: 'To configure the system to enable IPFW at boot time, add `fi' -> 0 terms
+[debug] Block L13-13: 'To use one of the default firewall types provided by FreeBSD' -> 1 terms
+[debug] Block L19-19: 'The available types are:' -> 0 terms
+[debug] Block L21-27: '* `open`: passes all traffic.\\n* `client`: protects only this' -> 5 terms
+[debug] Block L29-29: 'If `firewall_type` is set to either `client` or `simple`, mo' -> 2 terms
+[debug] Block L31-31: 'To enable logging through `syslogd(8)`, include this line:' -> 1 terms
+[debug] Block L37-37: 'To limit the number of times a rule is logged per connection' -> 0 terms
+[debug] Block L43-43: 'Then use tcpdump to see what is being logged:' -> 0 terms
+[debug] Block L49-49: 'After saving the needed edits, start the firewall. To enable' -> 2 terms
+
+Done: 17 ok, 38 skip, 0 fail

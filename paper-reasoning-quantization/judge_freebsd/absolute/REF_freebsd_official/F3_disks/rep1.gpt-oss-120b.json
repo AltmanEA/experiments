@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"disk quota\" is rendered as \"Квоты на диске\" instead of the required \"дисковая квота\".",
+      "quote": "Квоты на диске"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The phrase \"disk quotas\" is translated as \"квоты дисков\" rather than the required \"дисковые квоты\".",
+      "quote": "квоты дисков"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "REF_freebsd_official",
+    "fixture": "F3_disks",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-15T12:21:30"
+  }
+}

@@ -1,0 +1,15 @@
+{
+ "condition": "TRACE_S5_local_nvfp4_t00_think_on",
+ "fixture": "S5",
+ "rep": 1,
+ "exit": 0,
+ "wall_s": 275.1,
+ "requests": 9,
+ "requests_with_content": 9,
+ "reasoning_chars_total": 107484,
+ "reasoning_chars_mean": 11942.7,
+ "content_chars_total": 3645,
+ "model": "Qwen3.6-35B-A3B-NVFP4",
+ "temp": "0.0",
+ "chat_kwargs": "{\"enable_thinking\":true}"
+}

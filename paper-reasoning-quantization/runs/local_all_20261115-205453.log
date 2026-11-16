@@ -1,0 +1,10 @@
+[local-all 2026-11-15T20:54:53] START run_local_all: base=http://127.0.0.1:1919/v1 model=Qwen3.6-35B-FP8 extra_t08=1 wait=1 dry=1
+[local-all 2026-11-15T20:54:53] plan: P-006 on FP8 -> 84 runs, then defect metrics
+[local-all 2026-11-15T20:54:53] conditions: FP8_T00_local_fp8_t00_think_off FP8_T00_local_fp8_t00_think_on FP8_T08_local_fp8_t08_think_off FP8_T08_local_fp8_t08_think_on
+[local-all 2026-11-15T20:54:53] preflight OK: Qwen3.6-35B-FP8 served at http://127.0.0.1:1919/v1
+[local-all 2026-11-15T20:54:53] dry: would wait for active jobs (if any), then run:
+[local-all 2026-11-15T20:54:53] dry:   bash run_p006_fp8.sh --with-t08
+dry: active: 220391 bash run_p006_fp8.sh
+dry: active: 222516 bash ./run_progress.sh FP8_T00_local_fp8_t00_think_on true Qwen3.6-35B-FP8 S1 S2 S3 S4 S5 S6 S7
+dry: active: 223339 python3 /home/ea/experiments/paper-reasoning-quantization/vendor/legacy_local_translate_d5d77db.py en ru /home/ea/experiments/paper-reasoning-quantization/corpus/glossary_council_2026-11-11.md
+[local-all 2026-11-15T20:54:53] dry: nothing was started

@@ -1,0 +1,9 @@
+[debug] backend=cloud model=Qwen3.6-35B-FP8
+[debug] Glossary loaded: 56 terms
+[debug] Block L5-5: 'The `pre_check` gate is an integrity check on documentation ' -> 1 terms: ['Documenter']
+[debug] Block L7-10: '- **Target scope:** all manifest documents relevant to the c' -> 5 terms: ['Resolution', 'Consensus', 'Scenario', 'Session', 'Phase']
+[debug] Block L14-19: '| Condition | Verdict | Action |\\n|-----------|---------|----' -> 2 terms: ['Documenter', 'Finding']
+[debug] Block L23-23: 'When Documenter cannot be reached (`unavailable` verdict), t' -> 3 terms: ['Documenter', 'Moderator', 'Council']
+[debug] Block L25-29: '- The override records `reason` (free text explaining why th' -> 4 terms: ['Escalation', 'Consensus', 'Phase', 'Role']
+
+Done: 17 ok, 14 skip, 0 fail

@@ -7,3 +7,19 @@ post-processing (clean vs raw),(mean of judges),21,-23.62,-36.17,-10.83,7,0,14
 "NVFP4 vs FP8, thinking OFF",(mean of judges),21,-3.74,-9.29,1.62,7,3,11
 "NVFP4 vs FP8, thinking ON",(mean of judges),21,-3.81,-17.07,7.62,9,4,8
 "FP8 vs cloud bf16, thinking OFF",(mean of judges),21,-3.1,-8.38,2.14,6,4,11
+"thinking ON vs OFF, NVFP4 T=0.0",(mean of judges),21,-43.71,-59.74,-28.07,2,2,17
+"thinking ON vs OFF, NVFP4 T=0.2",(mean of judges),21,-26.5,-40.19,-13.98,2,4,15
+"thinking ON vs OFF, NVFP4 T=0.4",(mean of judges),21,-26.21,-40.21,-13.31,5,1,15
+"thinking ON vs OFF, NVFP4 T=0.6",(mean of judges),21,-19.5,-32.62,-7.98,4,3,14
+"thinking ON vs OFF, NVFP4 T=0.8",(mean of judges),21,-11.26,-25.83,3,6,2,13
+"thinking ON vs OFF, NVFP4 T=1.0",(mean of judges),21,-6.38,-16.6,2.45,7,4,10
+"T=0.2 vs T=0 anchor, thinking OFF",(mean of judges),21,-11.38,-18.74,-4.88,2,6,13
+"T=0.2 vs T=0 anchor, thinking ON",(mean of judges),21,5.83,-5.9,18.21,10,4,7
+"T=0.4 vs T=0 anchor, thinking OFF",(mean of judges),21,-3.79,-11.02,1.76,6,4,11
+"T=0.4 vs T=0 anchor, thinking ON",(mean of judges),21,13.71,3.6,24.9,13,4,4
+"T=0.6 vs T=0 anchor, thinking OFF",(mean of judges),21,-7.71,-15.95,-0.9,4,3,14
+"T=0.6 vs T=0 anchor, thinking ON",(mean of judges),21,16.5,6.83,27.79,11,7,3
+"T=0.8 vs T=0 anchor, thinking OFF",(mean of judges),21,-7.86,-14.17,-2.1,4,4,13
+"T=0.8 vs T=0 anchor, thinking ON",(mean of judges),21,24.6,9.14,41.98,12,5,4
+"T=1.0 vs T=0 anchor, thinking OFF",(mean of judges),21,-14.33,-24.31,-6.24,3,4,14
+"T=1.0 vs T=0 anchor, thinking ON",(mean of judges),21,23.0,9.29,38.29,14,3,4

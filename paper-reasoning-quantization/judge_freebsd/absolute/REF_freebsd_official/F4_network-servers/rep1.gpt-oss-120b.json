@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect term used for \"authoritative name server\"; the required equivalent is \"авторитетный сервер имён\".",
+      "quote": "авторитетные DNS-серверы"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect term used for \"caching name server\"; the required equivalent is \"кэширующий сервер имён\".",
+      "quote": "кэширующие DNS-серверы"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"slave\" is rendered as \"подчиненным (slave)\" without the required noun \"сервер\"; the required equivalent is \"подчиненный сервер\".",
+      "quote": "подчиненным (slave)"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect translation of \"Ports Collection\"; the required equivalent is \"коллекция портов\".",
+      "quote": "коллекции портов"
+    }
+  ],
+  "score": 60,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "REF_freebsd_official",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-15T12:22:28"
+  }
+}

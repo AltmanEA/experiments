@@ -1,0 +1,17 @@
+[p006 2026-11-15T20:41:27] START P-006: runs=1 metrics=1 with_t08=0 dry=1
+[p006 2026-11-15T20:41:27] plan: 2 conditions x 7 fixtures x 3 reps = 42 runs
+[p006 2026-11-15T20:41:27] conditions: FP8_T00_local_fp8_t00_think_off FP8_T00_local_fp8_t00_think_on
+[p006 2026-11-15T20:41:27] preflight: model=Qwen3.6-35B-FP8 base=http://127.0.0.1:1919/v1 py=/home/ea/experiments/paper-reasoning-quantization/.venv-analysis/bin/python
+[p006 2026-11-15T20:41:27] preflight: engine=/home/ea/experiments/paper-reasoning-quantization/vendor/legacy_local_translate_d5d77db.py (frozen d5d77db snapshot)
+[p006 2026-11-15T20:41:27] preflight: glossary=/home/ea/experiments/paper-reasoning-quantization/corpus/glossary_council_2026-11-11.md (frozen 2026-11-11 snapshot)
+[p006 2026-11-15T20:41:27] preflight OK: server offers Qwen3.6-35B-FP8
+/dev/sdd       1007G   46G  911G   5% /
+[p006 2026-11-15T20:41:27] === probe: frozen engine reproduces the C3 pipeline structure ===
+[p006 2026-11-15T20:41:41] probe: exit=0 terms=56 blocks=5 done='11 ok, 22 skip, 0 fail' first_line='# Council'
+[p006 2026-11-15T20:41:41] probe OK: pipeline parity with C3 confirmed
+[p006 2026-11-15T20:41:41] === probe: enable_thinking really switches reasoning on this server ===
+enable_thinking=true  reasoning_chars=2847 content_len=56
+enable_thinking=false reasoning_chars=0 content_len=56
+[p006 2026-11-15T20:41:55] probe OK: on=2847 chars reasoning, off=0
+[p006 2026-11-15T20:41:55] DRY: would run stage_runs / stage_metrics
+[p006 2026-11-15T20:41:55] DRY: nothing was started

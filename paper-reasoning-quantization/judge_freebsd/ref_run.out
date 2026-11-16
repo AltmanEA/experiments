@@ -1,0 +1,12 @@
+[12:19:12] START mode=absolute tasks=5 requests=10 judges=gpt-oss-120b,gemma-4-31b workers=2 rpm=30
+[12:19:47] OK   REF_freebsd_official F1_config rep1 gpt-oss-120b score=100
+[12:20:16] OK   REF_freebsd_official F2_security rep1 gpt-oss-120b score=100
+[12:20:48] OK   REF_freebsd_official F1_config rep1 gemma-4-31b score=100
+[12:21:27] OK   REF_freebsd_official F2_security rep1 gemma-4-31b score=90
+[12:21:30] OK   REF_freebsd_official F3_disks rep1 gpt-oss-120b score=96
+[12:22:28] OK   REF_freebsd_official F4_network-servers rep1 gpt-oss-120b score=60
+[12:26:31] OK   REF_freebsd_official F3_disks rep1 gemma-4-31b score=82
+[12:27:01] OK   REF_freebsd_official F4_network-servers rep1 gemma-4-31b score=96
+[12:27:08] OK   REF_freebsd_official F5_firewalls rep1 gpt-oss-120b score=100
+[12:30:30] OK   REF_freebsd_official F5_firewalls rep1 gemma-4-31b score=98
+[12:30:30] END ok=10 skipped=0 failed=0

@@ -1,0 +1,301 @@
+[nightly 2026-11-15T16:36:05] START nightly: runs=1 metrics=1 judge=0 dry=0
+[nightly 2026-11-15T16:36:05] plan: P-005 60 runs (Qwen3.6-35B-A3B-NVFP4, T in {0.0,0.2} x thinking) + P-007 6 traces
+[nightly 2026-11-15T16:36:05] preflight: model=Qwen3.6-35B-A3B-NVFP4 base=http://127.0.0.1:8000/v1 py=/home/ea/experiments/paper-reasoning-quantization/.venv-analysis/bin/python
+[nightly 2026-11-15T16:36:05] preflight OK: server offers Qwen3.6-35B-A3B-NVFP4
+/dev/sdd       1007G   46G  911G   5% /
+[nightly 2026-11-15T16:36:05] === P-005: FreeBSD domain, Qwen3.6-35B-A3B-NVFP4 (60 runs) ===
+[nightly 2026-11-15T16:36:05] RUN F_C5_local_nvfp4_think_off (temp=0.2 thinking=false)
+[16:36:05] preflight OK: model=Qwen3.6-35B-A3B-NVFP4
+[16:36:05] START F_C5_local_nvfp4_think_off model=Qwen3.6-35B-A3B-NVFP4 thinking=false temp=0.2 (0/15 done)
+[16:36:17] DONE F1_config rep1 exit=4 wall=12s fails=1 (1/15)
+[16:36:28] DONE F1_config rep2 exit=4 wall=11s fails=1 (2/15)
+[16:36:40] DONE F1_config rep3 exit=4 wall=12s fails=1 (3/15)
+[16:36:54] DONE F2_security rep1 exit=0 wall=14s fails=0 (4/15)
+[16:37:09] DONE F2_security rep2 exit=0 wall=14s fails=0 (5/15)
+[16:37:23] DONE F2_security rep3 exit=0 wall=14s fails=0 (6/15)
+[16:37:38] DONE F3_disks rep1 exit=0 wall=15s fails=0 (7/15)
+[16:37:54] DONE F3_disks rep2 exit=0 wall=16s fails=0 (8/15)
+[16:38:09] DONE F3_disks rep3 exit=0 wall=15s fails=0 (9/15)
+[16:38:31] DONE F4_network-servers rep1 exit=0 wall=22s fails=0 (10/15)
+[16:38:53] DONE F4_network-servers rep2 exit=0 wall=22s fails=0 (11/15)
+[16:39:15] DONE F4_network-servers rep3 exit=0 wall=22s fails=0 (12/15)
+[16:39:25] DONE F5_firewalls rep1 exit=0 wall=10s fails=0 (13/15)
+[16:39:36] DONE F5_firewalls rep2 exit=0 wall=11s fails=0 (14/15)
+[16:39:47] DONE F5_firewalls rep3 exit=0 wall=11s fails=0 (15/15)
+[16:39:47] ALL DONE 15/15
+[nightly 2026-11-15T16:39:47] RUN F_C6_local_nvfp4_think_on (temp=0.2 thinking=true)
+[16:39:47] preflight OK: model=Qwen3.6-35B-A3B-NVFP4
+[16:39:47] START F_C6_local_nvfp4_think_on model=Qwen3.6-35B-A3B-NVFP4 thinking=true temp=0.2 (0/15 done)
+[16:42:52] DONE F1_config rep1 exit=4 wall=185s fails=1 (1/15)
+[16:45:52] DONE F1_config rep2 exit=4 wall=180s fails=1 (2/15)
+[16:48:45] DONE F1_config rep3 exit=4 wall=173s fails=1 (3/15)
+[16:53:23] DONE F2_security rep1 exit=0 wall=278s fails=0 (4/15)
+[16:58:04] DONE F2_security rep2 exit=0 wall=281s fails=0 (5/15)
+[17:02:41] DONE F2_security rep3 exit=0 wall=277s fails=0 (6/15)
+[17:07:35] DONE F3_disks rep1 exit=0 wall=294s fails=0 (7/15)
+[17:12:46] DONE F3_disks rep2 exit=0 wall=311s fails=0 (8/15)
+[17:18:04] DONE F3_disks rep3 exit=0 wall=318s fails=0 (9/15)
+[17:24:55] DONE F4_network-servers rep1 exit=0 wall=411s fails=0 (10/15)
+[17:31:58] DONE F4_network-servers rep2 exit=0 wall=423s fails=0 (11/15)
+[17:38:35] DONE F4_network-servers rep3 exit=0 wall=397s fails=0 (12/15)
+[17:41:30] DONE F5_firewalls rep1 exit=0 wall=175s fails=0 (13/15)
+[17:44:45] DONE F5_firewalls rep2 exit=0 wall=195s fails=0 (14/15)
+[17:47:46] DONE F5_firewalls rep3 exit=0 wall=181s fails=0 (15/15)
+[17:47:46] ALL DONE 15/15
+[nightly 2026-11-15T17:47:46] RUN F_T00_local_nvfp4_t00_think_off (temp=0.0 thinking=false)
+[17:47:46] preflight OK: model=Qwen3.6-35B-A3B-NVFP4
+[17:47:46] START F_T00_local_nvfp4_t00_think_off model=Qwen3.6-35B-A3B-NVFP4 thinking=false temp=0.0 (0/15 done)
+[17:47:58] DONE F1_config rep1 exit=4 wall=12s fails=1 (1/15)
+[17:48:09] DONE F1_config rep2 exit=4 wall=11s fails=1 (2/15)
+[17:48:20] DONE F1_config rep3 exit=4 wall=11s fails=1 (3/15)
+[17:48:35] DONE F2_security rep1 exit=0 wall=14s fails=0 (4/15)
+[17:48:49] DONE F2_security rep2 exit=0 wall=14s fails=0 (5/15)
+[17:49:03] DONE F2_security rep3 exit=0 wall=14s fails=0 (6/15)
+[17:49:18] DONE F3_disks rep1 exit=0 wall=15s fails=0 (7/15)
+[17:49:33] DONE F3_disks rep2 exit=0 wall=15s fails=0 (8/15)
+[17:49:48] DONE F3_disks rep3 exit=0 wall=15s fails=0 (9/15)
+[17:50:10] DONE F4_network-servers rep1 exit=0 wall=22s fails=0 (10/15)
+[17:50:31] DONE F4_network-servers rep2 exit=0 wall=21s fails=0 (11/15)
+[17:50:53] DONE F4_network-servers rep3 exit=0 wall=22s fails=0 (12/15)
+[17:51:04] DONE F5_firewalls rep1 exit=0 wall=10s fails=0 (13/15)
+[17:51:14] DONE F5_firewalls rep2 exit=0 wall=10s fails=0 (14/15)
+[17:51:25] DONE F5_firewalls rep3 exit=0 wall=11s fails=0 (15/15)
+[17:51:25] ALL DONE 15/15
+[nightly 2026-11-15T17:51:25] RUN F_T00_local_nvfp4_t00_think_on (temp=0.0 thinking=true)
+[17:51:25] preflight OK: model=Qwen3.6-35B-A3B-NVFP4
+[17:51:25] START F_T00_local_nvfp4_t00_think_on model=Qwen3.6-35B-A3B-NVFP4 thinking=true temp=0.0 (0/15 done)
+[17:54:41] DONE F1_config rep1 exit=4 wall=196s fails=1 (1/15)
+[17:57:47] DONE F1_config rep2 exit=4 wall=186s fails=1 (2/15)
+[18:00:53] DONE F1_config rep3 exit=4 wall=186s fails=1 (3/15)
+[18:05:38] DONE F2_security rep1 exit=0 wall=285s fails=0 (4/15)
+[18:10:03] DONE F2_security rep2 exit=0 wall=265s fails=0 (5/15)
+[18:14:32] DONE F2_security rep3 exit=0 wall=269s fails=0 (6/15)
+[18:19:20] DONE F3_disks rep1 exit=0 wall=288s fails=0 (7/15)
+[18:37:25] DONE F3_disks rep2 exit=4 wall=1085s fails=1 (8/15)
+[18:55:31] DONE F3_disks rep3 exit=4 wall=1086s fails=1 (9/15)
+[19:02:17] DONE F4_network-servers rep1 exit=0 wall=406s fails=0 (10/15)
+[19:09:02] DONE F4_network-servers rep2 exit=0 wall=405s fails=0 (11/15)
+[19:15:48] DONE F4_network-servers rep3 exit=0 wall=406s fails=0 (12/15)
+[19:18:44] DONE F5_firewalls rep1 exit=0 wall=176s fails=0 (13/15)
+[19:21:40] DONE F5_firewalls rep2 exit=0 wall=176s fails=0 (14/15)
+[19:24:37] DONE F5_firewalls rep3 exit=0 wall=177s fails=0 (15/15)
+[19:24:37] ALL DONE 15/15
+[nightly 2026-11-15T19:24:37] P-005 runs done: 60/60
+[nightly 2026-11-15T19:24:37] === P-007: reasoning_content traces (S4, S5 x 3 reps) ===
+[nightly 2026-11-15T19:24:37] TRACE S4 -> runs_trace/TRACE_S4_local_nvfp4_t00_think_on
+[debug] Glossary loaded: 73 terms
+[debug] Block L1-1: '### ConsensusVerdict' -> 1 terms
+[debug] Block L3-3: '| Field | Type | Required | Rule |' -> 0 terms
+[debug] Block L5-12: '| `session_id` | string | yes | |\\n| `phase_id` | integer | y' -> 3 terms
+[FAIL] L5 — fallback
+[FAIL] L6 — fallback
+[FAIL] L7 — fallback
+[FAIL] L12 — fallback
+[debug] Block L14-14: '### ValidationResult' -> 0 terms
+[debug] Block L16-16: '`{check: subject-reference|justification-format|status-extra' -> 2 terms
+[span-restore] `Уровень серьёзности` -> `severity`
+[debug] Block L18-18: '### EscalationRecord' -> 0 terms
+[debug] Block L20-20: '| Field | Type | Required | Rule |' -> 0 terms
+[debug] Block L22-33: '| `escalation_id` | string | yes | Identifier format |\\n| `se' -> 4 terms
+[FAIL] L23 — fallback
+[FAIL] L24 — fallback
+[FAIL] L25 — fallback
+[span-restore] `` -> `{role_id, stance, summary}`
+[FAIL] L32 — fallback
+
+Done: 18 ok, 9 skip, 8 fail
+[exit] 8 lines failed translation
+[debug] Glossary loaded: 73 terms
+[debug] Block L1-1: '### ConsensusVerdict' -> 1 terms
+[debug] Block L3-3: '| Field | Type | Required | Rule |' -> 0 terms
+[debug] Block L5-12: '| `session_id` | string | yes | |\\n| `phase_id` | integer | y' -> 3 terms
+[FAIL] L5 — fallback
+[FAIL] L6 — fallback
+[FAIL] L7 — fallback
+[FAIL] L12 — fallback
+[debug] Block L14-14: '### ValidationResult' -> 0 terms
+[debug] Block L16-16: '`{check: subject-reference|justification-format|status-extra' -> 2 terms
+[span-restore] `Уровень серьёзности` -> `severity`
+[debug] Block L18-18: '### EscalationRecord' -> 0 terms
+[debug] Block L20-20: '| Field | Type | Required | Rule |' -> 0 terms
+[debug] Block L22-33: '| `escalation_id` | string | yes | Identifier format |\\n| `se' -> 4 terms
+[FAIL] L23 — fallback
+[FAIL] L24 — fallback
+[FAIL] L25 — fallback
+[span-restore] `` -> `{role_id, stance, summary}`
+[FAIL] L32 — fallback
+
+Done: 18 ok, 9 skip, 8 fail
+[exit] 8 lines failed translation
+[debug] Glossary loaded: 73 terms
+[debug] Block L1-1: '### ConsensusVerdict' -> 1 terms
+[debug] Block L3-3: '| Field | Type | Required | Rule |' -> 0 terms
+[debug] Block L5-12: '| `session_id` | string | yes | |\\n| `phase_id` | integer | y' -> 3 terms
+[FAIL] L5 — fallback
+[FAIL] L6 — fallback
+[FAIL] L7 — fallback
+[FAIL] L12 — fallback
+[debug] Block L14-14: '### ValidationResult' -> 0 terms
+[debug] Block L16-16: '`{check: subject-reference|justification-format|status-extra' -> 2 terms
+[span-restore] `Уровень серьёзности` -> `severity`
+[debug] Block L18-18: '### EscalationRecord' -> 0 terms
+[debug] Block L20-20: '| Field | Type | Required | Rule |' -> 0 terms
+[debug] Block L22-33: '| `escalation_id` | string | yes | Identifier format |\\n| `se' -> 4 terms
+[FAIL] L23 — fallback
+[FAIL] L24 — fallback
+[FAIL] L25 — fallback
+[span-restore] `` -> `{role_id, stance, summary}`
+[FAIL] L32 — fallback
+
+Done: 18 ok, 9 skip, 8 fail
+[exit] 8 lines failed translation
+[trace] translator=/home/ea/techdoc-translator/techdoc_translator.py
+[trace] model=Qwen3.6-35B-A3B-NVFP4 temp=0.0 kwargs={"enable_thinking":true}
+[trace] TRACE_S4_local_nvfp4_t00_think_on/S4/rep1 exit=4 wall=180.9s requests=8 reasoning=71072 chars
+[trace] TRACE_S4_local_nvfp4_t00_think_on/S4/rep2 exit=4 wall=180.8s requests=8 reasoning=71072 chars
+[trace] TRACE_S4_local_nvfp4_t00_think_on/S4/rep3 exit=4 wall=181.0s requests=8 reasoning=71072 chars
+[trace] ALL DONE
+[nightly 2026-11-15T19:33:40] TRACE S5 -> runs_trace/TRACE_S5_local_nvfp4_t00_think_on
+[debug] Glossary loaded: 73 terms
+[debug] Block L1-1: '## Deterministic Control Plane' -> 0 terms
+[debug] Block L3-3: 'Moderator control flow and every phase, consensus, and escal' -> 7 terms
+[debug] Block L5-5: '## Phase State Machine' -> 1 terms
+[debug] Block L7-7: 'States: `1` task submission, `2` individual review, `3` disc' -> 3 terms
+[debug] Block L9-9: '| From | To | Guard |' -> 0 terms
+[debug] Block L11-22: '| 1 | 2 | Task validated; scenario loaded; locked_roles reso' -> 11 terms
+[debug] Block L24-24: 'Only `orchestrator/` advances a phase. The operator never ed' -> 2 terms
+[debug] Block L26-26: '## Role Status Handling' -> 2 terms
+[debug] Block L28-28: '`extract_role_status()` is the only source of truth for cons' -> 7 terms
+
+Done: 20 ok, 10 skip, 0 fail
+[debug] Glossary loaded: 73 terms
+[debug] Block L1-1: '## Deterministic Control Plane' -> 0 terms
+[debug] Block L3-3: 'Moderator control flow and every phase, consensus, and escal' -> 7 terms
+[debug] Block L5-5: '## Phase State Machine' -> 1 terms
+[debug] Block L7-7: 'States: `1` task submission, `2` individual review, `3` disc' -> 3 terms
+[debug] Block L9-9: '| From | To | Guard |' -> 0 terms
+[debug] Block L11-22: '| 1 | 2 | Task validated; scenario loaded; locked_roles reso' -> 11 terms
+[debug] Block L24-24: 'Only `orchestrator/` advances a phase. The operator never ed' -> 2 terms
+[debug] Block L26-26: '## Role Status Handling' -> 2 terms
+[debug] Block L28-28: '`extract_role_status()` is the only source of truth for cons' -> 7 terms
+
+Done: 20 ok, 10 skip, 0 fail
+[debug] Glossary loaded: 73 terms
+[debug] Block L1-1: '## Deterministic Control Plane' -> 0 terms
+[debug] Block L3-3: 'Moderator control flow and every phase, consensus, and escal' -> 7 terms
+[debug] Block L5-5: '## Phase State Machine' -> 1 terms
+[debug] Block L7-7: 'States: `1` task submission, `2` individual review, `3` disc' -> 3 terms
+[debug] Block L9-9: '| From | To | Guard |' -> 0 terms
+[debug] Block L11-22: '| 1 | 2 | Task validated; scenario loaded; locked_roles reso' -> 11 terms
+[debug] Block L24-24: 'Only `orchestrator/` advances a phase. The operator never ed' -> 2 terms
+[debug] Block L26-26: '## Role Status Handling' -> 2 terms
+[debug] Block L28-28: '`extract_role_status()` is the only source of truth for cons' -> 7 terms
+
+Done: 20 ok, 10 skip, 0 fail
+[trace] translator=/home/ea/techdoc-translator/techdoc_translator.py
+[trace] model=Qwen3.6-35B-A3B-NVFP4 temp=0.0 kwargs={"enable_thinking":true}
+[trace] TRACE_S5_local_nvfp4_t00_think_on/S5/rep1 exit=0 wall=275.1s requests=9 reasoning=107484 chars
+[trace] TRACE_S5_local_nvfp4_t00_think_on/S5/rep2 exit=0 wall=278.8s requests=9 reasoning=109214 chars
+[trace] TRACE_S5_local_nvfp4_t00_think_on/S5/rep3 exit=0 wall=278.8s requests=9 reasoning=109214 chars
+[trace] ALL DONE
+[nightly 2026-11-15T19:47:33] P-007 traces done: 6/6
+[nightly 2026-11-15T19:47:33] === defect metrics (FreeBSD domain) ===
+wrote results/defects_freebsd.csv (60 rows), results/summary_freebsd.md
+[nightly 2026-11-15T19:47:36] === chrF vs official RU reference ===
+F_C5_local_nvfp4_think_off           F1_config            chrF= 86.62 sd= 0.37
+F_C5_local_nvfp4_think_off           F2_security          chrF= 82.98 sd= 0.65
+F_C5_local_nvfp4_think_off           F3_disks             chrF= 85.54 sd= 0.97
+F_C5_local_nvfp4_think_off           F4_network-servers   chrF= 80.32 sd= 1.18
+F_C5_local_nvfp4_think_off           F5_firewalls         chrF= 86.68 sd= 0.31
+F_C6_local_nvfp4_think_on            F1_config            chrF= 87.22 sd= 1.04
+F_C6_local_nvfp4_think_on            F2_security          chrF= 78.97 sd= 0.98
+F_C6_local_nvfp4_think_on            F3_disks             chrF= 84.10 sd= 0.53
+F_C6_local_nvfp4_think_on            F4_network-servers   chrF= 80.90 sd= 0.67
+F_C6_local_nvfp4_think_on            F5_firewalls         chrF= 86.99 sd= 0.53
+F_T00_local_nvfp4_t00_think_off      F1_config            chrF= 87.05 sd= 0.00
+F_T00_local_nvfp4_t00_think_off      F2_security          chrF= 82.95 sd= 0.14
+F_T00_local_nvfp4_t00_think_off      F3_disks             chrF= 85.91 sd= 0.11
+F_T00_local_nvfp4_t00_think_off      F4_network-servers   chrF= 81.10 sd= 0.00
+F_T00_local_nvfp4_t00_think_off      F5_firewalls         chrF= 86.70 sd= 0.00
+F_T00_local_nvfp4_t00_think_on       F1_config            chrF= 87.22 sd= 0.96
+F_T00_local_nvfp4_t00_think_on       F2_security          chrF= 79.77 sd= 0.02
+F_T00_local_nvfp4_t00_think_on       F3_disks             chrF= 84.18 sd= 1.51
+F_T00_local_nvfp4_t00_think_on       F4_network-servers   chrF= 81.52 sd= 0.00
+F_T00_local_nvfp4_t00_think_on       F5_firewalls         chrF= 87.23 sd= 0.47
+wrote /home/ea/experiments/paper-reasoning-quantization/results/chrf_freebsd.csv (20 rows)
+wrote /home/ea/experiments/paper-reasoning-quantization/results/chrf_freebsd.md
+[nightly 2026-11-15T19:47:36] === nightly digest ===
+# Nightly run summary
+
+Log: `runs/nightly_20261115-163605.log`
+
+Notable log lines:
+- [16:39:47] ALL DONE 15/15
+- [17:47:46] ALL DONE 15/15
+- [17:51:25] ALL DONE 15/15
+- [19:24:37] ALL DONE 15/15
+- [trace] ALL DONE
+- [trace] ALL DONE
+
+## P-005 runs (FreeBSD domain)
+
+| condition | runs | expected | wall mean, s | exit≠0 |
+|---|---|---|---|---|
+| F_C5_local_nvfp4_think_off | 15 | 15 | 14.7 | 3 |
+| F_C6_local_nvfp4_think_on | 15 | 15 | 271.9 | 3 |
+| F_T00_local_nvfp4_t00_think_off | 15 | 15 | 14.5 | 3 |
+| F_T00_local_nvfp4_t00_think_on | 15 | 15 | 372.8 | 5 |
+
+**Total: 60/60 runs.**
+
+## P-007 reasoning traces
+
+| condition | fixture | rep | requests | reasoning chars | content chars | wall, s |
+|---|---|---|---|---|---|---|
+| TRACE_S4_local_nvfp4_t00_think_on | S4 | 1 | 8 | 71072 | 1778 | 180.9 |
+| TRACE_S4_local_nvfp4_t00_think_on | S4 | 2 | 8 | 71072 | 1778 | 180.8 |
+| TRACE_S4_local_nvfp4_t00_think_on | S4 | 3 | 8 | 71072 | 1778 | 181.0 |
+| TRACE_S5_local_nvfp4_t00_think_on | S5 | 1 | 9 | 107484 | 3645 | 275.1 |
+| TRACE_S5_local_nvfp4_t00_think_on | S5 | 2 | 9 | 109214 | 3646 | 278.8 |
+| TRACE_S5_local_nvfp4_t00_think_on | S5 | 3 | 9 | 109214 | 3646 | 278.8 |
+
+## Defect metrics (FreeBSD, per run)
+
+| condition | D3 code | D5nc term | D7nc contr | D4 num | D6 echo | FAIL | wall, s |
+|---|---|---|---|---|---|---|---|
+| F_C5_local_nvfp4_think_off | 0.00 | 2.20 | 2.20 | 0.00 | 0.00 | 0.20 | 14.7 |
+| F_C6_local_nvfp4_think_on | 0.00 | 2.13 | 2.27 | 0.00 | 0.00 | 0.20 | 271.9 |
+| F_T00_local_nvfp4_t00_think_off | 0.00 | 2.20 | 2.20 | 0.00 | 0.00 | 0.20 | 14.5 |
+| F_T00_local_nvfp4_t00_think_on | 0.00 | 2.00 | 2.20 | 0.00 | 0.00 | 0.33 | 372.8 |
+
+## chrF vs official RU reference
+
+
+Metric: sacrebleu corpus chrF (beta=2, char n-grams 1..6),
+one document per unit; condition value = mean over fixtures.
+
+| condition | mean chrF | min fixture | max fixture |
+|---|---|---|---|
+| F_T00_local_nvfp4_t00_think_off | 84.74 | 81.10 | 87.05 |
+| F_C5_local_nvfp4_think_off | 84.43 | 80.32 | 86.68 |
+| F_T00_local_nvfp4_t00_think_on | 83.98 | 79.77 | 87.23 |
+| F_C6_local_nvfp4_think_on | 83.64 | 78.97 | 87.22 |
+
+## Per fixture
+
+| condition | F1_config | F2_security | F3_disks | F4_network-servers | F5_firewalls |
+|---|---|---|---|---|---|
+| F_C5_local_nvfp4_think_off | 86.62 | 82.98 | 85.54 | 80.32 | 86.68 |
+| F_C6_local_nvfp4_think_on | 87.22 | 78.97 | 84.10 | 80.90 | 86.99 |
+| F_T00_local_nvfp4_t00_think_off | 87.05 | 82.95 | 85.91 | 81.10 | 86.70 |
+| F_T00_local_nvfp4_t00_think_on | 87.22 | 79.77 | 84.18 | 81.52 | 87.23 |
+
+## MQM absolute (FreeBSD)
+
+_no P-005 conditions judged yet — run `bash run_nightly.sh --judge-only`_
+
+
+wrote results/nightly_summary.md
+[nightly 2026-11-15T19:47:36] ALL DONE in 191m31s; log=runs/nightly_20261115-163605.log
+[nightly 2026-11-15T19:47:36] artifacts: runs/F_*/ (60), runs_trace/ (6), results/defects_freebsd.csv, results/chrf_freebsd.md
+[nightly 2026-11-15T19:47:36] NEXT: run 'bash run_nightly.sh --judge-only' on a day with cloud quota

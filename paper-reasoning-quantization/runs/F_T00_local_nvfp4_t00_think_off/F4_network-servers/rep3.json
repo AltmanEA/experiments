@@ -1,0 +1,35 @@
+{
+  "D1_linecount_fb": 0,
+  "D2_fix": 0,
+  "D2_fuzz_fix": 0,
+  "D2_path_fix": 0,
+  "D2_fail": 0,
+  "D3_code_total": 7,
+  "D3_code_missing": [],
+  "D4_num_total": 3,
+  "D4_num_lost": {},
+  "D5_terms_found": 19,
+  "D5_terms_missing": [
+    "base system",
+    "file system",
+    "network",
+    "service"
+  ],
+  "D5_nc_terms_found": 19,
+  "D5_nc_terms_missing": [
+    "base system",
+    "file system",
+    "network",
+    "service"
+  ],
+  "D6_echo": [],
+  "D6_markers_lost": {},
+  "D7_contaminants": [
+    "пакет",
+    "том"
+  ],
+  "D7_nc_contaminants": [
+    "пакет",
+    "том"
+  ]
+}

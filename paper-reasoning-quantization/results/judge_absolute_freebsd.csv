@@ -1,0 +1,11 @@
+condition,fixture,rep,judge,score,n_critical,n_major,n_minor,categories
+REF_freebsd_official,F1_config,1,gemma-4-31b,100,0,0,0,
+REF_freebsd_official,F1_config,1,gpt-oss-120b,100,0,0,0,
+REF_freebsd_official,F2_security,1,gemma-4-31b,90,0,1,0,accuracy
+REF_freebsd_official,F2_security,1,gpt-oss-120b,100,0,0,0,
+REF_freebsd_official,F3_disks,1,gemma-4-31b,82,0,1,4,terminology
+REF_freebsd_official,F3_disks,1,gpt-oss-120b,96,0,0,2,terminology
+REF_freebsd_official,F4_network-servers,1,gemma-4-31b,96,0,0,2,terminology
+REF_freebsd_official,F4_network-servers,1,gpt-oss-120b,60,0,4,0,terminology
+REF_freebsd_official,F5_firewalls,1,gemma-4-31b,98,0,0,1,terminology
+REF_freebsd_official,F5_firewalls,1,gpt-oss-120b,100,0,0,0,

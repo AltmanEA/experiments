@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'disk quota' (дисковая квота) is replaced by a different lemma ('квоты на диске').",
+      "quote": "Квоты на диске"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'disk quota' (дисковая квота) is replaced by a different lemma ('квоты дисков').",
+      "quote": "квоты дисков"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'disk quota' (дисковая квота) is replaced by a different lemma ('квоты на диски').",
+      "quote": "квоты на диски"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'disk quota' (дисковая квота) is incorrectly translated using the lemma for 'disk space' (дисковое пространство).",
+      "quote": "квоты дискового пространства"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'disk quota' (дисковая квота) is replaced by a different lemma ('квоты диска').",
+      "quote": "квоты диска"
+    }
+  ],
+  "score": 82,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "REF_freebsd_official",
+    "fixture": "F3_disks",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-15T12:26:31"
+  }
+}

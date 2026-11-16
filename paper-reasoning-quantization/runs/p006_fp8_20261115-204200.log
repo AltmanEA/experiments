@@ -1,0 +1,78 @@
+[p006 2026-11-15T20:42:00] START P-006: runs=1 metrics=1 with_t08=0 dry=0
+[p006 2026-11-15T20:42:00] plan: 2 conditions x 7 fixtures x 3 reps = 42 runs
+[p006 2026-11-15T20:42:00] conditions: FP8_T00_local_fp8_t00_think_off FP8_T00_local_fp8_t00_think_on
+[p006 2026-11-15T20:42:00] preflight: model=Qwen3.6-35B-FP8 base=http://127.0.0.1:1919/v1 py=/home/ea/experiments/paper-reasoning-quantization/.venv-analysis/bin/python
+[p006 2026-11-15T20:42:00] preflight: engine=/home/ea/experiments/paper-reasoning-quantization/vendor/legacy_local_translate_d5d77db.py (frozen d5d77db snapshot)
+[p006 2026-11-15T20:42:00] preflight: glossary=/home/ea/experiments/paper-reasoning-quantization/corpus/glossary_council_2026-11-11.md (frozen 2026-11-11 snapshot)
+[p006 2026-11-15T20:42:00] preflight OK: server offers Qwen3.6-35B-FP8
+/dev/sdd       1007G   46G  911G   5% /
+[p006 2026-11-15T20:42:00] === probe: frozen engine reproduces the C3 pipeline structure ===
+[p006 2026-11-15T20:42:14] probe: exit=0 terms=56 blocks=5 done='11 ok, 22 skip, 0 fail' first_line='# Council'
+[p006 2026-11-15T20:42:14] probe OK: pipeline parity with C3 confirmed
+[p006 2026-11-15T20:42:14] === probe: enable_thinking really switches reasoning on this server ===
+enable_thinking=true  reasoning_chars=2847 content_len=56
+enable_thinking=false reasoning_chars=0 content_len=56
+[p006 2026-11-15T20:42:29] probe OK: on=2847 chars reasoning, off=0
+[p006 2026-11-15T20:42:29] === P-006: FP8 temperature anchors, Qwen3.6-35B-FP8 (42 runs) ===
+[p006 2026-11-15T20:42:29] RUN FP8_T00_local_fp8_t00_think_off (temp=0.0 thinking=false)
+[20:42:29] preflight OK: model=Qwen3.6-35B-FP8
+[20:42:29] START FP8_T00_local_fp8_t00_think_off model=Qwen3.6-35B-FP8 thinking=false temp=0.0 (0/21 done)
+[20:42:42] DONE S1 rep1 exit=0 wall=13s fails=0 (1/21) progress  1/21 (  4%) elapsed 0h00m13s eta 0h04m20s
+[20:42:56] DONE S1 rep2 exit=0 wall=14s fails=0 (2/21) progress  2/21 (  9%) elapsed 0h00m27s eta 0h04m07s
+[20:43:10] DONE S1 rep3 exit=0 wall=14s fails=0 (3/21) progress  3/21 ( 14%) elapsed 0h00m41s eta 0h03m54s
+[20:43:34] DONE S2 rep1 exit=0 wall=24s fails=0 (4/21) progress  4/21 ( 19%) elapsed 0h01m05s eta 0h04m32s
+[20:43:59] DONE S2 rep2 exit=0 wall=25s fails=0 (5/21) progress  5/21 ( 23%) elapsed 0h01m30s eta 0h04m48s
+[20:44:24] DONE S2 rep3 exit=0 wall=25s fails=0 (6/21) progress  6/21 ( 28%) elapsed 0h01m55s eta 0h04m45s
+[20:44:35] DONE S3 rep1 exit=0 wall=11s fails=0 (7/21) progress  7/21 ( 33%) elapsed 0h02m06s eta 0h04m12s
+[20:44:46] DONE S3 rep2 exit=0 wall=11s fails=0 (8/21) progress  8/21 ( 38%) elapsed 0h02m17s eta 0h03m41s
+[20:44:57] DONE S3 rep3 exit=0 wall=11s fails=0 (9/21) progress  9/21 ( 42%) elapsed 0h02m28s eta 0h03m12s
+[20:45:10] DONE S4 rep1 exit=0 wall=13s fails=2 (10/21) progress 10/21 ( 47%) elapsed 0h02m41s eta 0h02m56s
+[20:45:23] DONE S4 rep2 exit=0 wall=13s fails=2 (11/21) progress 11/21 ( 52%) elapsed 0h02m54s eta 0h02m30s
+[20:45:37] DONE S4 rep3 exit=0 wall=14s fails=2 (12/21) progress 12/21 ( 57%) elapsed 0h03m08s eta 0h02m15s
+[20:46:00] DONE S5 rep1 exit=0 wall=23s fails=1 (13/21) progress 13/21 ( 61%) elapsed 0h03m31s eta 0h02m08s
+[20:46:22] DONE S5 rep2 exit=0 wall=22s fails=1 (14/21) progress 14/21 ( 66%) elapsed 0h03m53s eta 0h01m52s
+[20:46:45] DONE S5 rep3 exit=0 wall=23s fails=1 (15/21) progress 15/21 ( 71%) elapsed 0h04m16s eta 0h01m42s
+[20:47:08] DONE S6 rep1 exit=0 wall=23s fails=1 (16/21) progress 16/21 ( 76%) elapsed 0h04m39s eta 0h01m25s
+[20:47:30] DONE S6 rep2 exit=0 wall=22s fails=1 (17/21) progress 17/21 ( 80%) elapsed 0h05m01s eta 0h01m08s
+[20:47:53] DONE S6 rep3 exit=0 wall=23s fails=1 (18/21) progress 18/21 ( 85%) elapsed 0h05m24s eta 0h00m54s
+[20:48:11] DONE S7 rep1 exit=0 wall=18s fails=0 (19/21) progress 19/21 ( 90%) elapsed 0h05m42s eta 0h00m36s
+[20:48:29] DONE S7 rep2 exit=0 wall=18s fails=0 (20/21) progress 20/21 ( 95%) elapsed 0h06m00s eta 0h00m18s
+[20:48:47] DONE S7 rep3 exit=0 wall=18s fails=0 (21/21) progress 21/21 (100%) elapsed 0h06m18s eta 0h00m00s
+[20:48:47] ALL DONE 21/21
+[p006 2026-11-15T20:48:47] RUN FP8_T00_local_fp8_t00_think_on (temp=0.0 thinking=true)
+[20:48:47] preflight OK: model=Qwen3.6-35B-FP8
+[20:48:47] START FP8_T00_local_fp8_t00_think_on model=Qwen3.6-35B-FP8 thinking=true temp=0.0 (0/21 done)
+[20:52:25] DONE S1 rep1 exit=0 wall=218s fails=0 (1/21) progress  1/21 (  4%) elapsed 0h03m38s eta 1h12m40s
+[20:55:36] DONE S1 rep2 exit=0 wall=191s fails=0 (2/21) progress  2/21 (  9%) elapsed 0h06m49s eta 1h04m36s
+[20:58:44] DONE S1 rep3 exit=0 wall=188s fails=0 (3/21) progress  3/21 ( 14%) elapsed 0h09m57s eta 0h59m42s
+[21:04:30] DONE S2 rep1 exit=0 wall=346s fails=0 (4/21) progress  4/21 ( 19%) elapsed 0h15m43s eta 1h06m35s
+[21:10:19] DONE S2 rep2 exit=0 wall=348s fails=0 (5/21) progress  5/21 ( 23%) elapsed 0h21m32s eta 1h08m48s
+[21:16:07] DONE S2 rep3 exit=0 wall=348s fails=0 (6/21) progress  6/21 ( 28%) elapsed 0h27m20s eta 1h08m15s
+[21:19:29] DONE S3 rep1 exit=0 wall=202s fails=1 (7/21) progress  7/21 ( 33%) elapsed 0h30m42s eta 1h01m22s
+[21:22:35] DONE S3 rep2 exit=0 wall=186s fails=1 (8/21) progress  8/21 ( 38%) elapsed 0h33m48s eta 0h54m49s
+[21:25:41] DONE S3 rep3 exit=0 wall=186s fails=1 (9/21) progress  9/21 ( 42%) elapsed 0h36m54s eta 0h49m12s
+[21:31:05] DONE S4 rep1 exit=0 wall=324s fails=2 (10/21) progress 10/21 ( 47%) elapsed 0h42m18s eta 0h46m23s
+[21:36:49] DONE S4 rep2 exit=0 wall=344s fails=2 (11/21) progress 11/21 ( 52%) elapsed 0h48m02s eta 0h43m40s
+[21:42:32] DONE S4 rep3 exit=0 wall=343s fails=2 (12/21) progress 12/21 ( 57%) elapsed 0h53m45s eta 0h40m12s
+[21:49:28] DONE S5 rep1 exit=0 wall=416s fails=1 (13/21) progress 13/21 ( 61%) elapsed 1h00m41s eta 0h37m20s
+[21:55:44] DONE S5 rep2 exit=0 wall=376s fails=1 (14/21) progress 14/21 ( 66%) elapsed 1h06m57s eta 0h33m22s
+[22:01:59] DONE S5 rep3 exit=0 wall=375s fails=1 (15/21) progress 15/21 ( 71%) elapsed 1h13m12s eta 0h29m12s
+[22:07:48] DONE S6 rep1 exit=0 wall=349s fails=1 (16/21) progress 16/21 ( 76%) elapsed 1h19m01s eta 0h24m40s
+[22:13:48] DONE S6 rep2 exit=0 wall=360s fails=1 (17/21) progress 17/21 ( 80%) elapsed 1h25m01s eta 0h20m00s
+[22:19:48] DONE S6 rep3 exit=0 wall=360s fails=1 (18/21) progress 18/21 ( 85%) elapsed 1h31m01s eta 0h15m09s
+[22:24:38] DONE S7 rep1 exit=0 wall=290s fails=1 (19/21) progress 19/21 ( 90%) elapsed 1h35m51s eta 0h10m04s
+[22:29:05] DONE S7 rep2 exit=0 wall=267s fails=1 (20/21) progress 20/21 ( 95%) elapsed 1h40m18s eta 0h05m00s
+[22:33:33] DONE S7 rep3 exit=0 wall=268s fails=1 (21/21) progress 21/21 (100%) elapsed 1h44m46s eta 0h00m00s
+[22:33:33] ALL DONE 21/21
+[p006 2026-11-15T22:33:33] P-006 runs done: 42/42
+[p006 2026-11-15T22:33:33] === defect metrics (FP8 conditions) ===
+wrote results/defects_fp8.csv (42 rows), results/summary_fp8.md
+[p006 2026-11-15T22:33:35] === summary ===
+
+| condition | runs | FAIL | D5nc term | D7nc contr | wall, s |
+|---|---|---|---|---|---|
+| FP8_T00_local_fp8_t00_think_off | 21 | 0.57 | 0.81 | 0.43 | 18.00 |
+| FP8_T00_local_fp8_t00_think_on | 21 | 0.86 | 0.67 | 0.43 | 299.29 |
+[p006 2026-11-15T22:33:35] ALL DONE in 111m6s; log=runs/p006_fp8_20261115-204200.log
+[p006 2026-11-15T22:33:35] artifacts: runs/FP8_*/ , results/defects_fp8.csv, results/summary_fp8.md
+[p006 2026-11-15T22:33:35] NEXT: judge these conditions with cloud quota, then re-run --metrics-only

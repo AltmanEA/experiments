@@ -1,0 +1,13 @@
+{
+  "defects": [],
+  "score": 100,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "REF_freebsd_official",
+    "fixture": "F5_firewalls",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-15T12:27:08"
+  }
+}

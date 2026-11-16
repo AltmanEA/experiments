@@ -1,0 +1,24 @@
+[debug] Glossary loaded: 77 terms
+[debug] Block L1-1: '# Network Servers' -> 1 terms
+[debug] Block L3-3: '## Domain Name System (DNS)' -> 1 terms
+[debug] Block L5-5: 'Domain Name System (DNS) is the protocol through which domai' -> 3 terms
+[debug] Block L7-7: 'The following table describes some of the terms associated w' -> 0 terms
+[debug] Block L9-9: '| Term | Definition |' -> 0 terms
+[debug] Block L11-16: '| Forward DNS | Mapping of hostnames to IP addresses. |\\n| Or' -> 7 terms
+[debug] Block L18-18: 'Examples of zones:' -> 0 terms
+[debug] Block L20-23: '* `.` is how the root zone is usually referred to in documen' -> 3 terms
+[debug] Block L25-25: 'As one can see, the more specific part of a hostname appears' -> 3 terms
+[debug] Block L27-27: '### Reasons to Run a Name Server' -> 1 terms
+[debug] Block L29-29: 'Name servers generally come in two forms: authoritative name' -> 0 terms
+[debug] Block L31-31: 'An authoritative name server is needed when:' -> 2 terms
+[debug] Block L33-36: '* One wants to serve DNS information to the world, replying ' -> 3 terms
+[debug] Block L38-38: 'A caching name server is needed when:' -> 2 terms
+[debug] Block L40-40: '* A local DNS server may cache and respond more quickly than' -> 1 terms
+[debug] Block L42-42: '### DNS Server Configuration' -> 1 terms
+[debug] Block L44-44: 'Unbound is provided in the FreeBSD base system. By default, ' -> 3 terms
+[debug] Block L46-46: 'To enable Unbound, add the following to /etc/rc.conf:' -> 0 terms
+[debug] Block L52-52: 'Any existing nameservers in /etc/resolv.conf will be configu' -> 2 terms
+[debug] Block L54-56: '> **NOTE**\\n>\\n> If any of the listed nameservers do not suppo' -> 0 terms
+[debug] Block L58-58: 'Once each nameserver is confirmed to support DNSSEC, start U' -> 0 terms
+
+Done: 33 ok, 30 skip, 0 fail

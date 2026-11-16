@@ -1,0 +1,11 @@
+[debug] backend=cloud model=Qwen3.6-35B-FP8
+[debug] Glossary loaded: 56 terms
+[debug] Block L3-3: 'Moderator control flow and every phase, consensus, and escal' -> 8 terms: ['Escalation', 'Moderator', 'Consensus', 'Scenario', 'Session']
+[debug] Block L7-7: 'States: `1` task submission, `2` individual review, `3` disc' -> 3 terms: ['Resolution', 'Consensus', 'Task']
+[debug] Block L9-22: '| From | To | Guard |\\n|------|----|-------|\\n| 1 | 2 | Task v' -> 12 terms: ['Escalation', 'Resolution', 'Documenter', 'Consensus', 'Scenario']
+[FAIL] L10 — fallback
+[debug] Block L24-24: 'Only `orchestrator/` advances a phase. The operator never ed' -> 2 terms: ['Resolution', 'Phase']
+[debug] Block L28-28: '`extract_role_status()` is the only source of truth for cons' -> 7 terms: ['Role Status', 'Escalation', 'Consensus', 'Session', 'Finding']
+[gloss-apply] 'Finding' -> 'Вывод' x1
+
+Done: 17 ok, 12 skip, 1 fail

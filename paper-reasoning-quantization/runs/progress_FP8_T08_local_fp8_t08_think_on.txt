@@ -1,0 +1,24 @@
+[22:40:37] preflight OK: model=Qwen3.6-35B-FP8
+[22:40:37] START FP8_T08_local_fp8_t08_think_on model=Qwen3.6-35B-FP8 thinking=true temp=0.8 (0/21 done)
+[22:43:59] DONE S1 rep1 exit=0 wall=202s fails=0 (1/21) progress  1/21 (  4%) elapsed 0h03m22s eta 1h07m20s
+[22:47:09] DONE S1 rep2 exit=0 wall=190s fails=0 (2/21) progress  2/21 (  9%) elapsed 0h06m32s eta 1h02m04s
+[22:50:36] DONE S1 rep3 exit=0 wall=207s fails=0 (3/21) progress  3/21 ( 14%) elapsed 0h09m59s eta 0h59m42s
+[22:56:42] DONE S2 rep1 exit=0 wall=366s fails=0 (4/21) progress  4/21 ( 19%) elapsed 0h16m05s eta 1h08m17s
+[23:02:59] DONE S2 rep2 exit=0 wall=376s fails=0 (5/21) progress  5/21 ( 23%) elapsed 0h22m22s eta 1h11m28s
+[23:09:05] DONE S2 rep3 exit=0 wall=366s fails=0 (6/21) progress  6/21 ( 28%) elapsed 0h28m28s eta 1h11m00s
+[23:11:54] DONE S3 rep1 exit=0 wall=169s fails=1 (7/21) progress  7/21 ( 33%) elapsed 0h31m17s eta 1h02m32s
+[23:15:40] DONE S3 rep2 exit=0 wall=226s fails=1 (8/21) progress  8/21 ( 38%) elapsed 0h35m03s eta 0h56m46s
+[23:18:42] DONE S3 rep3 exit=0 wall=182s fails=1 (9/21) progress  9/21 ( 42%) elapsed 0h38m05s eta 0h50m36s
+[23:25:38] DONE S4 rep1 exit=0 wall=416s fails=2 (10/21) progress 10/21 ( 47%) elapsed 0h45m01s eta 0h49m30s
+[23:30:18] DONE S4 rep2 exit=0 wall=280s fails=2 (11/21) progress 11/21 ( 52%) elapsed 0h49m41s eta 0h45m10s
+[23:35:25] DONE S4 rep3 exit=0 wall=307s fails=2 (12/21) progress 12/21 ( 57%) elapsed 0h54m48s eta 0h41m06s
+[23:41:56] DONE S5 rep1 exit=0 wall=391s fails=1 (13/21) progress 13/21 ( 61%) elapsed 1h01m19s eta 0h37m44s
+[23:48:40] DONE S5 rep2 exit=0 wall=404s fails=1 (14/21) progress 14/21 ( 66%) elapsed 1h08m03s eta 0h33m57s
+[23:55:00] DONE S5 rep3 exit=0 wall=380s fails=1 (15/21) progress 15/21 ( 71%) elapsed 1h14m23s eta 0h29m42s
+[00:02:06] DONE S6 rep1 exit=0 wall=426s fails=1 (16/21) progress 16/21 ( 76%) elapsed 1h21m29s eta 0h25m25s
+[00:09:25] DONE S6 rep2 exit=0 wall=439s fails=1 (17/21) progress 17/21 ( 80%) elapsed 1h28m48s eta 0h20m52s
+[00:15:08] DONE S6 rep3 exit=0 wall=343s fails=1 (18/21) progress 18/21 ( 85%) elapsed 1h34m31s eta 0h15m45s
+[00:19:52] DONE S7 rep1 exit=0 wall=284s fails=1 (19/21) progress 19/21 ( 90%) elapsed 1h39m15s eta 0h10m26s
+[00:24:57] DONE S7 rep2 exit=0 wall=305s fails=1 (20/21) progress 20/21 ( 95%) elapsed 1h44m20s eta 0h05m13s
+[00:30:59] DONE S7 rep3 exit=0 wall=362s fails=1 (21/21) progress 21/21 (100%) elapsed 1h50m22s eta 0h00m00s
+[00:30:59] ALL DONE 21/21

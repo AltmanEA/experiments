@@ -38,6 +38,7 @@ REPS = [1, 2, 3]
 # Council is the default so existing commands and outputs are unchanged.
 CORPUS_DIR = ROOT / "corpus"
 PAIRS_DIR = ROOT / "corpus" / "gloss_pairs"
+RUNS_DIR = ROOT / "runs"
 TAG = ""
 CLEAN_ALIAS = {"C2_clean": "C2_cloud_bf16_think_on_clean"}
 DEFAULT_CONDS = ["C1_cloud_bf16_think_off", "C2_cloud_bf16_think_on", "K0_cloud_no_glossary",
@@ -117,7 +118,7 @@ def task_list(mode, conds, pairs):
         for cond in conds:
             for fx in FIXES:
                 for k in REPS:
-                    md = ROOT / "runs" / cond / fx / f"rep{k}.md"
+                    md = RUNS_DIR / cond / fx / f"rep{k}.md"
                     if md.exists():
                         tasks.append({"cond": cond, "fix": fx, "rep": k, "ru": str(md)})
     else:
@@ -126,8 +127,8 @@ def task_list(mode, conds, pairs):
             b_cond = CLEAN_ALIAS.get(b_name, b_name)
             for fx in FIXES:
                 for k in REPS:
-                    a = ROOT / "runs" / a_cond / fx / f"rep{k}.md"
-                    b = ROOT / "runs" / b_cond / fx / f"rep{k}.md"
+                    a = RUNS_DIR / a_cond / fx / f"rep{k}.md"
+                    b = RUNS_DIR / b_cond / fx / f"rep{k}.md"
                     if a.exists() and b.exists():
                         tasks.append({"pair": f"{a_name}-vs-{b_name}", "cond": f"{a_name}-vs-{b_name}",
                                       "fix": fx, "rep": k, "a": str(a), "b": str(b)})
@@ -259,7 +260,7 @@ def repair_tasks(mode):
             grouped.setdefault((cond, fx, rep), set()).add(judge)
     tasks = []
     for (cond, fx, rep), judges in grouped.items():
-        ru = ROOT / "runs" / cond / fx / f"rep{rep}.md"
+        ru = RUNS_DIR / cond / fx / f"rep{rep}.md"
         if ru.exists():
             tasks.append({"cond": cond, "fix": fx, "rep": rep, "ru": str(ru),
                           "judges": sorted(judges)})
@@ -267,7 +268,7 @@ def repair_tasks(mode):
 
 def apply_domain(a):
     """Bind module-level domain paths to CLI choices (Council defaults)."""
-    global FIXES, CORPUS_DIR, PAIRS_DIR, TAG
+    global FIXES, CORPUS_DIR, PAIRS_DIR, RUNS_DIR, TAG
     if a.fixtures:
         FIXES = list(a.fixtures)
     CORPUS_DIR = Path(a.corpus_dir)
@@ -276,6 +277,9 @@ def apply_domain(a):
     PAIRS_DIR = Path(a.pairs_dir)
     if not PAIRS_DIR.is_absolute():
         PAIRS_DIR = ROOT / PAIRS_DIR
+    RUNS_DIR = Path(a.runs_dir)
+    if not RUNS_DIR.is_absolute():
+        RUNS_DIR = ROOT / RUNS_DIR
     TAG = a.tag
     missing = [f for f in FIXES if not (CORPUS_DIR / f"{f}.md").exists()]
     if missing:
@@ -299,7 +303,7 @@ def run(args):
         return 0
     if args.limit:
         tasks = tasks[:args.limit]
-    pacer = Pacer(args.rpm)
+    pacer = Pacer(args.rpm, reserve_pct=args.reserve)
     counters = {"lock": threading.Lock(), "ok": 0, "skipped": 0, "failed": 0, "started": 0}
     threads = [threading.Thread(target=worker, args=(tasks, args, pacer, counters), daemon=True)
                for _ in range(args.workers)]
@@ -360,12 +364,18 @@ def main():
                     help="directory with <fixture>.md EN sources (default: corpus)")
     ap.add_argument("--pairs-dir", default="corpus/gloss_pairs",
                     help="directory with <fixture>.txt judge glossary pairs")
+    ap.add_argument("--runs-dir", default="runs",
+                    help="directory holding <condition>/<fixture>/rep<k>.md outputs "
+                         "(point it at a pseudo-condition, e.g. reference translations)")
     ap.add_argument("--tag", default="",
                     help="output suffix for a second domain, e.g. _freebsd "
                          "(judge<TAG>/, results/judge_<mode><TAG>.csv)")
     ap.add_argument("--pairs", help="comma list condA:condB (pairwise only)")
     ap.add_argument("--workers", type=int, default=2)
     ap.add_argument("--rpm", type=int, default=36)
+    ap.add_argument("--reserve", type=int, default=15,
+                    help="quota reserve %% kept by the pacer gate; lower it for small "
+                         "batches when the weekly remaining is already below the default gate")
     ap.add_argument("--limit", type=int, help="only first N tasks (smoke test)")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--dry-run", action="store_true")

@@ -1,0 +1,18 @@
+[debug] Glossary loaded: 77 terms
+[debug] Block L1-1: '# Security' -> 0 terms
+[debug] Block L3-3: '## SSH Server Security Options' -> 0 terms
+[debug] Block L5-5: 'While sshd is the most widely used remote administration fac' -> 1 terms
+[debug] Block L7-7: 'Several additional parameters are available to prevent the s' -> 0 terms
+[debug] Block L9-11: '> **TIP**\\n>\\n> Do not confuse /etc/ssh/sshd_config with /etc/' -> 0 terms
+[fuzz-fix] 'клиента' -> 'клетка' (ratio 0.77)
+[debug] Block L13-14: 'By default, authentication can be done with both pubkey and ' -> 3 terms
+[debug] Block L20-20: 'It is a good idea to limit which users can log into the SSH ' -> 3 terms
+[debug] Block L26-26: 'Multiple users should be listed on the same line, like so:' -> 0 terms
+[debug] Block L32-32: 'After making all the changes, and before restarting the serv' -> 2 terms
+[debug] Block L38-38: 'After making the changes and checking that the configuration' -> 3 terms
+[debug] Block L44-44: '## OpenSSL' -> 0 terms
+[debug] Block L46-46: 'OpenSSL is a cryptography toolkit implementing the Secure So' -> 2 terms
+[debug] Block L48-48: 'The openssl program is a command line tool for using the var' -> 1 terms
+[debug] Block L50-58: '* Creation and management of private keys, public keys and p' -> 1 terms
+
+Done: 23 ok, 36 skip, 0 fail

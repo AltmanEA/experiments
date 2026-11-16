@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary requires 'авторитетный сервер имён' for 'authoritative name server'.",
+      "quote": "авторитетные DNS-серверы"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary requires 'кэширующий сервер имён' for 'caching name server'.",
+      "quote": "кэширующие DNS-серверы"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "REF_freebsd_official",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-15T12:27:01"
+  }
+}

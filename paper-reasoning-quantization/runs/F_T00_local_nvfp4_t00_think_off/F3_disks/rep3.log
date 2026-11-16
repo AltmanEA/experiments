@@ -1,0 +1,20 @@
+[debug] Glossary loaded: 77 terms
+[debug] Block L1-1: '# Disks' -> 0 terms
+[debug] Block L3-3: '## Disk Quotas' -> 1 terms
+[debug] Block L5-5: 'Disk quotas can be used to limit the amount of disk space or' -> 3 terms
+[debug] Block L7-7: 'This section describes how to configure disk quotas for the ' -> 2 terms
+[debug] Block L9-9: '### Enabling Disk Quotas' -> 1 terms
+[debug] Block L11-11: 'To determine if the FreeBSD kernel provides support for disk' -> 2 terms
+[debug] Block L18-18: 'In this example, the `1` indicates quota support. If the val' -> 5 terms
+[gloss-apply] 'kernel' -> 'ядро' x1
+[debug] Block L24-24: 'Next, enable disk quotas in /etc/rc.conf:' -> 1 terms
+[debug] Block L30-30: 'Normally on bootup, the quota integrity of each file system ' -> 2 terms
+[debug] Block L36-36: 'Finally, edit /etc/fstab to enable disk quotas on a per-file' -> 2 terms
+[debug] Block L42-42: 'To enable group quotas, use `groupquota` instead. To enable ' -> 0 terms
+[debug] Block L48-48: 'By default, quota files are stored in the root directory of ' -> 1 terms
+[debug] Block L50-50: 'Once the configuration is complete, reboot the system and /e' -> 1 terms
+[debug] Block L52-52: 'In the normal course of operations, there should be no need ' -> 0 terms
+[debug] Block L54-54: '### Setting Quota Limits' -> 0 terms
+[debug] Block L56-56: 'To verify that quotas are enabled, run:' -> 0 terms
+
+Done: 16 ok, 45 skip, 0 fail

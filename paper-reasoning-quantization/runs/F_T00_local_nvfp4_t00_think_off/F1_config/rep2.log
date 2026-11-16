@@ -1,0 +1,18 @@
+[debug] Glossary loaded: 77 terms
+[debug] Block L1-1: '# Configuration, Services, Logging and Power Management' -> 2 terms
+[debug] Block L3-3: '## Configuration Files' -> 1 terms
+[debug] Block L5-5: '### The sysctl utility' -> 0 terms
+[debug] Block L7-7: 'The `sysctl(8)` utility is used to make changes to a running' -> 0 terms
+[debug] Block L9-9: 'The `sysctl(8)` utility retrieves kernel state and allows pr' -> 4 terms
+[debug] Block L11-11: 'Management Information Base' -> 1 terms
+[debug] Block L13-13: '| MIB | Description |' -> 0 terms
+[debug] Block L15-24: '| sysctl | "Magic" numbers |\\n| kern | Kernel functions and f' -> 8 terms
+[FAIL] L24 — fallback
+[debug] Block L26-26: 'At its core, `sysctl(8)` serves two functions: to read and t' -> 1 terms
+[debug] Block L28-28: 'To view all readable variables:' -> 1 terms
+[debug] Block L34-34: 'The output should be similar to the following:' -> 0 terms
+[debug] Block L50-50: 'To read a particular variable, specify its name:' -> 0 terms
+[debug] Block L56-56: 'The output should be similar to the following:' -> 0 terms
+
+Done: 21 ok, 39 skip, 1 fail
+[exit] 1 lines failed translation

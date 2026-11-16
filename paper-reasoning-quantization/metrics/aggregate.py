@@ -1,22 +1,30 @@
 #!/usr/bin/env python3
 """Aggregate D1-D8 + judge results into results/ CSV+tables. PLAN.md §6.3.
 
-Usage: aggregate.py [--root .]
+Usage: aggregate.py [--root .] [--fixtures F1 F2 ...] [--corpus-dir DIR]
+                    [--conditions C1 C2 ...] [--out-prefix NAME]
 Reads runs/<cond>/<fix>/rep<k>.{md,log}, calls defects.py per run, writes
 results/defects.csv and results/summary.md (mean per condition +/- rep-noise).
+
+Second domain (FreeBSD Handbook) stays in its own files so the Council tables
+are never overwritten:
+  aggregate.py --fixtures F1_config F2_security F3_disks F4_network-servers F5_firewalls \
+      --corpus-dir corpus/freebsd-ru/source --out-prefix _freebsd
+  -> results/defects_freebsd.csv, results/summary_freebsd.md
 """
-import csv, json, re, statistics, subprocess, sys
+import argparse, csv, json, os, re, statistics, subprocess, sys
 from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(sys.argv[sys.argv.index("--root") + 1]) if "--root" in sys.argv else Path(".")
-import os
 GLOSS = (Path(os.environ["GLOSS"]) if "GLOSS" in os.environ
          else (Path(os.environ.get("COUNCIL_DIR", os.path.expanduser("~/council")))
                / "docs/en/glossary/index.md"))
 CONDS = sorted(p.name for p in (ROOT / "runs").iterdir()
                if p.is_dir() and not p.name.startswith((".", "_")))
 FIXES = ["S1", "S2", "S3", "S4", "S5", "S6", "S7"]
+CORPUS_DIR = ROOT / "corpus"
+OUT_PREFIX = ""
 
 def run_log_wall(cond, fix):
     """wall time from runs/runlog.txt lines 'TS cond fix repK exit=.. wall=..s'.
@@ -45,7 +53,7 @@ def per_run(cond, fix):
         log = md.with_suffix("").with_suffix(".log") if False else d / f"rep{k}.log"
         out = d / f"rep{k}.json"
         r = subprocess.run([sys.executable, str(ROOT / "metrics/defects.py"),
-                            "--en", str(ROOT / "corpus" / f"{fix}.md"),
+                            "--en", str(CORPUS_DIR / f"{fix}.md"),
                             "--ru", str(md), "--log", str(log),
                             "--glossary", str(GLOSS), "--json", str(out)],
                            capture_output=True, text=True)
@@ -72,6 +80,28 @@ def scalarize(j):
     }
 
 def main():
+    global FIXES, CORPUS_DIR, CONDS, OUT_PREFIX
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--fixtures", nargs="*", help="fixture ids (default: S1..S7)")
+    ap.add_argument("--corpus-dir", default="corpus",
+                    help="directory with <fixture>.md EN sources")
+    ap.add_argument("--conditions", nargs="*", help="only these conditions")
+    ap.add_argument("--out-prefix", default="",
+                    help="suffix for output files, e.g. _freebsd "
+                         "(results/defects_freebsd.csv, results/summary_freebsd.md)")
+    a = ap.parse_args()
+    if a.fixtures:
+        FIXES = list(a.fixtures)
+    CORPUS_DIR = Path(a.corpus_dir)
+    if not CORPUS_DIR.is_absolute():
+        CORPUS_DIR = ROOT / CORPUS_DIR
+    missing = [f for f in FIXES if not (CORPUS_DIR / f"{f}.md").exists()]
+    if missing:
+        sys.exit(f"missing fixtures in {CORPUS_DIR}: {', '.join(missing)}")
+    if a.conditions:
+        CONDS = [c for c in CONDS if c in set(a.conditions)]
+    OUT_PREFIX = a.out_prefix
+
     rows = []
     for c in CONDS:
         for f in FIXES:
@@ -83,7 +113,7 @@ def main():
         print("no runs yet"); return 0
     keys = list(rows[0])
     (ROOT / "results").mkdir(exist_ok=True)
-    with open(ROOT / "results/defects.csv", "w", newline="") as fh:
+    with open(ROOT / "results" / f"defects{OUT_PREFIX}.csv", "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=keys); w.writeheader(); w.writerows(rows)
 
     # summary: per-condition means; noise = max stdev across conditions (per metric)
@@ -99,8 +129,10 @@ def main():
             vals = [r[m] for r in rs if r.get(m) is not None]
             cells.append(f"{statistics.mean(vals):.2f}" if vals else "—")
         lines.append(f"| {c} | " + " | ".join(cells) + " |")
-    (ROOT / "results/summary.md").write_text("\n".join(lines), encoding="utf-8")
-    print(f"wrote results/defects.csv ({len(rows)} rows), results/summary.md")
+    (ROOT / "results" / f"summary{OUT_PREFIX}.md").write_text("\n".join(lines), encoding="utf-8")
+    print(f"wrote results/defects{OUT_PREFIX}.csv ({len(rows)} rows), "
+          f"results/summary{OUT_PREFIX}.md")
+    return 0
 
 if __name__ == "__main__":
     main()

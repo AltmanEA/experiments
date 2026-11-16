@@ -1,0 +1,12 @@
+[p006 2026-11-15T20:21:19] START P-006: runs=1 metrics=1 with_t08=0 dry=1
+[p006 2026-11-15T20:21:19] plan: 2 conditions x 7 fixtures x 3 reps = 42 runs
+[p006 2026-11-15T20:21:19] conditions: FP8_T00_local_fp8_t00_think_off FP8_T00_local_fp8_t00_think_on
+[p006 2026-11-15T20:21:19] preflight: model=Qwen3.6-35B-FP8 base=http://127.0.0.1:1919/v1 py=/home/ea/experiments/paper-reasoning-quantization/.venv-analysis/bin/python
+[p006 2026-11-15T20:21:19] preflight OK: server offers Qwen3.6-35B-FP8
+/dev/sdd       1007G   46G  911G   5% /
+[p006 2026-11-15T20:21:19] === probe: enable_thinking really switches reasoning on this server ===
+enable_thinking=true  reasoning_chars=2847 content_len=56
+enable_thinking=false reasoning_chars=0 content_len=56
+[p006 2026-11-15T20:21:35] probe OK: on=2847 chars reasoning, off=0
+[p006 2026-11-15T20:21:35] DRY: would run stage_runs / stage_metrics
+[p006 2026-11-15T20:21:35] DRY: nothing was started
