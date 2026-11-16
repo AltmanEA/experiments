@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Technical state identifiers (code tokens) were translated into Russian, violating the requirement for byte-identical code tokens.",
+      "quote": "`ожидание оператора`, `разрешено`, `не удалось`"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Gender agreement error: the adjectives 'высокой/критической' (feminine) do not match the noun 'Вывод' (masculine).",
+      "quote": "высокой/критической Вывод Документатора"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender agreement error: the adjective 'полный' (masculine) does not match the noun 'отклонение' (neuter).",
+      "quote": "полный отклонение обзора"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Unnatural word order/phrasing for a section title; 'Session Manifest' should be translated as 'Манифест сессии'.",
+      "quote": "§Сессия Манифест"
+    }
+  ],
+  "score": 61,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T12:11:13"
+  }
+}

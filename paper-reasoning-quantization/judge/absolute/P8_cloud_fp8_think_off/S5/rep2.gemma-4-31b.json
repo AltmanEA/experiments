@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Section headers are not translated into Russian, despite containing glossary terms (Phase, Role Status).",
+      "quote": "## Deterministic Control Plane"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect word order and case for 'Session Manifest'. Should be 'Манифест сессии'.",
+      "quote": "§Сессия Манифест"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Inconsistent translation of 'percheck' (a typo for 'precheck' in the source). It is translated as 'перепроверка' (re-check), while 'precheck' in the following sentence is translated as 'предварительная проверка'.",
+      "quote": "перепроверка не пройдена"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical gender mismatch: 'отклонение' is neuter, so the adjective should be 'полное', not 'полный'.",
+      "quote": "полный отклонение"
+    }
+  ],
+  "score": 84,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T12:11:13"
+  }
+}

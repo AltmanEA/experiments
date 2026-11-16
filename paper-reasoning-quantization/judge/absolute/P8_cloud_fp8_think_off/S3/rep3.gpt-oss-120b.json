@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: incorrect prepositional case and agreement in the phrase \"с его следующей переходом состояния\"; should be \"со следующим переходом состояния\".",
+      "quote": "с его следующей переходом состояния"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T12:01:22"
+  }
+}

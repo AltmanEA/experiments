@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Field name 'severity' was incorrectly translated to the glossary term 'Уровень серьёзности' in the description; field names should remain unchanged.",
+      "quote": "`subject_id` и `Уровень серьёзности` необязательны"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T12:02:23"
+  }
+}

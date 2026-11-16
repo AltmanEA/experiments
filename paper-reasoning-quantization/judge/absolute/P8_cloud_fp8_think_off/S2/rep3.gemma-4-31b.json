@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Section headers were not translated into Russian.",
+      "quote": "## Escalation Protocol\n\n### Escalation Reasons\n\n### Escalation Document\n\n### Escalation Resolution Paths"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation incorrectly states that the operator is the one asking for a decision, whereas the source states the operator is being asked to make the decision.",
+      "quote": "Оператор получает сводку обеих позиций и просит принять окончательное решение"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'Subject' (Объект обсуждения) was replaced by a different lemma 'объект'.",
+      "quote": "объекта из списка объектов задачи"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'Severity' (Уровень серьёзности) was replaced by a different lemma 'степени серьёзности'.",
+      "quote": "вывод высокой степени серьёзности"
+    }
+  ],
+  "score": 76,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T12:01:05"
+  }
+}

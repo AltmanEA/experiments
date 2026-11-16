@@ -1,0 +1,84 @@
+[p008 2026-11-16T11:52:47] START P-008: runs=1 judge=1 dry=0 model=qwen3.6-fp8-noreason
+[p008 2026-11-16T11:52:47] === probe: frozen engine reproduces the C1/C3 pipeline structure ===
+[p008 2026-11-16T11:52:51] probe: exit=0 terms=56 blocks=5 done='11 ok, 22 skip, 0 fail' first_line='# Council'
+[p008 2026-11-16T11:52:51] probe OK: pipeline parity with C1/C3 confirmed
+[p008 2026-11-16T11:52:51] === probe: noreason endpoint really switches reasoning off ===
+probe OK: reasoning_len=0, content clean
+[p008 2026-11-16T11:52:51] === runs: P8_cloud_fp8_think_off (qwen3.6-fp8-noreason, T=0.2, thinking off, legacy engine, cloud) ===
+[p008 2026-11-16T11:52:55] DONE S1 rep1 exit=0 wall=4s fails=0
+[p008 2026-11-16T11:53:05] DONE S1 rep2 exit=0 wall=7s fails=0
+[p008 2026-11-16T11:53:12] DONE S1 rep3 exit=0 wall=4s fails=0
+[p008 2026-11-16T11:53:24] DONE S2 rep1 exit=0 wall=9s fails=0
+[p008 2026-11-16T11:53:40] DONE S2 rep2 exit=0 wall=13s fails=0
+[p008 2026-11-16T11:53:53] DONE S2 rep3 exit=0 wall=10s fails=0
+[p008 2026-11-16T11:54:00] DONE S3 rep1 exit=0 wall=4s fails=0
+[p008 2026-11-16T11:54:08] DONE S3 rep2 exit=0 wall=5s fails=0
+[p008 2026-11-16T11:54:16] DONE S3 rep3 exit=0 wall=5s fails=0
+[p008 2026-11-16T11:54:25] DONE S4 rep1 exit=0 wall=6s fails=2
+[p008 2026-11-16T11:55:04] DONE S4 rep2 exit=0 wall=36s fails=2
+[p008 2026-11-16T11:55:24] DONE S4 rep3 exit=0 wall=17s fails=2
+[p008 2026-11-16T11:55:35] DONE S5 rep1 exit=0 wall=8s fails=1
+[p008 2026-11-16T11:55:47] DONE S5 rep2 exit=0 wall=9s fails=1
+[p008 2026-11-16T11:56:10] DONE S5 rep3 exit=0 wall=20s fails=1
+[p008 2026-11-16T11:56:24] DONE S6 rep1 exit=0 wall=11s fails=1
+[p008 2026-11-16T11:56:35] DONE S6 rep2 exit=0 wall=8s fails=1
+[p008 2026-11-16T11:56:50] DONE S6 rep3 exit=0 wall=12s fails=4
+[p008 2026-11-16T11:57:01] DONE S7 rep1 exit=0 wall=8s fails=1
+[p008 2026-11-16T11:57:14] DONE S7 rep2 exit=0 wall=10s fails=1
+[p008 2026-11-16T11:57:25] DONE S7 rep3 exit=0 wall=8s fails=1
+[p008 2026-11-16T11:57:28] runs done: 21/21
+[p008 2026-11-16T11:57:28] === defect metrics (P-008) ===
+wrote results/defects_p008.csv (21 rows), results/summary_p008.md
+[p008 2026-11-16T11:57:29] === judging P8_cloud_fp8_think_off: 21 x 2 = 42 requests ===
+[11:57:29] START mode=absolute tasks=21 requests=42 judges=gpt-oss-120b,gemma-4-31b workers=4 rpm=20
+[11:57:44] OK   P8_cloud_fp8_think_off S1 rep3 gpt-oss-120b score=100
+[11:57:53] OK   P8_cloud_fp8_think_off S1 rep1 gpt-oss-120b score=100
+[11:57:55] OK   P8_cloud_fp8_think_off S1 rep2 gpt-oss-120b score=100
+[11:58:09] OK   P8_cloud_fp8_think_off S2 rep1 gpt-oss-120b score=70
+[11:58:22] OK   P8_cloud_fp8_think_off S1 rep3 gemma-4-31b score=100
+[11:58:32] OK   P8_cloud_fp8_think_off S1 rep1 gemma-4-31b score=100
+[11:58:53] OK   P8_cloud_fp8_think_off S1 rep2 gemma-4-31b score=100
+[11:59:22] OK   P8_cloud_fp8_think_off S2 rep3 gpt-oss-120b score=90
+[11:59:37] OK   P8_cloud_fp8_think_off S2 rep1 gemma-4-31b score=48
+[11:59:41] OK   P8_cloud_fp8_think_off S3 rep1 gpt-oss-120b score=75
+[11:59:44] OK   P8_cloud_fp8_think_off S2 rep2 gpt-oss-120b score=90
+[12:00:08] OK   P8_cloud_fp8_think_off S3 rep2 gpt-oss-120b score=98
+[12:00:47] OK   P8_cloud_fp8_think_off S3 rep1 gemma-4-31b score=98
+[12:01:05] OK   P8_cloud_fp8_think_off S2 rep3 gemma-4-31b score=76
+[12:01:22] OK   P8_cloud_fp8_think_off S3 rep3 gpt-oss-120b score=98
+[12:01:49] OK   P8_cloud_fp8_think_off S3 rep2 gemma-4-31b score=98
+[12:01:58] OK   P8_cloud_fp8_think_off S2 rep2 gemma-4-31b score=66
+[12:02:16] OK   P8_cloud_fp8_think_off S4 rep1 gpt-oss-120b score=96
+[12:02:23] OK   P8_cloud_fp8_think_off S4 rep3 gpt-oss-120b score=98
+[12:02:32] OK   P8_cloud_fp8_think_off S4 rep2 gpt-oss-120b score=92
+[12:02:33] OK   P8_cloud_fp8_think_off S3 rep3 gemma-4-31b score=88
+[12:03:59] OK   P8_cloud_fp8_think_off S4 rep1 gemma-4-31b score=55
+[12:04:17] OK   P8_cloud_fp8_think_off S5 rep1 gpt-oss-120b score=75
+[12:04:19] OK   P8_cloud_fp8_think_off S4 rep3 gemma-4-31b score=55
+[12:04:32] OK   P8_cloud_fp8_think_off S4 rep2 gemma-4-31b score=70
+[12:04:57] OK   P8_cloud_fp8_think_off S5 rep2 gpt-oss-120b score=100
+[12:05:13] OK   P8_cloud_fp8_think_off S6 rep1 gpt-oss-120b score=98
+[12:06:33] OK   P8_cloud_fp8_think_off S6 rep1 gemma-4-31b score=70
+[12:06:39] OK   P8_cloud_fp8_think_off S5 rep3 gpt-oss-120b score=0
+[12:07:31] OK   P8_cloud_fp8_think_off S6 rep2 gpt-oss-120b score=98
+[12:09:57] OK   P8_cloud_fp8_think_off S6 rep2 gemma-4-31b score=70
+[12:11:00] OK   P8_cloud_fp8_think_off S6 rep3 gpt-oss-120b score=100
+[12:11:13] OK   P8_cloud_fp8_think_off S5 rep3 gemma-4-31b score=61
+[12:11:13] OK   P8_cloud_fp8_think_off S5 rep2 gemma-4-31b score=84
+[12:11:56] OK   P8_cloud_fp8_think_off S7 rep2 gpt-oss-120b score=100
+[12:12:13] OK   P8_cloud_fp8_think_off S7 rep1 gpt-oss-120b score=98
+[12:12:15] OK   P8_cloud_fp8_think_off S6 rep3 gemma-4-31b score=80
+[12:13:06] OK   P8_cloud_fp8_think_off S7 rep3 gpt-oss-120b score=100
+[12:13:48] OK   P8_cloud_fp8_think_off S7 rep2 gemma-4-31b score=96
+[12:13:52] OK   P8_cloud_fp8_think_off S7 rep1 gemma-4-31b score=98
+[12:14:17] FAIL P8_cloud_fp8_think_off S5 rep1 gemma-4-31b http=000 attempt=1
+[12:14:51] OK   P8_cloud_fp8_think_off S7 rep3 gemma-4-31b score=98
+[12:19:03] OK   P8_cloud_fp8_think_off S5 rep1 gemma-4-31b score=0
+[12:19:03] END ok=42 skipped=0 failed=0
+[12:19:03] START mode=absolute tasks=0 requests=0 judges=gpt-oss-120b,gemma-4-31b workers=2 rpm=12
+[12:19:03] END ok=0 skipped=0 failed=0
+T10_local_nvfp4_t10_think_off      gpt-oss-120b      21  77.95 34.47
+T10_local_nvfp4_t10_think_on       gemma-4-31b       21  60.62 35.20
+T10_local_nvfp4_t10_think_on       gpt-oss-120b      21  78.24 33.46
+[p008 2026-11-16T12:19:03] ALL DONE; log=runs/p008_cloud_fp8_20261116-115247.log
+[p008 2026-11-16T12:19:03] NEXT: CONTRAST — vs C3 (placement, same quant) and vs C1 (quantization, same placement).

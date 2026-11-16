@@ -59,6 +59,16 @@ FP8_PAIRS = [
      "T=0.8 vs T=0.2, FP8 thinking ON (legacy engine)"),
 ]
 
+# P-008 (cloud variant): placement <-> quantization split. Cloud FP8 (noreason
+# endpoint, T=0.2, legacy engine) vs C3 (local FP8, same params) = placement;
+# vs C1 (cloud bf16, same params) = quantization at fixed placement.
+P008_PAIRS = [
+    ("P8_cloud_fp8_think_off", "C3_local_fp8_think_off",
+     "local vs cloud FP8, thinking OFF (placement)"),
+    ("P8_cloud_fp8_think_off", "C1_cloud_bf16_think_off",
+     "bf16 vs FP8, cloud thinking OFF (quantization)"),
+]
+
 # P-005: second domain (FreeBSD Handbook, NVFP4 local, T in {0.0, 0.2} x thinking).
 FREEBSD_PAIRS = [
     ("F_C5_local_nvfp4_think_off", "F_C6_local_nvfp4_think_on",
@@ -126,7 +136,7 @@ def main():
     ap.add_argument("--out-prefix", default="judge_effects")
     ap.add_argument("--all-temperature", action="store_true",
                     help="add P-004 contrasts (per-T thinking + T=0 anchor trends)")
-    ap.add_argument("--domain", choices=["council", "freebsd", "fp8"], default="council",
+    ap.add_argument("--domain", choices=["council", "freebsd", "fp8", "p008"], default="council",
                     help="freebsd: P-005 contrasts on the second domain (implies "
                          "--judge-dir judge_freebsd/absolute --out-prefix judge_effects_freebsd); "
                          "fp8: P-006 FP8 temperature contrasts (out prefix judge_effects_fp8)")
@@ -138,6 +148,8 @@ def main():
             a.out_prefix = "judge_effects_freebsd"
     if a.domain == "fp8" and a.out_prefix == "judge_effects":
         a.out_prefix = "judge_effects_fp8"
+    if a.domain == "p008" and a.out_prefix == "judge_effects":
+        a.out_prefix = "judge_effects_p008"
 
     sc = load(a.judge_dir)
     judges = sorted({k[3] for k in sc})
@@ -146,6 +158,8 @@ def main():
         pairs = FREEBSD_PAIRS
     elif a.domain == "fp8":
         pairs = FP8_PAIRS
+    elif a.domain == "p008":
+        pairs = P008_PAIRS
     else:
         pairs = MAIN + (temperature_pairs() if a.all_temperature else [])
     rows, lines = [], ["| contrast | judge | n | Δ mean | 95% CI | W/T/L |",

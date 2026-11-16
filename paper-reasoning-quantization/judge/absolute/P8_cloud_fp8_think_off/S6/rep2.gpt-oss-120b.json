@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Session\" in the heading \"### Session manifest traceability\" was not translated to the required Russian equivalent \"Сессия\".",
+      "quote": "Session"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T12:07:31"
+  }
+}

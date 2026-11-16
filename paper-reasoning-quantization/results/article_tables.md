@@ -10,6 +10,7 @@
 | C4 FP8, on | 1.90 | 0.00 | 0.43 | 0.00 | 0.43 | **56.1** | 45.3–66.9 | 1.81 | 42 |
 | C5 NVFP4, off (T=0.2) | 0.29 | 0.00 | 0.81 | 0.00 | 0.43 | **78.8** | 70.5–86.1 | 0.60 | 42 |
 | C6 NVFP4, on (T=0.2) | 1.57 | 0.00 | 0.67 | 0.00 | 0.43 | **52.3** | 40.8–63.7 | 1.60 | 42 |
+| P8 cloud FP8, off (P-008) | 0.24 | 0.00 | 0.62 | 0.00 | 0.43 | **83.0** | 75.3–89.7 | 0.38 | 42 |
 | T00 NVFP4, off | 0.00 | 0.00 | 0.57 | 0.00 | 0.43 | **90.1** | 86.1–93.6 | 0.10 | 42 |
 | T00 NVFP4, on | 2.71 | 0.00 | 0.57 | 0.00 | 0.43 | **46.4** | 34.3–58.3 | 3.24 | 42 |
 | T04 NVFP4, off | 0.33 | 0.00 | 0.76 | 0.00 | 0.48 | **86.4** | 78.4–92.7 | 0.40 | 42 |
@@ -83,6 +84,13 @@ _noise mix = sd over 3 repeats x 2 judges (mixed generation + judge noise, as in
 | NVFP4 vs FP8, T=0.0 thinking ON | -0.7 | -6.7 – +4.7 | 6/8/7 | 21 |
 | T=0.0 vs T=0.2, FP8 thinking OFF (legacy engine) | -3.6 | -9.0 – +1.1 | 7/5/9 | 21 |
 | T=0.8 vs T=0.2, FP8 thinking ON (legacy engine) | +6.1 | +1.9 – +10.9 | 14/3/4 | 21 |
+
+### Table 6c. P-008: placement vs quantization (cloud FP8 anchor, 21 pairs)
+
+| contrast | Δ MQM | 95% CI | W/T/L | n |
+|---|---|---|---|---|
+| local vs cloud FP8, thinking OFF (placement) | -0.5 | -5.8 – +4.5 | 10/3/8 | 21 |
+| bf16 vs FP8, cloud thinking OFF (quantization) | +2.6 | -3.4 – +9.4 | 9/5/7 | 21 |
 
 ## Table 7. FreeBSD domain (P-005, NVFP4): defects, MQM, chrF vs official RU
 

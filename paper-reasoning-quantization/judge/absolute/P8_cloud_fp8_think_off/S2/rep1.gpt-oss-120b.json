@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Section heading left in English instead of being translated to Russian.",
+      "quote": "Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Section heading left in English instead of being translated to Russian.",
+      "quote": "Escalation Reasons"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Section heading left in English instead of being translated to Russian.",
+      "quote": "Escalation Document"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Section heading left in English instead of being translated to Russian.",
+      "quote": "Escalation Resolution Paths"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Required glossary term \"Объект обсуждения\" is omitted; a generic word \"объекта\" is used instead.",
+      "quote": "объекта"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Added phrase \"по Объект обсуждения\" that does not exist in the source text.",
+      "quote": "по **Объект обсуждения**"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Markdown bold markup (** **) used around a term, which is not present in the source.",
+      "quote": "**Объект обсуждения**"
+    }
+  ],
+  "score": 70,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T11:58:09"
+  }
+}

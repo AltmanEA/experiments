@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' translated as 'Субъекты' instead of 'Объект обсуждения'.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' translated as 'Субъекты' instead of 'Объект обсуждения'.",
+      "quote": "Субъекты, имеющие как"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `severity` must be byte-identical; it was translated to `Уровень серьёзности`.",
+      "quote": "`Уровень серьёзности`"
+    }
+  ],
+  "score": 55,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T12:04:19"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Gender mismatch: the adjective 'следующей' (feminine) does not agree with the noun 'переходом' (masculine).",
+      "quote": "его следующей переходом"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The section header is left untranslated.",
+      "quote": "### Outcome-to-Transition Table"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T12:02:33"
+  }
+}

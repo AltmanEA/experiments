@@ -32,7 +32,7 @@ from pathlib import Path
 import numpy as np
 from scipy import stats
 
-from judge_effects import FP8_PAIRS, FREEBSD_PAIRS, MAIN, temperature_pairs, load
+from judge_effects import FP8_PAIRS, FREEBSD_PAIRS, MAIN, P008_PAIRS, temperature_pairs, load
 
 ROOT = Path(__file__).resolve().parent.parent
 RES = ROOT / "results"
@@ -51,12 +51,17 @@ DOMAINS = {
     "fp8": {"pairs": FP8_PAIRS, "defects": "defects_fp8.csv",
             "floors": {"FP8_T00_local_fp8_t00_think_off": "FP8 T00 off",
                        "FP8_T00_local_fp8_t00_think_on": "FP8 T00 on"}},
+    # P-008 has no T=0 arm; the floor is the P8 condition's own repeat spread.
+    "p008": {"pairs": P008_PAIRS, "defects": ["defects.csv", "defects_p008.csv"],
+             "floors": {"P8_cloud_fp8_think_off": "P8 cloud FP8 (T=0.2)"}},
 }
 
 
 def family(label):
     if "thinking ON vs OFF" in label:
         return "thinking"
+    if "(placement)" in label or "(quantization)" in label:
+        return "placement-quantization"  # P-008: the §9.1 confound, one family
     if "vs FP8" in label or "vs cloud bf16" in label:
         return "quantization"
     if "vs T=0 anchor" in label or "vs T=0.2" in label:
@@ -74,7 +79,8 @@ def contrast_list(domain="council"):
     for ca, cb, label in pairs:
         by_key[(ca, cb)] = label
     out = [(ca, cb, label) for (ca, cb), label in by_key.items()]
-    order = {"thinking": 0, "quantization": 1, "temperature": 2, "other": 3}
+    order = {"thinking": 0, "quantization": 1, "placement-quantization": 1,
+             "temperature": 2, "other": 3}
     out.sort(key=lambda t: (order[family(t[2])], t[2]))
     return out
 
@@ -128,9 +134,17 @@ def load_mqm(judge_dir):
 
 
 def load_defects(defects_csv="defects.csv"):
+    """defects_csv: one name or a list; rows are merged (condition keys are global)."""
     per = defaultdict(dict)  # metric -> {(cond,fix,rep): value}
-    with open(RES / defects_csv) as fh:
-        rows = list(csv.DictReader(fh))
+    names = defects_csv if isinstance(defects_csv, (list, tuple)) else [defects_csv]
+    files = [RES / n for n in names if (RES / n).exists()]
+    from itertools import chain
+    rows = list(chain.from_iterable(csv.DictReader(open(f)) for f in files))
+    return _index_defect_rows(rows)
+
+
+def _index_defect_rows(rows):
+    per = defaultdict(dict)
     seen = defaultdict(int)
     for r in rows:
         key = (r["condition"], r["fixture"])
@@ -154,7 +168,7 @@ def main():
                     help="default: judge/absolute (council/fp8), "
                          "judge_freebsd/absolute (freebsd)")
     ap.add_argument("--out-prefix", default=None)
-    ap.add_argument("--domain", choices=["council", "freebsd", "fp8"], default="council")
+    ap.add_argument("--domain", choices=["council", "freebsd", "fp8", "p008"], default="council")
     a = ap.parse_args()
     if a.judge_dir is None:
         a.judge_dir = "judge_freebsd/absolute" if a.domain == "freebsd" else "judge/absolute"

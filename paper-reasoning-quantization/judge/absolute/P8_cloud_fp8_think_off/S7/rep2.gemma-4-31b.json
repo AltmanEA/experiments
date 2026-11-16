@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Section header not translated into Russian",
+      "quote": "Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: missing preposition 'об' (should be 'Запись об обходе')",
+      "quote": "Запись обходе записывается"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T12:13:48"
+  }
+}

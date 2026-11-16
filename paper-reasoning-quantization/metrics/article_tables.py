@@ -28,6 +28,7 @@ CONDS = [
     ("C4_local_fp8_think_on", "C4 FP8, on"),
     ("C5_local_nvfp4_think_off", "C5 NVFP4, off (T=0.2)"),
     ("C6_local_nvfp4_think_on", "C6 NVFP4, on (T=0.2)"),
+    ("P8_cloud_fp8_think_off", "P8 cloud FP8, off (P-008)"),
 ]
 # P-003a: temperature grid on NVFP4 (0.2 = C5/C6 above, not repeated here)
 T_CONDS = [
@@ -120,6 +121,11 @@ def main():
     a = ap.parse_args()
 
     defects = load_defects(RES / "defects.csv")
+    # P-008 lives in its own defects CSV (same schema) — merge into Table 3
+    if (RES / "defects_p008.csv").exists():
+        p8 = load_defects(RES / "defects_p008.csv")
+        for cond, d in p8.items():
+            defects[cond] = d
     mqm, ncrit, scores = load_judge(RES / "judge_absolute.csv")
 
     lines = ["## Table 3. Condition quality: defects (per run) and MQM", "",
@@ -206,6 +212,20 @@ def main():
         lines += ["", "### Table 6b. Paired MQM effects on FP8 (21 fixture x rep pairs)", "",
                   "| contrast | Δ MQM | 95% CI | W/T/L | n |", "|---|---|---|---|---|"]
         for r in fp8_eff:
+            lines.append(f"| {r['contrast']} | {float(r['delta_mean']):+.1f} | "
+                         f"{float(r['ci_low']):+.1f} – {float(r['ci_high']):+.1f} | "
+                         f"{r['win']}/{r['tie']}/{r['loss']} | {r['n']} |")
+
+    # Table 6b effects above; P-008 (placement vs quantization) paired effects
+    try:
+        with open(RES / "judge_effects_p008.csv") as fh:
+            p8_eff = [r for r in csv.DictReader(fh) if r["judge"] == "(mean of judges)"]
+    except FileNotFoundError:
+        p8_eff = []
+    if p8_eff:
+        lines += ["", "### Table 6c. P-008: placement vs quantization (cloud FP8 anchor, 21 pairs)", "",
+                  "| contrast | Δ MQM | 95% CI | W/T/L | n |", "|---|---|---|---|---|"]
+        for r in p8_eff:
             lines.append(f"| {r['contrast']} | {float(r['delta_mean']):+.1f} | "
                          f"{float(r['ci_low']):+.1f} – {float(r['ci_high']):+.1f} | "
                          f"{r['win']}/{r['tie']}/{r['loss']} | {r['n']} |")

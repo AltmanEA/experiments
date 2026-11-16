@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: 'Запись обходе' is missing the preposition 'об' or has an incorrect case; it should be 'Запись об обходе'.",
+      "quote": "Запись обходе записывается"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T12:13:52"
+  }
+}

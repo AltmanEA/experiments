@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The section header containing the glossary term 'Role Status' was not translated.",
+      "quote": "## Role Status Handling"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'awaiting-operator' was translated.",
+      "quote": "ожидание-оператора"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'resolved' was translated in the state list.",
+      "quote": "разрешено"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'failed' was translated in the state list.",
+      "quote": "неудачно"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token 'any' was translated.",
+      "quote": "любой"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 2,
+    "ts": "2026-11-16T12:19:03"
+  }
+}

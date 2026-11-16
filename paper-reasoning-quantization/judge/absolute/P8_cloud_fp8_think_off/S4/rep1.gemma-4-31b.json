@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' translated as 'Субъекты' instead of the required 'Объекты обсуждения'.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' translated as 'Субъекты' instead of the required 'Объекты обсуждения'.",
+      "quote": "Субъекты, имеющие и `support`, и `oppose` в финальном раунде"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The code token `severity` (referring to a field name) was translated into natural language and lost its backticks, breaking the reference to the data structure.",
+      "quote": "Уровень серьёзности"
+    }
+  ],
+  "score": 55,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T12:03:59"
+  }
+}

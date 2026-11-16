@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Consensus\" in the section heading is not translated to the required Russian equivalent \"Консенсус\".",
+      "quote": "ConsensusVerdict"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Escalation\" in the section heading is not translated to the required Russian equivalent \"Эскалация\".",
+      "quote": "EscalationRecord"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The word \"Субъекты\" is used instead of the required term \"Объект обсуждения\" for the concept \"Subject\".",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The word \"Субъекты\" is used instead of the required term \"Объект обсуждения\" for the concept \"Subject\".",
+      "quote": "Субъекты, имеющие как `support`, так и `oppose` в финальном раунде"
+    }
+  ],
+  "score": 92,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T12:02:32"
+  }
+}

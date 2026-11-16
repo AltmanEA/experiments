@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect term used for \"Phase\"; \"фразы\" is not the required \"Фаза\".",
+      "quote": "фразы"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `locked_roles` is not backticked as required.",
+      "quote": "locked_roles"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `operator_approval` is not backticked as required.",
+      "quote": "operator_approval"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `service-contract/index.md` is not backticked as required.",
+      "quote": "service-contract/index.md"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` is not backticked (appears in multiple table rows).",
+      "quote": "awaiting-operator"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resolved` is not backticked as required.",
+      "quote": "resolved"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `pre_check_override` is not backticked as required.",
+      "quote": "pre_check_override"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `precheck.overridden` is not backticked as required.",
+      "quote": "precheck.overridden"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T12:06:39"
+  }
+}

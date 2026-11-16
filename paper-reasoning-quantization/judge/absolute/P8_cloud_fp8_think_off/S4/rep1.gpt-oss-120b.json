@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'Subject' must be rendered as 'Объект обсуждения', but the translation uses 'Субъекты'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'Stance' must be rendered as 'Позиция', but the English word 'stance' is left untranslated.",
+      "quote": "stance"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T12:02:16"
+  }
+}

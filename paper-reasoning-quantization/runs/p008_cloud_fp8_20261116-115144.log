@@ -1,0 +1,5 @@
+[p008 2026-11-16T11:51:44] START P-008: runs=1 judge=1 dry=0 model=qwen3.6-fp8-noreason
+[p008 2026-11-16T11:51:44] === probe: frozen engine reproduces the C1/C3 pipeline structure ===
+[p008 2026-11-16T11:51:44] probe: terms=56 blocks=27
+[p008 2026-11-16T11:51:44] PROBE FAIL: expected terms=56 blocks=5
+[p008 2026-11-16T11:51:44] ABORT: parity probe failed

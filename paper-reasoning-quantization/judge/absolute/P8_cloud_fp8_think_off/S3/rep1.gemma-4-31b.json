@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical gender mismatch: the adjective 'следующей' (feminine) does not agree with the noun 'переходом' (masculine).",
+      "quote": "его следующей переходом"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T12:00:47"
+  }
+}
