@@ -119,6 +119,8 @@ def task_list(mode, conds, pairs, order="direct", unit_filter=None):
         for cond in conds:
             for fx in FIXES:
                 for k in REPS:
+                    if unit_filter and f"{fx}/rep{k}" not in unit_filter:
+                        continue
                     md = RUNS_DIR / cond / fx / f"rep{k}.md"
                     if md.exists():
                         tasks.append({"cond": cond, "fix": fx, "rep": k, "ru": str(md)})
