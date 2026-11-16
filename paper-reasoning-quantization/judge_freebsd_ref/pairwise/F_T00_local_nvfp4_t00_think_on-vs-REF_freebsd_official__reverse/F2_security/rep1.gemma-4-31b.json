@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A is significantly better in terms of fluency and accuracy. Translation B contains a critical typo/hallucination ('настроек клетка' instead of 'настроек клиента') and uses unnatural phrasing ('сообщите sshd перезагрузить' is a literal translation of 'tell sshd to reload'). Translation A also adheres better to the provided glossary (e.g., 'атаки методом грубой силы' for 'brute force attacks').",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:17:22"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A is professional and grammatically correct. Translation B has several significant errors: a grammatically incorrect main heading ('Диск квоты'), a mixed-language link ('[Configuring the FreeBSD Ядро]'), and a grammatical error in the sentence 'После завершения Конфигурация' (wrong case).",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C5_local_nvfp4_think_off-vs-REF_freebsd_official__reverse",
+    "fixture": "F3_disks",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:06:29"
+  }
+}

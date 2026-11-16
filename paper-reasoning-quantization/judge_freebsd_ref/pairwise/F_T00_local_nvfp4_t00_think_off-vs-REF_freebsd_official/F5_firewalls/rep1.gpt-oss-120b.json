@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.96,
+  "reason": "B uses the required term “межсетевые экраны” for firewall, correctly translates the configuration phrase, and has no formatting errors, whereas A uses “Брандмауэры” (not in glossary) and contains a typo/formatting issue.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official",
+    "fixture": "F5_firewalls",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:58:07"
+  }
+}

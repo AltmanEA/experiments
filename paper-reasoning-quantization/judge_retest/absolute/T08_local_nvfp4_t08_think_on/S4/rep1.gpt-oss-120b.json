@@ -1,0 +1,105 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token block must be byte‑identical to the source. The back‑ticked structure was altered (terms translated, identifiers changed).",
+      "quote": "`{check: ссылка-на-Объект-обсуждения|формат-обоснования|извлечение-статуса, Объект-обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), severity: Уровень-серьёзности|null}`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Session” not translated; field name kept in English.",
+      "quote": "`session_id`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Phase” not translated; field name kept in English.",
+      "quote": "`phase_id`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Role” not translated; field name kept in English.",
+      "quote": "`role_statuses`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Subject” not translated; field name kept in English.",
+      "quote": "`blocking_subjects`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Subject” not translated; field name kept in English.",
+      "quote": "`disagreement_subjects`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Escalation” not translated; field name kept in English.",
+      "quote": "`escalation_reason`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Escalation” not translated; field name kept in English.",
+      "quote": "`escalation_id`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Role” not translated; field name kept in English.",
+      "quote": "`raised_by_role`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Severity” not translated; field name kept in English.",
+      "quote": "`severity`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Stance” not translated; identifier kept in English inside positions description.",
+      "quote": "`stance`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Resolution” not translated; field name kept in English.",
+      "quote": "`resolution`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Phase” not translated; field name kept in English.",
+      "quote": "`resume_phase`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Role” not translated; identifier kept in English inside positions description.",
+      "quote": "`role_id`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Escalation” not translated in type name.",
+      "quote": "EscalationRecord"
+    }
+  ],
+  "score": 47,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T08_local_nvfp4_t08_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:28:08"
+  }
+}

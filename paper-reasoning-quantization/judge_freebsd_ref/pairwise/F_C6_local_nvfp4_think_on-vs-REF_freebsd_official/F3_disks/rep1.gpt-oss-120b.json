@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.78,
+  "reason": "B uses more natural phrasing, correct plural term \"Дисковые квоты\", better terminology (disk space, quota database) and smoother style, while still preserving all technical details and format.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C6_local_nvfp4_think_on-vs-REF_freebsd_official",
+    "fixture": "F3_disks",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:53:50"
+  }
+}

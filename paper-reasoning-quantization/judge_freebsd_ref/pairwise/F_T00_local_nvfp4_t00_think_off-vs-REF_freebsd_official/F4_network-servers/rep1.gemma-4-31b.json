@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A contains a critical mistranslation of 'Name servers' as 'Имена серверов' (Names of servers) in the 'Reasons to Run a Name Server' section. It also has a grammatical error ('в новой Конфигурация Unbound'). Translation B is accurate, fluent, and follows the glossary correctly.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T18:00:41"
+  }
+}

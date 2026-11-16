@@ -1,0 +1,99 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked enum values must be byte-identical to the source.",
+      "quote": "`Консенсус`, `условный`, `без-консенсуса`, `заблокированная-эскалация`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' must be translated as 'Объект обсуждения', not 'Субъект'.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token must be byte-identical to the source.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The text refers to the field `severity` from the code block; it should not be translated as a general term here for consistency with `subject_id`.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token must be byte-identical to the source.",
+      "quote": "`эскалация_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token must be byte-identical to the source.",
+      "quote": "`сессия_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token must be byte-identical to the source.",
+      "quote": "`поднятая_ролью`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token must be byte-identical to the source.",
+      "quote": "`эскалация_reason`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token must be byte-identical to the source.",
+      "quote": "`уровень_серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token must be byte-identical to the source.",
+      "quote": "`роль_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token must be byte-identical to the source.",
+      "quote": "`позиция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token must be byte-identical to the source.",
+      "quote": "`резолюция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token must be byte-identical to the source.",
+      "quote": "`resume_фаза`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistent translation of 'yes' (translated as 'да' in the first table, but left as 'yes' in the second).",
+      "quote": "yes"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:29:52"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'Artifact' is translated as 'результатом' instead of the required 'Артефакт'.",
+      "quote": "Основным результатом"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T08_local_nvfp4_t08_think_off",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:26:21"
+  }
+}

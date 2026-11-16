@@ -1,0 +1,217 @@
+{
+  "seed": 20261116,
+  "n": 30,
+  "n_tier2": 10,
+  "runs": [
+    {
+      "x": "X1",
+      "tier": 1,
+      "fixture": "S6",
+      "rep": "rep2",
+      "sha256_ru": "27063bbcaea49a6b"
+    },
+    {
+      "x": "X2",
+      "tier": 2,
+      "fixture": "S7",
+      "rep": "rep2",
+      "sha256_ru": "210a4c8920e4f51f"
+    },
+    {
+      "x": "X3",
+      "tier": 2,
+      "fixture": "S6",
+      "rep": "rep2",
+      "sha256_ru": "f255d906eb3f7140"
+    },
+    {
+      "x": "X4",
+      "tier": 1,
+      "fixture": "S3",
+      "rep": "rep3",
+      "sha256_ru": "01ed3a89953f3321"
+    },
+    {
+      "x": "X5",
+      "tier": 1,
+      "fixture": "S6",
+      "rep": "rep2",
+      "sha256_ru": "28cb3819e036104b"
+    },
+    {
+      "x": "X6",
+      "tier": 1,
+      "fixture": "S6",
+      "rep": "rep2",
+      "sha256_ru": "d9c5255f1d7fb76f"
+    },
+    {
+      "x": "X7",
+      "tier": 1,
+      "fixture": "S4",
+      "rep": "rep2",
+      "sha256_ru": "c39d9075fbf38779"
+    },
+    {
+      "x": "X8",
+      "tier": 1,
+      "fixture": "S5",
+      "rep": "rep1",
+      "sha256_ru": "12f98c4d80261abd"
+    },
+    {
+      "x": "X9",
+      "tier": 2,
+      "fixture": "S4",
+      "rep": "rep3",
+      "sha256_ru": "9f3b46aa338725d4"
+    },
+    {
+      "x": "X10",
+      "tier": 1,
+      "fixture": "S7",
+      "rep": "rep1",
+      "sha256_ru": "72485c99bc8df2cc"
+    },
+    {
+      "x": "X11",
+      "tier": 1,
+      "fixture": "S7",
+      "rep": "rep3",
+      "sha256_ru": "727def178b00e4b9"
+    },
+    {
+      "x": "X12",
+      "tier": 2,
+      "fixture": "S6",
+      "rep": "rep2",
+      "sha256_ru": "4e4f1a21032f1f7b"
+    },
+    {
+      "x": "X13",
+      "tier": 1,
+      "fixture": "S3",
+      "rep": "rep1",
+      "sha256_ru": "4c53acf1ccf2c7a0"
+    },
+    {
+      "x": "X14",
+      "tier": 1,
+      "fixture": "S1",
+      "rep": "rep1",
+      "sha256_ru": "df4468bf1f557511"
+    },
+    {
+      "x": "X15",
+      "tier": 1,
+      "fixture": "S5",
+      "rep": "rep1",
+      "sha256_ru": "3f7cbdf2017081a1"
+    },
+    {
+      "x": "X16",
+      "tier": 1,
+      "fixture": "S7",
+      "rep": "rep3",
+      "sha256_ru": "a3cae61f95b015ac"
+    },
+    {
+      "x": "X17",
+      "tier": 2,
+      "fixture": "S3",
+      "rep": "rep1",
+      "sha256_ru": "d931597ecef7661d"
+    },
+    {
+      "x": "X18",
+      "tier": 1,
+      "fixture": "S7",
+      "rep": "rep1",
+      "sha256_ru": "1ab771f313808f3b"
+    },
+    {
+      "x": "X19",
+      "tier": 1,
+      "fixture": "S3",
+      "rep": "rep2",
+      "sha256_ru": "8d2cd65fdf8a5156"
+    },
+    {
+      "x": "X20",
+      "tier": 1,
+      "fixture": "S1",
+      "rep": "rep2",
+      "sha256_ru": "c3504805eb800df0"
+    },
+    {
+      "x": "X21",
+      "tier": 2,
+      "fixture": "S4",
+      "rep": "rep2",
+      "sha256_ru": "72d6a84a6ddb6f62"
+    },
+    {
+      "x": "X22",
+      "tier": 2,
+      "fixture": "S7",
+      "rep": "rep1",
+      "sha256_ru": "330611663f3e4652"
+    },
+    {
+      "x": "X23",
+      "tier": 2,
+      "fixture": "S1",
+      "rep": "rep1",
+      "sha256_ru": "f475b47d2bb7f6d3"
+    },
+    {
+      "x": "X24",
+      "tier": 1,
+      "fixture": "S6",
+      "rep": "rep2",
+      "sha256_ru": "2443b681c5dac30c"
+    },
+    {
+      "x": "X25",
+      "tier": 2,
+      "fixture": "S6",
+      "rep": "rep2",
+      "sha256_ru": "7f04ae1546bfc3c7"
+    },
+    {
+      "x": "X26",
+      "tier": 1,
+      "fixture": "S7",
+      "rep": "rep3",
+      "sha256_ru": "3b473a154a305643"
+    },
+    {
+      "x": "X27",
+      "tier": 1,
+      "fixture": "S3",
+      "rep": "rep1",
+      "sha256_ru": "c5933f05602294e6"
+    },
+    {
+      "x": "X28",
+      "tier": 1,
+      "fixture": "S1",
+      "rep": "rep1",
+      "sha256_ru": "82a8576470bc2a63"
+    },
+    {
+      "x": "X29",
+      "tier": 2,
+      "fixture": "S4",
+      "rep": "rep3",
+      "sha256_ru": "16ae460981160616"
+    },
+    {
+      "x": "X30",
+      "tier": 1,
+      "fixture": "S7",
+      "rep": "rep1",
+      "sha256_ru": "150b10aec51d0cf7"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `session_id` was altered; code identifiers must be byte‑identical.",
+      "quote": "`Сессия_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `phase_id` was altered; code identifiers must be byte‑identical.",
+      "quote": "`фаза_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `role_statuses` was altered to `Роль_statuses`; code identifiers must be unchanged.",
+      "quote": "`Роль_statuses`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `disagreement_subjects` was replaced with `Расхождение_subjects`; code identifiers must be unchanged.",
+      "quote": "`Расхождение_subjects`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `escalation_id` was changed to `эскалация_id`; code identifiers must be byte‑identical.",
+      "quote": "`эскалация_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `severity` was translated to `Уровень серьёзности`; field identifiers must remain unchanged.",
+      "quote": "`Уровень серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `resolution` was translated to `Резолюция`; field identifiers must remain unchanged.",
+      "quote": "`Резолюция`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The required ValidationResult code snippet is missing entirely.",
+      "quote": "### ValidationResult"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term “Subject” was rendered as “Предметы” instead of the required “Объект обсуждения”.",
+      "quote": "Предметы со статусом блокировки"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Leaked meta‑text about translation usage is present; such commentary must not appear in the final translation.",
+      "quote": "- Use specified translation? Yes, Резолюция -> Резолюция."
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:06:29"
+  }
+}

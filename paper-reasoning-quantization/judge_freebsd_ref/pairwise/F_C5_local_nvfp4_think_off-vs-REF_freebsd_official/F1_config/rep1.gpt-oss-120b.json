@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.78,
+  "reason": "A follows the required glossary terms exactly (e.g., \"База управляющей информации\"), uses more idiomatic Russian for logging and \"magic\" numbers, and maintains accurate, fluent phrasing throughout.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off-vs-REF_freebsd_official",
+    "fixture": "F1_config",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:49:47"
+  }
+}

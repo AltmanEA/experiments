@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.93,
+  "reason": "A follows glossary terms more closely (authoritative, caching, slave), uses correct terminology and phrasing, and avoids the terminology errors present in B while maintaining accuracy and fluency.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official__reverse",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:13:26"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens must be byte-identical to the source. Enum values were translated.",
+      "quote": "`консенсус`, `условный`, `отсутствие консенсуса`, `блокировка эскалации`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' translated as 'Субъекты' instead of the required 'Объект обсуждения'.",
+      "quote": "Субъекты"
+    }
+  ],
+  "score": 65,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 2,
+    "order": "direct",
+    "ts": "2026-11-16T17:48:43"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tier": 1,
+  "candidates": [
+    {
+      "id": "A1",
+      "type": "формулировка",
+      "quote": "Отсутствие Роль Core",
+      "note": "Incorrect case for the term 'Роль'; it should be in the genitive case ('роли') following the word 'Отсутствие'.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:15",
+      "borderline": true
+    }
+  ]
+}

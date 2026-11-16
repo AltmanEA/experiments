@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation B follows the glossary for the main title, whereas A uses 'Брандмауэры'. More importantly, A contains a significant grammatical error ('соответствовали Конфигурация системы'), while B is grammatically correct and fluent.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official",
+    "fixture": "F5_firewalls",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:59:44"
+  }
+}

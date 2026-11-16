@@ -1,0 +1,93 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token changed: subject-reference replaced with translated term.",
+      "quote": "Объект обсуждения-reference"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token changed: subject_id replaced with translated term.",
+      "quote": "Объект обсуждения_id"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token changed: severity replaced with translated term.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed from `escalation_id` to translated `Эскалация_id`.",
+      "quote": "`Эскалация_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed from `session_id` to translated `Сессия_id`.",
+      "quote": "`Сессия_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed from `raised_by_role` to translated `raised_by_Роль`.",
+      "quote": "`raised_by_Роль`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed from `severity` to translated `Уровень_серьёзности`.",
+      "quote": "`Уровень_серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed from `resolution` to translated `Резолюция`.",
+      "quote": "`Резолюция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed from `resume_phase` to translated `resume_Фаза`.",
+      "quote": "`resume_Фаза`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Enum value changed from `escalation_reason` to translated `Эскалация_reason`.",
+      "quote": "`Эскалация_reason`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Object key changed from `role_id` to translated `Роль_id` inside positions array.",
+      "quote": "`Роль_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Object key changed from `stance` to translated `Позиция` inside positions array.",
+      "quote": "`Позиция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Enum value changed from `blocked-escalation` to translated `blocked-эскалация`.",
+      "quote": "`blocked-эскалация`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:18:33"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' ('Объект обсуждения') replaced by 'Субъекты'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token inside backticks modified.",
+      "quote": "blocked-эскалация"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks translated; must be byte-identical to source.",
+      "quote": "{check: Объект обсуждения-reference|формат-обоснования|извлечение-статуса, Объект обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), Уровень серьёзности: Уровень серьёзности|null}"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token 'severity' translated and backticks removed.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field names (code tokens) in the EscalationRecord table translated.",
+      "quote": "id_эскалации"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Resolution' ('Резолюция') replaced by 'разрешение'.",
+      "quote": "разрешение"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks translated.",
+      "quote": "эскалация_reason"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens inside backticks translated.",
+      "quote": "id_роли, позиция"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:15:49"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "tier": 1,
+  "candidates": [
+    {
+      "id": "A1",
+      "type": "термин",
+      "quote": "Phase",
+      "note": "глоссарий: требуется RU-эквивалент «Фаза» — не найден",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "EN:3",
+      "borderline": true
+    },
+    {
+      "id": "A2",
+      "type": "термин",
+      "quote": "Role Agent",
+      "note": "глоссарий: требуется RU-эквивалент «Ролевой агент» — не найден",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:5",
+      "borderline": true
+    },
+    {
+      "id": "A3",
+      "type": "добавление",
+      "quote": "вывод",
+      "note": "RU-слово «вывод» — эквивалент термина, которого нет в EN этого прогона",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:3",
+      "borderline": true
+    },
+    {
+      "id": "A4",
+      "type": "добавление",
+      "quote": "замечания",
+      "note": "RU-слово «замечания» — эквивалент термина, которого нет в EN этого прогона",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:11",
+      "borderline": true
+    },
+    {
+      "id": "A5",
+      "type": "смысл",
+      "quote": "безопасного замечания",
+      "note": "The term 'value' is mistranslated as 'замечание' (remark/note) instead of 'значение'.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:11",
+      "borderline": true
+    },
+    {
+      "id": "A6",
+      "type": "смысл",
+      "quote": "применённые замечания по умолчанию",
+      "note": "The term 'defaults' (default values) is mistranslated as 'замечания по умолчанию' instead of 'значения по умолчанию'.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:11",
+      "borderline": true
+    },
+    {
+      "id": "A7",
+      "type": "формулировка",
+      "quote": "фактической инстанциирования",
+      "note": "Grammatical gender mismatch: the adjective 'фактической' (feminine) does not agree with the noun 'инстанциирования' (neuter).",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:31",
+      "borderline": true
+    }
+  ]
+}

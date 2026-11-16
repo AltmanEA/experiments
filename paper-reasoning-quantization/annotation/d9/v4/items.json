@@ -1,0 +1,1382 @@
+[
+  {
+    "x": "X1",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X1#1",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "002",
+        "frag_ru": "002",
+        "q": "Числа/идентификаторы должны совпадать. EN `002` → RU `002`. Это искажение?"
+      },
+      {
+        "qid": "X1#2",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Session",
+        "frag_ru": "Сессия",
+        "q": "По глоссарию термин «Session» передаётся как «Сессия». Здесь EN «Session» → RU содержит «Сессия». Это искажение?"
+      },
+      {
+        "qid": "X1#3",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Task",
+        "frag_ru": "Задача",
+        "q": "По глоссарию термин «Task» передаётся как «Задача». Здесь EN «Task» → RU содержит «Задача». Это искажение?"
+      },
+      {
+        "qid": "X1#4",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "\"configuration_source\": \"scenario_defaults\"",
+        "frag_ru": "\"configuration_source\": \"scenario_defaults\"",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `\"configuration_source\": \"scenario_defaults\"` → RU `\"configuration_source\": \"scenario_defaults\"`. Это искажение?"
+      },
+      {
+        "qid": "X1#5",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Role Agent",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Role Agent» требуется передавать как «Ролевой агент». Здесь EN «Role Agent» → в RU слова «Ролевой агент» нет. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X2",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X2#1",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "Documenter",
+        "frag_ru": "Documenter",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X2#2",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Documenter",
+        "frag_ru": "Документатор",
+        "q": "По глоссарию термин «Documenter» передаётся как «Документатор». Здесь EN «Documenter» → RU содержит «Документатор». Это искажение?"
+      },
+      {
+        "qid": "X2#3",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "(разрешение)",
+        "frag_ru": "(разрешение)",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X2#4",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "council.override_precheck(reason, operator_id)",
+        "frag_ru": "council.override_precheck(reason, operator_id)",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `council.override_precheck(reason, operator_id)` → RU `council.override_precheck(reason, operator_id)`. Это искажение?"
+      },
+      {
+        "qid": "X2#5",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Documenter",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Documenter» требуется передавать как «Документатор». Здесь EN «Documenter» → в RU слова «Документатор» нет. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X3",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X3#1",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "0",
+        "frag_ru": "0",
+        "q": "Числа/идентификаторы должны совпадать. EN `0` → RU `0`. Это искажение?"
+      },
+      {
+        "qid": "X3#2",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "0.0",
+        "frag_ru": "0.0",
+        "q": "Числа/идентификаторы должны совпадать. EN `0.0` → RU `0.0`. Это искажение?"
+      },
+      {
+        "qid": "X3#3",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "\"role_agent_config\"",
+        "frag_ru": "\"role_agent_config\"",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `\"role_agent_config\"` → RU `\"role_agent_config\"`. Это искажение?"
+      },
+      {
+        "qid": "X3#4",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Resolution",
+        "frag_ru": "Резолюция",
+        "q": "По глоссарию термин «Resolution» передаётся как «Резолюция». Здесь EN «Resolution» → RU содержит «Резолюция». Это искажение?"
+      },
+      {
+        "qid": "X3#5",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Role",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Role» требуется передавать как «Роль». Здесь EN «Role» → в RU слова «Роль» нет. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X4",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X4#1",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Escalation Reason",
+        "frag_ru": "Причина эскалации",
+        "q": "По глоссарию термин «Escalation Reason» передаётся как «Причина эскалации». Здесь EN «Escalation Reason» → RU содержит «Причина эскалации». Это искажение?"
+      },
+      {
+        "qid": "X4#2",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Phase",
+        "frag_ru": "Фаза",
+        "q": "По глоссарию термин «Phase» передаётся как «Фаза». Здесь EN «Phase» → RU содержит «Фаза». Это искажение?"
+      },
+      {
+        "qid": "X4#3",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "Outcome-to-Transition Table",
+        "frag_ru": "Outcome-to-Transition Table",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X4#4",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Artifact",
+        "frag_ru": "Артефакт",
+        "q": "По глоссарию термин «Artifact» передаётся как «Артефакт». Здесь EN «Artifact» → RU содержит «Артефакт». Это искажение?"
+      },
+      {
+        "qid": "X4#5",
+        "kind": "code",
+        "control": "pos",
+        "frag_en": "blocked-escalation",
+        "frag_ru": "blocked-эскалация",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `blocked-escalation` → в RU дословно нет, ближайшее `blocked-эскалация`. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X5",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X5#1",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "002",
+        "frag_ru": "002",
+        "q": "Числа/идентификаторы должны совпадать. EN `002` → RU `002`. Это искажение?"
+      },
+      {
+        "qid": "X5#2",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "0.9",
+        "frag_ru": "0.9",
+        "q": "Числа/идентификаторы должны совпадать. EN `0.9` → RU `0.9`. Это искажение?"
+      },
+      {
+        "qid": "X5#3",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "subject_id",
+        "frag_ru": "subject_id",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `subject_id` → RU `subject_id`. Это искажение?"
+      },
+      {
+        "qid": "X5#4",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "protocol-core/index.md",
+        "frag_ru": "protocol-core/index.md",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `protocol-core/index.md` → RU `protocol-core/index.md`. Это искажение?"
+      },
+      {
+        "qid": "X5#5",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Role",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Role» требуется передавать как «Роль». Здесь EN «Role» → в RU слова «Роль» нет. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X6",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X6#1",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Consensus",
+        "frag_ru": "Консенсус",
+        "q": "По глоссарию термин «Consensus» передаётся как «Консенсус». Здесь EN «Consensus» → RU содержит «Консенсус». Это искажение?"
+      },
+      {
+        "qid": "X6#2",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "0.9",
+        "frag_ru": "0.9",
+        "q": "Числа/идентификаторы должны совпадать. EN `0.9` → RU `0.9`. Это искажение?"
+      },
+      {
+        "qid": "X6#3",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "subject_id",
+        "frag_ru": "subject_id",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `subject_id` → RU `subject_id`. Это искажение?"
+      },
+      {
+        "qid": "X6#4",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Task",
+        "frag_ru": "Задача",
+        "q": "По глоссарию термин «Task» передаётся как «Задача». Здесь EN «Task» → RU содержит «Задача». Это искажение?"
+      },
+      {
+        "qid": "X6#5",
+        "kind": "code",
+        "control": "pos",
+        "frag_en": "\"role_agent_config\"",
+        "frag_ru": "",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `\"role_agent_config\"` → в RU дословно нет, ближайшее ``. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X7",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X7#1",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "session_id",
+        "frag_ru": "session_id",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `session_id` → RU `session_id`. Это искажение?"
+      },
+      {
+        "qid": "X7#2",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "4",
+        "frag_ru": "4",
+        "q": "Числа/идентификаторы должны совпадать. EN `4` → RU `4`. Это искажение?"
+      },
+      {
+        "qid": "X7#3",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "2000",
+        "frag_ru": "2000",
+        "q": "Числа/идентификаторы должны совпадать. EN `2000` → RU `2000`. Это искажение?"
+      },
+      {
+        "qid": "X7#4",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "severity",
+        "frag_ru": "severity",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `severity` → RU `severity`. Это искажение?"
+      },
+      {
+        "qid": "X7#5",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Role",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Role» требуется передавать как «Роль». Здесь EN «Role» → в RU слова «Роль» нет. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X8",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X8#1",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "scenario/default-council-session.yaml",
+        "frag_ru": "scenario/default-council-session.yaml",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `scenario/default-council-session.yaml` → RU `scenario/default-council-session.yaml`. Это искажение?"
+      },
+      {
+        "qid": "X8#2",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "Консенсус",
+        "frag_ru": "Консенсус",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X8#3",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Phase",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Phase» требуется передавать как «Фаза». Здесь EN «Phase» → в RU слова «Фаза» нет. Это искажение?"
+      },
+      {
+        "qid": "X8#4",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "SUBJ-007",
+        "frag_ru": "SUBJ-007",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `SUBJ-007` → RU `SUBJ-007`. Это искажение?"
+      },
+      {
+        "qid": "X8#5",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "007",
+        "frag_ru": "007",
+        "q": "Числа/идентификаторы должны совпадать. EN `007` → RU `007`. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X9",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X9#1",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "session_id",
+        "frag_ru": "session_id",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `session_id` → RU `session_id`. Это искажение?"
+      },
+      {
+        "qid": "X9#2",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "4",
+        "frag_ru": "4",
+        "q": "Числа/идентификаторы должны совпадать. EN `4` → RU `4`. Это искажение?"
+      },
+      {
+        "qid": "X9#3",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "escalation_id",
+        "frag_ru": "escalation_id",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `escalation_id` → RU `escalation_id`. Это искажение?"
+      },
+      {
+        "qid": "X9#4",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "severity",
+        "frag_ru": "severity",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `severity` → RU `severity`. Это искажение?"
+      },
+      {
+        "qid": "X9#5",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "2000",
+        "frag_ru": "2000",
+        "q": "Числа/идентификаторы должны совпадать. EN `2000` → RU `2000`. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X10",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X10#1",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "audit(pre_check=true)",
+        "frag_ru": "audit(pre_check=true)",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `audit(pre_check=true)` → RU `audit(pre_check=true)`. Это искажение?"
+      },
+      {
+        "qid": "X10#2",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "pass",
+        "frag_ru": "pass",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `pass` → RU `pass`. Это искажение?"
+      },
+      {
+        "qid": "X10#3",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Finding",
+        "frag_ru": "Вывод",
+        "q": "По глоссарию термин «Finding» передаётся как «Вывод». Здесь EN «Finding» → RU содержит «Вывод». Это искажение?"
+      },
+      {
+        "qid": "X10#4",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Session",
+        "frag_ru": "Сессия",
+        "q": "По глоссарию термин «Session» передаётся как «Сессия». Здесь EN «Session» → RU содержит «Сессия». Это искажение?"
+      },
+      {
+        "qid": "X10#5",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Documenter",
+        "frag_ru": "Документатор",
+        "q": "По глоссарию термин «Documenter» передаётся как «Документатор». Здесь EN «Documenter» → RU содержит «Документатор». Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X11",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X11#1",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "2 → 3",
+        "frag_ru": "2 → 3",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `2 → 3` → RU `2 → 3`. Это искажение?"
+      },
+      {
+        "qid": "X11#2",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Documenter",
+        "frag_ru": "Документатор",
+        "q": "По глоссарию термин «Documenter» передаётся как «Документатор». Здесь EN «Documenter» → RU содержит «Документатор». Это искажение?"
+      },
+      {
+        "qid": "X11#3",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "Verdict Logic",
+        "frag_ru": "Verdict Logic",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X11#4",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "pre_check Gate",
+        "frag_ru": "pre_check Gate",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X11#5",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Phase",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Phase» требуется передавать как «Фаза». Здесь EN «Phase» → в RU слова «Фаза» нет. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X12",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X12#1",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Task",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Task» требуется передавать как «Задача». Здесь EN «Task» → в RU слова «Задача» нет. Это искажение?"
+      },
+      {
+        "qid": "X12#2",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "применяемые замечания по умолчанию",
+        "frag_ru": "применяемые замечания по умолчанию",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X12#3",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Session",
+        "frag_ru": "Сессия",
+        "q": "По глоссарию термин «Session» передаётся как «Сессия». Здесь EN «Session» → RU содержит «Сессия». Это искажение?"
+      },
+      {
+        "qid": "X12#4",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Scenario",
+        "frag_ru": "Сценарий",
+        "q": "По глоссарию термин «Scenario» передаётся как «Сценарий». Здесь EN «Scenario» → RU содержит «Сценарий». Это искажение?"
+      },
+      {
+        "qid": "X12#5",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "применяемые замечания по умолчанию",
+        "frag_ru": "применяемые замечания по умолчанию",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      }
+    ]
+  },
+  {
+    "x": "X13",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X13#1",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "ConsensusVerdict.outcome",
+        "frag_ru": "ConsensusVerdict.outcome",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `ConsensusVerdict.outcome` → RU `ConsensusVerdict.outcome`. Это искажение?"
+      },
+      {
+        "qid": "X13#2",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "3",
+        "frag_ru": "3",
+        "q": "Числа/идентификаторы должны совпадать. EN `3` → RU `3`. Это искажение?"
+      },
+      {
+        "qid": "X13#3",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "no-consensus",
+        "frag_ru": "no-consensus",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `no-consensus` → RU `no-consensus`. Это искажение?"
+      },
+      {
+        "qid": "X13#4",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "его следующей переходом",
+        "frag_ru": "его следующей переходом",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X13#5",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Phase",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Phase» требуется передавать как «Фаза». Здесь EN «Phase» → в RU слова «Фаза» нет. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X14",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X14#1",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Task",
+        "frag_ru": "Задача",
+        "q": "По глоссарию термин «Task» передаётся как «Задача». Здесь EN «Task» → RU содержит «Задача». Это искажение?"
+      },
+      {
+        "qid": "X14#2",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "2",
+        "frag_ru": "2",
+        "q": "Числа/идентификаторы должны совпадать. EN `2` → RU `2`. Это искажение?"
+      },
+      {
+        "qid": "X14#3",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Task",
+        "frag_ru": "Задача",
+        "q": "По глоссарию термин «Task» передаётся как «Задача». Здесь EN «Task» → RU содержит «Задача». Это искажение?"
+      },
+      {
+        "qid": "X14#4",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "2026-11-04",
+        "frag_ru": "2026-11-04",
+        "q": "Числа/идентификаторы должны совпадать. EN `2026-11-04` → RU `2026-11-04`. Это искажение?"
+      },
+      {
+        "qid": "X14#5",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Artifact",
+        "frag_ru": "Артефакт",
+        "q": "По глоссарию термин «Artifact» передаётся как «Артефакт». Здесь EN «Artifact» → RU содержит «Артефакт». Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X15",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X15#1",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Session",
+        "frag_ru": "Сессия",
+        "q": "По глоссарию термин «Session» передаётся как «Сессия». Здесь EN «Session» → RU содержит «Сессия». Это искажение?"
+      },
+      {
+        "qid": "X15#2",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "1",
+        "frag_ru": "1",
+        "q": "Числа/идентификаторы должны совпадать. EN `1` → RU `1`. Это искажение?"
+      },
+      {
+        "qid": "X15#3",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Finding",
+        "frag_ru": "Вывод",
+        "q": "По глоссарию термин «Finding» передаётся как «Вывод». Здесь EN «Finding» → RU содержит «Вывод». Это искажение?"
+      },
+      {
+        "qid": "X15#4",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "escalation_id",
+        "frag_ru": "escalation_id",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `escalation_id` → RU `escalation_id`. Это искажение?"
+      },
+      {
+        "qid": "X15#5",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Resolution",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Resolution» требуется передавать как «Резолюция». Здесь EN «Resolution» → в RU слова «Резолюция» нет. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X16",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X16#1",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "Documenter Unavailable — Override Mode",
+        "frag_ru": "Documenter Unavailable — Override Mode",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X16#2",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "переход Фаза",
+        "frag_ru": "переход Фаза",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X16#3",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "переход Фаза",
+        "frag_ru": "переход Фаза",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X16#4",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "2",
+        "frag_ru": "2",
+        "q": "Числа/идентификаторы должны совпадать. EN `2` → RU `2`. Это искажение?"
+      },
+      {
+        "qid": "X16#5",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "переход Фаза",
+        "frag_ru": "переход Фаза",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      }
+    ]
+  },
+  {
+    "x": "X17",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X17#1",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "ConsensusVerdict.outcome",
+        "frag_ru": "ConsensusVerdict.outcome",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `ConsensusVerdict.outcome` → RU `ConsensusVerdict.outcome`. Это искажение?"
+      },
+      {
+        "qid": "X17#2",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Artifact",
+        "frag_ru": "Артефакт",
+        "q": "По глоссарию термин «Artifact» передаётся как «Артефакт». Здесь EN «Artifact» → RU содержит «Артефакт». Это искажение?"
+      },
+      {
+        "qid": "X17#3",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "3",
+        "frag_ru": "3",
+        "q": "Числа/идентификаторы должны совпадать. EN `3` → RU `3`. Это искажение?"
+      },
+      {
+        "qid": "X17#4",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "его следующей переходом",
+        "frag_ru": "его следующей переходом",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X17#5",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Role",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Role» требуется передавать как «Роль». Здесь EN «Role» → в RU слова «Роль» нет. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X18",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X18#1",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "03",
+        "frag_ru": "03",
+        "q": "Числа/идентификаторы должны совпадать. EN `03` → RU `03`. Это искажение?"
+      },
+      {
+        "qid": "X18#2",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "council.override_precheck(reason, operator_id)",
+        "frag_ru": "council.override_precheck(reason, operator_id)",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `council.override_precheck(reason, operator_id)` → RU `council.override_precheck(reason, operator_id)`. Это искажение?"
+      },
+      {
+        "qid": "X18#3",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Role",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Role» требуется передавать как «Роль». Здесь EN «Role» → в RU слова «Роль» нет. Это искажение?"
+      },
+      {
+        "qid": "X18#4",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "отказ закрыт",
+        "frag_ru": "отказ закрыт",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X18#5",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "Documenter Unavailable — Override Mode",
+        "frag_ru": "Documenter Unavailable — Override Mode",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      }
+    ]
+  },
+  {
+    "x": "X19",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X19#1",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "5",
+        "frag_ru": "5",
+        "q": "Числа/идентификаторы должны совпадать. EN `5` → RU `5`. Это искажение?"
+      },
+      {
+        "qid": "X19#2",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Escalation",
+        "frag_ru": "Эскалация",
+        "q": "По глоссарию термин «Escalation» передаётся как «Эскалация». Здесь EN «Escalation» → RU содержит «Эскалация». Это искажение?"
+      },
+      {
+        "qid": "X19#3",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "3",
+        "frag_ru": "3",
+        "q": "Числа/идентификаторы должны совпадать. EN `3` → RU `3`. Это искажение?"
+      },
+      {
+        "qid": "X19#4",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "ConsensusVerdict.outcome",
+        "frag_ru": "ConsensusVerdict.outcome",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `ConsensusVerdict.outcome` → RU `ConsensusVerdict.outcome`. Это искажение?"
+      },
+      {
+        "qid": "X19#5",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Phase",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Phase» требуется передавать как «Фаза». Здесь EN «Phase» → в RU слова «Фаза» нет. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X20",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X20#1",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Task",
+        "frag_ru": "Задача",
+        "q": "По глоссарию термин «Task» передаётся как «Задача». Здесь EN «Task» → RU содержит «Задача». Это искажение?"
+      },
+      {
+        "qid": "X20#2",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Artifact",
+        "frag_ru": "Артефакт",
+        "q": "По глоссарию термин «Artifact» передаётся как «Артефакт». Здесь EN «Artifact» → RU содержит «Артефакт». Это искажение?"
+      },
+      {
+        "qid": "X20#3",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "0.3.2",
+        "frag_ru": "0.3.2",
+        "q": "Числа/идентификаторы должны совпадать. EN `0.3.2` → RU `0.3.2`. Это искажение?"
+      },
+      {
+        "qid": "X20#4",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "3",
+        "frag_ru": "3",
+        "q": "Числа/идентификаторы должны совпадать. EN `3` → RU `3`. Это искажение?"
+      },
+      {
+        "qid": "X20#5",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Consensus",
+        "frag_ru": "Консенсус",
+        "q": "По глоссарию термин «Consensus» передаётся как «Консенсус». Здесь EN «Consensus» → RU содержит «Консенсус». Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X21",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X21#1",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "4",
+        "frag_ru": "4",
+        "q": "Числа/идентификаторы должны совпадать. EN `4` → RU `4`. Это искажение?"
+      },
+      {
+        "qid": "X21#2",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "role_statuses",
+        "frag_ru": "role_statuses",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `role_statuses` → RU `role_statuses`. Это искажение?"
+      },
+      {
+        "qid": "X21#3",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "1",
+        "frag_ru": "1",
+        "q": "Числа/идентификаторы должны совпадать. EN `1` → RU `1`. Это искажение?"
+      },
+      {
+        "qid": "X21#4",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "`Уровень серьёзности`",
+        "frag_ru": "`Уровень серьёзности`",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X21#5",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Role",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Role» требуется передавать как «Роль». Здесь EN «Role» → в RU слова «Роль» нет. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X22",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X22#1",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "unavailable",
+        "frag_ru": "unavailable",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `unavailable` → RU `unavailable`. Это искажение?"
+      },
+      {
+        "qid": "X22#2",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "Докуматора",
+        "frag_ru": "Докуматора",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X22#3",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "из активной сценарии",
+        "frag_ru": "из активной сценарии",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X22#4",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "critical",
+        "frag_ru": "critical",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `critical` → RU `critical`. Это искажение?"
+      },
+      {
+        "qid": "X22#5",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "наличие Роль-ядра",
+        "frag_ru": "наличие Роль-ядра",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      }
+    ]
+  },
+  {
+    "x": "X23",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X23#1",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Artifact",
+        "frag_ru": "Артефакт",
+        "q": "По глоссарию термин «Artifact» передаётся как «Артефакт». Здесь EN «Artifact» → RU содержит «Артефакт». Это искажение?"
+      },
+      {
+        "qid": "X23#2",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "3",
+        "frag_ru": "3",
+        "q": "Числа/идентификаторы должны совпадать. EN `3` → RU `3`. Это искажение?"
+      },
+      {
+        "qid": "X23#3",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "2026-11-04",
+        "frag_ru": "2026-11-04",
+        "q": "Числа/идентификаторы должны совпадать. EN `2026-11-04` → RU `2026-11-04`. Это искажение?"
+      },
+      {
+        "qid": "X23#4",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Escalation",
+        "frag_ru": "Эскалация",
+        "q": "По глоссарию термин «Escalation» передаётся как «Эскалация». Здесь EN «Escalation» → RU содержит «Эскалация». Это искажение?"
+      },
+      {
+        "qid": "X23#5",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Task",
+        "frag_ru": "Задача",
+        "q": "По глоссарию термин «Task» передаётся как «Задача». Здесь EN «Task» → RU содержит «Задача». Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X24",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X24#1",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Session",
+        "frag_ru": "Сессия",
+        "q": "По глоссарию термин «Session» передаётся как «Сессия». Здесь EN «Session» → RU содержит «Сессия». Это искажение?"
+      },
+      {
+        "qid": "X24#2",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "protocol-core/index.md",
+        "frag_ru": "protocol-core/index.md",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `protocol-core/index.md` → RU `protocol-core/index.md`. Это искажение?"
+      },
+      {
+        "qid": "X24#3",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Role",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Role» требуется передавать как «Роль». Здесь EN «Role» → в RU слова «Роль» нет. Это искажение?"
+      },
+      {
+        "qid": "X24#4",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "\"role_agent_config\"",
+        "frag_ru": "\"role_agent_config\"",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `\"role_agent_config\"` → RU `\"role_agent_config\"`. Это искажение?"
+      },
+      {
+        "qid": "X24#5",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Scenario",
+        "frag_ru": "Сценарий",
+        "q": "По глоссарию термин «Scenario» передаётся как «Сценарий». Здесь EN «Scenario» → RU содержит «Сценарий». Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X25",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X25#1",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "безопасного замечания",
+        "frag_ru": "безопасного замечания",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X25#2",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "\"configuration_source\": \"scenario_defaults\"",
+        "frag_ru": "\"configuration_source\": \"scenario_defaults\"",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `\"configuration_source\": \"scenario_defaults\"` → RU `\"configuration_source\": \"scenario_defaults\"`. Это искажение?"
+      },
+      {
+        "qid": "X25#3",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Scenario",
+        "frag_ru": "Сценарий",
+        "q": "По глоссарию термин «Scenario» передаётся как «Сценарий». Здесь EN «Scenario» → RU содержит «Сценарий». Это искажение?"
+      },
+      {
+        "qid": "X25#4",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "orchestrator/",
+        "frag_ru": "orchestrator/",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `orchestrator/` → RU `orchestrator/`. Это искажение?"
+      },
+      {
+        "qid": "X25#5",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Role",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Role» требуется передавать как «Роль». Здесь EN «Role» → в RU слова «Роль» нет. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X26",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X26#1",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "правила присутствия роли Core",
+        "frag_ru": "правила присутствия роли Core",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X26#2",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "audit(pre_check=true)",
+        "frag_ru": "audit(pre_check=true)",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `audit(pre_check=true)` → RU `audit(pre_check=true)`. Это искажение?"
+      },
+      {
+        "qid": "X26#3",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Documenter",
+        "frag_ru": "Документатор",
+        "q": "По глоссарию термин «Documenter» передаётся как «Документатор». Здесь EN «Documenter» → RU содержит «Документатор». Это искажение?"
+      },
+      {
+        "qid": "X26#4",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "2",
+        "frag_ru": "2",
+        "q": "Числа/идентификаторы должны совпадать. EN `2` → RU `2`. Это искажение?"
+      },
+      {
+        "qid": "X26#5",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "03",
+        "frag_ru": "03",
+        "q": "Числа/идентификаторы должны совпадать. EN `03` → RU `03`. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X27",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X27#1",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "ConsensusVerdict.outcome",
+        "frag_ru": "ConsensusVerdict.outcome",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `ConsensusVerdict.outcome` → RU `ConsensusVerdict.outcome`. Это искажение?"
+      },
+      {
+        "qid": "X27#2",
+        "kind": "code",
+        "control": "pos",
+        "frag_en": "blocked-escalation",
+        "frag_ru": "ConsensusVerdict.outcome",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `blocked-escalation` → в RU дословно нет, ближайшее `ConsensusVerdict.outcome`. Это искажение?"
+      },
+      {
+        "qid": "X27#3",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Escalation Reason",
+        "frag_ru": "Причина эскалации",
+        "q": "По глоссарию термин «Escalation Reason» передаётся как «Причина эскалации». Здесь EN «Escalation Reason» → RU содержит «Причина эскалации». Это искажение?"
+      },
+      {
+        "qid": "X27#4",
+        "kind": "num",
+        "control": "pos",
+        "frag_en": "4",
+        "frag_ru": "",
+        "q": "Числа/идентификаторы должны совпадать. EN `4` → в RU такое написание не встречается. Это искажение?"
+      },
+      {
+        "qid": "X27#5",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "ConsensusVerdict.outcome",
+        "frag_ru": "ConsensusVerdict.outcome",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `ConsensusVerdict.outcome` → RU `ConsensusVerdict.outcome`. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X28",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X28#1",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "3",
+        "frag_ru": "3",
+        "q": "Числа/идентификаторы должны совпадать. EN `3` → RU `3`. Это искажение?"
+      },
+      {
+        "qid": "X28#2",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Consensus",
+        "frag_ru": "Консенсус",
+        "q": "По глоссарию термин «Consensus» передаётся как «Консенсус». Здесь EN «Consensus» → RU содержит «Консенсус». Это искажение?"
+      },
+      {
+        "qid": "X28#3",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Consensus",
+        "frag_ru": "Консенсус",
+        "q": "По глоссарию термин «Consensus» передаётся как «Консенсус». Здесь EN «Consensus» → RU содержит «Консенсус». Это искажение?"
+      },
+      {
+        "qid": "X28#4",
+        "kind": "term",
+        "control": "neg",
+        "frag_en": "Task",
+        "frag_ru": "Задача",
+        "q": "По глоссарию термин «Task» передаётся как «Задача». Здесь EN «Task» → RU содержит «Задача». Это искажение?"
+      },
+      {
+        "qid": "X28#5",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "0.3.2",
+        "frag_ru": "0.3.2",
+        "q": "Числа/идентификаторы должны совпадать. EN `0.3.2` → RU `0.3.2`. Это искажение?"
+      }
+    ]
+  },
+  {
+    "x": "X29",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X29#1",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "resolution",
+        "frag_ru": "resolution",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `resolution` → RU `resolution`. Это искажение?"
+      },
+      {
+        "qid": "X29#2",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "outcome",
+        "frag_ru": "outcome",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `outcome` → RU `outcome`. Это искажение?"
+      },
+      {
+        "qid": "X29#3",
+        "kind": "code",
+        "control": "pos",
+        "frag_en": "severity",
+        "frag_ru": "subject_id",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `severity` → в RU дословно нет, ближайшее `subject_id`. Это искажение?"
+      },
+      {
+        "qid": "X29#4",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Role",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Role» требуется передавать как «Роль». Здесь EN «Role» → в RU слова «Роль» нет. Это искажение?"
+      },
+      {
+        "qid": "X29#5",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "Уровень серьёзности",
+        "frag_ru": "Уровень серьёзности",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      }
+    ]
+  },
+  {
+    "x": "X30",
+    "n": 5,
+    "items": [
+      {
+        "qid": "X30#1",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "2",
+        "frag_ru": "2",
+        "q": "Числа/идентификаторы должны совпадать. EN `2` → RU `2`. Это искажение?"
+      },
+      {
+        "qid": "X30#2",
+        "kind": "judge",
+        "control": null,
+        "frag_en": "отмене",
+        "frag_ru": "отмене",
+        "q": "Судья усомнился в фрагменте ниже. Это фактическое искажение перевода?"
+      },
+      {
+        "qid": "X30#3",
+        "kind": "num",
+        "control": "neg",
+        "frag_en": "2",
+        "frag_ru": "2",
+        "q": "Числа/идентификаторы должны совпадать. EN `2` → RU `2`. Это искажение?"
+      },
+      {
+        "qid": "X30#4",
+        "kind": "code",
+        "control": "neg",
+        "frag_en": "pre_check",
+        "frag_ru": "pre_check",
+        "q": "Токен кода должен остаться без изменений (байт в байт). EN `pre_check` → RU `pre_check`. Это искажение?"
+      },
+      {
+        "qid": "X30#5",
+        "kind": "term",
+        "control": "pos",
+        "frag_en": "Role",
+        "frag_ru": "",
+        "q": "По глоссарию термин «Role» требуется передавать как «Роль». Здесь EN «Role» → в RU слова «Роль» нет. Это искажение?"
+      }
+    ]
+  }
+]

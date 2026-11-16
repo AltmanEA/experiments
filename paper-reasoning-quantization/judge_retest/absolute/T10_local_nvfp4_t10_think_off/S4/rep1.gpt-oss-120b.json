@@ -1,0 +1,39 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Section title \"ConsensusVerdict\" does not use the required Russian term for \"Consensus\" (Консенсус).",
+      "quote": "ConsensusVerdict"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Section title \"EscalationRecord\" does not use the required Russian term for \"Escalation\" (Эскалация).",
+      "quote": "EscalationRecord"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "In the description of `blocking_subjects` the term \"Субъекты\" is used instead of the required glossary equivalent \"Объекты обсуждения\".",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "In the description of `disagreement_subjects` the term \"Субъекты\" is used instead of the required glossary equivalent \"Объекты обсуждения\".",
+      "quote": "Субъекты, имеющие как `support`, так и `oppose` в финальном раунде"
+    }
+  ],
+  "score": 60,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:29:08"
+  }
+}

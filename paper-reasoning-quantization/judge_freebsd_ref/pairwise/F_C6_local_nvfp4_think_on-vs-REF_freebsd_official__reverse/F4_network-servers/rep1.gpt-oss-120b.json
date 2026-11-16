@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "A follows glossary terms more closely, translates technical terms accurately (e.g., Origin, resolver, forwarders), and avoids the mistranslations and awkward phrasing found in B.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:09:23"
+  }
+}

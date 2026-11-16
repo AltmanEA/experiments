@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A strictly follows the provided glossary, specifically using 'межсетевой экран' for 'firewall' in the title, whereas Translation B uses 'Брандмауэры'. Additionally, Translation A maintains a more formal technical style, while Translation B uses colloquialisms like 'логируется' and 'в лог' instead of the required 'ведение журнала'.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse",
+    "fixture": "F5_firewalls",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:12:09"
+  }
+}

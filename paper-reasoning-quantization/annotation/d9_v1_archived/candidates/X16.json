@@ -1,0 +1,115 @@
+{
+  "tier": 1,
+  "candidates": [
+    {
+      "id": "A1",
+      "type": "добавление",
+      "quote": "артефакт",
+      "note": "RU-слово «артефакт» — эквивалент термина, которого нет в EN этого прогона",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:5",
+      "borderline": true
+    },
+    {
+      "id": "A2",
+      "type": "формулировка",
+      "quote": "(`unavailable` verdict)",
+      "note": "The word 'verdict' is left untranslated in the text.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:23",
+      "borderline": true
+    },
+    {
+      "id": "A3",
+      "type": "формулировка",
+      "quote": "Core-Роль",
+      "note": "Lack of required grammatical inflection (genitive case) for the glossary term 'Role' (Роль).",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:29",
+      "borderline": true
+    },
+    {
+      "id": "A4",
+      "type": "формулировка",
+      "quote": "Documenter Unavailable — Override Mode",
+      "note": "Section headers are not translated into Russian.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:21",
+      "borderline": true
+    },
+    {
+      "id": "A5",
+      "type": "формулировка",
+      "quote": "Scope and Enforcement Point",
+      "note": "Section headers are not translated into Russian.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:3",
+      "borderline": true
+    },
+    {
+      "id": "A6",
+      "type": "формулировка",
+      "quote": "Verdict Logic",
+      "note": "Section headers are not translated into Russian.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:12",
+      "borderline": true
+    },
+    {
+      "id": "A7",
+      "type": "формулировка",
+      "quote": "переход Фаза",
+      "note": "Incorrect case for the noun \"Фаза\"; should be in genitive (\"переход Фазы\") or appropriate form.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:28",
+      "borderline": true
+    },
+    {
+      "id": "A8",
+      "type": "формулировка",
+      "quote": "правила Консенсус",
+      "note": "Lack of required grammatical inflection (genitive case) for the glossary term 'Consensus' (Консенсус).",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:29",
+      "borderline": true
+    },
+    {
+      "id": "A9",
+      "type": "формулировка",
+      "quote": "целостности Эскалация",
+      "note": "Lack of required grammatical inflection (genitive case) for the glossary term 'Escalation' (Эскалация).",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:29",
+      "borderline": true
+    },
+    {
+      "id": "A10",
+      "type": "формулировка",
+      "quote": "шлюзы целостности Эскалация",
+      "note": "Incorrect case/agreement for \"Эскалация\"; should be in genitive (\"шлюзы целостности Эскалации\") or appropriate form.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:29",
+      "borderline": true
+    }
+  ]
+}

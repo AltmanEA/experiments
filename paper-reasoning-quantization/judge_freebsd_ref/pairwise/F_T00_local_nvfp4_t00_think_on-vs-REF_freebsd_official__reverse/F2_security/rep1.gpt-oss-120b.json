@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.7,
+  "reason": "A follows glossary terms (brute force, configuration file, tip) and has no garbled text, while B mis‑uses the brute‑force term, contains a typo in the tip, and overall is less accurate.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:14:40"
+  }
+}

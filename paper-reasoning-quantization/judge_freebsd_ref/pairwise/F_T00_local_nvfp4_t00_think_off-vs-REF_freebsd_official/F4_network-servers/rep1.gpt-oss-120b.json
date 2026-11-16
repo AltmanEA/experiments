@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.65,
+  "reason": "B correctly uses the key term 'авторитетный' for authoritative name server and maintains overall fluency, despite minor issues like untranslated NOTE and missing ё; A mis‑renders the authoritative term and uses informal phrasing.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:58:57"
+  }
+}

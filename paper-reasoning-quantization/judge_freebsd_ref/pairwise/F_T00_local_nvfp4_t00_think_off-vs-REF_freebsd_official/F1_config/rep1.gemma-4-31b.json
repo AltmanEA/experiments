@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation B is more fluent and uses more appropriate technical terminology. Specifically, it uses 'вывод' for 'output' (whereas A uses 'результат') and 'журналирование' for 'logging'. B also avoids the repetitive phrasing found in A's second paragraph, making the text read more naturally. While A's translation of 'magic numbers' as 'магические числа' is more standard than B's 'волшебные числа', B's overall professional tone and correct title casing make it the superior version.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official",
+    "fixture": "F1_config",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:58:58"
+  }
+}

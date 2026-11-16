@@ -1,0 +1,49 @@
+{
+  "tier": 1,
+  "candidates": [
+    {
+      "id": "A1",
+      "type": "термин",
+      "quote": "Role",
+      "note": "глоссарий: требуется RU-эквивалент «Роль» — не найден",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:8",
+      "borderline": true
+    },
+    {
+      "id": "A2",
+      "type": "термин",
+      "quote": "Субъекты",
+      "note": "The required glossary term for \"Subject\" (Объект обсуждения) is replaced with \"Субъекты\".",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:9",
+      "borderline": true
+    },
+    {
+      "id": "A3",
+      "type": "термин",
+      "quote": "Субъекты со статусом блокировки",
+      "note": "Glossary term 'Subject' translated as 'Субъекты' instead of 'Объекты обсуждения'.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:9",
+      "borderline": true
+    },
+    {
+      "id": "A4",
+      "type": "термин",
+      "quote": "Субъекты, имеющие как `support`, так и `oppose` в финальном раунде",
+      "note": "Glossary term 'Subject' translated as 'Субъекты' instead of 'Объекты обсуждения'.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:10",
+      "borderline": true
+    }
+  ]
+}

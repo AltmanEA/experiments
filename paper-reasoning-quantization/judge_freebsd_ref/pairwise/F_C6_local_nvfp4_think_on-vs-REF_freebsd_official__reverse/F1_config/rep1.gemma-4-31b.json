@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation A is slightly more fluent and uses more standard technical terminology. Specifically, it uses 'Вывод' for 'output' (standard for CLI), whereas B uses 'Результат'. A also avoids the repetitive phrasing found in B's second paragraph ('состояние ядра' is repeated twice in one sentence in B, while A uses a pronoun 'его'). Both followed the glossary correctly.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse",
+    "fixture": "F1_config",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:09:29"
+  }
+}

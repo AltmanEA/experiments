@@ -1,0 +1,27 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' ('Объект обсуждения') translated as 'Субъекты'.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code tokens (field names, enum values, and identifiers) must be byte-identical to the source; they were incorrectly translated using the glossary.",
+      "quote": "`консенсус`"
+    }
+  ],
+  "score": 65,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:21:51"
+  }
+}

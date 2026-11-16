@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A is significantly more fluent and grammatically correct. Translation B contains several awkward literal translations (e.g., 'Один хочет' for 'One wants') and grammatical errors (e.g., 'авторитетных корневых, домен верхнего уровня' where the cases do not match). A also handles the technical term 'Origin' better than B, which translated it literally as 'Начало' (Beginning), which is incorrect in a DNS context.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:11:35"
+  }
+}

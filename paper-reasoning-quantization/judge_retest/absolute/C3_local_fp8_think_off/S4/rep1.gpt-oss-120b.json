@@ -1,0 +1,63 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Consensus” from the glossary is not translated.",
+      "quote": "ConsensusVerdict"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Disagreement” from the glossary is not translated.",
+      "quote": "disagreement_subjects"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term “Subject” should be rendered as “Объект обсуждения”, but “Субъекты” is used.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term “Subject” should be rendered as “Объект обсуждения”, but “Субъекты” is used.",
+      "quote": "Субъекты, имеющие и `support`, и `oppose` в финальном раунде"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Stance” from the glossary is not translated.",
+      "quote": "`stance`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Escalation” from the glossary is not translated in the section header.",
+      "quote": "EscalationRecord"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Resolution” from the glossary is not translated in the field name.",
+      "quote": "`resolution`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `severity` was altered to a Russian phrase, breaking byte‑identical requirement.",
+      "quote": "severity: Уровень серьёзности"
+    }
+  ],
+  "score": 5,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:06:42"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' is translated as 'Субъекты' instead of the required glossary equivalent 'Объект обсуждения'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens in the ValidationResult section were translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`{check: Объект обсуждения-reference|justification-format|status-extraction, Объект обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: строка (замазана), Уровень серьёзности: Уровень серьёзности|null}`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and values in the EscalationRecord table were translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`эскалация_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and values in the EscalationRecord table were translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`сессия_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and values in the EscalationRecord table were translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`raised_by_роль`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and values in the EscalationRecord table were translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`причина`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and values in the EscalationRecord table were translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`уровень_серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and values in the EscalationRecord table were translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`блокатор`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and values in the EscalationRecord table were translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`позиции`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and values in the EscalationRecord table were translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`запрос_оператора`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and values in the EscalationRecord table were translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`стратегия_резервного_варианта`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and values in the EscalationRecord table were translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`резолюция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names and values in the EscalationRecord table were translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`resume_фаза`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked values in the EscalationRecord rules were translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`эскалация_reason`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked values in the EscalationRecord rules were translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`{роль_id, позиция, summary}`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:08:47"
+  }
+}

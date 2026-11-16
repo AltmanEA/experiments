@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation B follows the glossary more strictly (using 'Межсетевые экраны' in the title instead of 'Брандмауэры') and is grammatically correct. Translation A contains a significant grammar error ('соответствовали Конфигурация системы') and uses awkward phrasing in the first paragraph.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C5_local_nvfp4_think_off-vs-REF_freebsd_official",
+    "fixture": "F5_firewalls",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:53:11"
+  }
+}

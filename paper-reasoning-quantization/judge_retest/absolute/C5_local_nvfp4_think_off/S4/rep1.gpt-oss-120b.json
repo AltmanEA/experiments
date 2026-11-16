@@ -1,0 +1,27 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Subject\" should be translated as the required glossary equivalent \"Объект обсуждения\", but the translation uses \"Субъекты\".",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Subject\" should be translated as the required glossary equivalent \"Объект обсуждения\", but the translation uses \"Субъекты\".",
+      "quote": "Субъекты, имеющие как `support`, так и `oppose` в финальном раунде"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:08:02"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' is translated as 'Субъекты' instead of the required glossary equivalent 'Объект обсуждения'.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' is translated as 'Субъекты' instead of the required glossary equivalent 'Объект обсуждения'.",
+      "quote": "Субъекты, имеющие как `support`, так и `oppose` в финальном раунде"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The field name 'severity' is translated as 'Уровень серьёзности'. Field names must remain byte-identical to the source.",
+      "quote": "Уровень серьёзности"
+    }
+  ],
+  "score": 55,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T10_local_nvfp4_t10_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:34:30"
+  }
+}

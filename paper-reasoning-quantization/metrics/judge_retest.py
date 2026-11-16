@@ -128,8 +128,10 @@ def main():
     lines += ["", f"Сгенерировано: judge_retest.py, cells={n}", ""]
 
     Path(a.out_prefix + ".md").write_text("\n".join(lines), encoding="utf-8")
+    fields = ["judge", "n", "mean_abs_delta", "pearson_r", "band_agree", "critical_agree",
+              "contrast", "sign_agree", "sign_flip", "p_binom"]
     with open(a.out_prefix + ".csv", "w", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=list(out_csv[0]))
+        w = csv.DictWriter(fh, fieldnames=fields, restval="")
         w.writeheader()
         w.writerows(out_csv)
     print(f"wrote {a.out_prefix}.md / .csv (n={n})")

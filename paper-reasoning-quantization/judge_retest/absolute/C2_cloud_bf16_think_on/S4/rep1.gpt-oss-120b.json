@@ -1,0 +1,51 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code identifier `session_id` was translated to `Сессия_id`, breaking the required byte‑identical code token.",
+      "quote": "`Сессия_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code identifier `phase_id` was altered to `фаза_id`, violating the rule that code tokens must remain byte‑identical.",
+      "quote": "`фаза_id`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The literal value `yes` was translated to Russian \"да\", changing the original token.",
+      "quote": "да"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Extraneous English commentary and meta‑text (e.g., \"Wait, let's think carefully.\") were included in the translation output, which is not part of the source.",
+      "quote": "Wait, let's think carefully."
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term \"Consensus\" (required Russian \"Консенсус\") was left untranslated in descriptive text where it appears outside of code tokens.",
+      "quote": "`consensus`"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "The Markdown table structure is broken: extra separator lines, missing rows, and stray backticks appear, violating the required table formatting.",
+      "quote": "|-------|------|----------|------|"
+    }
+  ],
+  "score": 18,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:05:21"
+  }
+}

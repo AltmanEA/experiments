@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.9,
+  "reason": "Translation A is more fluent and accurate. It correctly translates 'time consuming' as 'длительный' (A) whereas B uses 'трудоёмкий' (labor-intensive). A also correctly formats the reference to the ZFS section as a title and provides a more precise translation of 'per-user quotas'. While B correctly translates 'custom kernel configuration', A's overall phrasing is more natural for technical documentation.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official",
+    "fixture": "F3_disks",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T18:04:53"
+  }
+}

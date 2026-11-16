@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "A follows the required glossary term for the title (межсетевой экран) and consistently uses the prescribed terminology, while B uses a non‑glossary term \"Брандмауэры\". Both translations are otherwise accurate and fluent, but A aligns better with the terminology guidelines.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse",
+    "fixture": "F5_firewalls",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:10:04"
+  }
+}

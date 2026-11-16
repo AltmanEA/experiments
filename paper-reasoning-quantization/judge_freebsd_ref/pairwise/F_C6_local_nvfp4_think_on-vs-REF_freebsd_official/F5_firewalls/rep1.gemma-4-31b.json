@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation B strictly follows the glossary for the main title ('Межсетевые экраны' vs A's 'Брандмауэры'). Additionally, B uses more professional technical language, avoiding the colloquialisms/jargon found in A (e.g., B uses 'записей в журнале' instead of 'логируется' and 'в лог').",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C6_local_nvfp4_think_on-vs-REF_freebsd_official",
+    "fixture": "F5_firewalls",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:57:46"
+  }
+}

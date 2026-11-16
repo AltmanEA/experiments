@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.8,
+  "reason": "Translation B is more technically accurate. It correctly translates 'time consuming process' as 'длительный процесс' (A used 'трудоёмкий', which implies labor-intensive/human effort). B also correctly translates 'manual pages' as 'страницы руководства' (man-pages), whereas A used 'руководствами' (manuals). B is also more precise with 'per-user quotas' ('квоты для каждого пользователя'). While A followed the glossary slightly better for 'disk quota' and captured 'custom' in 'custom kernel', B's overall technical precision and fluency are superior.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse",
+    "fixture": "F3_disks",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:21:21"
+  }
+}

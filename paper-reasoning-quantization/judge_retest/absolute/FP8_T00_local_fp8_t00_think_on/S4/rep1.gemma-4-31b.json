@@ -1,0 +1,51 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' is translated as 'Субъекты' instead of the required glossary equivalent 'Объект обсуждения'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked enum values must be byte-identical to the source; they were translated into Russian.",
+      "quote": "`консенсус`, `условный`, `без-консенсуса`, `блокировка-эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens/identifiers within the ValidationResult block must be byte-identical; they were translated into Russian.",
+      "quote": "Объект обсуждения-reference"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field names in the EscalationRecord table are backticked and must be byte-identical; they were translated into Russian.",
+      "quote": "`id_эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens within the rule for 'positions' must be byte-identical; 'stance' was translated to 'позиция'.",
+      "quote": "позиция"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The backticked reference 'escalation_reason' was translated to 'reason_эскалации'.",
+      "quote": "`reason_эскалации`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:12:25"
+  }
+}

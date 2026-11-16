@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.78,
+  "reason": "A follows the glossary more closely (e.g., \"ведение журнала\", \"записей в журнал\"), keeps terminology consistent, and accurately mirrors the source wording; B deviates slightly in phrasing and uses non‑glossary terms.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official",
+    "fixture": "F5_firewalls",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T18:02:06"
+  }
+}

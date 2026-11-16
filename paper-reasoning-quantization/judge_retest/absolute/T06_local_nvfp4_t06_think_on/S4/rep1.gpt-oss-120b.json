@@ -1,0 +1,87 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name must match source identifier exactly.",
+      "quote": "`эскалация_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name must match source identifier exactly.",
+      "quote": "`сессия_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name must match source identifier exactly.",
+      "quote": "`поднятая_ролью`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name must match source identifier exactly.",
+      "quote": "`уровень_серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name must match source identifier exactly.",
+      "quote": "`роль_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name must match source identifier exactly.",
+      "quote": "`позиция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name must match source identifier exactly.",
+      "quote": "`резолюция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name must match source identifier exactly.",
+      "quote": "`resume_фаза`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Incorrect enum value reference; must use source token.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Incorrect enum value reference; must use source token.",
+      "quote": "`эскалация_reason`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term \"Subject\" should be translated as \"Объект обсуждения\", not \"Субъекты\".",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term \"Subject\" should be translated as \"Объект обсуждения\", not \"Субъекты\".",
+      "quote": "Субъекты, имеющие как `support`, так и `oppose` в финальном раунде"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T06_local_nvfp4_t06_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:24:14"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation A is more fluent and follows Russian grammar and capitalization rules better than B (B incorrectly uses title case in the main heading). A also uses the more appropriate technical term 'Вывод' for CLI output, whereas B uses 'Результат'.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official__reverse",
+    "fixture": "F1_config",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:12:23"
+  }
+}

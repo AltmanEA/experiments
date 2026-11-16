@@ -1,0 +1,60 @@
+{
+  "tier": 1,
+  "candidates": [
+    {
+      "id": "A1",
+      "type": "термин",
+      "quote": "Role",
+      "note": "глоссарий: требуется RU-эквивалент «Роль» — не найден",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "EN:29",
+      "borderline": true
+    },
+    {
+      "id": "A2",
+      "type": "добавление",
+      "quote": "артефакт",
+      "note": "RU-слово «артефакт» — эквивалент термина, которого нет в EN этого прогона",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:5",
+      "borderline": true
+    },
+    {
+      "id": "A3",
+      "type": "формулировка",
+      "quote": "### Documenter Unavailable — Override Mode",
+      "note": "Header is not translated.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:21",
+      "borderline": true
+    },
+    {
+      "id": "A4",
+      "type": "формулировка",
+      "quote": "### Verdict Logic",
+      "note": "Header is not translated.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:12",
+      "borderline": true
+    },
+    {
+      "id": "A5",
+      "type": "формулировка",
+      "quote": "отмене",
+      "note": "Inconsistent translation of the term 'override': it is translated as 'переопределение' in the first section and 'отмена' in the final section.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:25",
+      "borderline": true
+    }
+  ]
+}

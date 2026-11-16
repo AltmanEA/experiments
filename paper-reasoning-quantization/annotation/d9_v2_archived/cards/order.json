@@ -1,0 +1,468 @@
+{
+  "X1": {
+    "n_cards": 9,
+    "present": [
+      4,
+      9,
+      6,
+      8,
+      3,
+      5,
+      7,
+      1,
+      2
+    ],
+    "stats": {
+      "en_blocks": 9,
+      "ru_blocks": 9
+    }
+  },
+  "X2": {
+    "n_cards": 6,
+    "present": [
+      6,
+      1,
+      3,
+      4,
+      5,
+      2
+    ],
+    "stats": {
+      "en_blocks": 6,
+      "ru_blocks": 6
+    }
+  },
+  "X3": {
+    "n_cards": 9,
+    "present": [
+      9,
+      6,
+      5,
+      3,
+      1,
+      2,
+      8,
+      4,
+      7
+    ],
+    "stats": {
+      "en_blocks": 9,
+      "ru_blocks": 9
+    }
+  },
+  "X4": {
+    "n_cards": 3,
+    "present": [
+      2,
+      1,
+      3
+    ],
+    "stats": {
+      "en_blocks": 3,
+      "ru_blocks": 3
+    }
+  },
+  "X5": {
+    "n_cards": 9,
+    "present": [
+      4,
+      3,
+      2,
+      5,
+      1,
+      6,
+      9,
+      7,
+      8
+    ],
+    "stats": {
+      "en_blocks": 9,
+      "ru_blocks": 9
+    }
+  },
+  "X6": {
+    "n_cards": 9,
+    "present": [
+      3,
+      4,
+      6,
+      2,
+      7,
+      5,
+      8,
+      1,
+      9
+    ],
+    "stats": {
+      "en_blocks": 9,
+      "ru_blocks": 9
+    }
+  },
+  "X7": {
+    "n_cards": 5,
+    "present": [
+      5,
+      1,
+      4,
+      2,
+      3
+    ],
+    "stats": {
+      "en_blocks": 5,
+      "ru_blocks": 5
+    }
+  },
+  "X8": {
+    "n_cards": 6,
+    "present": [
+      4,
+      1,
+      6,
+      5,
+      3,
+      2
+    ],
+    "stats": {
+      "en_blocks": 6,
+      "ru_blocks": 6
+    }
+  },
+  "X9": {
+    "n_cards": 5,
+    "present": [
+      3,
+      4,
+      1,
+      2,
+      5
+    ],
+    "stats": {
+      "en_blocks": 5,
+      "ru_blocks": 5
+    }
+  },
+  "X10": {
+    "n_cards": 6,
+    "present": [
+      1,
+      4,
+      6,
+      2,
+      3,
+      5
+    ],
+    "stats": {
+      "en_blocks": 6,
+      "ru_blocks": 6
+    }
+  },
+  "X11": {
+    "n_cards": 6,
+    "present": [
+      6,
+      5,
+      2,
+      4,
+      1,
+      3
+    ],
+    "stats": {
+      "en_blocks": 6,
+      "ru_blocks": 6
+    }
+  },
+  "X12": {
+    "n_cards": 9,
+    "present": [
+      1,
+      2,
+      4,
+      6,
+      8,
+      9,
+      7,
+      3,
+      5
+    ],
+    "stats": {
+      "en_blocks": 9,
+      "ru_blocks": 9
+    }
+  },
+  "X13": {
+    "n_cards": 3,
+    "present": [
+      2,
+      3,
+      1
+    ],
+    "stats": {
+      "en_blocks": 3,
+      "ru_blocks": 3
+    }
+  },
+  "X14": {
+    "n_cards": 8,
+    "present": [
+      6,
+      8,
+      7,
+      5,
+      1,
+      3,
+      2,
+      4
+    ],
+    "stats": {
+      "en_blocks": 8,
+      "ru_blocks": 8
+    }
+  },
+  "X15": {
+    "n_cards": 6,
+    "present": [
+      4,
+      6,
+      1,
+      5,
+      2,
+      3
+    ],
+    "stats": {
+      "en_blocks": 6,
+      "ru_blocks": 6
+    }
+  },
+  "X16": {
+    "n_cards": 6,
+    "present": [
+      5,
+      1,
+      6,
+      3,
+      4,
+      2
+    ],
+    "stats": {
+      "en_blocks": 6,
+      "ru_blocks": 6
+    }
+  },
+  "X17": {
+    "n_cards": 3,
+    "present": [
+      1,
+      2,
+      3
+    ],
+    "stats": {
+      "en_blocks": 3,
+      "ru_blocks": 3
+    }
+  },
+  "X18": {
+    "n_cards": 6,
+    "present": [
+      1,
+      5,
+      4,
+      3,
+      2,
+      6
+    ],
+    "stats": {
+      "en_blocks": 6,
+      "ru_blocks": 6
+    }
+  },
+  "X19": {
+    "n_cards": 3,
+    "present": [
+      3,
+      2,
+      1
+    ],
+    "stats": {
+      "en_blocks": 3,
+      "ru_blocks": 3
+    }
+  },
+  "X20": {
+    "n_cards": 8,
+    "present": [
+      6,
+      8,
+      1,
+      3,
+      5,
+      4,
+      7,
+      2
+    ],
+    "stats": {
+      "en_blocks": 8,
+      "ru_blocks": 8
+    }
+  },
+  "X21": {
+    "n_cards": 5,
+    "present": [
+      1,
+      4,
+      5,
+      2,
+      3
+    ],
+    "stats": {
+      "en_blocks": 5,
+      "ru_blocks": 5
+    }
+  },
+  "X22": {
+    "n_cards": 6,
+    "present": [
+      1,
+      5,
+      2,
+      4,
+      6,
+      3
+    ],
+    "stats": {
+      "en_blocks": 6,
+      "ru_blocks": 6
+    }
+  },
+  "X23": {
+    "n_cards": 8,
+    "present": [
+      2,
+      6,
+      5,
+      4,
+      3,
+      7,
+      8,
+      1
+    ],
+    "stats": {
+      "en_blocks": 8,
+      "ru_blocks": 8
+    }
+  },
+  "X24": {
+    "n_cards": 9,
+    "present": [
+      2,
+      6,
+      4,
+      3,
+      1,
+      8,
+      5,
+      7,
+      9
+    ],
+    "stats": {
+      "en_blocks": 9,
+      "ru_blocks": 9
+    }
+  },
+  "X25": {
+    "n_cards": 9,
+    "present": [
+      1,
+      9,
+      2,
+      3,
+      8,
+      4,
+      6,
+      7,
+      5
+    ],
+    "stats": {
+      "en_blocks": 9,
+      "ru_blocks": 9
+    }
+  },
+  "X26": {
+    "n_cards": 6,
+    "present": [
+      1,
+      5,
+      4,
+      2,
+      3,
+      6
+    ],
+    "stats": {
+      "en_blocks": 6,
+      "ru_blocks": 6
+    }
+  },
+  "X27": {
+    "n_cards": 9,
+    "present": [
+      4,
+      3,
+      9,
+      6,
+      5,
+      2,
+      1,
+      7,
+      8
+    ],
+    "stats": {
+      "en_blocks": 3,
+      "ru_blocks": 9
+    }
+  },
+  "X28": {
+    "n_cards": 8,
+    "present": [
+      7,
+      3,
+      2,
+      8,
+      5,
+      1,
+      4,
+      6
+    ],
+    "stats": {
+      "en_blocks": 8,
+      "ru_blocks": 8
+    }
+  },
+  "X29": {
+    "n_cards": 5,
+    "present": [
+      4,
+      3,
+      5,
+      2,
+      1
+    ],
+    "stats": {
+      "en_blocks": 5,
+      "ru_blocks": 5
+    }
+  },
+  "X30": {
+    "n_cards": 6,
+    "present": [
+      3,
+      6,
+      1,
+      2,
+      4,
+      5
+    ],
+    "stats": {
+      "en_blocks": 6,
+      "ru_blocks": 6
+    }
+  }
+}

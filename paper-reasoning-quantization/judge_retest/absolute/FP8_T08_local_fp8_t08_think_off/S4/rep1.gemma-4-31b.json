@@ -1,0 +1,45 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' should be translated as 'Объект обсуждения' according to the glossary, but 'Субъекты' was used instead.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' should be translated as 'Объект обсуждения' according to the glossary, but 'Субъекты' was used instead.",
+      "quote": "Субъекты, имеющие и `support`, и `oppose` в финальном раунде"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens (enum values) must be byte-identical to the source; they were translated into Russian.",
+      "quote": "`консенсус`, `условный`, `нет-консенсуса`, `блокировка-эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens must be byte-identical to the source; the enum value was translated.",
+      "quote": "`outcome = блокировка-эскалации`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The key 'severity' in the technical schema was translated to 'Уровень серьёзности', which breaks the data structure definition.",
+      "quote": "Уровень серьёзности: severity|null"
+    }
+  ],
+  "score": 5,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:13:54"
+  }
+}

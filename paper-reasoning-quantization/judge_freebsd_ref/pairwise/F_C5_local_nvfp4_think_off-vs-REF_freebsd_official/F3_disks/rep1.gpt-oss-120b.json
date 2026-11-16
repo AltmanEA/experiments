@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.85,
+  "reason": "B uses more accurate headings, fully translates technical phrases (e.g., userquota), avoids English remnants, and has better fluency and consistency with glossary terms.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off-vs-REF_freebsd_official",
+    "fixture": "F3_disks",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:50:23"
+  }
+}

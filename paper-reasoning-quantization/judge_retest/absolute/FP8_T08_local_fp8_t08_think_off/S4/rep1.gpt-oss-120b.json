@@ -1,0 +1,33 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Субъекты\" is used instead of the required glossary equivalent \"Объект обсуждения\" for blocking subjects.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Субъекты\" is used instead of the required glossary equivalent \"Объект обсуждения\" for disagreement subjects.",
+      "quote": "Субъекты, имеющие и `support`, и `oppose` в финальном раунде"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token \"severity\" was replaced with the Russian phrase \"Уровень серьёзности\", breaking the required byte‑identical code format.",
+      "quote": "`Уровень серьёзности: severity|null`"
+    }
+  ],
+  "score": 71,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:12:29"
+  }
+}

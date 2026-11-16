@@ -60,8 +60,15 @@ reverse + 40 null-пробы A-vs-A, контроль позиции C1) + 42 (P
   на контраст), все 4 вердикта — A (thinking off), оба former-`tie` стали значимыми;
   null-проба 40/40 tie. `results/pairwise_report.md` §«Контроль позиции», `pairwise_position.csv`.
 - [Б] B1 — слепая ручная D9-разметка на Council (требование PLAN §6.2) или явное ограничение.
-- [Р] B2 (ручная валидация D3/D5/D7 на S4), C2 (intra-judge retest, ~96 запросов),
-  C3 (pairwise FreeBSD vs official RU, 40–80 запросов).
+      **Методика v4 готова, карточки собраны, ждёт аннотатора (16.11):** протокол и запуск —
+      `annotation/d9/METHOD-v4.md`; карточки `annotation/d9/v4/cards/` (150, по 5 на прогон),
+      ответы — `metrics/d9_answer.py`, κ после freeze — §5 методики. Осталось: ~2–2.5 ч
+      работы аннотатора + доработка d9_agreement под v4 (~1 ч). Фоллбэк — §6 методики.
+      (v1–v3 отвергнуты, ответы аннулированы; их артефакты — `annotation/d9_v*_archived/`.)
+- [Р] B2 (ручная валидация D3/D5/D7 на S4). ✅ 16.11 вечером: C2 (intra-judge retest,
+  92/92, mean |Δ| 9.71 при межсудейском 19.24; `judge_retest.md`) и C3 (pairwise FreeBSD
+  vs official RU, 80/80, официальный стабильно впереди; `pairwise_freebsd.md`) закрыты
+  ночным батчем `run_c2c3_night.sh`.
 - [К] D1 (решение про push), D2 (вычитка), D3 («Как воспроизвести»).
 - Пересборка всех артефактов: `bash metrics/rebuild_all.sh --figures`
   (проверено 16.11, MANIFEST + VERSIONS пишутся).

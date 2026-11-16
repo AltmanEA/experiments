@@ -1,0 +1,126 @@
+{
+  "tier": 1,
+  "candidates": [
+    {
+      "id": "A1",
+      "type": "формат",
+      "quote": "consensus",
+      "note": "токен `consensus` из EN не найден в RU дословно",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:25",
+      "borderline": true
+    },
+    {
+      "id": "A2",
+      "type": "формат",
+      "quote": "| `ConsensusVerdict.outcome` | Next Фаза / state | Причина эскалации | Notes |",
+      "note": "Table structure is corrupted: duplicate header rows, stray lines, and mismatched column separators, making the table unreadable.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:8",
+      "borderline": true
+    },
+    {
+      "id": "A3",
+      "type": "термин",
+      "quote": "Role",
+      "note": "глоссарий: требуется RU-эквивалент «Роль» — не найден",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "EN:15",
+      "borderline": true
+    },
+    {
+      "id": "A4",
+      "type": "термин",
+      "quote": "no-Консенсус",
+      "note": "Code token `no-consensus` must be byte-identical; it was partially translated.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:20",
+      "borderline": true
+    },
+    {
+      "id": "A5",
+      "type": "термин",
+      "quote": "Консенсус",
+      "note": "Code token `consensus` must be byte-identical; it was translated using the glossary.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:16",
+      "borderline": true
+    },
+    {
+      "id": "A6",
+      "type": "термин",
+      "quote": "раунд обсуждения",
+      "note": "Glossary term “Discussion Round” should be rendered as “Раунд обсуждения”, but appears in lower‑case “раунд обсуждения”.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:20",
+      "borderline": true
+    },
+    {
+      "id": "A7",
+      "type": "термин",
+      "quote": "роли",
+      "note": "Glossary term “Role” should be rendered as “Роль”, but appears in lower‑case “роли”.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:27",
+      "borderline": true
+    },
+    {
+      "id": "A8",
+      "type": "формулировка",
+      "quote": "Next Фаза / state",
+      "note": "Mixed English and Russian in the table header.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:8",
+      "borderline": true
+    },
+    {
+      "id": "A9",
+      "type": "смысл",
+      "quote": "`no-Консенсус`",
+      "note": "Backticked code token `no-consensus` was altered to `no-Консенсус`, violating the token integrity rule.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:20",
+      "borderline": true
+    },
+    {
+      "id": "A10",
+      "type": "смысл",
+      "quote": "`Консенсус`",
+      "note": "Backticked code token `consensus` was translated to `Консенсус`, breaking the required byte‑identical token.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:16",
+      "borderline": true
+    },
+    {
+      "id": "A11",
+      "type": "смысл",
+      "quote": "conditional",
+      "note": "Backticked code token `conditional` lost its backticks and was not preserved exactly.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:19",
+      "borderline": true
+    }
+  ]
+}

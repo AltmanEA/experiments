@@ -1,0 +1,51 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Subject” must be translated as “Объект обсуждения”, but the translation uses “Субъекты”.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Subject” must be translated as “Объект обсуждения”, but the translation uses “Субъекты”.",
+      "quote": "Субъекты с расхождением"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Resolution” must be rendered as “Резолюция”, but the translation uses “разрешение”.",
+      "quote": "`разрешение`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Enum values for `outcome` are code tokens and must remain identical to the source. They were translated to Russian (“консенсус”, “условно”, “без-консенсуса”, “блокировка-эскалации”).",
+      "quote": "`консенсус`, `условно`, `без-консенсуса`, `блокировка-эскалации`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The `ValidationResult` code snippet contains altered identifiers (e.g., `subject-reference` → `Объект обсуждения-reference`, `subject_id` → `Объект обсуждения_id`, `severity` → `Уровень серьёзности`). Code tokens must be byte‑identical.",
+      "quote": "`{check: Объект обсуждения-reference|формат-обоснования|извлечение-статуса, Объект обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), Уровень серьёзности: Уровень серьёзности|null}`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "All field names in the `EscalationRecord` table were translated (e.g., `escalation_id` → `id_эскалации`, `session_id` → `id_сессии`, etc.). Field identifiers must remain unchanged.",
+      "quote": "`id_эскалации`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:13:08"
+  }
+}

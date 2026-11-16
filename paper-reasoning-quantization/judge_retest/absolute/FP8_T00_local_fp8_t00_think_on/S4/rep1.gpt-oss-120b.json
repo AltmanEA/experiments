@@ -1,0 +1,99 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “subject” in column name `blocking_subjects` is not translated to the required Russian equivalent “Объект обсуждения”.",
+      "quote": "`blocking_subjects`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “subject” in column name `disagreement_subjects` is not translated to the required Russian equivalent “Объект обсуждения”.",
+      "quote": "`disagreement_subjects`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `subject-reference` was altered to “Объект обсуждения-reference”, breaking byte‑identical requirement.",
+      "quote": "Объект обсуждения-reference"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `subject_id` was altered to “Объект обсуждения_id”, breaking byte‑identical requirement.",
+      "quote": "Объект обсуждения_id"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `severity` was altered to “Уровень серьёзности”, breaking byte‑identical requirement.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `escalation_id` was altered to “id_эскалации”, breaking byte‑identical requirement.",
+      "quote": "id_эскалации"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `session_id` was altered to “id_сессии”, breaking byte‑identical requirement.",
+      "quote": "id_сессии"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `raised_by_role` was altered to “роль_инициатора”, breaking byte‑identical requirement.",
+      "quote": "роль_инициатора"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `reason` was altered to “причина”, breaking byte‑identical requirement.",
+      "quote": "причина"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resolution` was altered to “резолюция”, breaking byte‑identical requirement.",
+      "quote": "резолюция"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resume_phase` was altered to “фаза_возобновления”, breaking byte‑identical requirement.",
+      "quote": "фаза_возобновления"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `operator_request` was altered to “запрос_оператора”, breaking byte‑identical requirement.",
+      "quote": "запрос_оператора"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `fallback_strategy` was altered to “стратегия_резервного_варианта”, breaking byte‑identical requirement.",
+      "quote": "стратегия_резервного_варианта"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `timeout_at` was altered to “время_тайм-аута”, breaking byte‑identical requirement.",
+      "quote": "время_тайм-аута"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:10:55"
+  }
+}

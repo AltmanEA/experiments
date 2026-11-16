@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A is significantly better in terms of fluency and accuracy. It strictly follows the provided glossary (e.g., 'атаки методом грубой силы'), whereas Translation B uses 'методом перебора'. Translation B also contains a blatant typo/hallucination ('настроек клетка' instead of 'настроек клиента') and suffers from literal translations that sound unnatural in Russian (e.g., 'сообщите sshd перезагрузить').",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:09:44"
+  }
+}

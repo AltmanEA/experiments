@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.78,
+  "reason": "B preserves the source detail about processes with privilege, matching the original more closely; other terminology and formatting are comparable, with B slightly more accurate despite minor fluency differences.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse",
+    "fixture": "F1_config",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:13:12"
+  }
+}

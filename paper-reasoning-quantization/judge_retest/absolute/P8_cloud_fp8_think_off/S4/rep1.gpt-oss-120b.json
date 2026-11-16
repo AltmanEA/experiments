@@ -1,0 +1,33 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “Subject” should be translated as “Объект обсуждения”, but the translation uses “Субъекты”.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “Subject” should be translated as “Объект обсуждения”, but the translation uses “Субъекты”.",
+      "quote": "Субъекты, имеющие и `support`, и `oppose` в финальном раунде"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The field name “severity” should remain unchanged; the description translates it to “Уровень серьёзности”.",
+      "quote": "`subject_id` и `Уровень серьёзности` необязательны"
+    }
+  ],
+  "score": 94,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:14:59"
+  }
+}

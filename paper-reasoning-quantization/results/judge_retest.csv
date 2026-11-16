@@ -1,0 +1,6 @@
+judge,n,mean_abs_delta,pearson_r,band_agree,critical_agree,contrast,sign_agree,sign_flip,p_binom
+gemma-4-31b,46,5.59,0.937,0.826,0.935,,,,
+gpt-oss-120b,46,13.83,0.718,0.804,0.935,,,,
+,4,,,,,T00_local_nvfp4_t00_think_off vs T00_local_nvfp4_t00_think_on,4,0,0.125
+,4,,,,,C3_local_fp8_think_off vs C4_local_fp8_think_on,4,0,0.125
+,4,,,,,C5_local_nvfp4_think_off vs C6_local_nvfp4_think_on,3,1,0.625

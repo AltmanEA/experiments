@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.78,
+  "reason": "B uses the required glossary term \"дисковые квоты\" and overall matches terminology better; both are fluent, but B aligns more closely with the prescribed translations.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official",
+    "fixture": "F3_disks",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T18:00:43"
+  }
+}

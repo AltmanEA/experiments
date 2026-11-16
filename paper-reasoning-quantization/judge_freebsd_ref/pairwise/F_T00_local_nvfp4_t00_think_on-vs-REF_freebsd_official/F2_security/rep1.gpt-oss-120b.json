@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.75,
+  "reason": "A preserves the original meaning (including drive‑by attacks) and uses required terminology, while B introduces a factual mistranslation. A has a minor typo but overall is more accurate.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:59:54"
+  }
+}

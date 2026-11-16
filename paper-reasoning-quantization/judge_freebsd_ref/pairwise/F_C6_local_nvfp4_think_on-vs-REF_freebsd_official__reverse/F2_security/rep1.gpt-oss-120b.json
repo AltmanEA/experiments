@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.75,
+  "reason": "A uses correct glossary terms (brute‑force, pubkey authentication) and has clearer, more fluent Russian. B mis‑translates 'brute force' as 'перебора', contains garbled phrasing, and while it mentions drive‑by attacks it still errs on key terminology.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:07:55"
+  }
+}

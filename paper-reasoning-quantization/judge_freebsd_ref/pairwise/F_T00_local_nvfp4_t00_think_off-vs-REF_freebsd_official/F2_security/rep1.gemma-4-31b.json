@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A contains several severe grammatical errors and typos (e.g., 'средством удалённое администрирование' instead of 'удалённого администрирования', 'настроек клетка', 'корректности Файл конфигурации'). Translation B is fluent, grammatically correct, and adheres strictly to the provided glossary, including the term for 'brute force attacks'.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:57:50"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' is translated as 'Субъекты' instead of the required glossary equivalent 'Объект обсуждения'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens (enum values) must be byte-identical to the source.",
+      "quote": "`консенсус`, `условный`, `отсутствие-консенсуса`, `блокировка-эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code token (expression) must be byte-identical to the source.",
+      "quote": "`outcome = блокировка-эскалации`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Technical field names in the 'Field' column must not be translated.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Technical field names in the 'Field' column must not be translated.",
+      "quote": "Резолюция"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Technical object keys within a definition must not be translated.",
+      "quote": "Позиция"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:11:54"
+  }
+}

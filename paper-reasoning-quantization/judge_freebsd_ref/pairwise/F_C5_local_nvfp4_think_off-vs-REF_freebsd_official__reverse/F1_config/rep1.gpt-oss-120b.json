@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.75,
+  "reason": "B preserves the original nuance that sysctl allows privileged processes to set kernel state, matching the source more accurately; terminology and formatting are otherwise comparable.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off-vs-REF_freebsd_official__reverse",
+    "fixture": "F1_config",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:05:21"
+  }
+}

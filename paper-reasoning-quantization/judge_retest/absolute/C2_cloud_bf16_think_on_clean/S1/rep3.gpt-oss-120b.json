@@ -1,0 +1,39 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Duplicate list item 3 appears twice, causing redundancy and potential confusion.",
+      "quote": "3. **Возможность эскалации.** Система явно отслеживает ситуации, в которых согласование невозможно, и перенаправляет такие проблемы оператору-человеку. Эскалация является нормальным результатом, а не ошибкой."
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Backticks were added around list item 4, which were not present in the source and break markdown consistency.",
+      "quote": "`4. **Итеративная эволюция.** Роли, протоколы и правила эскалации обновляются по мере использования системы.`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The introductory paragraph about the primary artifact is duplicated, resulting in unnecessary repetition.",
+      "quote": "Основным выходным артефактом является структурированный документ консенсуса, фиксирующий решения, открытые вопросы и оценку рисков. Все артефакты, создаваемые Советом, написаны на техническом английском языке."
+    },
+    {
+      "category": "fluency",
+      "severity": "critical",
+      "description": "English meta‑text with an arrow and mixed language appears in the translation, leaking planning information and breaking the target language consistency.",
+      "quote": "\"Roles, protocols, and Эскалация rules are updated as the system is used.\" -> Роли, протоколы и правила эскалации обновляются по мере использования системы."
+    }
+  ],
+  "score": 53,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:05:38"
+  }
+}

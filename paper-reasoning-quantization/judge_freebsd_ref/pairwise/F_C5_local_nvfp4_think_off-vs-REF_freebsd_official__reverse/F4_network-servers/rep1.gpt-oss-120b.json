@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.95,
+  "reason": "A follows glossary terms more closely, translates Origin, uses correct terminology (authoritative, caching), and has clearer, more accurate phrasing; B has several mismatches and less precise language.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off-vs-REF_freebsd_official__reverse",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:05:43"
+  }
+}

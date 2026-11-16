@@ -1,0 +1,225 @@
+[c2c3 2026-11-16T17:04:05] START C2+C3 night batch: c2=1 c3=1 report=1 dry=0
+[c2c3 2026-11-16T17:04:05] === C2 intra-judge retest: 23 cond x 2 units x 2 judges = 92 requests ===
+quota: night=False rpm=60/60 session=1152/1200 week=4558/6000 can_request=True []
+[17:04:06] START mode=absolute order=direct tasks=46 requests=92 judges=gpt-oss-120b,gemma-4-31b workers=4 rpm=20
+[17:04:33] OK   C1_cloud_bf16_think_off S1 rep3 gpt-oss-120b score=100
+[17:04:59] OK   C1_cloud_bf16_think_off S4 rep1 gpt-oss-120b score=55
+[17:05:01] OK   C1_cloud_bf16_think_off S1 rep3 gemma-4-31b score=100
+[17:05:05] OK   C2_cloud_bf16_think_on S1 rep3 gpt-oss-120b score=70
+[17:05:21] OK   C2_cloud_bf16_think_on S4 rep1 gpt-oss-120b score=18
+[17:05:37] OK   C2_cloud_bf16_think_on S4 rep1 gemma-4-31b score=75
+[17:05:38] OK   C2_cloud_bf16_think_on_clean S1 rep3 gpt-oss-120b score=53
+[17:05:41] OK   C2_cloud_bf16_think_on S1 rep3 gemma-4-31b score=75
+[17:05:54] OK   C3_local_fp8_think_off S1 rep3 gpt-oss-120b score=100
+[17:05:59] OK   C1_cloud_bf16_think_off S4 rep1 gemma-4-31b score=80
+[17:06:27] OK   C2_cloud_bf16_think_on_clean S1 rep3 gemma-4-31b score=28
+[17:06:29] OK   C2_cloud_bf16_think_on_clean S4 rep1 gpt-oss-120b score=0
+[17:06:37] OK   C3_local_fp8_think_off S1 rep3 gemma-4-31b score=100
+[17:06:41] OK   C4_local_fp8_think_on S1 rep3 gpt-oss-120b score=100
+[17:06:42] OK   C3_local_fp8_think_off S4 rep1 gpt-oss-120b score=5
+[17:07:16] OK   C4_local_fp8_think_on S1 rep3 gemma-4-31b score=100
+[17:07:31] OK   C4_local_fp8_think_on S4 rep1 gpt-oss-120b score=0
+[17:07:31] OK   C5_local_nvfp4_think_off S1 rep3 gpt-oss-120b score=100
+[17:07:32] OK   C2_cloud_bf16_think_on_clean S4 rep1 gemma-4-31b score=0
+[17:08:02] OK   C5_local_nvfp4_think_off S4 rep1 gpt-oss-120b score=80
+[17:08:02] OK   C5_local_nvfp4_think_off S1 rep3 gemma-4-31b score=100
+[17:08:26] OK   C6_local_nvfp4_think_on S1 rep3 gpt-oss-120b score=100
+[17:08:47] OK   C4_local_fp8_think_on S4 rep1 gemma-4-31b score=0
+[17:08:52] OK   C5_local_nvfp4_think_off S4 rep1 gemma-4-31b score=65
+[17:08:56] OK   C3_local_fp8_think_off S4 rep1 gemma-4-31b score=70
+[17:09:01] OK   C6_local_nvfp4_think_on S1 rep3 gemma-4-31b score=100
+[17:09:18] OK   FP8_T00_local_fp8_t00_think_off S1 rep3 gpt-oss-120b score=100
+[17:09:26] OK   FP8_T00_local_fp8_t00_think_on S1 rep3 gpt-oss-120b score=100
+[17:09:39] OK   FP8_T00_local_fp8_t00_think_off S4 rep1 gpt-oss-120b score=0
+[17:09:51] OK   FP8_T00_local_fp8_t00_think_off S1 rep3 gemma-4-31b score=100
+[17:10:12] OK   C6_local_nvfp4_think_on S4 rep1 gpt-oss-120b score=76
+[17:10:55] OK   FP8_T00_local_fp8_t00_think_on S4 rep1 gpt-oss-120b score=0
+[17:11:12] OK   FP8_T00_local_fp8_t00_think_off S4 rep1 gemma-4-31b score=55
+[17:11:31] OK   FP8_T08_local_fp8_t08_think_off S1 rep3 gpt-oss-120b score=100
+[17:11:34] OK   FP8_T00_local_fp8_t00_think_on S1 rep3 gemma-4-31b score=100
+[17:11:54] OK   C6_local_nvfp4_think_on S4 rep1 gemma-4-31b score=0
+[17:12:14] OK   FP8_T08_local_fp8_t08_think_off S1 rep3 gemma-4-31b score=100
+[17:12:14] OK   FP8_T08_local_fp8_t08_think_on S1 rep3 gpt-oss-120b score=100
+[17:12:25] OK   FP8_T00_local_fp8_t00_think_on S4 rep1 gemma-4-31b score=0
+[17:12:29] OK   FP8_T08_local_fp8_t08_think_off S4 rep1 gpt-oss-120b score=71
+[17:12:39] OK   K0_cloud_no_glossary S1 rep3 gpt-oss-120b score=100
+[17:12:53] OK   FP8_T08_local_fp8_t08_think_on S1 rep3 gemma-4-31b score=100
+[17:13:08] OK   FP8_T08_local_fp8_t08_think_on S4 rep1 gpt-oss-120b score=0
+[17:13:26] OK   K0_cloud_no_glossary S4 rep1 gpt-oss-120b score=90
+[17:13:39] OK   K0_cloud_no_glossary S1 rep3 gemma-4-31b score=100
+[17:13:54] OK   FP8_T08_local_fp8_t08_think_off S4 rep1 gemma-4-31b score=5
+[17:14:04] OK   P8_cloud_fp8_think_off S1 rep3 gpt-oss-120b score=100
+[17:14:58] OK   K0_cloud_no_glossary S4 rep1 gemma-4-31b score=90
+[17:14:59] OK   P8_cloud_fp8_think_off S4 rep1 gpt-oss-120b score=94
+[17:15:11] OK   T00_local_nvfp4_t00_think_off S1 rep3 gpt-oss-120b score=100
+[17:15:40] OK   P8_cloud_fp8_think_off S1 rep3 gemma-4-31b score=100
+[17:15:49] OK   FP8_T08_local_fp8_t08_think_on S4 rep1 gemma-4-31b score=0
+[17:16:22] OK   T00_local_nvfp4_t00_think_on S1 rep3 gpt-oss-120b score=100
+[17:16:30] OK   T00_local_nvfp4_t00_think_off S1 rep3 gemma-4-31b score=100
+[17:16:43] OK   T00_local_nvfp4_t00_think_off S4 rep1 gpt-oss-120b score=96
+[17:17:29] OK   T00_local_nvfp4_t00_think_on S1 rep3 gemma-4-31b score=100
+[17:18:10] OK   T04_local_nvfp4_t04_think_off S1 rep3 gpt-oss-120b score=100
+[17:18:14] OK   P8_cloud_fp8_think_off S4 rep1 gemma-4-31b score=65
+[17:18:33] OK   T00_local_nvfp4_t00_think_on S4 rep1 gpt-oss-120b score=0
+[17:18:56] OK   T04_local_nvfp4_t04_think_off S4 rep1 gpt-oss-120b score=96
+[17:19:14] OK   T04_local_nvfp4_t04_think_off S1 rep3 gemma-4-31b score=100
+[17:20:01] OK   T04_local_nvfp4_t04_think_on S1 rep3 gpt-oss-120b score=100
+[17:20:12] OK   T00_local_nvfp4_t00_think_off S4 rep1 gemma-4-31b score=80
+[17:21:02] OK   T04_local_nvfp4_t04_think_on S1 rep3 gemma-4-31b score=100
+[17:21:27] OK   T06_local_nvfp4_t06_think_off S1 rep3 gpt-oss-120b score=100
+[17:21:30] OK   T04_local_nvfp4_t04_think_on S4 rep1 gpt-oss-120b score=100
+[17:21:31] OK   T04_local_nvfp4_t04_think_off S4 rep1 gemma-4-31b score=65
+[17:21:51] OK   T00_local_nvfp4_t00_think_on S4 rep1 gemma-4-31b score=65
+[17:22:14] OK   T06_local_nvfp4_t06_think_on S1 rep3 gpt-oss-120b score=100
+[17:22:47] OK   T06_local_nvfp4_t06_think_off S1 rep3 gemma-4-31b score=100
+[17:22:48] OK   T06_local_nvfp4_t06_think_off S4 rep1 gpt-oss-120b score=80
+[17:23:28] OK   T06_local_nvfp4_t06_think_on S1 rep3 gemma-4-31b score=100
+[17:23:53] OK   T08_local_nvfp4_t08_think_off S1 rep3 gpt-oss-120b score=100
+[17:24:14] OK   T06_local_nvfp4_t06_think_on S4 rep1 gpt-oss-120b score=0
+[17:24:33] OK   T04_local_nvfp4_t04_think_on S4 rep1 gemma-4-31b score=0
+[17:25:00] OK   T06_local_nvfp4_t06_think_off S4 rep1 gemma-4-31b score=80
+[17:25:23] OK   T08_local_nvfp4_t08_think_on S1 rep3 gpt-oss-120b score=100
+[17:25:56] OK   T08_local_nvfp4_t08_think_off S4 rep1 gpt-oss-120b score=40
+[17:26:21] OK   T08_local_nvfp4_t08_think_off S1 rep3 gemma-4-31b score=98
+[17:26:28] OK   T08_local_nvfp4_t08_think_on S1 rep3 gemma-4-31b score=100
+[17:26:50] OK   T10_local_nvfp4_t10_think_off S1 rep3 gpt-oss-120b score=100
+[17:28:08] OK   T08_local_nvfp4_t08_think_on S4 rep1 gpt-oss-120b score=47
+[17:28:18] OK   T10_local_nvfp4_t10_think_off S1 rep3 gemma-4-31b score=100
+[17:28:24] OK   T08_local_nvfp4_t08_think_off S4 rep1 gemma-4-31b score=65
+[17:28:39] OK   T10_local_nvfp4_t10_think_on S1 rep3 gpt-oss-120b score=100
+[17:29:08] OK   T10_local_nvfp4_t10_think_off S4 rep1 gpt-oss-120b score=60
+[17:29:52] OK   T06_local_nvfp4_t06_think_on S4 rep1 gemma-4-31b score=0
+[17:29:59] OK   T10_local_nvfp4_t10_think_on S1 rep3 gemma-4-31b score=100
+[17:30:27] OK   T08_local_nvfp4_t08_think_on S4 rep1 gemma-4-31b score=0
+[17:30:30] OK   T10_local_nvfp4_t10_think_on S4 rep1 gpt-oss-120b score=80
+[17:34:30] OK   T10_local_nvfp4_t10_think_off S4 rep1 gemma-4-31b score=55
+[17:40:30] FAIL T10_local_nvfp4_t10_think_on S4 rep1 gemma-4-31b http=000 attempt=1
+[17:48:43] OK   T10_local_nvfp4_t10_think_on S4 rep1 gemma-4-31b score=65
+[17:48:43] END ok=92 skipped=0 failed=0
+[17:48:43] START mode=absolute order=direct tasks=0 requests=0 judges=gpt-oss-120b,gemma-4-31b workers=2 rpm=12
+[17:48:43] END ok=0 skipped=0 failed=0
+[c2c3 2026-11-16T17:48:43] === C3 pairwise FreeBSD vs official RU: 4 cond x 5 fixtures x rep1 x 2 judges x 2 orders = 80 ===
+quota: night=False rpm=60/60 session=1059/1200 week=4465/6000 can_request=True []
+[17:48:44] START mode=pairwise order=direct tasks=20 requests=40 judges=gpt-oss-120b,gemma-4-31b workers=4 rpm=20
+[17:49:41] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official F2_security rep1 gpt-oss-120b winner=B
+[17:49:47] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official F1_config rep1 gpt-oss-120b winner=A
+[17:49:54] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official F4_network-servers rep1 gpt-oss-120b winner=A
+[17:50:23] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official F3_disks rep1 gpt-oss-120b winner=B
+[17:50:55] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official F2_security rep1 gemma-4-31b winner=B
+[17:51:05] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official F3_disks rep1 gemma-4-31b winner=B
+[17:51:25] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official F5_firewalls rep1 gpt-oss-120b winner=B
+[17:51:34] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official F1_config rep1 gpt-oss-120b winner=A
+[17:51:38] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official F1_config rep1 gemma-4-31b winner=B
+[17:52:36] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official F4_network-servers rep1 gemma-4-31b winner=B
+[17:52:42] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official F2_security rep1 gpt-oss-120b winner=A
+[17:53:11] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official F5_firewalls rep1 gemma-4-31b winner=B
+[17:53:50] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official F3_disks rep1 gpt-oss-120b winner=B
+[17:54:00] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official F4_network-servers rep1 gpt-oss-120b winner=B
+[17:55:04] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official F2_security rep1 gemma-4-31b winner=B
+[17:55:04] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official F3_disks rep1 gemma-4-31b winner=B
+[17:55:20] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official F1_config rep1 gemma-4-31b winner=A
+[17:55:35] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official F4_network-servers rep1 gemma-4-31b winner=B
+[17:55:39] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official F5_firewalls rep1 gpt-oss-120b winner=B
+[17:55:40] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official F1_config rep1 gpt-oss-120b winner=A
+[17:55:53] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official F2_security rep1 gpt-oss-120b winner=B
+[17:56:42] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official F3_disks rep1 gpt-oss-120b winner=B
+[17:57:32] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official F3_disks rep1 gemma-4-31b winner=B
+[17:57:46] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official F5_firewalls rep1 gemma-4-31b winner=B
+[17:57:50] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official F2_security rep1 gemma-4-31b winner=B
+[17:58:07] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official F5_firewalls rep1 gpt-oss-120b winner=B
+[17:58:27] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official F1_config rep1 gpt-oss-120b winner=A
+[17:58:57] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official F4_network-servers rep1 gpt-oss-120b winner=B
+[17:58:58] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official F1_config rep1 gemma-4-31b winner=B
+[17:59:44] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official F5_firewalls rep1 gemma-4-31b winner=B
+[17:59:54] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official F2_security rep1 gpt-oss-120b winner=A
+[18:00:41] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official F4_network-servers rep1 gemma-4-31b winner=B
+[18:00:43] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official F3_disks rep1 gpt-oss-120b winner=B
+[18:01:03] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official F1_config rep1 gemma-4-31b winner=B
+[18:01:31] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official F4_network-servers rep1 gpt-oss-120b winner=A
+[18:02:06] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official F5_firewalls rep1 gpt-oss-120b winner=A
+[18:02:30] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official F2_security rep1 gemma-4-31b winner=B
+[18:03:23] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official F4_network-servers rep1 gemma-4-31b winner=B
+[18:04:09] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official F5_firewalls rep1 gemma-4-31b winner=A
+[18:04:53] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official F3_disks rep1 gemma-4-31b winner=A
+[18:04:53] END ok=40 skipped=0 failed=0
+[18:04:53] START mode=pairwise order=direct tasks=0 requests=0 judges=gpt-oss-120b,gemma-4-31b workers=2 rpm=12
+[18:04:53] END ok=0 skipped=0 failed=0
+[18:04:53] START mode=pairwise order=reverse tasks=20 requests=40 judges=gpt-oss-120b,gemma-4-31b workers=4 rpm=20
+[18:05:21] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official__reverse F1_config rep1 gpt-oss-120b winner=A (slot B, order=reverse)
+[18:05:30] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official__reverse F3_disks rep1 gpt-oss-120b winner=B (slot A, order=reverse)
+[18:05:39] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official__reverse F2_security rep1 gpt-oss-120b winner=B (slot A, order=reverse)
+[18:05:43] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official__reverse F4_network-servers rep1 gpt-oss-120b winner=B (slot A, order=reverse)
+[18:06:29] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official__reverse F3_disks rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:06:55] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official__reverse F5_firewalls rep1 gpt-oss-120b winner=B (slot A, order=reverse)
+[18:07:06] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official__reverse F1_config rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:07:22] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official__reverse F2_security rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:07:33] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official__reverse F4_network-servers rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:07:35] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse F1_config rep1 gpt-oss-120b winner=A (slot B, order=reverse)
+[18:07:55] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse F2_security rep1 gpt-oss-120b winner=B (slot A, order=reverse)
+[18:08:16] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse F3_disks rep1 gpt-oss-120b winner=B (slot A, order=reverse)
+[18:08:19] OK   F_C5_local_nvfp4_think_off-vs-REF_freebsd_official__reverse F5_firewalls rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:09:23] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse F4_network-servers rep1 gpt-oss-120b winner=B (slot A, order=reverse)
+[18:09:29] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse F1_config rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:09:44] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse F2_security rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:10:04] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse F3_disks rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:10:04] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse F5_firewalls rep1 gpt-oss-120b winner=B (slot A, order=reverse)
+[18:10:37] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official__reverse F1_config rep1 gpt-oss-120b winner=A (slot B, order=reverse)
+[18:10:45] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official__reverse F2_security rep1 gpt-oss-120b winner=B (slot A, order=reverse)
+[18:11:35] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse F4_network-servers rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:12:09] OK   F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse F5_firewalls rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:12:15] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official__reverse F3_disks rep1 gpt-oss-120b winner=B (slot A, order=reverse)
+[18:12:23] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official__reverse F1_config rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:12:35] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official__reverse F2_security rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:12:41] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official__reverse F5_firewalls rep1 gpt-oss-120b winner=B (slot A, order=reverse)
+[18:13:12] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse F1_config rep1 gpt-oss-120b winner=A (slot B, order=reverse)
+[18:13:26] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official__reverse F4_network-servers rep1 gpt-oss-120b winner=B (slot A, order=reverse)
+[18:13:58] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official__reverse F3_disks rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:14:40] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse F2_security rep1 gpt-oss-120b winner=B (slot A, order=reverse)
+[18:15:45] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official__reverse F5_firewalls rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:15:53] OK   F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official__reverse F4_network-servers rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:16:05] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse F1_config rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:16:31] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse F4_network-servers rep1 gpt-oss-120b winner=B (slot A, order=reverse)
+[18:16:39] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse F5_firewalls rep1 gpt-oss-120b winner=A (slot B, order=reverse)
+[18:16:39] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse F3_disks rep1 gpt-oss-120b winner=B (slot A, order=reverse)
+[18:17:22] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse F2_security rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:17:49] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse F5_firewalls rep1 gemma-4-31b winner=A (slot B, order=reverse)
+[18:18:43] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse F4_network-servers rep1 gemma-4-31b winner=B (slot A, order=reverse)
+[18:21:21] OK   F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse F3_disks rep1 gemma-4-31b winner=A (slot B, order=reverse)
+[18:21:21] END ok=40 skipped=0 failed=0
+[18:21:21] START mode=pairwise order=reverse tasks=0 requests=0 judges=gpt-oss-120b,gemma-4-31b workers=2 rpm=12
+[18:21:21] END ok=0 skipped=0 failed=0
+[c2c3 2026-11-16T18:21:21] === aggregate + reports ===
+T10_local_nvfp4_t10_think_on       gpt-oss-120b       2  90.00 14.14
+Traceback (most recent call last):
+  File "/home/ea/experiments/paper-reasoning-quantization/metrics/judge_retest.py", line 140, in <module>
+    main()
+  File "/home/ea/experiments/paper-reasoning-quantization/metrics/judge_retest.py", line 134, in main
+    w.writerows(out_csv)
+  File "/usr/lib/python3.12/csv.py", line 167, in writerows
+    return self.writer.writerows(map(self._dict_to_list, rowdicts))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/csv.py", line 159, in _dict_to_list
+    raise ValueError("dict contains fields not in fieldnames: "
+ValueError: dict contains fields not in fieldnames: 'sign_agree', 'p_binom', 'sign_flip', 'contrast'
+wrote /home/ea/experiments/paper-reasoning-quantization/results/judge_pairwise_freebsd_ref.csv (80 rows)
+| F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official | gpt-oss-120b | direct | 5 | 1 | 0 | 4 | 0.3750 | tie |
+| F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official | gpt-oss-120b | reverse | 5 | 1 | 0 | 4 | 0.3750 | tie |
+| **F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official** | **pooled (direct)** | — | **10** | **1** | **0** | **9** | **0.0215** | **B** |
+
+| F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official | gemma-4-31b | direct | 5 | 2 | 0 | 3 | 1.0000 | tie |
+| F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official | gemma-4-31b | reverse | 5 | 2 | 0 | 3 | 1.0000 | tie |
+| F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official | gpt-oss-120b | direct | 5 | 4 | 0 | 1 | 0.3750 | tie |
+| F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official | gpt-oss-120b | reverse | 5 | 2 | 0 | 3 | 1.0000 | tie |
+| **F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official** | **pooled (direct)** | — | **10** | **6** | **0** | **4** | **0.7539** | **tie** |
+
+Чтение: при доминировании официального RU и высоком chrF (83.6–84.7) вывод —
+«машинный перевод близок к официальному, но стабильно уступает ему по
+суждению судей»; доминирование A или ничьи означали бы, что судья не
+различает тексты (ср. null-пробу C1: 40/40 tie при идентичных входах).
+
+[c2c3 2026-11-16T18:21:22] manifest refreshed
+[c2c3 2026-11-16T18:21:22] ALL DONE; log=runs/c2c3_night_20261116-170405.log
+[c2c3 2026-11-16T18:21:22] NEXT: results/judge_retest.md (intra noise vs inter-judge 19.24) and
+[c2c3 2026-11-16T18:21:22]       results/pairwise_freebsd.md (machine vs official RU, with position control).
+[c2c3 2026-11-16T18:21:22] Decision rule C2: intra mean|Δ| should be clearly BELOW inter-judge 19.24 and sign
+[c2c3 2026-11-16T18:21:22] agreement of thinking contrasts >= 90 %; otherwise table-4 single verdicts need a caveat.

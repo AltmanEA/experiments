@@ -1,0 +1,27 @@
+{
+  "tier": 1,
+  "candidates": [
+    {
+      "id": "A1",
+      "type": "термин",
+      "quote": "Role",
+      "note": "глоссарий: требуется RU-эквивалент «Роль» — не найден",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "EN:29",
+      "borderline": true
+    },
+    {
+      "id": "A2",
+      "type": "добавление",
+      "quote": "артефакт",
+      "note": "RU-слово «артефакт» — эквивалент термина, которого нет в EN этого прогона",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:5",
+      "borderline": true
+    }
+  ]
+}

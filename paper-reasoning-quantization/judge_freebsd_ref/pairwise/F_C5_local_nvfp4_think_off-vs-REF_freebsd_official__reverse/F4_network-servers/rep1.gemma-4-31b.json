@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A is significantly more polished. Translation B contains a spelling error in a key technical term ('авторитативные' instead of 'авторитетные'), a redundant phrasing error ('записей Обратной записи DNS'), and an unnecessary capitalization of 'Конфигурации'. Translation A is fluent and accurate.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C5_local_nvfp4_think_off-vs-REF_freebsd_official__reverse",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:07:33"
+  }
+}

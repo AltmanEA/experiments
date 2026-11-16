@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A is more fluent and follows technical writing standards better than B. Specifically, A uses 'Вывод' for CLI output (more appropriate than B's 'Результат'), maintains consistent capitalization in the table, and has a more natural flow in the description of kernel state. B has inconsistent capitalization in the title and table.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse",
+    "fixture": "F1_config",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:16:05"
+  }
+}

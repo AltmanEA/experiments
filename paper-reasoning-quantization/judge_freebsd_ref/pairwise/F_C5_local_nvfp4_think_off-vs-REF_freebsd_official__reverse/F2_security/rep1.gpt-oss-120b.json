@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.97,
+  "reason": "A uses correct glossary terms, accurate phrasing, and proper grammar throughout. B contains multiple errors (e.g., wrong translation of 'brute force attacks', malformed 'remote administration', garbled tip text) and less fluent language.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off-vs-REF_freebsd_official__reverse",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:05:39"
+  }
+}

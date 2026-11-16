@@ -1,0 +1,33 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' ('Объект обсуждения') translated as 'Субъекты'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens within backticks must be byte-identical to the source; the type/value 'severity' was translated.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The field name 'severity' was translated into Russian, which is incorrect for technical references to schema fields.",
+      "quote": "Уровень серьёзности"
+    }
+  ],
+  "score": 55,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:11:12"
+  }
+}

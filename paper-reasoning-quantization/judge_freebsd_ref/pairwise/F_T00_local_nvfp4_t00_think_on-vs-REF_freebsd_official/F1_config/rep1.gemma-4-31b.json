@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation B is more professional and uses standard technical terminology. Specifically, it uses 'журналирование' for 'logging' and 'вывод' for 'output', which are more appropriate in a technical context than A's 'ведение журнала' and 'результат'. B also maintains consistent capitalization in the table, whereas A uses lowercase for most entries.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official",
+    "fixture": "F1_config",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T18:01:03"
+  }
+}

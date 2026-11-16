@@ -1,0 +1,60 @@
+{
+  "tier": 1,
+  "candidates": [
+    {
+      "id": "A1",
+      "type": "формулировка",
+      "quote": "Outcome-to-Transition Table",
+      "note": "The section header was not translated into Russian.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:1",
+      "borderline": true
+    },
+    {
+      "id": "A2",
+      "type": "смысл",
+      "quote": "`blocked-эскалация`",
+      "note": "Code token must be identical to source; `blocked-escalation` was altered to `blocked-эскалация`.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:14",
+      "borderline": true
+    },
+    {
+      "id": "A3",
+      "type": "смысл",
+      "quote": "`no-консенсус`",
+      "note": "Code token must be identical to source; `no-consensus` was altered to `no-консенсус`.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:13",
+      "borderline": true
+    },
+    {
+      "id": "A4",
+      "type": "смысл",
+      "quote": "`Фаза_state`",
+      "note": "Code token `phase_state` was translated; it must be byte-identical to the source.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:13",
+      "borderline": true
+    },
+    {
+      "id": "A5",
+      "type": "формулировка",
+      "quote": "Роль Core",
+      "note": "Incorrect grammatical case for the glossary term 'Роль' (should be genitive 'роли' after 'Отсутствие').",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:15",
+      "borderline": true
+    }
+  ]
+}

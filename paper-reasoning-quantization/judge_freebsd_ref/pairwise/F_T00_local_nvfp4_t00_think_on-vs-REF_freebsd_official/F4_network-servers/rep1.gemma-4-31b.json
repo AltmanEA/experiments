@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation B is significantly more fluent and grammatically correct. Translation A contains several glaring errors, including a broken title ('Сеть Серверы' instead of 'Сетевые серверы'), case mismatches in lists ('авторитетных корневых, домен верхнего уровня'), and poor phrasing ('Один хочет' for 'One wants to'). B also handles the technical term 'Origin' much better than A's literal 'Начало'.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T18:03:23"
+  }
+}

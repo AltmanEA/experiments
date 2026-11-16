@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.9,
+  "reason": "Both translations followed the glossary perfectly. However, Translation A used the correct technical term 'Магические числа' for 'Magic numbers', whereas Translation B used 'Волшебные числа', which is a literal translation and is not used in Russian technical/programming contexts. While Translation B had slightly more natural phrasing in some areas (e.g., using 'Вывод' instead of 'Результат'), technical accuracy in terminology is more important.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C6_local_nvfp4_think_on-vs-REF_freebsd_official",
+    "fixture": "F1_config",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:55:20"
+  }
+}

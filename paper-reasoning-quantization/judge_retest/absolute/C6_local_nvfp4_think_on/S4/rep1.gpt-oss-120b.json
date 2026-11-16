@@ -1,0 +1,87 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Role\" is not translated; column name should use the required Russian equivalent \"Роль\".",
+      "quote": "role_statuses"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Subject\" is not translated; column name should use the required Russian equivalent \"Объект обсуждения\".",
+      "quote": "blocking_subjects"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Disagreement\" (and \"Subject\") is not translated; column name should use the required Russian equivalents \"Расхождение\" and \"Объект обсуждения\".",
+      "quote": "disagreement_subjects"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Escalation\" is not translated; column name should use the required Russian equivalent \"Эскалация\".",
+      "quote": "escalation_reason"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The field name \"subject_id\" is not translated; should use the required Russian equivalent \"Объект обсуждения\".",
+      "quote": "subject_id"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The field name \"severity\" is not translated; should use the required Russian equivalent \"Уровень серьёзности\".",
+      "quote": "severity"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Escalation\" is not translated in the column name \"escalation_id\"; should use \"Эскалация\".",
+      "quote": "escalation_id"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Session\" is not translated in the column name \"session_id\"; should use \"Сессия\".",
+      "quote": "session_id"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Role\" is not translated in the column name \"raised_by_role\"; should use \"Роль\".",
+      "quote": "raised_by_role"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Role\" is not translated in the field name \"role_id\" inside the positions array; should use \"Роль\".",
+      "quote": "role_id"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Phase\" is not translated in the column name \"phase_id\"; should use \"Фаза\".",
+      "quote": "phase_id"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Phase\" is not translated in the column name \"resume_phase\"; should use \"Фаза\".",
+      "quote": "resume_phase"
+    }
+  ],
+  "score": 76,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C6_local_nvfp4_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:10:12"
+  }
+}

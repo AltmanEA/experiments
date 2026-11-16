@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation B is significantly more professional and accurate. Translation A contains a blatant typo ('авторитативные' instead of 'авторитетные'), a redundant and clunky phrase ('записей Обратной записи DNS'), and strange capitalization ('**Конфигурации**'). Translation B follows the glossary and maintains a better technical flow, although it left the word 'NOTE' untranslated.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C5_local_nvfp4_think_off-vs-REF_freebsd_official",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:52:36"
+  }
+}

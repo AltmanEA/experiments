@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.95,
+  "reason": "A follows glossary terms closely, uses correct technical wording, and accurately conveys the source content; B has several terminology mismatches and awkward phrasing.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:16:31"
+  }
+}

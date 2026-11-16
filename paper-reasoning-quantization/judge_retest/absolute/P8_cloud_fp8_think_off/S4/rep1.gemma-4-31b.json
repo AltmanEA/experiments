@@ -1,0 +1,27 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' translated as 'Субъекты' instead of 'Объект обсуждения'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Field name 'severity' translated as 'Уровень серьёзности', which breaks the reference to the technical schema.",
+      "quote": "Уровень серьёзности"
+    }
+  ],
+  "score": 65,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "P8_cloud_fp8_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:18:14"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.9,
+  "reason": "Translation A is more accurate as it translates 'default firewall types' as 'стандартных типов межсетевого экрана', whereas B omits 'default'. Additionally, A has better fluency; B's first sentence ('Для настройки системы для включения...') is clunky due to the repetition of 'для'.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official",
+    "fixture": "F5_firewalls",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T18:04:09"
+  }
+}

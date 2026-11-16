@@ -1,0 +1,14 @@
+{
+  "defects": [],
+  "score": 100,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:15:11"
+  }
+}

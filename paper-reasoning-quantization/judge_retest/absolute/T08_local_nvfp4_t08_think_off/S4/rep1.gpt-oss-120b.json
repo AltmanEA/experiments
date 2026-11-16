@@ -1,0 +1,51 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “subject” from the glossary (Subject → Объект обсуждения) is not translated in field names.",
+      "quote": "blocking_subjects"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “subject” is not translated in the identifier `subject_id`.",
+      "quote": "`subject_id`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “severity” (Severity → Уровень серьёзности) is not translated in the field name.",
+      "quote": "`severity`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “resolution” (Resolution → Резолюция) is not translated in the field name.",
+      "quote": "`resolution`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “Escalation” (Escalation → Эскалация) is not translated in the type name.",
+      "quote": "EscalationRecord"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “role” (Role → Роль) is not translated in the field name.",
+      "quote": "role_statuses"
+    }
+  ],
+  "score": 40,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T08_local_nvfp4_t08_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:25:56"
+  }
+}

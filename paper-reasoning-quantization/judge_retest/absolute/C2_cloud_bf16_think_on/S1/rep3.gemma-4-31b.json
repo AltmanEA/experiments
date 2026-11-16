@@ -1,0 +1,21 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The translation contains extensive leaked reasoning, internal planning notes, and self-correction logs in English and Russian, which are not part of the source text.",
+      "quote": "\"Let's check technical terms: ... All looks solid. Matches technical style. Ready.✅ Output matches exactly the requested format. No extra text. Just the translation.🌟 Proceeds.\""
+    }
+  ],
+  "score": 75,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:05:41"
+  }
+}

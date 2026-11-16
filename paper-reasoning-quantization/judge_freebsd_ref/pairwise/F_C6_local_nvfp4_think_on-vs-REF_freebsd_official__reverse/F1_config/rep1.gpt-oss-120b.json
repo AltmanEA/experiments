@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.75,
+  "reason": "B follows the glossary (uses \"База управляющей информации\" and \"Магические\"), mentions processes explicitly, and uses more standard terminology for services, while minor phrasing differences (\"результат\" vs \"вывод\") do not outweigh its overall higher accuracy.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C6_local_nvfp4_think_on-vs-REF_freebsd_official__reverse",
+    "fixture": "F1_config",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:07:35"
+  }
+}

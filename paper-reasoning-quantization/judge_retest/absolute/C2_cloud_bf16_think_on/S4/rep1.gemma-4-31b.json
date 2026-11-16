@@ -1,0 +1,21 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The candidate translation consists of internal reasoning, planning, and draft fragments instead of the actual translated text. It contains leaked meta-text and English planning lines.",
+      "quote": "3. Draft Translation:\n `| `Сессия_id` | строка | да | |`"
+    }
+  ],
+  "score": 75,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:05:37"
+  }
+}

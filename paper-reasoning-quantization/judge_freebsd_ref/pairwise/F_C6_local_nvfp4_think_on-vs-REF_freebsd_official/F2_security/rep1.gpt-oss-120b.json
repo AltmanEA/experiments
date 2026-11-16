@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.7,
+  "reason": "A retains both attack types and overall meaning, while B omits drive‑by attacks and leaves TIP untranslated; despite A's minor glossary mismatch, its content fidelity is higher.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C6_local_nvfp4_think_on-vs-REF_freebsd_official",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:52:42"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.66,
+  "reason": "B matches the source more precisely in describing that processes with privilege set kernel state, while both otherwise use correct terminology; A is slightly smoother but accuracy is primary.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official__reverse",
+    "fixture": "F1_config",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:10:37"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "tier": 1,
+  "candidates": [
+    {
+      "id": "A1",
+      "type": "термин",
+      "quote": "Role",
+      "note": "глоссарий: требуется RU-эквивалент «Роль» — не найден",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "EN:15",
+      "borderline": true
+    },
+    {
+      "id": "A2",
+      "type": "формулировка",
+      "quote": "его следующей переходом",
+      "note": "Grammatical gender mismatch: the adjective 'следующей' (feminine) is used to modify the masculine noun 'переходом'. It should be 'следующим'.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:3",
+      "borderline": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation B is significantly better. Translation A contains a glaring typo ('настроек клетка' instead of 'настроек клиента') and fails to follow the glossary for 'brute force attacks'. While Translation B mistranslates 'drive by attacks' as 'сканирование уязвимостей', it is grammatically superior, follows all glossary terms, and is overall more professional.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C6_local_nvfp4_think_on-vs-REF_freebsd_official",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:55:04"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The paragraph regarding the output artifact is duplicated with slight variations.",
+      "quote": "Основным выходным артефактом является структурированный документ консенсуса, фиксирующий решения, открытые вопросы и оценку рисков. Все артефакты, создаваемые Советом, написаны на техническом английском языке."
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Point 3 of the Core Principles is duplicated with slight variations.",
+      "quote": " 3. **Возможность эскалации.** Система явно отслеживает ситуации, в которых согласование невозможно, и перенаправляет такие проблемы оператору-человеку. Эскалация является нормальным результатом, а не ошибкой."
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Point 4 is incorrectly wrapped in backticks.",
+      "quote": "`4. **Итеративная эволюция.** Роли, протоколы и правила эскалации обновляются по мере использования системы. Мы начинаем с минимализма и дорабатываем систему на практике.`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Leaked reasoning/meta text (translation notes) included in the final output.",
+      "quote": "\"Roles, protocols, and Эскалация rules are updated as the system is used.\" -> Роли, протоколы и правила эскалации обновляются по мере использования системы."
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Leaked reasoning/meta text and duplication at the end of the document.",
+      "quote": "(or основной архитектуры) [Output]: Эти возможности могут быть реализованы поверх Council, но они не являются частью его базовой архитектуры. (or similar)"
+    }
+  ],
+  "score": 28,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:06:27"
+  }
+}

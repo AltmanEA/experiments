@@ -1,0 +1,137 @@
+{
+  "tier": 1,
+  "candidates": [
+    {
+      "id": "A1",
+      "type": "формат",
+      "quote": "`blocked-Эскалация`",
+      "note": "Code token altered: original `blocked-escalation` changed to Russian text.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:18",
+      "borderline": true
+    },
+    {
+      "id": "A2",
+      "type": "формат",
+      "quote": "`no-Консенсус`",
+      "note": "Code token altered: original `no-consensus` changed to Russian text.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:17",
+      "borderline": true
+    },
+    {
+      "id": "A3",
+      "type": "формат",
+      "quote": "agree",
+      "note": "токен `agree` из EN не найден в RU дословно",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "EN:28",
+      "borderline": true
+    },
+    {
+      "id": "A4",
+      "type": "формат",
+      "quote": "consensus",
+      "note": "токен `consensus` из EN не найден в RU дословно",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:17",
+      "borderline": true
+    },
+    {
+      "id": "A5",
+      "type": "формат",
+      "quote": "no-consensus",
+      "note": "токен `no-consensus` из EN не найден в RU дословно",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:17",
+      "borderline": true
+    },
+    {
+      "id": "A6",
+      "type": "смысл",
+      "quote": "blocked-Эскалация",
+      "note": "Backticked code token 'blocked-escalation' was partially translated; must be byte-identical.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:18",
+      "borderline": true
+    },
+    {
+      "id": "A7",
+      "type": "смысл",
+      "quote": "no-Консенсус",
+      "note": "Backticked code token 'no-consensus' was partially translated; must be byte-identical.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:17",
+      "borderline": true
+    },
+    {
+      "id": "A8",
+      "type": "формулировка",
+      "quote": "§Сессия Manifest",
+      "note": "Awkward phrasing and incorrect word order for 'Session Manifest'.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:11",
+      "borderline": true
+    },
+    {
+      "id": "A9",
+      "type": "формулировка",
+      "quote": "Вывод Документатор",
+      "note": "Incorrect case/inflection for glossary term 'Документатор'.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:21",
+      "borderline": true
+    },
+    {
+      "id": "A10",
+      "type": "смысл",
+      "quote": "Консенсус",
+      "note": "Backticked code token 'consensus' was translated; must be byte-identical.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:3",
+      "borderline": true
+    },
+    {
+      "id": "A11",
+      "type": "смысл",
+      "quote": "Согласие",
+      "note": "Backticked code token 'agree' was translated; must be byte-identical.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:28",
+      "borderline": true
+    },
+    {
+      "id": "A12",
+      "type": "формулировка",
+      "quote": "выходов Роль",
+      "note": "Incorrect case for the glossary term; should be genitive (выходов роли).",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:3",
+      "borderline": true
+    }
+  ]
+}

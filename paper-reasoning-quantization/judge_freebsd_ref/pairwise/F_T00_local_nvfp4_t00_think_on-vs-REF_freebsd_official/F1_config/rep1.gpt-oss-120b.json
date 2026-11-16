@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.75,
+  "reason": "A follows the required glossary term exactly ('База управляющей информации'), while B uses a grammatically incorrect genitive form. Other differences are minor (heading wording, 'Вывод' vs 'Результат'), but terminology accuracy is primary.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official",
+    "fixture": "F1_config",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:58:27"
+  }
+}

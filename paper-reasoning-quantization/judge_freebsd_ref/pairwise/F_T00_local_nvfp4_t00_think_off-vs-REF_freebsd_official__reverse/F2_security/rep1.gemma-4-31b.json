@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A is professional, grammatically correct, and strictly follows the glossary. Translation B contains several severe grammatical errors (incorrect cases), a bizarre typo/hallucination ('настроек клетка см.'), and fails to use the specific glossary term for 'brute force attacks'.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_off-vs-REF_freebsd_official__reverse",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:12:35"
+  }
+}

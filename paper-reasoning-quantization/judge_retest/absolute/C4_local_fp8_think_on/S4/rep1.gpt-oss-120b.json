@@ -1,0 +1,105 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token changed: `subject-reference` must be identical.",
+      "quote": "Объект обсуждения-reference"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token changed: `subject_id` must be identical.",
+      "quote": "Объект обсуждения_id"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token changed: `message` must be identical.",
+      "quote": "строка (замазана)"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token changed: `severity` must be identical.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed: `escalation_id` must be identical.",
+      "quote": "`эскалация_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed: `session_id` must be identical.",
+      "quote": "`сессия_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed: `raised_by_role` must be identical.",
+      "quote": "`raised_by_роль`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed: `reason` must be identical.",
+      "quote": "`причина`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed: `severity` must be identical.",
+      "quote": "`уровень_серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed: `blocker` must be identical.",
+      "quote": "`блокатор`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed: `positions` must be identical.",
+      "quote": "`позиции`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed: `operator_request` must be identical.",
+      "quote": "`запрос_оператора`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed: `fallback_strategy` must be identical.",
+      "quote": "`стратегия_резервного_варианта`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed: `resolution` must be identical.",
+      "quote": "`резолюция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name changed: `resume_phase` must be identical.",
+      "quote": "`resume_фаза`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C4_local_fp8_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:07:31"
+  }
+}

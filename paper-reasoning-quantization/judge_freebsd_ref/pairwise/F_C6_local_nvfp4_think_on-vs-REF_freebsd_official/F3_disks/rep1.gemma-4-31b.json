@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A contains a glaring grammatical error in the first heading ('Диск квоты' instead of 'Дисковые квоты' or 'Квоты диска') and uses unnatural phrasing ('количество дискового пространства' instead of 'объём'). Translation B is fluent, grammatically correct, and accurately follows the technical context.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C6_local_nvfp4_think_on-vs-REF_freebsd_official",
+    "fixture": "F3_disks",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:55:04"
+  }
+}

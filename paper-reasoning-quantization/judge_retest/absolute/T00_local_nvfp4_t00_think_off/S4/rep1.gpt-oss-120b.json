@@ -1,0 +1,27 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term \"Subject\" should be rendered as \"Объект обсуждения\", not \"Субъекты\".",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term \"Subject\" should be rendered as \"Объект обсуждения\", not \"Субъекты\".",
+      "quote": "Субъекты"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:16:43"
+  }
+}

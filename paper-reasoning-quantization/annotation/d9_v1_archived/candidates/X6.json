@@ -1,0 +1,137 @@
+{
+  "tier": 1,
+  "candidates": [
+    {
+      "id": "A1",
+      "type": "формат",
+      "quote": "\"role_agent_config\"",
+      "note": "токен `\"role_agent_config\"` из EN не найден в RU дословно",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "EN:31",
+      "borderline": true
+    },
+    {
+      "id": "A2",
+      "type": "формат",
+      "quote": "\"Роль_agent_config\"",
+      "note": "Technical identifier (JSON key) was partially translated; must be byte-identical to source.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:31",
+      "borderline": true
+    },
+    {
+      "id": "A3",
+      "type": "формат",
+      "quote": "Роль_agent_config",
+      "note": "Code token altered; the original token \"role_agent_config\" was changed to \"Роль_agent_config\", breaking byte‑identical requirement.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:31",
+      "borderline": true
+    },
+    {
+      "id": "A4",
+      "type": "термин",
+      "quote": "Role Agent",
+      "note": "глоссарий: требуется RU-эквивалент «Ролевой агент» — не найден",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:5",
+      "borderline": true
+    },
+    {
+      "id": "A5",
+      "type": "термин",
+      "quote": "статусы ролей",
+      "note": "Incorrect term used for \"Role Status\"; should be \"Статус роли\" (singular) instead of \"статусы ролей\".",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:3",
+      "borderline": true
+    },
+    {
+      "id": "A6",
+      "type": "добавление",
+      "quote": "вывод",
+      "note": "RU-слово «вывод» — эквивалент термина, которого нет в EN этого прогона",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:3",
+      "borderline": true
+    },
+    {
+      "id": "A7",
+      "type": "добавление",
+      "quote": "замечания",
+      "note": "RU-слово «замечания» — эквивалент термина, которого нет в EN этого прогона",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:11",
+      "borderline": true
+    },
+    {
+      "id": "A8",
+      "type": "формулировка",
+      "quote": "Решения по Фаза",
+      "note": "Incorrect grammatical case for the glossary term 'Фаза' (should be 'Фазам' or 'Фазе').",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:3",
+      "borderline": true
+    },
+    {
+      "id": "A9",
+      "type": "формулировка",
+      "quote": "аналитическая-задача обзоры",
+      "note": "Literal, ungrammatical translation of 'analytical-task reviews'.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:15",
+      "borderline": true
+    },
+    {
+      "id": "A10",
+      "type": "смысл",
+      "quote": "безопасного замечания",
+      "note": "The term 'value' (and 'defaults' in the second instance) was mistranslated as 'замечание' (remark/note) instead of 'значение'.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:11",
+      "borderline": true
+    },
+    {
+      "id": "A11",
+      "type": "формулировка",
+      "quote": "по Фаза и Консенсус",
+      "note": "Grammatical error in phrase \"по Фаза и Консенсус\"; correct case is needed (e.g., \"по Фазе и Консенсусу\").",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:3",
+      "borderline": true
+    },
+    {
+      "id": "A12",
+      "type": "формулировка",
+      "quote": "фактической инстанциирования",
+      "note": "Gender mismatch: 'инстанциирование' is neuter, but the adjective 'фактической' is feminine.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:31",
+      "borderline": true
+    }
+  ]
+}

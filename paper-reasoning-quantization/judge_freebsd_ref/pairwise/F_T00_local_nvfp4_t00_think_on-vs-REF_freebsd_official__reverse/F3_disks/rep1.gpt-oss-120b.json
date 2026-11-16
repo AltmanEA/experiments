@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.73,
+  "reason": "A follows glossary terms more closely (e.g., \"Дисковые квоты\" for disk quota) and maintains accurate technical wording, while both are fluent; overall A is slightly more accurate.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official__reverse",
+    "fixture": "F3_disks",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T18:16:39"
+  }
+}

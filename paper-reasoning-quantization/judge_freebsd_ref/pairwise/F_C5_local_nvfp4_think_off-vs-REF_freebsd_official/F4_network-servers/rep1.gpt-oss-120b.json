@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.95,
+  "reason": "A follows glossary terms precisely (сервер имён, авторитетный сервер имён, кэширующий сервер имён, серверы пересылки) and translates the NOTE heading, while B deviates on several key terms and leaves NOTE in English.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off-vs-REF_freebsd_official",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:49:54"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation B is significantly more professional. Translation A contains a glaring typo ('настроек клетка' instead of 'настроек клиента') and fails to follow the glossary for 'brute force attacks'. Translation B follows the glossary, handles technical acronyms (CSR, CRL) much better by providing full names, and maintains consistent grammatical cases in the list. Although B left 'TIP' untranslated and slightly mistranslated 'drive by attacks', these are minor compared to A's errors.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on-vs-REF_freebsd_official",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T18:02:30"
+  }
+}

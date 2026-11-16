@@ -1,0 +1,81 @@
+{
+  "defects": [
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token modified: 'session_id' translated to 'Сессия_id'.",
+      "quote": "`Сессия_id`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token modified: 'phase_id' translated to 'фаза_id'.",
+      "quote": "`фаза_id`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token modified: 'role_statuses' translated to 'Роль_statuses'.",
+      "quote": "`Роль_statuses`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token modified: 'disagreement_subjects' translated to 'Расхождение_subjects'.",
+      "quote": "`Расхождение_subjects`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token modified: 'escalation_id' translated to 'эскалация_id'.",
+      "quote": "`эскалация_id`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token modified: 'severity' translated to 'Уровень серьёзности'.",
+      "quote": "`Уровень серьёзности`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token modified: 'resolution' translated to 'Резолюция'.",
+      "quote": "`Резолюция`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The entire content of the ValidationResult section is missing.",
+      "quote": "### ValidationResult"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' (Объект обсуждения) replaced by 'Предметы' and 'Темы'.",
+      "quote": "Предметы со статусом блокировки"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Leaked reasoning/meta-text containing translation options and internal notes.",
+      "quote": "Темы, имеющие как `support`, так и `oppose` в финальном раунде\" or \"Предметы, получившие как `support`, так и `oppose` в финальном раунде"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Leaked reasoning/meta-text regarding glossary usage.",
+      "quote": "- Use specified translation? Yes, Резолюция -> Резолюция."
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C2_cloud_bf16_think_on_clean",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:07:32"
+  }
+}

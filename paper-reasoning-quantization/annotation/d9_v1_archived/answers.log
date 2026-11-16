@@ -1,0 +1,106 @@
+
+======================================================================
+[X1] 2026-11-16T08:25:17+00:00
+----------------------------------------------------------------------
+# Карточка X1 — прогон из фикстуры S6 (повтор 2)
+
+Строки пронумерованы (`N| текст`); в вопросах ссылки — на эти номера.
+
+## EN-источник
+
+```
+  1| ## Moderator
+  2| 
+  3| The Moderator is the deterministic control plane inside `orchestrator/`. It aggregates role statuses, joins findings by `subject_id`, evaluates consensus through Layer 0, and routes escalation. It performs no free-text interpretation, holds no decision power, and contains no LLM call. Phase and consensus decisions are deterministic functions of validated role outputs; no model participates in control flow or safety verification.
+  4| 
+  5| ## RoleAgentFactory
+  6| 
+  7| Centralized factory creating role agent instances from validated scenario config.
+  8| 
+  9| ### Zero silent defaults policy (ADR-002)
+ 10| 
+ 11| Every parameter either specified by caller OR taken from a documented safe value visible in session manifest. No magic defaults. All applied defaults appear in session record under `"configuration_source": "scenario_defaults"` or `"configuration_source": "operator_explicit"`.
+ 12| 
+ 13| | Parameter | Default | Scope |
+ 14| |-----------|---------|-------|
+ 15| | temperature | 0.1 | analytical-task reviews |
+ 16| | top_p | 0.9 | analytical-task reviews |
+ 17| | frequency_penalty | 0.0 | neutral (explicitly set, never inferred) |
+ 18| 
+ 19| Default whitelist managed centrally in `defaults/policy.yaml`. Expansion requires PR with justification. Reviewed quarterly.
+ 20| 
+ 21| ### Contract validation hook
+ 22| 
+ 23| After creation but before enqueue, verify:
+ 24| 
+ 25| - Role identifier matches known role from `protocol-core/index.md`
+ 26| - Prompt template contains required sections (perspective, responsibilities, output structure reminder)
+ 27| - No unauthorized instructions appended beyond role definition and scenario context
+ 28| 
+ 29| ### Session manifest traceability
+ 30| 
+ 31| Each session record includes `"role_agent_config"` section listing exact parameters used for each active role, traceable back to scenario config → factory resolution → actual agent instantiation.
+ 32| 
+ 33| ### No prompt modification rule
+ 34| 
+ 35| Factory injects scenario-specific context (task scope, scenario name, pre-phase results) but does NOT modify the role's base prompt template. Prompt customization scoped to emphasis/context injection only — behavioral substitution prohibited.
+```
+
+## RU-вывод
+
+```
+  1| ## Moderator
+  2| 
+  3| Модератор — это детерминированная управляющая плоскость внутри `orchestrator/`. Он агрегирует статусы ролей, объединяет выводы по `subject_id`, оценивает консенсус через слой 0 и маршрутизирует эскалацию. Он не выполняет интерпретацию свободного текста, не обладает полномочиями принятия решений и не содержит вызовов LLM. Решения по фазам и консенсусу являются детерминированными функциями проверенных выводов ролей; ни одна модель не участвует в управляющем потоке или проверке безопасности.
+  4| 
+  5| ## RoleAgentFactory
+  6| 
+  7| Централизованная фабрика, создающая экземпляры ролевых агентов на основе валидированной конфигурации сценария.
+  8| 
+  9| ### Zero silent defaults policy (ADR-002)
+ 10| 
+ 11| Каждый параметр либо указан вызывающей стороной, либо взят из задокументированного безопасного замечания, видимого в манифесте сессии. Никаких магических значений по умолчанию. Все применённые замечания по умолчанию отображаются в записи сессии в поле `"configuration_source": "scenario_defaults"` или `"configuration_source": "operator_explicit"`.
+ 12| 
+ 13| | Параметр | По умолчанию | Область |
+ 14| |-----------|---------|-------|
+ 15| | temperature | 0.1 | analytical-Задача обзоры |
+ 16| | top_p | 0.9 | analytical-Задача обзоры |
+ 17| | frequency_penalty | 0.0 | нейтральная (явно задано, никогда не выводится) |
+ 18| 
+ 19| Список разрешённых значений по умолчанию управляется централизованно в файле `defaults/policy.yaml`. Для его расширения необходимо подготовить pull-запрос с обоснованием. Пересмотр осуществляется ежеквартально.
+ 20| 
+ 21| ### Contract validation hook
+ 22| 
+ 23| После создания, но перед добавлением в очередь, проверьте:
+ 24| 
+ 25| - Идентификатор роли совпадает с известной ролью из `protocol-core/index.md`
+ 26| - Шаблон запроса содержит необходимые разделы (перспектива, обязанности, напоминание о структуре вывода)
+ 27| - Запрещённые инструкции не добавляются за пределы определения роли и контекста сценария
+ 28| 
+ 29| ### Session manifest traceability
+ 30| 
+ 31| Каждая запись сессии включает раздел `"role_agent_config"`, в котором перечислены точные параметры, использованные для каждой активной роли, с возможностью проследить их до конфигурации сценария → резолюции фабрики → фактической инстанции агента.
+ 32| 
+ 33| ### No prompt modification rule
+ 34| 
+ 35| Фабрика внедряет контекст, специфичный для сценария (область задачи, название сценария, результаты до фазы), но НЕ изменяет базовый шаблон запроса роли. Настройка запроса ограничивается только акцентированием внимания/внедрением контекста — подмена поведения запрещена.
+```
+
+## Вопрос 1 — кандидаты. Для каждого: реальный дефект? (`д` / `н`);
+если `д` — severity: `1`=minor, `2`=major, `3`=critical.
+
+- **A1** [термин] RU:5 — цитата: `Role Agent` — глоссарий: требуется RU-эквивалент «Ролевой агент» — не найден ⚠ пограничный
+- **A2** [термин] RU:29 — цитата: `Session` — The term "Session" in the heading "### Session manifest traceability" was not translated to the required Russian equivalent "Сессия". ⚠ пограничный
+- **A3** [добавление] RU:3 — цитата: `вывод` — RU-слово «вывод» — эквивалент термина, которого нет в EN этого прогона ⚠ пограничный
+- **A4** [добавление] RU:11 — цитата: `замечания` — RU-слово «замечания» — эквивалент термина, которого нет в EN этого прогона ⚠ пограничный
+- **A5** [формулировка] RU:15 — цитата: `analytical-Задача обзоры` — Incorrect and unnatural translation of the phrase 'analytical-task reviews'. The translator mixed English and Russian in a way that breaks the meaning and gramm ⚠ пограничный
+- **A6** [смысл] RU:11 — цитата: `безопасного замечания` — The term 'value' is incorrectly translated as 'замечание' (remark/note) instead of 'значение'. ⚠ пограничный
+- **A7** [смысл] RU:11 — цитата: `применённые замечания по умолчанию` — The term 'defaults' is incorrectly translated as 'замечания по умолчанию' (remarks by default) instead of 'значения по умолчанию'. ⚠ пограничный
+
+## Вопрос 2 — другие фактические искажения (числа, подмена терминов,
+потеря/добавление смысла), которых нет в списке кандидатов?
+Ответ: `нет` или строки вида `тип;severity;N;цитата` (тип: число|термин|
+пропуск|добавление|формат; severity: 1|2|3; N — номер строки).
+
+
+[X1] answers: cand:A1=н; cand:A2=д; sev:A2=1; cand:A3=н; cand:A4=н; cand:A5=д; sev:A5=2; cand:A6=д; sev:A6=1; cand:A7=д; sev:A7=1; free=нет

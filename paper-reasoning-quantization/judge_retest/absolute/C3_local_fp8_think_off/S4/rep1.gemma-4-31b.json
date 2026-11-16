@@ -1,0 +1,33 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' is translated as 'Субъекты' instead of the required glossary equivalent 'Объект обсуждения'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The type identifier 'severity' in the schema definition is translated into Russian, which breaks the technical specification.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The field name 'severity' is translated into Russian in the descriptive text, making it inconsistent with the code and other field references (like 'subject_id').",
+      "quote": "Уровень серьёзности"
+    }
+  ],
+  "score": 70,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:08:56"
+  }
+}

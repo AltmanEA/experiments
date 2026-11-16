@@ -1,0 +1,33 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation omits the source paragraph that describes the primary output artifact (a structured consensus document that records decisions, open questions, and a risk assessment).",
+      "quote": "Он применяется на этапе спецификаций и планирования модулей или функций — определяя поведение, интерфейсы и подходы к реализации без генерации кода."
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required term \"Документ консенсуса\" (Consensus Document) from the glossary is missing in the translation.",
+      "quote": "Он применяется на этапе спецификаций и планирования модулей или функций — определяя поведение, интерфейсы и подходы к реализации без генерации кода."
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The Out of Scope section is reduced to a single summary sentence, omitting the detailed bullet list of items present in the source.",
+      "quote": "Эти возможности могут быть реализованы поверх Council, но они не являются частью его базовой архитектуры."
+    }
+  ],
+  "score": 70,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C2_cloud_bf16_think_on",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:05:05"
+  }
+}

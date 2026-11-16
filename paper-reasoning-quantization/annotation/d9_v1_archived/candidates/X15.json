@@ -1,0 +1,137 @@
+{
+  "tier": 1,
+  "candidates": [
+    {
+      "id": "A1",
+      "type": "формат",
+      "quote": "Phase State Machine",
+      "note": "Header not translated.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:5",
+      "borderline": true
+    },
+    {
+      "id": "A2",
+      "type": "формат",
+      "quote": "Role Status Handling",
+      "note": "Header not translated.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:26",
+      "borderline": true
+    },
+    {
+      "id": "A3",
+      "type": "формат",
+      "quote": "council.override_precheck",
+      "note": "Code token `council.override_precheck` is not backticked as required.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:21",
+      "borderline": true
+    },
+    {
+      "id": "A4",
+      "type": "формат",
+      "quote": "locked_roles",
+      "note": "Code token `locked_roles` is not backticked as required.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:11",
+      "borderline": true
+    },
+    {
+      "id": "A5",
+      "type": "формат",
+      "quote": "operator_approval",
+      "note": "Code token `operator_approval` is not backticked as required.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:11",
+      "borderline": true
+    },
+    {
+      "id": "A6",
+      "type": "формат",
+      "quote": "pre_check_override",
+      "note": "Code token `pre_check_override` is not backticked as required.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:21",
+      "borderline": true
+    },
+    {
+      "id": "A7",
+      "type": "термин",
+      "quote": "Documenter",
+      "note": "глоссарий: требуется RU-эквивалент «Документатор» — не найден",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "EN:21",
+      "borderline": true
+    },
+    {
+      "id": "A8",
+      "type": "термин",
+      "quote": "Resolution",
+      "note": "глоссарий: требуется RU-эквивалент «Резолюция» — не найден",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "EN:7",
+      "borderline": true
+    },
+    {
+      "id": "A9",
+      "type": "термин",
+      "quote": "`5` разрешение",
+      "note": "Used \"разрешение\" where the required term is \"Резолюция\" (Resolution).",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:7",
+      "borderline": true
+    },
+    {
+      "id": "A10",
+      "type": "термин",
+      "quote": "Критическое замечание",
+      "note": "Used \"замечание\" instead of required glossary term \"Вывод\" (Finding).",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:28",
+      "borderline": true
+    },
+    {
+      "id": "A11",
+      "type": "термин",
+      "quote": "высокого/критического документа",
+      "note": "Used \"документа\" instead of required glossary term \"Документатор\" (Documenter).",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:21",
+      "borderline": true
+    },
+    {
+      "id": "A12",
+      "type": "термин",
+      "quote": "замечание",
+      "note": "Glossary term 'Finding' translated as 'замечание' instead of 'Вывод'.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:28",
+      "borderline": true
+    }
+  ]
+}

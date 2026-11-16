@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.95,
+  "reason": "B follows the required terminology (uses \"межсетевые экраны\" per glossary), has correct phrasing (\"конфигурации системы\"), and no formatting errors, whereas A uses non‑glossary term \"Брандмауэры\" and contains a markup mistake.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off-vs-REF_freebsd_official",
+    "fixture": "F5_firewalls",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "direct",
+    "ts": "2026-11-16T17:51:25"
+  }
+}

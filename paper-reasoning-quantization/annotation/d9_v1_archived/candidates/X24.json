@@ -1,0 +1,104 @@
+{
+  "tier": 1,
+  "candidates": [
+    {
+      "id": "A1",
+      "type": "термин",
+      "quote": "Phase",
+      "note": "глоссарий: требуется RU-эквивалент «Фаза» — не найден",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "EN:3",
+      "borderline": true
+    },
+    {
+      "id": "A2",
+      "type": "термин",
+      "quote": "Resolution",
+      "note": "глоссарий: требуется RU-эквивалент «Резолюция» — не найден",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "EN:31",
+      "borderline": true
+    },
+    {
+      "id": "A3",
+      "type": "термин",
+      "quote": "Role",
+      "note": "глоссарий: требуется RU-эквивалент «Роль» — не найден",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:5",
+      "borderline": true
+    },
+    {
+      "id": "A4",
+      "type": "термин",
+      "quote": "Role Agent",
+      "note": "глоссарий: требуется RU-эквивалент «Ролевой агент» — не найден",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:5",
+      "borderline": true
+    },
+    {
+      "id": "A5",
+      "type": "термин",
+      "quote": "запись сеанса",
+      "note": "The required glossary term \"Session\" (Сессия) is not used; the translation uses \"сеанса\" instead of the required term.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:31",
+      "borderline": true
+    },
+    {
+      "id": "A6",
+      "type": "термин",
+      "quote": "результаты",
+      "note": "The required glossary term \"Finding\" (Вывод) is not used; the translation uses \"результаты\" instead of the required term.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:3",
+      "borderline": true
+    },
+    {
+      "id": "A7",
+      "type": "термин",
+      "quote": "сеанса",
+      "note": "The term 'session' is translated as 'сеанса', but the glossary requires 'Сессия'.",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:31",
+      "borderline": true
+    },
+    {
+      "id": "A8",
+      "type": "добавление",
+      "quote": "вывод",
+      "note": "RU-слово «вывод» — эквивалент термина, которого нет в EN этого прогона",
+      "sources": [
+        "detektor"
+      ],
+      "loc": "RU:17",
+      "borderline": true
+    },
+    {
+      "id": "A9",
+      "type": "формулировка",
+      "quote": "фактической инстанциирования",
+      "note": "Grammatical gender mismatch ('фактической' is feminine, 'инстанциирования' is neuter) and non-standard terminology ('инстанциирования' instead of 'инстанцирован",
+      "sources": [
+        "судья"
+      ],
+      "loc": "RU:31",
+      "borderline": true
+    }
+  ]
+}
