@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.85,
+  "reason": "B uses the standard term “шлюз” consistently, maintains terminology from the glossary, and reads more fluently. A’s mixed use of “Контрольная точка” and later “шлюз” creates inconsistency, and some phrasing is less natural.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:16:47"
+  }
+}

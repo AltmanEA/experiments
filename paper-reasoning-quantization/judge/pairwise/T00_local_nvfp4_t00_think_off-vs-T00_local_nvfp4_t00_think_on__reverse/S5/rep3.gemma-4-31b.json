@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B is significantly better because it preserves technical keys and status values (e.g., 'escalation_reason', 'agree', 'blocked-escalation') in English. Translation A incorrectly translates these identifiers into Russian (e.g., 'причина_эскалации'), which is a critical error in technical documentation. Additionally, B has better grammar, particularly in the state machine table ('выводе Документатора' vs A's 'Вывод Документатор').",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:16:06"
+  }
+}

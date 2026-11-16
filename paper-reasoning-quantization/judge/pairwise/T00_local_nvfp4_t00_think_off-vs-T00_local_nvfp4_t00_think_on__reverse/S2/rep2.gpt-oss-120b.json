@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.75,
+  "reason": "A preserves the original meaning and terminology more accurately; B introduces an erroneous clause about voting and unnecessary markup, while A only has a minor mixed term (ЭскалацияRecord) that does not affect overall correctness.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:12:36"
+  }
+}

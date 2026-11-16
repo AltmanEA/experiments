@@ -8,9 +8,10 @@
   "D3_code_missing": [],
   "D4_num_total": 5,
   "D4_num_lost": {},
-  "D5_terms_found": 9,
+  "D5_terms_found": 10,
   "D5_terms_missing": [
-    "Role"
+    "Role",
+    "ConsensusVerdict"
   ],
   "D5_nc_terms_found": 8,
   "D5_nc_terms_missing": [

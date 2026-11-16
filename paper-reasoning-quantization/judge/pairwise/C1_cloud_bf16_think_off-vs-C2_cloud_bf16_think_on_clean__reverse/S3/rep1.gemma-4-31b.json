@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A has severe formatting issues, including repeated table headers and broken markdown. Furthermore, Translation A incorrectly translates code values (e.g., `consensus` to `Консенсус`), whereas Translation B correctly preserves them. Translation B is accurate, fluent, and follows the glossary.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean__reverse",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:06:54"
+  }
+}

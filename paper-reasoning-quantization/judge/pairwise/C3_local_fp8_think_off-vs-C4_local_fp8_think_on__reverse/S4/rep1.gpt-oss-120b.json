@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.85,
+  "reason": "B keeps original field names and code syntax, only translating descriptions, which preserves technical accuracy. A changes many field identifiers (e.g., `session_id` → `сессия_id`), breaking the schema. Both misuse the term “Subject”, but B’s overall fidelity is higher.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:53:05"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B is significantly superior in terms of grammar and technical accuracy. Translation A contains several blatant grammatical errors (e.g., 'для консенсус', 'Вывод Документатор', 'Отсутствие Роль Core') and makes the critical mistake of partially translating technical identifiers/state names (e.g., 'blocked-эскалацию', 'reason_эскалации'), which would break the technical meaning. Translation B maintains the integrity of the technical terms while providing a fluent and grammatically correct Russian text.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:02:39"
+  }
+}

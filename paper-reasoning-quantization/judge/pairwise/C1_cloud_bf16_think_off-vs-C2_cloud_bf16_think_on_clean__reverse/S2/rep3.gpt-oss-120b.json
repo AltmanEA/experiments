@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.95,
+  "reason": "B is more accurate, uses required terminology correctly, avoids the duplicated and editorial noise present in A, and reads fluently with proper formatting.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean__reverse",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:06:29"
+  }
+}

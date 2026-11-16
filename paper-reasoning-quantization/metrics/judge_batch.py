@@ -112,7 +112,8 @@ class Pacer:
             self.last = time.time()
 
 # ---------------------------------------------------------------- task building
-def task_list(mode, conds, pairs):
+def task_list(mode, conds, pairs, order="direct", unit_filter=None):
+    """unit_filter: {'S1/rep1', ...} — pairwise units to keep (null probes pick a few)."""
     tasks = []
     if mode == "absolute":
         for cond in conds:
@@ -130,8 +131,18 @@ def task_list(mode, conds, pairs):
                     a = RUNS_DIR / a_cond / fx / f"rep{k}.md"
                     b = RUNS_DIR / b_cond / fx / f"rep{k}.md"
                     if a.exists() and b.exists():
-                        tasks.append({"pair": f"{a_name}-vs-{b_name}", "cond": f"{a_name}-vs-{b_name}",
-                                      "fix": fx, "rep": k, "a": str(a), "b": str(b)})
+                        if unit_filter and f"{fx}/rep{k}" not in unit_filter:
+                            continue
+                        slot_a, slot_b = slots_for(order, str(a), str(b))
+                        pair = f"{a_name}-vs-{b_name}"
+                        # Anything but the P-002a layout gets a suffix, so reversed runs and
+                        # null probes never overwrite or pool with the primary results.
+                        if order != "direct":
+                            pair = f"{pair}{order_suffix(order)}"
+                        tasks.append({"pair": pair, "cond": pair, "order": order,
+                                      "fix": fx, "rep": k,
+                                      "a": str(a), "b": str(b),
+                                      "slot_a": slot_a, "slot_b": slot_b})
     return tasks
 
 def out_path(mode, task, judge):
@@ -146,9 +157,51 @@ def build_user(mode, task, gloss):
     if mode == "absolute":
         ru = Path(task["ru"]).read_text(encoding="utf-8")
         return f"=== EN SOURCE ===\n{en}\n=== GLOSSARY PAIRS ===\n{gloss}\n=== RU CANDIDATE ===\n{ru}"
-    a = Path(task["a"]).read_text(encoding="utf-8")
-    b = Path(task["b"]).read_text(encoding="utf-8")
+    # Slot contents come from the task, so --order can swap them (PLAN §6.2 position
+    # control) or duplicate one side (null probe: can this judge express a tie at all?).
+    a = Path(task["slot_a"]).read_text(encoding="utf-8")
+    b = Path(task["slot_b"]).read_text(encoding="utf-8")
     return f"=== EN SOURCE ===\n{en}\n=== GLOSSARY PAIRS ===\n{gloss}\n=== A ===\n{a}\n=== B ===\n{b}"
+
+
+def slots_for(order, a_path, b_path):
+    """(slot_a, slot_b) file paths for a presentation order.
+
+    direct  : condition A in slot A, condition B in slot B  (the P-002a layout)
+    reverse : conditions swapped between slots — same pair, mirrored presentation
+    same_a / same_b : one and the same text in both slots (null probe)
+    """
+    if order == "reverse":
+        return b_path, a_path
+    if order == "same_a":
+        return a_path, a_path
+    if order == "same_b":
+        return b_path, b_path
+    return a_path, b_path
+
+
+def order_suffix(order):
+    """Condition-name suffix for a presentation order ('' keeps the P-002a layout).
+
+    Suffix, not a separate directory arg, so reversed and null-probe cells live beside
+    the primary ones and cannot overwrite them.
+    """
+    return "" if order == "direct" else f"__{order}"
+
+
+def split_order(cond):
+    """'A-vs-B__reverse' -> ('A-vs-B', 'reverse'); bare name -> (name, 'direct')."""
+    base, sep, suffix = cond.partition("__")
+    return (base, suffix) if sep else (cond, "direct")
+
+
+def normalize_winner(order, raw):
+    """Judge's slot letter -> which *condition* won, so orders are poolable."""
+    if raw not in ("A", "B", "tie"):
+        return raw
+    if order == "reverse" and raw in ("A", "B"):
+        return "B" if raw == "A" else "A"
+    return raw  # direct and same_* keep the letter as-is
 
 def call(model, system, user, key, base, timeout=240):
     """Single HTTP attempt; returns (content, http_status) or (None, status)."""
@@ -215,6 +268,7 @@ def worker(tasks, args, pacer, counters):
             gloss = gloss_file.read_text(encoding="utf-8") if gloss_file.exists() else "(none)"
             system = MQM_SYS if args.mode == "absolute" else PAIR_SYS
             user = build_user(args.mode, task, gloss)
+            order = task.get("order", "direct")
             for attempt in (1, 2):
                 pacer.wait()
                 content, status = call(judge, system, user, key, base, timeout=args.timeout)
@@ -223,13 +277,22 @@ def worker(tasks, args, pacer, counters):
                 if ok:
                     if args.mode == "absolute":
                         d["score"] = score_defects(d)
+                    else:
+                        # Keep what the judge said, and store which condition actually
+                        # won, so direct and reversed runs can be pooled by condition.
+                        d["_winner_slot"] = d.get("winner")
+                        d["winner"] = normalize_winner(order, d.get("winner"))
                     d["_meta"] = {"judge": judge, "condition": task["cond"], "fixture": task["fix"],
                                   "rep": task["rep"], "mode": args.mode, "attempt": attempt,
+                                  "order": order,
                                   "ts": time.strftime("%Y-%m-%dT%H:%M:%S")}
                     dest.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
                     with counters["lock"]:
                         counters["ok"] += 1
-                    extra = f"score={d['score']}" if args.mode == "absolute" else f"winner={d.get('winner')}"
+                    extra = (f"score={d['score']}" if args.mode == "absolute"
+                             else f"winner={d.get('winner')}"
+                                  + (f" (slot {d.get('_winner_slot')}, order={order})"
+                                     if order != "direct" else ""))
                     log(f"OK   {task['cond']} {task['fix']} rep{task['rep']} {judge} {extra}")
                     break
                 # failure: 429/5xx or unparsable -> pause, retry once, then record
@@ -260,10 +323,26 @@ def repair_tasks(mode):
             grouped.setdefault((cond, fx, rep), set()).add(judge)
     tasks = []
     for (cond, fx, rep), judges in grouped.items():
-        ru = RUNS_DIR / cond / fx / f"rep{rep}.md"
-        if ru.exists():
-            tasks.append({"cond": cond, "fix": fx, "rep": rep, "ru": str(ru),
-                          "judges": sorted(judges)})
+        if mode == "absolute":
+            ru = RUNS_DIR / cond / fx / f"rep{rep}.md"
+            if ru.exists():
+                tasks.append({"cond": cond, "fix": fx, "rep": rep, "ru": str(ru),
+                              "judges": sorted(judges)})
+            continue
+        # Pairwise: recover the presentation order from the condition suffix and rebuild
+        # the slot paths, otherwise a repair would silently re-ask the direct layout.
+        base, order = split_order(cond)
+        if "-vs-" not in base:
+            continue
+        a_name, b_name = base.split("-vs-", 1)
+        a = RUNS_DIR / CLEAN_ALIAS.get(a_name, a_name) / fx / f"rep{rep}.md"
+        b = RUNS_DIR / CLEAN_ALIAS.get(b_name, b_name) / fx / f"rep{rep}.md"
+        if not (a.exists() and b.exists()):
+            continue
+        slot_a, slot_b = slots_for(order, str(a), str(b))
+        tasks.append({"pair": cond, "cond": cond, "order": order, "fix": fx, "rep": rep,
+                      "a": str(a), "b": str(b), "slot_a": slot_a, "slot_b": slot_b,
+                      "judges": sorted(judges)})
     return tasks
 
 def apply_domain(a):
@@ -293,14 +372,24 @@ def run(args):
                  ("C5_local_nvfp4_think_off", "C6_local_nvfp4_think_on"),
                  ("C1_cloud_bf16_think_off", "C2_clean"),
                  ("C1_cloud_bf16_think_off", "K0_cloud_no_glossary")]
-    tasks = repair_tasks(args.mode) if args.repair else task_list(args.mode, conds, pairs)
+    order = args.order
+    if args.mode != "pairwise" and order != "direct":
+        sys.exit("--order only applies to --mode pairwise")
+    unit_filter = set(u.strip() for u in args.units.split(",")) if args.units else None
+    tasks = (repair_tasks(args.mode) if args.repair
+             else task_list(args.mode, conds, pairs, order, unit_filter))
+    if args.max_units and tasks:
+        # Deterministic stride sample (no RNG): reproducible without a seed arg.
+        step = max(1, len(tasks) // args.max_units)
+        tasks = tasks[::step][:args.max_units]
     if args.mode == "pairwise" and not args.repair and pairs:
         got = {t["pair"] for t in tasks}
-        want = {f"{a}-vs-{b}" for a, b in pairs}
+        suffix = order_suffix(order)
+        want = {f"{a}-vs-{b}{suffix}" for a, b in pairs}
         if want - got:
             log(f"WARN pairs with 0 tasks (typo or missing runs): {sorted(want - got)}")
     total = sum(len(t.get("judges", args.judges)) for t in tasks)
-    log(f"START mode={args.mode} tasks={len(tasks)} requests={total} "
+    log(f"START mode={args.mode} order={order} tasks={len(tasks)} requests={total} "
         f"judges={','.join(args.judges)} workers={args.workers} rpm={args.rpm}")
     if args.dry_run:
         for t in tasks[:10]:
@@ -339,7 +428,9 @@ def aggregate(mode):
                         "n_major": sev.count("major"), "n_minor": sev.count("minor"),
                         "categories": ",".join(sorted({x.get("category", "?") for x in defs}))})
         else:
-            row.update({"winner": d.get("winner"), "confidence": d.get("confidence")})
+            row.update({"winner": d.get("winner"), "confidence": d.get("confidence"),
+                        "order": meta.get("order", "direct"),
+                        "winner_slot": d.get("_winner_slot", "")})
         rows.append(row)
     if not rows:
         print("no judge results"); return 1
@@ -376,6 +467,19 @@ def main():
                     help="output suffix for a second domain, e.g. _freebsd "
                          "(judge<TAG>/, results/judge_<mode><TAG>.csv)")
     ap.add_argument("--pairs", help="comma list condA:condB (pairwise only)")
+    ap.add_argument("--order", default="direct",
+                    choices=["direct", "reverse", "same_a", "same_b"],
+                    help="pairwise presentation order (PLAN §6.2 position control): "
+                         "direct = P-002a layout (cond A in slot A); reverse = mirrored "
+                         "slots, winner mapped back to conditions so the two orders pool; "
+                         "same_a/same_b = identical text in both slots (null probe for the "
+                         "judge's ability to express a tie). Non-direct orders get a "
+                         "'__<order>' suffix on the condition name and write to a separate "
+                         "directory tree, so primary P-002a cells are never touched.")
+    ap.add_argument("--units", help="comma list 'FIXTURE/repN' to restrict pairwise units "
+                                    "(null probes only need a handful of cells)")
+    ap.add_argument("--max-units", type=int, help="keep at most N pairwise units, chosen by "
+                                                  "deterministic stride over the task list")
     ap.add_argument("--workers", type=int, default=2)
     ap.add_argument("--rpm", type=int, default=36)
     ap.add_argument("--reserve", type=int, default=15,

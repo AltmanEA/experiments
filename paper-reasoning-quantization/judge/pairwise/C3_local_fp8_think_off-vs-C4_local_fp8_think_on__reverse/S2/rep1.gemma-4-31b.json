@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.8,
+  "reason": "Both translations share a common grammatical error in the 'Irresolvable conflict' section (translating 'is asked' as 'просит', which implies the operator is the one asking). However, A is superior because it strictly adheres to the glossary for the term 'Subject' (Объект обсуждения), whereas B fails to use the term and produces a grammatically broken phrase ('одно обсуждаемое'). A also demonstrates better fluency and accuracy in the 'Risk threshold breach' section (e.g., 'дословно' for 'verbatim', 'ветку' for 'branch'). While A incorrectly translates part of the technical identifier 'EscalationRecord', B's failure to follow the glossary and its resulting grammatical errors are more significant.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:53:11"
+  }
+}

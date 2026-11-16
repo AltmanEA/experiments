@@ -1,0 +1,16 @@
+{
+  "winner": "tie",
+  "confidence": 1,
+  "reason": "The two translations are identical.",
+  "_winner_slot": "tie",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__same_b",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "same_b",
+    "ts": "2026-11-16T13:25:50"
+  }
+}

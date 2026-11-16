@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B is significantly better. Translation A makes a critical error by translating a JSON key (\"role_agent_config\" -> \"Роль_agent_config\"), which would break the technical documentation. A also provides a grammatically incorrect and awkward translation in the table (\"аналитическая-задача обзоры\"), whereas B keeps the technical scope in English, which is standard practice. B also has better overall fluency and grammar.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:15:54"
+  }
+}

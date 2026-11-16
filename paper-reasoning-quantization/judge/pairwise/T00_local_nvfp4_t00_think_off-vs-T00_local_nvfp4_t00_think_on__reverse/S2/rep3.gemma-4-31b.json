@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation A is significantly more accurate. Translation B contains a hallucination in the 'Risk threshold breach' section (adding 'по Объекту обсуждения' where it doesn't exist in the source) and a grammatical error in the 'Irresolvable conflict' section ('Оператор... просит принять' implies the operator is the one asking, rather than being asked). While Translation A makes a mistake by partially translating the technical identifier 'EscalationRecord' as 'ЭскалацияRecord', this is a formatting/technical error, whereas B's errors are semantic and logical.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:13:47"
+  }
+}

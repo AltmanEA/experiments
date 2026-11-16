@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B is far superior in terms of grammar and consistency. Translation A fails to decline nouns in the final paragraph (e.g., 'переход Фаза', 'наличие Роль Core', 'правила Консенсус'), simply inserting glossary terms without adjusting for Russian case. Translation B correctly declines these terms and maintains consistency in translating 'Layer' as 'Слой', whereas A mixes 'Уровень' and 'Layer'.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:57:48"
+  }
+}

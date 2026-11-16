@@ -15,7 +15,7 @@ within-config repeat spread (E-008 threshold).
 
 | contrast | metric | n | nonzero | Δ | W | p raw | p Holm | vs noise p95 | effect |
 |---|---|---|---|---|---|---|---|---|---|
-| bf16 vs FP8, cloud thinking OFF (quantization) | D3 code | 21 | 3 | -0.19 | 1 | 0.2850 | 0.2850 | 1.00 | no |
+| bf16 vs FP8, cloud thinking OFF (quantization) | D3 code | 21 | 3 | -0.19 | 1 | 0.2850 | 0.2850 | 2.00 | no |
 | local vs cloud FP8, thinking OFF (placement) | D3 code | 21 | 5 | +0.24 | 2 | 0.1290 | 0.2580 | 2.00 | no |
 
 ## Family: defect/contam_nc (1 tests)
@@ -35,6 +35,6 @@ within-config repeat spread (E-008 threshold).
 
 | cond | MQM p95 of |Δrep| | MQM sd (mixed) | D3 code | D4 num | D5nc term | D6 echo | D7nc contr (pure repeat sd) |
 |---|---|---|---|---|---|---|---|
-| P8 cloud FP8 (T=0.2) | 54.50 | 8.44 | 0.22 | 0.00 | 0.08 | 0.00 | 0.00 |
+| P8 cloud FP8 (T=0.2) | 54.50 | 8.44 | 0.20 | 0.00 | 0.11 | 0.00 | 0.00 |
 
 _MQM sd (mixed) here is sd over the 3 repeat means (judges averaged); the STATUS.md column 'noise' is sd over all 6 scores (3 reps × 2 judges)._

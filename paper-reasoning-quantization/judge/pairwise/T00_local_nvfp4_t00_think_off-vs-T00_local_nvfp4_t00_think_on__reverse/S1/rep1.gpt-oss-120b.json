@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.75,
+  "reason": "A uses the more accurate technical term “Фреймворк” for “Framework” and maintains overall meaning and fluency; while B’s terminology is slightly better, its use of “Рамка” is less precise, making A the better overall translation.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S1",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:10:43"
+  }
+}

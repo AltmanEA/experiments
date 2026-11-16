@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A is much more accurate and grammatically correct. Translation B contains a severe grammatical failure in the 'Risk threshold breach' section ('одно обсуждаемое из списка обсуждаемых объекта задачи'), which is nearly unintelligible. B also hallucinates a phrase ('по Объекту обсуждения') that is not in the source text and uses a poor translation for 'fallback' ('возврат' instead of 'фоллбэк' or 'резервный вариант'). A has one minor case error ('прерогативой Роль' instead of 'Роли'), but it is far superior overall.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:59:48"
+  }
+}

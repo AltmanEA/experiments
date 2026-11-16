@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A has severe grammatical errors, particularly in the first paragraph ('статусы Роль', 'относительно Фаза и Консенсус', 'выходов Роль'), and a very poor translation of the table ('аналитическая-задача обзоры'). Translation B is fluent, grammatically correct, and follows the glossary more accurately (e.g., using 'выводы' for 'findings'). Both translations incorrectly translated 'safe value' as 'безопасное замечание' (which means 'safe remark'), but B is far superior in all other aspects.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:04:49"
+  }
+}

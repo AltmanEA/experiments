@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B is significantly more professional and accurate. Translation A contains several critical errors: it breaks the grammar in the first paragraph ('Решения по Фаза и Консенсус'), incorrectly translates a technical key ('Роль_agent_config'), and provides a nonsensical translation for the table entries ('аналитическая-задача обзоры'). While both translations mistakenly translated 'safe value' as 'безопасное замечание' (which should be 'безопасное значение'), B is far superior in fluency and technical correctness.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:16:44"
+  }
+}

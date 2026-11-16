@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.75,
+  "reason": "A follows the source more faithfully, uses correct glossary terms and matches the original phrasing (e.g., \"Точка применения\"), while B adds unnecessary wording like \"принудительного\" and has minor grammatical deviations.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:57:29"
+  }
+}

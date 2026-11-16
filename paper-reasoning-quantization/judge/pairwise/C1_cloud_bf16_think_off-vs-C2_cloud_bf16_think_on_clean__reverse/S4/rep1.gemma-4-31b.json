@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A is completely broken: it contains repetitions, missing sections, internal notes, and incorrectly translates technical field names (e.g., 'Сессия_id'). Translation B is professional, complete, and maintains the correct technical format.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean__reverse",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:07:33"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "tie",
+  "confidence": 0.99,
+  "reason": "Both translations are identical in terminology, accuracy, fluency, and formatting.",
+  "_winner_slot": "tie",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__same_a",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "same_a",
+    "ts": "2026-11-16T13:20:28"
+  }
+}

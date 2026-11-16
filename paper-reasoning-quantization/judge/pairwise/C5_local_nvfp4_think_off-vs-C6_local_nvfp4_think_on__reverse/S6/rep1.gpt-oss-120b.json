@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.66,
+  "reason": "Both translations misrender “safe value”, but B keeps the original key and is more fluent; A has incorrect key and awkward Russian scope terms, making B overall better.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:03:24"
+  }
+}

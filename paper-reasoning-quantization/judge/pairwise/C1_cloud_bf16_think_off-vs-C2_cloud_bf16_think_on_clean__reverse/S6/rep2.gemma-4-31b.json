@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A is completely unusable as it contains internal drafting notes, 'thinking' process fragments, and severe grammatical errors (e.g., failing to decline nouns). Translation B is professional, fluent, and correctly formatted.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean__reverse",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:09:45"
+  }
+}

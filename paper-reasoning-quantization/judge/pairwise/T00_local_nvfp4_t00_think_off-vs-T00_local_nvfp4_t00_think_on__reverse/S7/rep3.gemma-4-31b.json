@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation A is more fluent and handles technical terms not present in the glossary more naturally. Specifically, 'operator surface' is translated as 'интерфейс оператора' (A) vs 'поверхность оператора' (B), and 'enforcement point' as 'точка применения' (A) vs 'точка принудительного применения' (B). A also adheres more strictly to the glossary for 'Resolution' (Резолюция).",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:18:09"
+  }
+}

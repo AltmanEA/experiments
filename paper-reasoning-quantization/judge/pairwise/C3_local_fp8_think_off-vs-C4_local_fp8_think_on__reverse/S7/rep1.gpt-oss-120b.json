@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.9,
+  "reason": "B uses correct Russian for Layer, proper grammatical forms of glossary terms (роль, консенсуса, эскалации), and smoother phrasing, while A retains English 'Layer 1' and mis‑cases key terms.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:56:59"
+  }
+}

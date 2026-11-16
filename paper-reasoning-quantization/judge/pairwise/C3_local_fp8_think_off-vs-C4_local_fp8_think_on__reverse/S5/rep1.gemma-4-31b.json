@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.95,
+  "reason": "Translation A has severe grammatical issues, treating glossary terms as immutable strings and failing to decline them (e.g., 'выходов Роль', 'границах Фаза', 'Вывод Документатор'), which makes the text read like a poor machine translation. Translation B handles Russian grammar correctly while adhering to the glossary. Additionally, B correctly keeps technical status identifiers (like 'no-consensus') in English, whereas A awkwardly mixes them ('no-Консенсус').",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:55:13"
+  }
+}

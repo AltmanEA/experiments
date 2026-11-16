@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.75,
+  "reason": "B keeps original enum identifiers (e.g., `blocked-escalation`) preserving technical accuracy, while A incorrectly translates them, which is a critical error. Though A follows the glossary for some terms, terminology is secondary to preserving exact identifiers.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:00:55"
+  }
+}

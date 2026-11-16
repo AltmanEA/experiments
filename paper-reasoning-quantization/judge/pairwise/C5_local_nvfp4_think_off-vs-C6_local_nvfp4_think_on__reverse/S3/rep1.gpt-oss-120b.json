@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.96,
+  "reason": "B preserves code identifiers and glossary terms accurately, while A incorrectly transliterates identifiers (e.g., `no-консенсус`, `blocked-эскалация`). B also matches terminology and maintains fluency.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:59:28"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B is significantly better for technical documentation. Translation A makes a critical error by partially translating technical identifiers/status keys (e.g., 'blocked-Эскалация' and 'причина_эскалации'), which would break the meaning in a technical context. B correctly keeps these keys in English. Additionally, B uses more appropriate terminology: 'интерфейс' for 'surface' (A used 'поверхность', which is too literal) and 'обзор' for 'review' (A used 'отзыв', which sounds like a customer review rather than a technical one).",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:15:15"
+  }
+}

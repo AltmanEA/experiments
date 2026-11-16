@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A incorrectly translates code identifiers, field names, and enum values (e.g., 'escalation_id' to 'Эскалация_id'), which is a critical error in technical documentation. Translation B correctly preserves the technical identifiers while translating the descriptive text.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:14:03"
+  }
+}

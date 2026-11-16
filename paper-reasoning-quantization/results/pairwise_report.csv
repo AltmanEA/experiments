@@ -11,3 +11,23 @@ C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on,pooled,42,30,0,12,0.00792,A,
 T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on,gemma-4-31b,21,12,0,9,0.66362,tie,-43.71,—
 T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on,gpt-oss-120b,21,17,0,4,0.0072,A,-43.71,yes
 T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on,pooled,42,29,0,13,0.01952,A,-43.71,yes
+C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean,gemma-4-31b (union),42,42,0,0,0.0,A,-56.5,yes
+C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean,gpt-oss-120b (union),42,42,0,0,0.0,A,-56.5,yes
+C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean,pooled (union),84,84,0,0,0.0,A,-56.5,yes
+C3_local_fp8_think_off-vs-C4_local_fp8_think_on,gemma-4-31b (union),42,31,0,11,0.00289,A,-26.43,yes
+C3_local_fp8_think_off-vs-C4_local_fp8_think_on,gpt-oss-120b (union),42,32,0,10,0.00094,A,-26.43,yes
+C3_local_fp8_think_off-vs-C4_local_fp8_think_on,pooled (union),84,63,0,21,0.0,A,-26.43,yes
+C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on,gemma-4-31b (union),42,26,0,16,0.16415,tie,-26.5,—
+C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on,gpt-oss-120b (union),42,28,0,14,0.04356,A,-26.5,yes
+C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on,pooled (union),84,54,0,30,0.01163,A,-26.5,yes
+T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on,gemma-4-31b (union),42,24,0,18,0.4408,tie,-43.71,—
+T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on,gpt-oss-120b (union),42,31,0,11,0.00289,A,-43.71,yes
+T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on,pooled (union),84,55,0,29,0.00604,A,-43.71,yes
+C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean::same_a,gemma-4-31b,5,0,5,0,,tie-probe,,
+C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean::same_a,gpt-oss-120b,5,0,5,0,,tie-probe,,
+C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean::same_b,gemma-4-31b,5,0,5,0,,tie-probe,,
+C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean::same_b,gpt-oss-120b,5,0,5,0,,tie-probe,,
+C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on::same_a,gemma-4-31b,5,0,5,0,,tie-probe,,
+C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on::same_a,gpt-oss-120b,5,0,5,0,,tie-probe,,
+C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on::same_b,gemma-4-31b,5,0,5,0,,tie-probe,,
+C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on::same_b,gpt-oss-120b,5,0,5,0,,tie-probe,,

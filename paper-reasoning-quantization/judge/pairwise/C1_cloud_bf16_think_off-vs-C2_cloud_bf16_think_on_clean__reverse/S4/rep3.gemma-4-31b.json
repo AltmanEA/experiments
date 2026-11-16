@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A is completely broken; it contains internal LLM reasoning, repeated fragments, and corrupted formatting in the final section. Additionally, A incorrectly translates API field names (keys), whereas B correctly preserves them. B is professional and accurate.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean__reverse",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:08:02"
+  }
+}

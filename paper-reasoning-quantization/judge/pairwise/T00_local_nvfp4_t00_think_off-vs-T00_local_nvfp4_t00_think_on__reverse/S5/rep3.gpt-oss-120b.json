@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.86,
+  "reason": "A follows the glossary more closely, using Russian equivalents for all key terms (e.g., Консенсус, Эскалация, согласие) and avoids leftover English words present in B. Accuracy and formatting are comparable, but A’s terminology consistency makes it the better translation.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:15:36"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.8,
+  "reason": "A is more accurate in its translation of technical logic. Specifically, it correctly translates 'Moderator control flow' as the subject of the sentence, whereas B changes the meaning to 'The Moderator controls the flow'. A also correctly handles 'resolved against' as 'сопоставлены' (matched/mapped), while B mistranslates it as 'разрешены' (permitted). B also contains a glaring grammatical error in the first paragraph ('каждая фаза... являются'). While A has some case errors ('Отсутствие Роль Core') and awkward hybrid terms ('blocked-эскалация'), it adheres better to the glossary and the source's technical meaning.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:04:10"
+  }
+}

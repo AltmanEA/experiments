@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.85,
+  "reason": "B preserves key identifiers (e.g., \"role_agent_config\"), keeps technical scope labels unchanged, and uses more natural phrasing, while both have minor translation issues; B is overall more accurate and fluent.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:15:23"
+  }
+}

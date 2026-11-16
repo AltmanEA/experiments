@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.85,
+  "reason": "B follows the required glossary terms more closely (uses \"консенсуса\" and \"артефакт дизайна\"), while A substitutes with generic words like \"согласия\". Both are fluent, but B’s terminology accuracy gives it the edge.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S1",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:48:32"
+  }
+}

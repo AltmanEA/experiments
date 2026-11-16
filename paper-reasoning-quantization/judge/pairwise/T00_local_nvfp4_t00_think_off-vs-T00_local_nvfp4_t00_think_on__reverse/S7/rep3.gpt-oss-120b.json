@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.78,
+  "reason": "B matches source terminology more closely (uses \"поверхность оператора\" for operator surface and \"Точка принудительного применения\" for enforcement point) and consistently applies required glossary terms. Both translations are fluent, but B is slightly more accurate to the original.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:17:23"
+  }
+}

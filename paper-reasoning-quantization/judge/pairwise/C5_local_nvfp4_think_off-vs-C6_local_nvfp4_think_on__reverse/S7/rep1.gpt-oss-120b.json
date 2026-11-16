@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.7,
+  "reason": "A follows the source wording closely (uses “вердикт” as in the original) and correctly applies most glossary terms, with only a minor grammatical slip. B deviates by translating “verdict” as “решение”, reducing accuracy despite better use of “артефакт”.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:04:39"
+  }
+}

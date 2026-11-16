@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A makes a critical error by translating code identifiers/enums (e.g., 'no-consensus' to 'no-консенсус', 'phase_state' to 'фаза_state'), which would break the technical meaning. Translation B correctly preserves these identifiers in English. Additionally, Translation A has a grammatical error ('Отсутствие Роль Core' instead of 'Роли').",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:13:29"
+  }
+}

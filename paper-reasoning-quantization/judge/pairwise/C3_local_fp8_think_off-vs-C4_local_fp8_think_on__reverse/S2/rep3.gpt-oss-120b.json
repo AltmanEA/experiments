@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.78,
+  "reason": "Both translations are accurate and use required glossary terms, but B shows smoother Russian phrasing (e.g., \"блокирующей проблемы\", \"запасный вариант действий\"), clearer wording, and fewer awkward constructions, resulting in higher overall fluency and readability.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:51:43"
+  }
+}

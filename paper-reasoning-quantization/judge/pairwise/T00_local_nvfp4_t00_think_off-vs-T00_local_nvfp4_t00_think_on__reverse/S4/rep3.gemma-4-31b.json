@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A makes a critical error by translating the field names (keys) in the EscalationRecord table (e.g., 'escalation_id' to 'id_эскалации'). In technical documentation for data schemas, field names must remain in their original language to be useful for developers. Translation B correctly preserves these identifiers. Additionally, Translation A incorrectly translates a field name within the ValidationResult description.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:14:36"
+  }
+}

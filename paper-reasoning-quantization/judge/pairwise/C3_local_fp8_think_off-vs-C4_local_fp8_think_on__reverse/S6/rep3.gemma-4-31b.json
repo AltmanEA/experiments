@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.9,
+  "reason": "Translation A fails fundamentally on Russian grammar, treating glossary terms as immutable strings and ignoring case declensions (e.g., 'статусы Роль' instead of 'статусы ролей', 'маршрутизирует Эскалация' instead of 'маршрутизирует эскалацию'). Translation B is fluent and grammatically correct. While both translations mistakenly translate 'safe value' as 'безопасное замечание' (remark/note) and B has a typo in the table ('явно задача' instead of 'явно задан'), B is far more professional and readable.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:58:23"
+  }
+}

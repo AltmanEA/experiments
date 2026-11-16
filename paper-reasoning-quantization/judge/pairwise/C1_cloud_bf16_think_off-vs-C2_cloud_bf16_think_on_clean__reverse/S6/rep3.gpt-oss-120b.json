@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.78,
+  "reason": "B provides a clean, fluent translation with correct terminology and proper formatting. While A has slightly more precise wording in a few places, it includes extraneous editorial notes and placeholders that reduce overall quality.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean__reverse",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:09:06"
+  }
+}

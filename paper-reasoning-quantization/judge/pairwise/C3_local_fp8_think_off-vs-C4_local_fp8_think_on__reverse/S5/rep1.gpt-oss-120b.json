@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.78,
+  "reason": "A follows the glossary more closely, translating most terms and using appropriate Russian equivalents, while B leaves several key terms (consensus, no-consensus, agree) in English and has less accurate column headings. A also reads more fluently despite minor mixing.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:54:18"
+  }
+}

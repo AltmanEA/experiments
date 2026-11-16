@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation A is superior in its handling of technical terms. Specifically, it translates 'canonical reference' as 'основной справочник' (main reference), whereas B uses 'каноническая ссылка', which in Russian sounds like a 'canonical URL/link' rather than an authoritative document. Additionally, A preserves 'invalid-format' as a status code, which is more appropriate for technical documentation than B's descriptive translation, as it likely refers to a specific system value.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:52:05"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A is superior primarily because it correctly translates 'Framework' as 'Фреймворк', which is the industry standard in Russian technical documentation. Translation B uses 'Рамка', which is a literal translation of 'frame' and sounds unnatural and incorrect in this context. Additionally, A's translation of 'minimal' as 'минимума' is more accurate than B's 'минимализма' (minimalism).",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S1",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:50:35"
+  }
+}

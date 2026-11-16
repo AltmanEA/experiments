@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.97,
+  "reason": "B follows glossary terms, correct column headers, accurate table entries, proper Russian phrasing, and contains no typographical errors (e.g., correct `ConsensusVerdict.outcome`, proper Where section). A has multiple mistakes (typos, mixed language, wrong term `no-Консенсус`).",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean__reverse",
+    "fixture": "S3",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:06:51"
+  }
+}

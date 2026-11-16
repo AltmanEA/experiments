@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A makes a critical error by translating technical identifiers, field names, and enum values (e.g., translating 'subject_id' to 'объект_обсуждения' and 'no-consensus' to 'no-консенсус'). In technical documentation, these must remain in English to be useful for developers. Translation B correctly preserves all identifiers while translating the descriptive text.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:54:38"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.75,
+  "reason": "A preserves the source meaning more faithfully and uses the required glossary terms (e.g., \"объект обсуждения\"). B introduces minor inaccuracies (e.g., \"обсуждаемое\") and adds extraneous details, though it avoids a Cyrillic‑Latin typo. Overall A is more accurate despite the small formatting slip.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:49:51"
+  }
+}

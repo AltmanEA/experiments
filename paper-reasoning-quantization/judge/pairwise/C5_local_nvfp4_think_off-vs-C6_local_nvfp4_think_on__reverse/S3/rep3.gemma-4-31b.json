@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.9,
+  "reason": "B is better because it preserves the technical identifier `phase_state` as is, whereas A incorrectly translates it to `Фаза_state`. B also uses the more appropriate technical term 'runtime-контракт' instead of the literal 'контракт времени выполнения'.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:01:08"
+  }
+}

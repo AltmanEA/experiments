@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.7,
+  "reason": "Both translations are accurate and fluent, but B preserves the original technical term `phase_state` and uses a more literal rendering of the re‑enter phrase. A incorrectly transliterates the term as `Фаза_state`, reducing technical precision.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:00:30"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A is significantly better because it uses the industry-standard term 'Фреймворк' for 'Framework', whereas Translation B uses 'Рамка', which is a literal translation and is incorrect/unnatural in a technical software context. Additionally, A's translation of 'core design' as 'базовой архитектуры' is more professional than B's 'базового дизайна'.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S1",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:11:15"
+  }
+}

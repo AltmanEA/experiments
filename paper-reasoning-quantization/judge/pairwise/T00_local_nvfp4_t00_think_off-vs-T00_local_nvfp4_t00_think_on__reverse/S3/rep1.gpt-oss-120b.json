@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.95,
+  "reason": "B preserves original identifiers, uses correct Russian grammar, and follows glossary terms accurately. A contains several terminology errors (e.g., \"no-консенсус\", \"фаза_состояние\", \"Отсутствие Роль Core\") and less fluent phrasing.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:12:33"
+  }
+}

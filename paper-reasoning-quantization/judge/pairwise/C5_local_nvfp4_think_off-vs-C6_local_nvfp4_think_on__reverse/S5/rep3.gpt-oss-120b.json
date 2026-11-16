@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.7,
+  "reason": "A follows glossary more consistently (e.g., translates “agree” as Согласие, uses required terms) despite minor awkward phrasing; B leaves “agree” untranslated, breaking terminology requirement.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:02:16"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.97,
+  "reason": "B accurately uses required glossary terms (e.g., \"статусы ролей\", \"выводы\", \"консенсус\", \"эскалацию\"), preserves code identifiers, and maintains correct phrasing. A contains multiple terminology mistakes, mistranslations, and formatting errors.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:04:05"
+  }
+}

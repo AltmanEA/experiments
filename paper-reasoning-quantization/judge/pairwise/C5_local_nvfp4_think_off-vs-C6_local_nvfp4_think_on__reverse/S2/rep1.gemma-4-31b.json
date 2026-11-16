@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.95,
+  "reason": "Translation A is significantly more fluent and grammatically correct. Translation B contains a critical grammatical error in the 'Irresolvable conflict' section ('Оператор... просит принять' instead of 'Оператора просят принять'), which changes the meaning to suggest the operator is the one asking for a decision. Additionally, B mistranslates 'Deferred fallback' as 'Отложенный возврат' (return), whereas A uses the technical term 'фоллбэк'. B also adds a phrase ('по Объекту обсуждения') that is not present in the source text.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:00:20"
+  }
+}

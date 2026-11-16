@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.85,
+  "reason": "B follows glossary terms with correct case/declension, has fewer grammatical errors (e.g., correct use of \"роли Core\", \"правила консенсуса\", \"шлюзы целостности эскалации\"), and overall reads more fluently. A contains several terminology and grammar mistakes.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:05:12"
+  }
+}

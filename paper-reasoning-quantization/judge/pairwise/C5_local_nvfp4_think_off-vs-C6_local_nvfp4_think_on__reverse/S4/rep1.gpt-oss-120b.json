@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.75,
+  "reason": "B keeps original field identifiers and enum values, preserving technical accuracy; A over‑translates identifiers (severity, resolution, enum values) which can mislead developers, despite better term translation in some places.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:01:09"
+  }
+}

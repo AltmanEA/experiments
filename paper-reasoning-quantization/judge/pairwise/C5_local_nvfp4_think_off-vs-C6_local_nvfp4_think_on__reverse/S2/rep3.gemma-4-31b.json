@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A is more accurate and adheres better to the provided glossary. Translation B contains a significant error in the 'Risk threshold breach' section, adding 'по Объекту обсуждения' (by the Subject) to a sentence where the source simply says the priority 'is not subject to a vote'. A also correctly uses the glossary term 'Объект обсуждения' throughout, whereas B simplifies it to 'объект' in several places. A also provides a better translation for 'runtime' ('среда выполнения') compared to B, which leaves it in English.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:00:25"
+  }
+}

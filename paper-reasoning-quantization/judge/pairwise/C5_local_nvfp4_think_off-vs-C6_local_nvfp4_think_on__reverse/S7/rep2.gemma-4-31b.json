@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation A is more precise and professional. Translation B contains a clumsy tautology in the final bullet point ('Обход никогда не обходит' - 'The bypass never bypasses'). A also correctly maintains the technical term 'audit' (аудит) in the override section, whereas B generalizes it to 'check' (проверка). Additionally, A's use of 'Переопределение' for 'Override' is more consistent with the technical field name `pre_check_override` than B's 'Обход'.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:05:46"
+  }
+}

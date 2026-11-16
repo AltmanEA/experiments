@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.65,
+  "reason": "A follows the glossary more consistently, uses clearer table headings and more natural Russian phrasing. B contains a typo, an odd translation of “Guard”, and less consistent terminology.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:01:58"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.75,
+  "reason": "Both translations are accurate, but B correctly uses the required glossary term \"Консенсус\" while A uses a generic \"согласие\". Terminology compliance outweighs minor phrasing differences.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:49:46"
+  }
+}

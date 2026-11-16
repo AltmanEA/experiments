@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.85,
+  "reason": "B preserves the exact code identifiers (`blocked-escalation`) in footnotes, matching the source, while A incorrectly translates them to `blocked-эскалация`. Terminology and overall meaning are otherwise comparable, but accuracy of technical terms is higher in B.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:52:45"
+  }
+}

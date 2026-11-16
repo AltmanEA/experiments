@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B is significantly better in terms of fluency and grammar. Translation A has severe grammatical errors in the final paragraph, where it inserts glossary terms (Роль, Консенсус, Эскалация) without declining them according to Russian grammar rules (e.g., 'наличие Роль Core' instead of 'наличие роли Core'). Translation B correctly integrates the terminology into the sentence structure.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:57:57"
+  }
+}

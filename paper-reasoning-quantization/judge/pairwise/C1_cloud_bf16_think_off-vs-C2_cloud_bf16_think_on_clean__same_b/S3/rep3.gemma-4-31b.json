@@ -1,0 +1,16 @@
+{
+  "winner": "tie",
+  "confidence": 1,
+  "reason": "Both translations are identical. Furthermore, both are completely unusable as they are not final translations but rather a messy log of a translation process, containing repeated lines, internal notes, and broken formatting.",
+  "_winner_slot": "tie",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean__same_b",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "same_b",
+    "ts": "2026-11-16T13:22:46"
+  }
+}

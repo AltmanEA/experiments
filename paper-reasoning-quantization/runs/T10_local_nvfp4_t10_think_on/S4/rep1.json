@@ -13,7 +13,7 @@
   ],
   "D4_num_total": 3,
   "D4_num_lost": {},
-  "D5_terms_found": 10,
+  "D5_terms_found": 11,
   "D5_terms_missing": [
     "Role",
     "Session",
@@ -21,11 +21,13 @@
     "Disagreement",
     "Severity",
     "Stance",
+    "ConsensusVerdict",
     "Resolution"
   ],
-  "D5_nc_terms_found": 2,
+  "D5_nc_terms_found": 3,
   "D5_nc_terms_missing": [
-    "Role"
+    "Role",
+    "ConsensusVerdict"
   ],
   "D6_echo": [],
   "D6_markers_lost": {},

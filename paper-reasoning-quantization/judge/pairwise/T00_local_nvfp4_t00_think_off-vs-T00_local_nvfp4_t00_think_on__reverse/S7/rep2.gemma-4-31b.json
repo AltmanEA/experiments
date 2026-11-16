@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation A is more fluent and technically accurate. Specifically, it translates 'operator surface' as 'интерфейс оператора' (operator interface), which is much more natural in Russian than the literal 'поверхность оператора' used in B. A also correctly translates 'gated transitions' as 'переходы с контролем' (transitions with control), whereas B uses 'переходы с блокировкой' (transitions with blocking), which is slightly inaccurate as the gate allows passage on a 'pass' verdict. A also adheres more strictly to the glossary for 'Resolution'.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:17:19"
+  }
+}

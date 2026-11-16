@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.92,
+  "reason": "B follows the glossary precisely (uses \"консенсуса\"/\"Консенсус\" and other required terms), maintains accurate meaning, and is equally fluent and well‑formatted. A deviates by using \"согласия\" instead of the mandated \"консенсус\".",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S1",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:49:43"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.73,
+  "reason": "A follows glossary terms (выводы for findings, статус роли, etc.) and keeps key terminology accurate, while B deviates (uses результаты for findings). Minor fluency issues in A are outweighed by its higher terminological fidelity.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:55:43"
+  }
+}

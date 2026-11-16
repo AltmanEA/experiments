@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.85,
+  "reason": "B preserves original field identifiers and enum values, which is essential for technical accuracy, while A over‑translates identifiers and changes enum literals, breaking the schema. Although A correctly translates glossary terms in ValidationResult, the overall correctness of identifiers outweighs that.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:13:41"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A contains critical errors: it translates parts of code identifiers (e.g., 'no-Консенсус', 'blocked-Эскалация', 'фаза_state'), which must remain in English. It also mistranslates 'outcome' as 'замечание' (concern) in the first sentence. Translation B is accurate, maintains code integrity, and is grammatically correct.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S3",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:53:37"
+  }
+}

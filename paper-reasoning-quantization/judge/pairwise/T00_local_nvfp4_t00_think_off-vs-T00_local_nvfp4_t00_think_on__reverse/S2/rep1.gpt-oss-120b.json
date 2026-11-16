@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.85,
+  "reason": "A accurately conveys the source meaning, especially in the risk‑threshold paragraph, and uses the required terminology correctly. B introduces a misleading phrase about voting and mis‑states the priority clause, despite a correct code reference. Both miss heading translations, but A’s overall fidelity and fluency outweigh its minor typo.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:11:45"
+  }
+}

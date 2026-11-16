@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.92,
+  "reason": "B provides a clean, fluent translation without leftover editorial notes, correctly uses required glossary terms, and maintains proper format. A contains numerous raw English fragments, notes, and duplicated content, reducing accuracy and readability.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean__reverse",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:06:07"
+  }
+}

@@ -3,8 +3,5 @@ mqm,thinking,"thinking ON vs OFF, NVFP4 T=0.0 (FreeBSD)",MQM,15,12,7.8,6.0,0.009
 mqm,thinking,"thinking ON vs OFF, NVFP4 T=0.2 (FreeBSD)",MQM,15,10,7.3,2.0,0.009344,0.018688,23.55,True,False
 mqm,temperature,"T=0.0 vs T=0.2, thinking OFF (FreeBSD)",MQM,15,11,-0.766667,22.5,0.350291,0.700582,26.3,False,False
 mqm,temperature,"T=0.0 vs T=0.2, thinking ON (FreeBSD)",MQM,15,12,-0.266667,37.5,0.906222,0.906222,15.55,False,False
-defect,defect/term_missing_nc,"thinking ON vs OFF, NVFP4 T=0.0 (FreeBSD)",D5nc term,15,3,-0.2,0.0,0.083265,0.249794,0.0,False,False
-defect,defect/term_missing_nc,"thinking ON vs OFF, NVFP4 T=0.2 (FreeBSD)",D5nc term,15,1,-0.066667,0.0,0.317311,0.317311,0.55,False,False
-defect,defect/term_missing_nc,"T=0.0 vs T=0.2, thinking ON (FreeBSD)",D5nc term,15,2,-0.133333,0.0,0.157299,0.314598,0.55,False,False
 defect,defect/contam_nc,"thinking ON vs OFF, NVFP4 T=0.2 (FreeBSD)",D7nc contr,15,1,0.066667,0.0,0.317311,0.634621,0.55,False,False
 defect,defect/contam_nc,"T=0.0 vs T=0.2, thinking ON (FreeBSD)",D7nc contr,15,1,-0.066667,0.0,0.317311,0.634621,0.55,False,False

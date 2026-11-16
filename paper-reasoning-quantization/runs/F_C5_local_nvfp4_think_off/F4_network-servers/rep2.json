@@ -8,28 +8,16 @@
   "D3_code_missing": [],
   "D4_num_total": 3,
   "D4_num_lost": {},
-  "D5_terms_found": 19,
+  "D5_terms_found": 1,
   "D5_terms_missing": [
-    "base system",
-    "file system",
-    "network",
-    "service"
+    "Resolution"
   ],
-  "D5_nc_terms_found": 19,
+  "D5_nc_terms_found": 1,
   "D5_nc_terms_missing": [
-    "base system",
-    "file system",
-    "network",
-    "service"
+    "Resolution"
   ],
   "D6_echo": [],
   "D6_markers_lost": {},
-  "D7_contaminants": [
-    "пакет",
-    "том"
-  ],
-  "D7_nc_contaminants": [
-    "пакет",
-    "том"
-  ]
+  "D7_contaminants": [],
+  "D7_nc_contaminants": []
 }

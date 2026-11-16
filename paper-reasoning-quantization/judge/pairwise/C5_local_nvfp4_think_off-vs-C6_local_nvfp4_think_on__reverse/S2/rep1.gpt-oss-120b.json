@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.73,
+  "reason": "A follows glossary, uses correct Russian terms, and keeps the intended meaning. It only errs on the subject‑list wording, while B introduces extra inaccurate phrasing, mistranslates ‘Deferred fallback’, leaves English Runtime, and adds irrelevant markup.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:59:12"
+  }
+}

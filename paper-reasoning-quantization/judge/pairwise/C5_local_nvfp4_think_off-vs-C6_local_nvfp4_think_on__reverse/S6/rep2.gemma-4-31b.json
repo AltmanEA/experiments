@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 0.9,
+  "reason": "Translation B is significantly more fluent and grammatically correct. Translation A contains a major grammatical error in the first paragraph ('Решения по Фаза и Консенсус' instead of 'по фазам и консенсусу') and unnecessarily capitalizes terms mid-sentence. While both translations incorrectly translated 'safe value' as 'безопасного замечания' (remark) instead of 'безопасного значения' (value), B is far superior in overall quality and technical phrasing.",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:04:00"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.85,
+  "reason": "Translation A is more consistent with terminology, specifically using 'вердикт' throughout, whereas B alternates between 'вердикт' and 'решение'. A also provides a more accurate translation of 'Gated transitions' ('Переходы с контролем' vs B's 'Переходы с блокировкой'). Most importantly, B contains a glaring stylistic tautology in the final bullet point: 'Обход никогда не обходит' (Bypass never bypasses), which makes it feel less professional than A.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:05:38"
+  }
+}

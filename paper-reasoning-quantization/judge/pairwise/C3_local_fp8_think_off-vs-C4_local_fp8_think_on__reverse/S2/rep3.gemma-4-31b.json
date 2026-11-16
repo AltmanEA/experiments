@@ -1,0 +1,16 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B is significantly better. Translation A contains a critical grammatical error in the 'Irresolvable conflict' section ('и просит принять' instead of 'и его просят принять'), which reverses the meaning (making the operator the one asking for a decision rather than the one being asked). Additionally, A incorrectly translates part of a technical identifier ('ЭскалацияRecord'), whereas B correctly leaves it as 'EscalationRecord'. B also has more natural phrasing for technical terms like 'attack scenario' ('сценарий атаки' vs 'атакующий сценарий').",
+  "_winner_slot": "B",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on__reverse",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:52:49"
+  }
+}

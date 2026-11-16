@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.86,
+  "reason": "A preserves the original meaning and terminology accurately; B introduces an incorrect phrase about voting on the subject and adds a minor semantic error, while A’s only flaw is a small mixed-language typo (ЭскалацияRecord) which is less serious than B’s content mistake.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:12:44"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.8,
+  "reason": "A provides more accurate technical terminology. Specifically, 'Переходы с контролем' is a better translation for 'Gated transitions' than B's 'Переходы с блокировкой' (which implies they are always blocked). A also correctly translates 'Override mode' as 'режим переопределения' and 'Proceed with transition' as 'Разрешить переход'. A correctly preserves the technical values (pass/fail/reason) in the text, whereas B translates 'reason' to 'причина', which is likely a field value. Although A has a minor gender agreement error in the first paragraph ('Контрольная точка... Он'), its overall terminology and precision are superior.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:17:58"
+  }
+}

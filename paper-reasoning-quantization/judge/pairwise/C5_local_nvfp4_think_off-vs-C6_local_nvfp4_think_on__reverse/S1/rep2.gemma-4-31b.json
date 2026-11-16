@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation A uses the correct technical term 'Фреймворк' for 'Framework', whereas Translation B uses 'Рамка', which is a literal translation and sounds unnatural/incorrect in a software context. Translation A also handles 'start minimal' ('начинаем с минимума') more accurately than B ('начинаем с минимализма'), as the latter refers to the art style/philosophy rather than the scale of implementation.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on__reverse",
+    "fixture": "S1",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T12:58:49"
+  }
+}

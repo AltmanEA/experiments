@@ -1,7 +1,7 @@
 level,family,contrast,metric,n,nonzero,delta,W,p_raw,p_holm,thr_p95,sig_test,sig_vs_noise
 mqm,placement-quantization,"bf16 vs FP8, cloud thinking OFF (quantization)",MQM,21,16,2.571429,59.0,0.641326,1.0,27.325,False,False
 mqm,placement-quantization,"local vs cloud FP8, thinking OFF (placement)",MQM,21,18,-0.52381,84.5,0.96525,1.0,23.775,False,False
-defect,defect/code_missing,"bf16 vs FP8, cloud thinking OFF (quantization)",D3 code,21,3,-0.190476,1.0,0.285049,0.285049,1.0,False,False
+defect,defect/code_missing,"bf16 vs FP8, cloud thinking OFF (quantization)",D3 code,21,3,-0.190476,1.0,0.285049,0.285049,2.0,False,False
 defect,defect/code_missing,"local vs cloud FP8, thinking OFF (placement)",D3 code,21,5,0.238095,2.0,0.128978,0.257956,2.0,False,False
 defect,defect/term_missing_nc,"bf16 vs FP8, cloud thinking OFF (quantization)",D5nc term,21,3,-0.047619,2.0,0.563703,1.0,1.0,False,False
 defect,defect/term_missing_nc,"local vs cloud FP8, thinking OFF (placement)",D5nc term,21,3,0.047619,2.0,0.563703,1.0,1.0,False,False

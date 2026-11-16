@@ -1,0 +1,16 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "A is significantly more accurate. B contains a meaning-altering grammatical error in the 'Irresolvable conflict' section (stating the operator asks for a decision, whereas the source says the operator is asked to make one) and hallucinates an addition ('по Объекту обсуждения') in the 'Risk threshold breach' section. While A incorrectly partially translates the code identifier 'EscalationRecord' as 'ЭскалацияRecord', this is a minor technical slip compared to B's logic and accuracy errors.",
+  "_winner_slot": "A",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on__reverse",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "reverse",
+    "ts": "2026-11-16T13:12:59"
+  }
+}

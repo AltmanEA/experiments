@@ -1,0 +1,16 @@
+{
+  "winner": "tie",
+  "confidence": 1,
+  "reason": "Both translations are identical and both contain significant errors in the form of internal translator notes/thought processes left in the final output.",
+  "_winner_slot": "tie",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean__same_b",
+    "fixture": "S1",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "order": "same_b",
+    "ts": "2026-11-16T13:22:54"
+  }
+}
