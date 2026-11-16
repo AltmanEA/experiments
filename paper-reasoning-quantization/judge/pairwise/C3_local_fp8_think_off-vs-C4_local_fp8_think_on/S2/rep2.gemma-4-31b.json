@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation B is superior due to better adherence to the glossary (specifically 'Subject' -> 'Объект обсуждения') and a critical grammatical correction. In the 'Irresolvable conflict' section, Translation A says 'Оператор получает резюме... и просит принять окончательное решение', which incorrectly implies the operator is the one asking for a decision. Translation B correctly renders this as 'и должен принять окончательное решение'. Additionally, B translates 'Runtime' as 'Среда выполнения', which is more appropriate for technical documentation than leaving it in English.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:36:06"
+  }
+}

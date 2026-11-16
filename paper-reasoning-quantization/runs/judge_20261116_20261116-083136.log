@@ -1,0 +1,424 @@
+[judge 2026-11-16T08:31:36] START judging batch (night window: auto)
+[judge 2026-11-16T08:31:36] === P-005 absolute (120) (25 args) ===
+[08:31:36] START mode=absolute tasks=60 requests=120 judges=gpt-oss-120b,gemma-4-31b workers=8 rpm=40
+[08:32:00] OK   F_C5_local_nvfp4_think_off F1_config rep1 gpt-oss-120b score=100
+[08:32:00] OK   F_C5_local_nvfp4_think_off F2_security rep3 gpt-oss-120b score=86
+[08:32:07] OK   F_C5_local_nvfp4_think_off F2_security rep1 gpt-oss-120b score=92
+[08:32:12] OK   F_C5_local_nvfp4_think_off F3_disks rep1 gpt-oss-120b score=92
+[08:32:23] OK   F_C5_local_nvfp4_think_off F1_config rep2 gemma-4-31b score=100
+[08:32:24] OK   F_C5_local_nvfp4_think_off F2_security rep2 gpt-oss-120b score=82
+[08:32:27] OK   F_C5_local_nvfp4_think_off F1_config rep3 gemma-4-31b score=100
+[08:32:47] OK   F_C5_local_nvfp4_think_off F3_disks rep2 gpt-oss-120b score=30
+[08:33:08] OK   F_C5_local_nvfp4_think_off F3_disks rep3 gpt-oss-120b score=90
+[08:33:09] OK   F_C5_local_nvfp4_think_off F4_network-servers rep1 gpt-oss-120b score=90
+[08:33:14] OK   F_C5_local_nvfp4_think_off F1_config rep1 gemma-4-31b score=100
+[08:33:50] OK   F_C5_local_nvfp4_think_off F2_security rep1 gemma-4-31b score=76
+[08:34:05] OK   F_C5_local_nvfp4_think_off F3_disks rep1 gemma-4-31b score=74
+[08:34:10] OK   F_C5_local_nvfp4_think_off F4_network-servers rep2 gpt-oss-120b score=90
+[08:34:24] OK   F_C5_local_nvfp4_think_off F2_security rep3 gemma-4-31b score=61
+[08:34:50] OK   F_C5_local_nvfp4_think_off F2_security rep2 gemma-4-31b score=61
+[08:34:58] OK   F_C5_local_nvfp4_think_off F3_disks rep3 gemma-4-31b score=52
+[08:35:02] OK   F_C5_local_nvfp4_think_off F4_network-servers rep3 gpt-oss-120b score=88
+[08:35:10] OK   F_C5_local_nvfp4_think_off F3_disks rep2 gemma-4-31b score=66
+[08:35:15] OK   F_C5_local_nvfp4_think_off F4_network-servers rep1 gemma-4-31b score=86
+[08:35:20] OK   F_C5_local_nvfp4_think_off F5_firewalls rep3 gpt-oss-120b score=88
+[08:35:29] OK   F_C5_local_nvfp4_think_off F5_firewalls rep2 gpt-oss-120b score=88
+[08:35:34] OK   F_C6_local_nvfp4_think_on F1_config rep3 gpt-oss-120b score=100
+[08:35:40] OK   F_C6_local_nvfp4_think_on F1_config rep2 gpt-oss-120b score=100
+[08:35:47] OK   F_C5_local_nvfp4_think_off F5_firewalls rep1 gpt-oss-120b score=96
+[08:36:07] OK   F_C6_local_nvfp4_think_on F1_config rep1 gpt-oss-120b score=100
+[08:36:15] OK   F_C6_local_nvfp4_think_on F1_config rep3 gemma-4-31b score=100
+[08:36:19] OK   F_C6_local_nvfp4_think_on F1_config rep2 gemma-4-31b score=100
+[08:36:38] OK   F_C5_local_nvfp4_think_off F5_firewalls rep2 gemma-4-31b score=88
+[08:36:42] OK   F_C5_local_nvfp4_think_off F5_firewalls rep3 gemma-4-31b score=88
+[08:36:50] OK   F_C5_local_nvfp4_think_off F5_firewalls rep1 gemma-4-31b score=88
+[08:36:52] OK   F_C6_local_nvfp4_think_on F1_config rep1 gemma-4-31b score=100
+[08:36:59] OK   F_C5_local_nvfp4_think_off F4_network-servers rep3 gemma-4-31b score=88
+[08:37:13] OK   F_C6_local_nvfp4_think_on F2_security rep1 gpt-oss-120b score=80
+[08:37:22] OK   F_C6_local_nvfp4_think_on F2_security rep3 gpt-oss-120b score=96
+[08:37:23] OK   F_C6_local_nvfp4_think_on F3_disks rep1 gpt-oss-120b score=96
+[08:37:36] OK   F_C6_local_nvfp4_think_on F2_security rep2 gpt-oss-120b score=88
+[08:37:51] OK   F_C6_local_nvfp4_think_on F3_disks rep3 gpt-oss-120b score=88
+[08:37:53] OK   F_C6_local_nvfp4_think_on F3_disks rep2 gpt-oss-120b score=94
+[08:37:58] OK   F_C6_local_nvfp4_think_on F2_security rep1 gemma-4-31b score=88
+[08:38:03] OK   F_C5_local_nvfp4_think_off F4_network-servers rep2 gemma-4-31b score=49
+[08:38:15] OK   F_C6_local_nvfp4_think_on F2_security rep3 gemma-4-31b score=80
+[08:38:23] OK   F_C6_local_nvfp4_think_on F4_network-servers rep1 gpt-oss-120b score=90
+[08:38:36] OK   F_C6_local_nvfp4_think_on F4_network-servers rep3 gpt-oss-120b score=96
+[08:38:47] OK   F_C6_local_nvfp4_think_on F5_firewalls rep1 gpt-oss-120b score=100
+[08:39:15] OK   F_C6_local_nvfp4_think_on F4_network-servers rep2 gpt-oss-120b score=80
+[08:39:24] OK   F_C6_local_nvfp4_think_on F2_security rep2 gemma-4-31b score=78
+[08:39:45] OK   F_C6_local_nvfp4_think_on F3_disks rep1 gemma-4-31b score=82
+[08:40:12] OK   F_C6_local_nvfp4_think_on F5_firewalls rep2 gpt-oss-120b score=88
+[08:40:19] OK   F_C6_local_nvfp4_think_on F5_firewalls rep3 gpt-oss-120b score=100
+[08:40:33] OK   F_C6_local_nvfp4_think_on F4_network-servers rep3 gemma-4-31b score=96
+[08:40:45] OK   F_C6_local_nvfp4_think_on F3_disks rep2 gemma-4-31b score=88
+[08:41:18] OK   F_T00_local_nvfp4_t00_think_off F1_config rep1 gpt-oss-120b score=100
+[08:41:26] OK   F_T00_local_nvfp4_t00_think_off F1_config rep2 gpt-oss-120b score=100
+[08:41:51] OK   F_C6_local_nvfp4_think_on F5_firewalls rep1 gemma-4-31b score=86
+[08:42:18] OK   F_T00_local_nvfp4_t00_think_off F1_config rep3 gpt-oss-120b score=100
+[08:42:21] OK   F_C6_local_nvfp4_think_on F3_disks rep3 gemma-4-31b score=84
+[08:42:27] OK   F_T00_local_nvfp4_t00_think_off F1_config rep1 gemma-4-31b score=100
+[08:42:32] OK   F_T00_local_nvfp4_t00_think_off F1_config rep2 gemma-4-31b score=100
+[08:42:33] OK   F_C6_local_nvfp4_think_on F4_network-servers rep1 gemma-4-31b score=82
+[08:42:47] OK   F_T00_local_nvfp4_t00_think_off F2_security rep1 gpt-oss-120b score=86
+[08:42:53] OK   F_T00_local_nvfp4_t00_think_off F2_security rep2 gpt-oss-120b score=76
+[08:42:56] OK   F_T00_local_nvfp4_t00_think_off F1_config rep3 gemma-4-31b score=100
+[08:42:57] OK   F_C6_local_nvfp4_think_on F5_firewalls rep3 gemma-4-31b score=96
+[08:42:57] OK   F_T00_local_nvfp4_t00_think_off F2_security rep3 gpt-oss-120b score=78
+[08:43:02] OK   F_T00_local_nvfp4_t00_think_off F3_disks rep1 gpt-oss-120b score=92
+[08:43:08] OK   F_C6_local_nvfp4_think_on F5_firewalls rep2 gemma-4-31b score=88
+[08:43:32] OK   F_T00_local_nvfp4_t00_think_off F3_disks rep3 gpt-oss-120b score=50
+[08:43:40] OK   F_T00_local_nvfp4_t00_think_off F4_network-servers rep1 gpt-oss-120b score=80
+[08:43:44] OK   F_T00_local_nvfp4_t00_think_off F3_disks rep2 gpt-oss-120b score=96
+[08:43:49] OK   F_C6_local_nvfp4_think_on F4_network-servers rep2 gemma-4-31b score=64
+[08:44:25] OK   F_T00_local_nvfp4_t00_think_off F4_network-servers rep2 gpt-oss-120b score=80
+[08:44:29] OK   F_T00_local_nvfp4_t00_think_off F2_security rep1 gemma-4-31b score=61
+[08:44:42] OK   F_T00_local_nvfp4_t00_think_off F2_security rep2 gemma-4-31b score=59
+[08:44:45] OK   F_T00_local_nvfp4_t00_think_off F2_security rep3 gemma-4-31b score=76
+[08:44:56] OK   F_T00_local_nvfp4_t00_think_off F3_disks rep2 gemma-4-31b score=78
+[08:45:10] OK   F_T00_local_nvfp4_t00_think_off F5_firewalls rep2 gpt-oss-120b score=98
+[08:45:12] OK   F_T00_local_nvfp4_t00_think_off F4_network-servers rep3 gpt-oss-120b score=80
+[08:45:15] OK   F_T00_local_nvfp4_t00_think_off F5_firewalls rep3 gpt-oss-120b score=96
+[08:45:19] OK   F_T00_local_nvfp4_t00_think_off F5_firewalls rep1 gpt-oss-120b score=78
+[08:45:24] OK   F_T00_local_nvfp4_t00_think_off F4_network-servers rep1 gemma-4-31b score=86
+[08:45:34] OK   F_T00_local_nvfp4_t00_think_off F3_disks rep1 gemma-4-31b score=58
+[08:45:56] OK   F_T00_local_nvfp4_t00_think_off F4_network-servers rep2 gemma-4-31b score=78
+[08:45:59] OK   F_T00_local_nvfp4_t00_think_on F1_config rep1 gpt-oss-120b score=100
+[08:46:08] OK   F_T00_local_nvfp4_t00_think_off F5_firewalls rep2 gemma-4-31b score=88
+[08:46:08] OK   F_T00_local_nvfp4_t00_think_off F5_firewalls rep1 gemma-4-31b score=88
+[08:46:10] OK   F_T00_local_nvfp4_t00_think_on F1_config rep2 gpt-oss-120b score=100
+[08:46:12] OK   F_T00_local_nvfp4_t00_think_off F3_disks rep3 gemma-4-31b score=66
+[08:46:26] OK   F_T00_local_nvfp4_t00_think_on F1_config rep3 gpt-oss-120b score=100
+[08:46:33] OK   F_T00_local_nvfp4_t00_think_on F1_config rep1 gemma-4-31b score=100
+[08:46:34] OK   F_T00_local_nvfp4_t00_think_on F2_security rep2 gpt-oss-120b score=90
+[08:46:46] OK   F_T00_local_nvfp4_t00_think_on F1_config rep2 gemma-4-31b score=100
+[08:47:00] OK   F_T00_local_nvfp4_t00_think_off F5_firewalls rep3 gemma-4-31b score=80
+[08:47:04] OK   F_T00_local_nvfp4_t00_think_on F1_config rep3 gemma-4-31b score=100
+[08:47:07] OK   F_T00_local_nvfp4_t00_think_off F4_network-servers rep3 gemma-4-31b score=58
+[08:47:21] OK   F_T00_local_nvfp4_t00_think_on F2_security rep2 gemma-4-31b score=88
+[08:47:24] OK   F_T00_local_nvfp4_t00_think_on F3_disks rep1 gpt-oss-120b score=90
+[08:47:28] OK   F_T00_local_nvfp4_t00_think_on F2_security rep1 gpt-oss-120b score=98
+[08:47:30] OK   F_T00_local_nvfp4_t00_think_on F3_disks rep2 gpt-oss-120b score=88
+[08:47:40] OK   F_T00_local_nvfp4_t00_think_on F3_disks rep3 gpt-oss-120b score=86
+[08:47:41] OK   F_T00_local_nvfp4_t00_think_on F2_security rep3 gpt-oss-120b score=80
+[08:47:48] OK   F_T00_local_nvfp4_t00_think_on F4_network-servers rep2 gpt-oss-120b score=94
+[08:47:55] OK   F_T00_local_nvfp4_t00_think_on F4_network-servers rep1 gpt-oss-120b score=94
+[08:48:09] OK   F_T00_local_nvfp4_t00_think_on F4_network-servers rep3 gpt-oss-120b score=94
+[08:48:23] OK   F_T00_local_nvfp4_t00_think_on F2_security rep1 gemma-4-31b score=88
+[08:48:26] OK   F_T00_local_nvfp4_t00_think_on F2_security rep3 gemma-4-31b score=80
+[08:48:43] OK   F_T00_local_nvfp4_t00_think_on F5_firewalls rep1 gpt-oss-120b score=100
+[08:49:07] OK   F_T00_local_nvfp4_t00_think_on F5_firewalls rep2 gpt-oss-120b score=98
+[08:49:36] OK   F_T00_local_nvfp4_t00_think_on F4_network-servers rep2 gemma-4-31b score=82
+[08:49:40] OK   F_T00_local_nvfp4_t00_think_on F3_disks rep3 gemma-4-31b score=64
+[08:49:45] OK   F_T00_local_nvfp4_t00_think_on F3_disks rep1 gemma-4-31b score=92
+[08:50:11] OK   F_T00_local_nvfp4_t00_think_on F3_disks rep2 gemma-4-31b score=64
+[08:50:15] OK   F_T00_local_nvfp4_t00_think_on F5_firewalls rep3 gpt-oss-120b score=100
+[08:50:24] OK   F_T00_local_nvfp4_t00_think_on F5_firewalls rep1 gemma-4-31b score=98
+[08:50:30] OK   F_T00_local_nvfp4_t00_think_on F5_firewalls rep2 gemma-4-31b score=96
+[08:50:38] OK   F_T00_local_nvfp4_t00_think_on F4_network-servers rep3 gemma-4-31b score=72
+[08:50:58] OK   F_T00_local_nvfp4_t00_think_on F5_firewalls rep3 gemma-4-31b score=90
+[08:52:26] OK   F_T00_local_nvfp4_t00_think_on F4_network-servers rep1 gemma-4-31b score=74
+[08:52:26] END ok=118 skipped=2 failed=0
+[judge 2026-11-16T08:52:26] === P-005 absolute (120) done (exit=0) ===
+[judge 2026-11-16T08:52:26] === P-006 absolute (168) (13 args) ===
+[08:52:26] START mode=absolute tasks=84 requests=168 judges=gpt-oss-120b,gemma-4-31b workers=8 rpm=20
+[08:53:09] OK   FP8_T00_local_fp8_t00_think_off S1 rep2 gpt-oss-120b score=100
+[08:53:12] OK   FP8_T00_local_fp8_t00_think_off S3 rep1 gpt-oss-120b score=100
+[08:53:15] OK   FP8_T00_local_fp8_t00_think_off S3 rep2 gpt-oss-120b score=100
+[08:53:15] OK   FP8_T00_local_fp8_t00_think_off S1 rep3 gpt-oss-120b score=100
+[08:53:21] OK   FP8_T00_local_fp8_t00_think_off S1 rep1 gpt-oss-120b score=100
+[08:53:22] OK   FP8_T00_local_fp8_t00_think_off S2 rep2 gpt-oss-120b score=98
+[08:53:34] OK   FP8_T00_local_fp8_t00_think_off S2 rep3 gpt-oss-120b score=98
+[08:53:50] OK   FP8_T00_local_fp8_t00_think_off S1 rep2 gemma-4-31b score=100
+[08:53:59] OK   FP8_T00_local_fp8_t00_think_off S1 rep3 gemma-4-31b score=100
+[08:54:04] OK   FP8_T00_local_fp8_t00_think_off S1 rep1 gemma-4-31b score=100
+[08:54:25] OK   FP8_T00_local_fp8_t00_think_off S2 rep1 gpt-oss-120b score=82
+[08:54:28] OK   FP8_T00_local_fp8_t00_think_off S3 rep3 gpt-oss-120b score=100
+[08:54:33] OK   FP8_T00_local_fp8_t00_think_off S3 rep1 gemma-4-31b score=100
+[08:54:35] OK   FP8_T00_local_fp8_t00_think_off S3 rep2 gemma-4-31b score=100
+[08:55:01] OK   FP8_T00_local_fp8_t00_think_off S2 rep2 gemma-4-31b score=40
+[08:55:08] OK   FP8_T00_local_fp8_t00_think_off S4 rep1 gpt-oss-120b score=80
+[08:55:12] OK   FP8_T00_local_fp8_t00_think_off S4 rep2 gpt-oss-120b score=80
+[08:55:23] OK   FP8_T00_local_fp8_t00_think_off S3 rep3 gemma-4-31b score=100
+[08:55:35] OK   FP8_T00_local_fp8_t00_think_off S4 rep3 gpt-oss-120b score=80
+[08:55:50] OK   FP8_T00_local_fp8_t00_think_off S2 rep3 gemma-4-31b score=78
+[08:56:57] OK   FP8_T00_local_fp8_t00_think_off S2 rep1 gemma-4-31b score=88
+[08:57:11] OK   FP8_T00_local_fp8_t00_think_off S6 rep1 gpt-oss-120b score=90
+[08:57:16] OK   FP8_T00_local_fp8_t00_think_off S5 rep1 gpt-oss-120b score=0
+[08:57:20] OK   FP8_T00_local_fp8_t00_think_off S4 rep1 gemma-4-31b score=55
+[08:57:24] OK   FP8_T00_local_fp8_t00_think_off S4 rep3 gemma-4-31b score=65
+[08:57:43] OK   FP8_T00_local_fp8_t00_think_off S5 rep3 gpt-oss-120b score=0
+[08:57:47] OK   FP8_T00_local_fp8_t00_think_off S4 rep2 gemma-4-31b score=53
+[08:58:01] OK   FP8_T00_local_fp8_t00_think_off S6 rep2 gpt-oss-120b score=88
+[08:58:27] OK   FP8_T00_local_fp8_t00_think_off S7 rep1 gpt-oss-120b score=100
+[08:58:37] OK   FP8_T00_local_fp8_t00_think_off S6 rep3 gpt-oss-120b score=98
+[08:58:57] OK   FP8_T00_local_fp8_t00_think_off S7 rep2 gpt-oss-120b score=100
+[08:59:53] OK   FP8_T00_local_fp8_t00_think_off S6 rep1 gemma-4-31b score=70
+[09:00:19] OK   FP8_T00_local_fp8_t00_think_off S7 rep2 gemma-4-31b score=100
+[09:00:26] OK   FP8_T00_local_fp8_t00_think_off S7 rep1 gemma-4-31b score=90
+[09:00:42] OK   FP8_T00_local_fp8_t00_think_off S6 rep2 gemma-4-31b score=53
+[09:00:48] OK   FP8_T00_local_fp8_t00_think_off S7 rep3 gpt-oss-120b score=100
+[09:00:53] OK   FP8_T00_local_fp8_t00_think_on S1 rep2 gpt-oss-120b score=100
+[09:00:57] OK   FP8_T00_local_fp8_t00_think_on S1 rep1 gpt-oss-120b score=100
+[09:00:58] OK   FP8_T00_local_fp8_t00_think_off S5 rep3 gemma-4-31b score=71
+[09:01:00] OK   FP8_T00_local_fp8_t00_think_on S1 rep3 gpt-oss-120b score=100
+[09:01:18] OK   FP8_T00_local_fp8_t00_think_off S5 rep1 gemma-4-31b score=45
+[09:01:40] OK   FP8_T00_local_fp8_t00_think_on S2 rep1 gpt-oss-120b score=98
+[09:01:49] OK   FP8_T00_local_fp8_t00_think_off S5 rep2 gpt-oss-120b score=0
+[09:02:15] OK   FP8_T00_local_fp8_t00_think_on S2 rep2 gpt-oss-120b score=65
+[09:02:36] OK   FP8_T00_local_fp8_t00_think_off S6 rep3 gemma-4-31b score=53
+[09:03:29] OK   FP8_T00_local_fp8_t00_think_on S2 rep3 gpt-oss-120b score=65
+[09:03:35] OK   FP8_T00_local_fp8_t00_think_on S1 rep2 gemma-4-31b score=100
+[09:03:40] OK   FP8_T00_local_fp8_t00_think_on S1 rep1 gemma-4-31b score=100
+[09:03:47] OK   FP8_T00_local_fp8_t00_think_on S1 rep3 gemma-4-31b score=100
+[09:04:05] OK   FP8_T00_local_fp8_t00_think_on S2 rep2 gemma-4-31b score=65
+[09:04:24] OK   FP8_T00_local_fp8_t00_think_on S3 rep1 gpt-oss-120b score=25
+[09:04:32] OK   FP8_T00_local_fp8_t00_think_on S3 rep2 gpt-oss-120b score=25
+[09:04:36] OK   FP8_T00_local_fp8_t00_think_on S3 rep3 gpt-oss-120b score=25
+[09:04:59] OK   FP8_T00_local_fp8_t00_think_on S2 rep1 gemma-4-31b score=58
+[09:05:18] OK   FP8_T00_local_fp8_t00_think_on S4 rep1 gpt-oss-120b score=0
+[09:05:34] OK   FP8_T00_local_fp8_t00_think_on S3 rep1 gemma-4-31b score=25
+[09:05:35] OK   FP8_T00_local_fp8_t00_think_on S2 rep3 gemma-4-31b score=25
+[09:05:45] OK   FP8_T00_local_fp8_t00_think_on S4 rep2 gpt-oss-120b score=0
+[09:06:28] OK   FP8_T00_local_fp8_t00_think_off S7 rep3 gemma-4-31b score=92
+[09:06:34] OK   FP8_T00_local_fp8_t00_think_on S4 rep3 gpt-oss-120b score=0
+[09:07:02] OK   FP8_T00_local_fp8_t00_think_on S3 rep3 gemma-4-31b score=0
+[09:07:08] OK   FP8_T00_local_fp8_t00_think_on S5 rep1 gpt-oss-120b score=0
+[09:07:19] OK   FP8_T00_local_fp8_t00_think_on S3 rep2 gemma-4-31b score=0
+[09:07:58] OK   FP8_T00_local_fp8_t00_think_on S6 rep1 gpt-oss-120b score=75
+[09:07:58] OK   FP8_T00_local_fp8_t00_think_on S5 rep2 gpt-oss-120b score=0
+[09:08:04] OK   FP8_T00_local_fp8_t00_think_on S5 rep3 gpt-oss-120b score=0
+[09:09:50] OK   FP8_T00_local_fp8_t00_think_on S4 rep3 gemma-4-31b score=0
+[09:10:24] OK   FP8_T00_local_fp8_t00_think_on S6 rep2 gpt-oss-120b score=65
+[09:10:34] OK   FP8_T00_local_fp8_t00_think_on S4 rep1 gemma-4-31b score=0
+[09:11:01] OK   FP8_T00_local_fp8_t00_think_on S6 rep1 gemma-4-31b score=45
+[09:11:12] OK   FP8_T00_local_fp8_t00_think_on S6 rep3 gpt-oss-120b score=73
+[09:11:30] OK   FP8_T00_local_fp8_t00_think_on S7 rep1 gpt-oss-120b score=100
+[09:11:45] OK   FP8_T00_local_fp8_t00_think_off S5 rep2 gemma-4-31b score=65
+[09:12:15] OK   FP8_T00_local_fp8_t00_think_on S7 rep2 gpt-oss-120b score=100
+[09:12:23] OK   FP8_T00_local_fp8_t00_think_on S4 rep2 gemma-4-31b score=0
+[09:12:43] OK   FP8_T00_local_fp8_t00_think_on S6 rep2 gemma-4-31b score=53
+[09:12:47] OK   FP8_T00_local_fp8_t00_think_on S5 rep1 gemma-4-31b score=0
+[09:12:55] OK   FP8_T00_local_fp8_t00_think_on S7 rep3 gpt-oss-120b score=98
+[09:12:56] OK   FP8_T08_local_fp8_t08_think_off S1 rep2 gpt-oss-120b score=100
+[09:13:00] OK   FP8_T08_local_fp8_t08_think_off S1 rep1 gpt-oss-120b score=96
+[09:13:04] OK   FP8_T00_local_fp8_t00_think_on S6 rep3 gemma-4-31b score=43
+[09:13:05] OK   FP8_T00_local_fp8_t00_think_on S5 rep3 gemma-4-31b score=0
+[09:13:14] OK   FP8_T08_local_fp8_t08_think_off S1 rep3 gpt-oss-120b score=100
+[09:13:35] OK   FP8_T08_local_fp8_t08_think_off S2 rep1 gpt-oss-120b score=100
+[09:13:50] OK   FP8_T00_local_fp8_t00_think_on S5 rep2 gemma-4-31b score=0
+[09:14:06] OK   FP8_T08_local_fp8_t08_think_off S1 rep2 gemma-4-31b score=100
+[09:14:06] OK   FP8_T08_local_fp8_t08_think_off S2 rep2 gpt-oss-120b score=90
+[09:14:10] OK   FP8_T08_local_fp8_t08_think_off S1 rep3 gemma-4-31b score=100
+[09:14:19] OK   FP8_T08_local_fp8_t08_think_off S1 rep1 gemma-4-31b score=90
+[09:14:26] OK   FP8_T08_local_fp8_t08_think_off S3 rep1 gpt-oss-120b score=100
+[09:15:09] OK   FP8_T08_local_fp8_t08_think_off S3 rep2 gpt-oss-120b score=100
+[09:15:10] OK   FP8_T08_local_fp8_t08_think_off S2 rep3 gpt-oss-120b score=60
+[09:15:23] OK   FP8_T00_local_fp8_t00_think_on S7 rep1 gemma-4-31b score=94
+[09:15:34] OK   FP8_T08_local_fp8_t08_think_off S3 rep1 gemma-4-31b score=98
+[09:15:43] OK   FP8_T08_local_fp8_t08_think_off S3 rep3 gpt-oss-120b score=100
+[09:16:09] OK   FP8_T00_local_fp8_t00_think_on S7 rep3 gemma-4-31b score=92
+[09:16:15] OK   FP8_T08_local_fp8_t08_think_off S4 rep1 gpt-oss-120b score=75
+[09:16:35] OK   FP8_T08_local_fp8_t08_think_off S4 rep2 gpt-oss-120b score=96
+[09:16:54] OK   FP8_T08_local_fp8_t08_think_off S3 rep3 gemma-4-31b score=100
+[09:16:55] OK   FP8_T00_local_fp8_t00_think_on S7 rep2 gemma-4-31b score=66
+[09:17:28] OK   FP8_T08_local_fp8_t08_think_off S4 rep3 gpt-oss-120b score=46
+[09:17:45] OK   FP8_T08_local_fp8_t08_think_off S5 rep1 gpt-oss-120b score=100
+[09:17:53] OK   FP8_T08_local_fp8_t08_think_off S2 rep2 gemma-4-31b score=68
+[09:18:18] OK   FP8_T08_local_fp8_t08_think_off S2 rep1 gemma-4-31b score=70
+[09:18:39] OK   FP8_T08_local_fp8_t08_think_off S2 rep3 gemma-4-31b score=58
+[09:18:46] OK   FP8_T08_local_fp8_t08_think_off S5 rep2 gpt-oss-120b score=80
+[09:19:18] OK   FP8_T08_local_fp8_t08_think_off S3 rep2 gemma-4-31b score=73
+[09:19:21] OK   FP8_T08_local_fp8_t08_think_off S6 rep1 gpt-oss-120b score=40
+[09:19:39] OK   FP8_T08_local_fp8_t08_think_off S4 rep1 gemma-4-31b score=35
+[09:19:41] OK   FP8_T08_local_fp8_t08_think_off S4 rep2 gemma-4-31b score=80
+[09:20:04] OK   FP8_T08_local_fp8_t08_think_off S6 rep2 gpt-oss-120b score=96
+[09:20:12] OK   FP8_T08_local_fp8_t08_think_off S6 rep3 gpt-oss-120b score=100
+[09:20:16] OK   FP8_T08_local_fp8_t08_think_off S7 rep1 gpt-oss-120b score=78
+[09:20:29] OK   FP8_T08_local_fp8_t08_think_off S4 rep3 gemma-4-31b score=40
+[09:20:46] OK   FP8_T08_local_fp8_t08_think_off S7 rep2 gpt-oss-120b score=98
+[09:21:50] OK   FP8_T08_local_fp8_t08_think_off S6 rep1 gemma-4-31b score=68
+[09:22:04] OK   FP8_T08_local_fp8_t08_think_off S7 rep2 gemma-4-31b score=98
+[09:22:14] OK   FP8_T08_local_fp8_t08_think_on S1 rep1 gpt-oss-120b score=100
+[09:22:19] OK   FP8_T08_local_fp8_t08_think_off S7 rep3 gpt-oss-120b score=94
+[09:22:22] OK   FP8_T08_local_fp8_t08_think_off S7 rep1 gemma-4-31b score=84
+[09:22:35] OK   FP8_T08_local_fp8_t08_think_on S1 rep2 gpt-oss-120b score=100
+[09:22:50] OK   FP8_T08_local_fp8_t08_think_off S6 rep2 gemma-4-31b score=70
+[09:23:06] OK   FP8_T08_local_fp8_t08_think_on S1 rep3 gpt-oss-120b score=80
+[09:23:16] OK   FP8_T08_local_fp8_t08_think_on S1 rep1 gemma-4-31b score=100
+[09:23:28] OK   FP8_T08_local_fp8_t08_think_off S6 rep3 gemma-4-31b score=70
+[09:23:41] OK   FP8_T08_local_fp8_t08_think_on S2 rep1 gpt-oss-120b score=80
+[09:23:51] OK   FP8_T08_local_fp8_t08_think_on S1 rep2 gemma-4-31b score=100
+[09:23:54] OK   FP8_T08_local_fp8_t08_think_on S2 rep2 gpt-oss-120b score=96
+[09:23:54] OK   FP8_T08_local_fp8_t08_think_off S5 rep1 gemma-4-31b score=86
+[09:24:13] OK   FP8_T08_local_fp8_t08_think_off S5 rep3 gpt-oss-120b score=0
+[09:24:14] OK   FP8_T08_local_fp8_t08_think_on S2 rep3 gpt-oss-120b score=71
+[09:24:26] OK   FP8_T08_local_fp8_t08_think_on S3 rep1 gpt-oss-120b score=90
+[09:24:35] OK   FP8_T08_local_fp8_t08_think_on S1 rep3 gemma-4-31b score=100
+[09:25:10] OK   FP8_T08_local_fp8_t08_think_off S5 rep2 gemma-4-31b score=15
+[09:25:24] OK   FP8_T08_local_fp8_t08_think_on S3 rep2 gpt-oss-120b score=0
+[09:25:36] OK   FP8_T08_local_fp8_t08_think_on S3 rep3 gpt-oss-120b score=100
+[09:25:38] OK   FP8_T08_local_fp8_t08_think_on S3 rep1 gemma-4-31b score=90
+[09:26:39] OK   FP8_T08_local_fp8_t08_think_on S4 rep1 gpt-oss-120b score=69
+[09:26:55] OK   FP8_T08_local_fp8_t08_think_off S7 rep3 gemma-4-31b score=66
+[09:27:37] OK   FP8_T08_local_fp8_t08_think_on S4 rep2 gpt-oss-120b score=59
+[09:28:06] OK   FP8_T08_local_fp8_t08_think_on S3 rep2 gemma-4-31b score=25
+[09:28:09] OK   FP8_T08_local_fp8_t08_think_on S3 rep3 gemma-4-31b score=100
+[09:28:19] OK   FP8_T08_local_fp8_t08_think_on S2 rep1 gemma-4-31b score=54
+[09:28:41] OK   FP8_T08_local_fp8_t08_think_on S4 rep3 gpt-oss-120b score=69
+[09:28:45] OK   FP8_T08_local_fp8_t08_think_on S2 rep3 gemma-4-31b score=55
+[09:28:49] OK   FP8_T08_local_fp8_t08_think_off S5 rep3 gemma-4-31b score=63
+[09:28:54] OK   FP8_T08_local_fp8_t08_think_on S2 rep2 gemma-4-31b score=40
+[09:28:59] OK   FP8_T08_local_fp8_t08_think_on S5 rep1 gpt-oss-120b score=71
+[09:29:02] OK   FP8_T08_local_fp8_t08_think_on S4 rep1 gemma-4-31b score=0
+[09:29:20] OK   FP8_T08_local_fp8_t08_think_on S5 rep2 gpt-oss-120b score=0
+[09:29:21] OK   FP8_T08_local_fp8_t08_think_on S6 rep2 gpt-oss-120b score=75
+[09:29:29] OK   FP8_T08_local_fp8_t08_think_on S6 rep1 gpt-oss-120b score=73
+[09:29:39] OK   FP8_T08_local_fp8_t08_think_on S5 rep3 gpt-oss-120b score=0
+[09:29:40] OK   FP8_T08_local_fp8_t08_think_on S6 rep3 gpt-oss-120b score=71
+[09:31:06] OK   FP8_T08_local_fp8_t08_think_on S4 rep3 gemma-4-31b score=0
+[09:31:29] OK   FP8_T08_local_fp8_t08_think_on S6 rep3 gemma-4-31b score=55
+[09:31:30] OK   FP8_T08_local_fp8_t08_think_on S4 rep2 gemma-4-31b score=0
+[09:31:43] OK   FP8_T08_local_fp8_t08_think_on S6 rep1 gemma-4-31b score=53
+[09:31:55] OK   FP8_T08_local_fp8_t08_think_on S6 rep2 gemma-4-31b score=63
+[09:32:15] OK   FP8_T08_local_fp8_t08_think_on S7 rep2 gpt-oss-120b score=100
+[09:32:23] OK   FP8_T08_local_fp8_t08_think_on S7 rep3 gpt-oss-120b score=73
+[09:32:31] OK   FP8_T08_local_fp8_t08_think_on S7 rep1 gpt-oss-120b score=73
+[09:33:50] OK   FP8_T08_local_fp8_t08_think_on S5 rep3 gemma-4-31b score=0
+[09:34:17] OK   FP8_T08_local_fp8_t08_think_on S5 rep2 gemma-4-31b score=63
+[09:34:36] OK   FP8_T08_local_fp8_t08_think_on S7 rep3 gemma-4-31b score=86
+[09:35:46] OK   FP8_T08_local_fp8_t08_think_on S7 rep1 gemma-4-31b score=92
+[09:35:52] OK   FP8_T08_local_fp8_t08_think_on S7 rep2 gemma-4-31b score=86
+[09:36:00] OK   FP8_T08_local_fp8_t08_think_on S5 rep1 gemma-4-31b score=0
+[09:36:00] END ok=168 skipped=0 failed=0
+[judge 2026-11-16T09:36:00] === P-006 absolute (168) done (exit=0) ===
+[judge 2026-11-16T09:36:00] === P-002a pairwise (168) (10 args) ===
+[09:36:00] START mode=pairwise tasks=21 requests=42 judges=gpt-oss-120b,gemma-4-31b workers=8 rpm=20
+[09:36:22] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S1 rep3 gpt-oss-120b winner=A
+[09:36:33] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S1 rep2 gpt-oss-120b winner=A
+[09:36:40] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S1 rep1 gpt-oss-120b winner=A
+[09:36:45] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S3 rep2 gpt-oss-120b winner=A
+[09:36:47] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S3 rep1 gpt-oss-120b winner=A
+[09:36:52] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S2 rep1 gpt-oss-120b winner=B
+[09:36:53] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S2 rep2 gpt-oss-120b winner=B
+[09:36:54] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S2 rep3 gpt-oss-120b winner=B
+[09:37:10] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S1 rep3 gemma-4-31b winner=B
+[09:37:20] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S3 rep2 gemma-4-31b winner=A
+[09:37:24] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S3 rep1 gemma-4-31b winner=A
+[09:37:26] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S1 rep1 gemma-4-31b winner=B
+[09:37:32] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S3 rep3 gpt-oss-120b winner=A
+[09:37:37] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S4 rep1 gpt-oss-120b winner=A
+[09:37:47] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S1 rep2 gemma-4-31b winner=B
+[09:37:51] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S4 rep2 gpt-oss-120b winner=A
+[09:37:55] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S4 rep3 gpt-oss-120b winner=A
+[09:38:07] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S5 rep1 gpt-oss-120b winner=A
+[09:38:12] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S4 rep1 gemma-4-31b winner=A
+[09:38:13] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S2 rep2 gemma-4-31b winner=B
+[09:38:13] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S3 rep3 gemma-4-31b winner=A
+[09:38:22] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S2 rep1 gemma-4-31b winner=B
+[09:38:22] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S4 rep2 gemma-4-31b winner=A
+[09:38:23] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S2 rep3 gemma-4-31b winner=B
+[09:38:23] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S4 rep3 gemma-4-31b winner=A
+[09:38:51] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S7 rep1 gpt-oss-120b winner=A
+[09:39:03] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S6 rep3 gpt-oss-120b winner=A
+[09:39:04] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S6 rep1 gpt-oss-120b winner=A
+[09:39:15] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S6 rep2 gpt-oss-120b winner=A
+[09:39:22] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S5 rep2 gpt-oss-120b winner=B
+[09:39:23] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S7 rep2 gpt-oss-120b winner=A
+[09:39:31] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S5 rep1 gemma-4-31b winner=A
+[09:39:40] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S6 rep3 gemma-4-31b winner=A
+[09:39:43] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S5 rep3 gpt-oss-120b winner=A
+[09:39:47] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S7 rep1 gemma-4-31b winner=B
+[09:39:48] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S6 rep2 gemma-4-31b winner=A
+[09:39:53] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S6 rep1 gemma-4-31b winner=A
+[09:40:23] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S7 rep3 gpt-oss-120b winner=A
+[09:40:34] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S5 rep2 gemma-4-31b winner=A
+[09:40:45] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S7 rep2 gemma-4-31b winner=B
+[09:41:03] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S5 rep3 gemma-4-31b winner=A
+[09:42:13] OK   T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on S7 rep3 gemma-4-31b winner=B
+[09:42:13] END ok=42 skipped=0 failed=0
+[judge 2026-11-16T09:42:13] === P-002a pairwise (168) done (exit=0) ===
+[judge 2026-11-16T09:42:13] === repair freebsd (26 args) ===
+[09:42:13] START mode=absolute tasks=0 requests=0 judges=gpt-oss-120b,gemma-4-31b workers=2 rpm=12
+[09:42:13] END ok=0 skipped=0 failed=0
+[judge 2026-11-16T09:42:13] === repair freebsd done (exit=0) ===
+[judge 2026-11-16T09:42:13] === repair fp8 (14 args) ===
+[09:42:13] START mode=absolute tasks=0 requests=0 judges=gpt-oss-120b,gemma-4-31b workers=2 rpm=12
+[09:42:13] END ok=0 skipped=0 failed=0
+[judge 2026-11-16T09:42:13] === repair fp8 done (exit=0) ===
+[judge 2026-11-16T09:42:13] === repair pairwise (11 args) ===
+[09:42:13] START mode=pairwise tasks=0 requests=0 judges=gpt-oss-120b,gemma-4-31b workers=2 rpm=12
+[09:42:13] END ok=0 skipped=0 failed=0
+[judge 2026-11-16T09:42:13] === repair pairwise done (exit=0) ===
+[judge 2026-11-16T09:42:13] === aggregates ===
+wrote /home/ea/experiments/paper-reasoning-quantization/results/judge_absolute_freebsd.csv (130 rows)
+condition                          judge              n   mean    sd
+F_C5_local_nvfp4_think_off         gemma-4-31b       15  78.47 17.26
+F_C5_local_nvfp4_think_off         gpt-oss-120b      15  87.47 16.78
+F_C6_local_nvfp4_think_on          gemma-4-31b       15  87.47  9.96
+F_C6_local_nvfp4_think_on          gpt-oss-120b      15  93.07  7.05
+F_T00_local_nvfp4_t00_think_off    gemma-4-31b       15  78.40 15.39
+F_T00_local_nvfp4_t00_think_off    gpt-oss-120b      15  86.00 13.63
+F_T00_local_nvfp4_t00_think_on     gemma-4-31b       15  85.87 12.68
+F_T00_local_nvfp4_t00_think_on     gpt-oss-120b      15  94.13  6.21
+REF_freebsd_official               gemma-4-31b        5  93.20  7.29
+REF_freebsd_official               gpt-oss-120b       5  91.20 17.53
+wrote /home/ea/experiments/paper-reasoning-quantization/results/judge_absolute.csv (924 rows)
+condition                          judge              n   mean    sd
+C1_cloud_bf16_think_off            gemma-4-31b       21  82.86 16.68
+C1_cloud_bf16_think_off            gpt-oss-120b      21  88.33 19.30
+C2_cloud_bf16_think_on             gemma-4-31b       21  49.57 26.91
+C2_cloud_bf16_think_on             gpt-oss-120b      21  55.86 36.48
+C2_cloud_bf16_think_on_clean       gemma-4-31b       21  28.81 31.38
+C2_cloud_bf16_think_on_clean       gpt-oss-120b      21  29.38 33.33
+C3_local_fp8_think_off             gemma-4-31b       21  69.10 30.90
+C3_local_fp8_think_off             gpt-oss-120b      21  95.90  4.36
+C4_local_fp8_think_on              gemma-4-31b       21  45.19 36.98
+C4_local_fp8_think_on              gpt-oss-120b      21  66.95 32.20
+C5_local_nvfp4_think_off           gemma-4-31b       21  82.29 16.93
+C5_local_nvfp4_think_off           gpt-oss-120b      21  75.24 33.69
+C6_local_nvfp4_think_on            gemma-4-31b       21  42.33 36.62
+C6_local_nvfp4_think_on            gpt-oss-120b      21  62.19 37.87
+FP8_T00_local_fp8_t00_think_off    gemma-4-31b       21  77.05 21.44
+FP8_T00_local_fp8_t00_think_off    gpt-oss-120b      21  80.67 34.59
+FP8_T00_local_fp8_t00_think_on     gemma-4-31b       21  41.24 39.66
+FP8_T00_local_fp8_t00_think_on     gpt-oss-120b      21  53.05 42.20
+FP8_T08_local_fp8_t08_think_off    gemma-4-31b       21  72.95 22.82
+FP8_T08_local_fp8_t08_think_off    gpt-oss-120b      21  83.29 26.41
+FP8_T08_local_fp8_t08_think_on     gemma-4-31b       21  55.33 38.08
+FP8_T08_local_fp8_t08_think_on     gpt-oss-120b      21  69.05 31.41
+K0_cloud_no_glossary               gemma-4-31b       21  74.52 23.62
+K0_cloud_no_glossary               gpt-oss-120b      21  80.29 24.92
+T00_local_nvfp4_t00_think_off      gemma-4-31b       21  87.52 12.63
+T00_local_nvfp4_t00_think_off      gpt-oss-120b      21  92.76 12.53
+T00_local_nvfp4_t00_think_on       gemma-4-31b       21  45.19 40.22
+T00_local_nvfp4_t00_think_on       gpt-oss-120b      21  47.67 40.58
+T04_local_nvfp4_t04_think_off      gemma-4-31b       21  82.33 25.78
+T04_local_nvfp4_t04_think_off      gpt-oss-120b      21  90.38 21.66
+T04_local_nvfp4_t04_think_on       gemma-4-31b       21  51.33 37.18
+T04_local_nvfp4_t04_think_on       gpt-oss-120b      21  68.95 37.44
+T06_local_nvfp4_t06_think_off      gemma-4-31b       21  78.95 23.52
+T06_local_nvfp4_t06_think_off      gpt-oss-120b      21  85.90 26.00
+T06_local_nvfp4_t06_think_on       gemma-4-31b       21  55.71 36.00
+T06_local_nvfp4_t06_think_on       gpt-oss-120b      21  70.14 38.69
+T08_local_nvfp4_t08_think_off      gemma-4-31b       21  80.95 16.62
+T08_local_nvfp4_t08_think_off      gpt-oss-120b      21  83.62 30.64
+T08_local_nvfp4_t08_think_on       gemma-4-31b       21  65.43 34.73
+T08_local_nvfp4_t08_think_on       gpt-oss-120b      21  76.62 31.23
+T10_local_nvfp4_t10_think_off      gemma-4-31b       21  73.67 21.72
+T10_local_nvfp4_t10_think_off      gpt-oss-120b      21  77.95 34.47
+T10_local_nvfp4_t10_think_on       gemma-4-31b       21  60.62 35.20
+T10_local_nvfp4_t10_think_on       gpt-oss-120b      21  78.24 33.46
+wrote /home/ea/experiments/paper-reasoning-quantization/results/judge_pairwise.csv (42 rows)
+| contrast | judge | n | Δ mean | 95% CI | W/T/L |
+|---|---|---|---|---|---|
+| thinking ON vs OFF, NVFP4 T=0.2 (FreeBSD) | (mean of judges) | 15 | +7.3 | +2.6 – +13.5 | 9/5/1 |
+| thinking ON vs OFF, NVFP4 T=0.0 (FreeBSD) | (mean of judges) | 15 | +7.8 | +3.3 – +12.3 | 11/3/1 |
+| T=0.0 vs T=0.2, thinking OFF (FreeBSD) | (mean of judges) | 15 | -0.8 | -6.5 – +6.3 | 4/4/7 |
+| T=0.0 vs T=0.2, thinking ON (FreeBSD) | (mean of judges) | 15 | -0.3 | -4.5 – +4.0 | 6/3/6 |
+
+wrote results/judge_effects_freebsd.md/.csv (4 contrasts)
+[judge 2026-11-16T09:42:14] ALL DONE; log=runs/judge_20261116_20261116-083136.log
+[judge 2026-11-16T09:42:14] artifacts: judge_freebsd/absolute/ (120+10), judge/absolute/FP8_* (168), judge/pairwise/ (168)
+[judge 2026-11-16T09:42:14] NEXT: metrics/stats_tests.py on F- and FP8-contrasts, then SUMMARY-RU restrictions

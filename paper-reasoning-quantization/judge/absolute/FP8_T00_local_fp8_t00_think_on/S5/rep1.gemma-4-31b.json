@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token `consensus` was translated to `Консенсус`; must be byte-identical.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` was translated to `blocked-Эскалация`; must be byte-identical.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token `escalation_reason` was translated to `Эскалация_reason`; must be byte-identical.",
+      "quote": "`Эскалация_reason`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token `escalation_id` was translated to `Эскалация_id`; must be byte-identical.",
+      "quote": "`Эскалация_id`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token `agree` was translated to `согласие`; must be byte-identical.",
+      "quote": "`согласие`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the term 'Фаза' (Phase); should be in genitive case ('фазы').",
+      "quote": "границах Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the term 'Роль' (Role); should be in genitive case ('роли').",
+      "quote": "Роль Core"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:12:47"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B is completely unusable; it contains massive duplications of paragraphs, internal drafting notes, and raw English fragments. Translation A is clean, professional, and accurate.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:43:03"
+  }
+}

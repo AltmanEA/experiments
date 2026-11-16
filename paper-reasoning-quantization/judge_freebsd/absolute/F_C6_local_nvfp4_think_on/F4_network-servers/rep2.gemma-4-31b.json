@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatically incorrect title; literal translation of 'Network Servers'. Should be 'Сетевые серверы'.",
+      "quote": "Сеть Серверы"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Case mismatch; the term should be in the genitive case to match the list of servers.",
+      "quote": "домен верхнего уровня (TLD)"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "In the context of DNS zone files, 'Origin' is a technical term referring to the base domain; 'Начало' is an inaccurate general translation.",
+      "quote": "Начало"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatically incorrect construction; the glossary term is inserted in the nominative case where the genitive case is required.",
+      "quote": "записей Обратная запись DNS"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Case mismatch; the term should be in the instrumental case ('подчиненным сервером') following the word 'называемый'.",
+      "quote": "подчиненный сервер"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Literal translation of the impersonal pronoun 'One', which is grammatically incorrect and unnatural in Russian.",
+      "quote": "Один хочет"
+    }
+  ],
+  "score": 64,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C6_local_nvfp4_think_on",
+    "fixture": "F4_network-servers",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:43:49"
+  }
+}

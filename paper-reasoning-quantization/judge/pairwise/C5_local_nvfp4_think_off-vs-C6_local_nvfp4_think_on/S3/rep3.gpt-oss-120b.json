@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.75,
+  "reason": "A preserves original technical identifiers (e.g., `phase_state`) and uses correct glossary terms, while B introduces a mistranslation (`Фаза_state`). Minor phrasing differences in the introductory sentence do not outweigh the accuracy of terminology.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:40:14"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Брандмауэры\" is used instead of the required glossary equivalent \"межсетевой экран\" (or its plural form).",
+      "quote": "# Брандмауэры"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation \"чтобы они соответствовали **Конфигурация** системы\" is grammatically incorrect and does not accurately convey the source meaning \"to fit the configuration of the system\".",
+      "quote": "чтобы они соответствовали **Конфигурация** системы"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Bold markup (**Конфигурация**) is introduced, which does not appear in the source text.",
+      "quote": "**Конфигурация**"
+    }
+  ],
+  "score": 78,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F5_firewalls",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:45:19"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary requires the term \"disk quota\" to be rendered as \"дисковая квота\"; the heading uses \"Диск Квоты\" which does not match the required term.",
+      "quote": "Диск Квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"disk quota\" is incorrectly translated as \"Диск-квоты\" instead of the required \"дисковая квота\".",
+      "quote": "Диск-квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"disk quota\" is incorrectly translated as \"диск-квоты\" instead of the required \"дисковая квота\".",
+      "quote": "диск-квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The phrase \"квоты на диск\" does not use the required glossary term \"дисковая квота\".",
+      "quote": "квоты на диск"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term \"quota support\" should be rendered as \"поддержка квот\"; the translation uses \"поддержку для квот на диске\".",
+      "quote": "поддержку для квот на диске"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term \"kernel configuration\" should be rendered as \"конфигурация ядра\"; the translation uses \"файл конфигурации ядра\".",
+      "quote": "файл конфигурации ядра"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The phrase \"квоты дисков\" does not follow the required term \"дисковая квота\".",
+      "quote": "квоты дисков"
+    }
+  ],
+  "score": 86,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F3_disks",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:47:40"
+  }
+}

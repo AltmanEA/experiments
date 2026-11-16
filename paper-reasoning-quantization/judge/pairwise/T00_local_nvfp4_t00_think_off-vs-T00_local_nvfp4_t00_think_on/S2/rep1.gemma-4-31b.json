@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "B is more accurate and adheres better to the glossary (specifically for 'Subject' -> 'Объект обсуждения'). A contains a significant grammatical error in the 'Irresolvable conflict' section ('Оператор... просит' instead of 'его просят'), which changes the meaning of the sentence. A also hallucinates a phrase ('по Объекту обсуждения') that is not in the source. While B incorrectly translates part of a technical identifier ('ЭскалацияRecord'), this is a minor technical slip compared to A's semantic and grammatical errors.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:38:22"
+  }
+}

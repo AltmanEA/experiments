@@ -1,0 +1,62 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required glossary term 'дисковая квота' for 'disk quota' is replaced by various incorrect lemmas and phrases.",
+      "quote": "Диск квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required glossary term 'дисковая квота' for 'disk quota' is replaced by 'квоты дисков'.",
+      "quote": "квоты дисков"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required glossary term 'дисковая квота' for 'disk quota' is replaced by 'квот дискового пространства'.",
+      "quote": "Включение квот дискового пространства"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required glossary term 'дисковая квота' for 'disk quota' is replaced by 'квоты на дисках'.",
+      "quote": "квоты на дисках"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Mixed language in the reference link; the term 'Kernel' is translated, but the rest of the title remains in English.",
+      "quote": "[Configuring the FreeBSD Ядро]"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required glossary term 'дисковая квота' for 'disk quota' is replaced by 'квоты на Диск', and an unnecessary bold style is added.",
+      "quote": "квоты на **Диск**"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required glossary term 'дисковая квота' for 'disk quota' is replaced by 'квоты дискового пространства'.",
+      "quote": "квоты дискового пространства"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatical error (incorrect case for 'Конфигурация') and unnecessary bold style.",
+      "quote": "После завершения **Конфигурация**"
+    }
+  ],
+  "score": 52,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F3_disks",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:34:58"
+  }
+}

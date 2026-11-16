@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.95,
+  "reason": "Translation B commits a critical error by translating parts of technical identifiers and variable names (e.g., 'blocked-Эскалация', 'Эскалация_reason', 'Эскалация_id'), which renders the technical documentation incorrect. Translation A preserves these identifiers. While A has some awkward terminology in the table headers ('Кому' instead of 'Куда', 'Охрана' for 'Guard'), it is far superior in terms of technical accuracy.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 2,
+    "ts": "2026-11-16T10:41:42"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical gender mismatch: 'следующей' (feminine) is used to modify 'переходом' (masculine).",
+      "quote": "следующей переходом"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:15:34"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.8,
+  "reason": "B translates enum values and ValidationResult fields per glossary, while A leaves key terms untranslated. Both miss some subject and severity translations elsewhere, but B is overall more accurate and consistent.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:40:46"
+  }
+}

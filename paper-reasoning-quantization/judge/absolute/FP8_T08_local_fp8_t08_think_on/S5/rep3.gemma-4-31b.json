@@ -1,0 +1,86 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `consensus` was translated; must be byte-identical to source.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `no-consensus` was translated; must be byte-identical to source.",
+      "quote": "`no-Консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `blocked-escalation` was translated; must be byte-identical to source.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `escalation_reason` was translated; must be byte-identical to source.",
+      "quote": "`Эскалация_reason`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `escalation_id` was translated; must be byte-identical to source.",
+      "quote": "`Эскалация_id`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `agree` was translated; must be byte-identical to source.",
+      "quote": "`Согласие`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Partial translation of section title '§Session Manifest' results in poor fluency.",
+      "quote": "§Сессия Manifest"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Partial translation of section title '§Critical Finding Validation Process' results in poor fluency.",
+      "quote": "§Critical Вывод Validation Process"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/inflection of glossary term 'Фаза' (Phase).",
+      "quote": "границах Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/inflection of glossary term 'Роль' (Role).",
+      "quote": "Отсутствие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/inflection of glossary term 'Роль' (Role).",
+      "quote": "Наличие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case/inflection of glossary term 'Статус роли' (Role Status).",
+      "quote": "извлечения Статус роли"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:33:50"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.9,
+  "reason": "Translation A is far superior in terms of grammar and technical accuracy. Translation B treats glossary terms as immutable strings, leading to broken Russian grammar (e.g., 'статусы Роль' instead of 'статусы ролей', 'относительно Фаза' instead of 'относительно фазы'). More critically, Translation B translates a code key/string ('role_agent_config' -> 'Роль_agent_config'), which is a major error in technical documentation. Both translations incorrectly translated 'value/default' as 'замечание' (remark) in the policy section, but A is still the only viable option.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:42:34"
+  }
+}

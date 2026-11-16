@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatically incorrect heading; 'Disk Quotas' should be translated as 'Дисковые квоты'.",
+      "quote": "Диск квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'disk quota' is translated as 'квоты дисков' instead of the required glossary equivalent 'дисковая квота'.",
+      "quote": "квоты дисков"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'disk quota' is translated as 'квот дискового пространства' instead of the required glossary equivalent 'дисковая квота'.",
+      "quote": "квот дискового пространства"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Partial translation of the link/reference text; the English words 'Configuring the FreeBSD' were left untranslated.",
+      "quote": "[Configuring the FreeBSD Ядро]"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatical error: the word 'Конфигурация' is in the nominative case, but the context requires the genitive case ('конфигурации') after 'После завершения'.",
+      "quote": "После завершения **Конфигурация**"
+    }
+  ],
+  "score": 66,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F3_disks",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:35:10"
+  }
+}

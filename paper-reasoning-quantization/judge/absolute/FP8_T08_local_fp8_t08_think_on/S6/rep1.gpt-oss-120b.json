@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `subject_id` was altered to `id_объекта_обсуждения`, breaking the required byte‑identical token.",
+      "quote": "`id_объекта_обсуждения`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Term \"Role Status\" was translated as \"статусы ролей\" instead of the required \"Статус роли\".",
+      "quote": "статусы ролей"
+    }
+  ],
+  "score": 73,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:29:29"
+  }
+}

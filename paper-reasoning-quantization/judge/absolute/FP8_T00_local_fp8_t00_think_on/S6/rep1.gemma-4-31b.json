@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token modified; must be byte-identical to source.",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Mistranslation of 'safe value' as 'безопасного замечания' (safe remark/note).",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Mistranslation of 'applied defaults' as 'применённые замечания по умолчанию' (applied remarks by default).",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect grammar and literal translation of compound term 'analytical-task reviews'.",
+      "quote": "аналитическая-задача обзоры"
+    }
+  ],
+  "score": 45,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:11:01"
+  }
+}

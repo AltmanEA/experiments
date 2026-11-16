@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect translation of the term “disk quota”; used reversed construction “Квоты диска” instead of the required “дисковая квота” (or appropriate inflected form).",
+      "quote": "Квоты диска"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect translation of “disk quotas”; used “Диск-квоты” which does not match the required term “дисковая квота”.",
+      "quote": "Диск-квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect translation of “disk quotas” in the phrase “как настроить квоты диска”; should use the required term “дисковая квота”.",
+      "quote": "квоты диска"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect translation of “disk quotas” in the question “поддерживает ли ядро FreeBSD квоты диска”; should use the required term “дисковая квота”.",
+      "quote": "квоты диска"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect translation of “disk quotas” in the sentence “Далее включите квоты на дисках”; the required term is “дисковая квота”.",
+      "quote": "квоты на дисках"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect translation of “disk quotas” in the phrase “отредактируйте /etc/fstab, чтобы включить квоты на диске”; should use the required term “дисковая квота”.",
+      "quote": "квоты на диске"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C6_local_nvfp4_think_on",
+    "fixture": "F3_disks",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:37:51"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required glossary term \"logging\" should be translated as \"ведение журнала\", but the translation uses the synonym \"записей в журнал\".",
+      "quote": "записей в журнал"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F5_firewalls",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:49:07"
+  }
+}

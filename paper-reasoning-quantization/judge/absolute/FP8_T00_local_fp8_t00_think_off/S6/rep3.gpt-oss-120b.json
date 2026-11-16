@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"findings\" was translated as \"результаты\" instead of the required glossary equivalent \"Вывод\" (or its correct inflection).",
+      "quote": "результаты"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T00_local_fp8_t00_think_off",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:58:37"
+  }
+}

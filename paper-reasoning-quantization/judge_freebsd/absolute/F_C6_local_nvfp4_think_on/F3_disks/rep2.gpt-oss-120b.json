@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect translation of the term “disk quota”. The required term is “дисковая квота” (or appropriate inflection), but the translation uses “Диск квоты”.",
+      "quote": "Диск квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect translation of the term “disk quota”. The required term is “дисковая квота”, but the translation uses the phrase “Квоты на диске”.",
+      "quote": "Квоты на диске"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect translation of the term “disk quota”. The required term is “дисковая квота”, but the translation uses the phrase “квоты диска”.",
+      "quote": "квоты диска"
+    }
+  ],
+  "score": 94,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C6_local_nvfp4_think_on",
+    "fixture": "F3_disks",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:37:53"
+  }
+}

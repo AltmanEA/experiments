@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect term for Role Status; used \"статусы Ролей\" instead of the required \"Статус роли\" (or appropriate inflection).",
+      "quote": "статусы Ролей"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Used \"результаты\" instead of the required glossary term \"Вывод\" for Finding.",
+      "quote": "результаты"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Used \"замечания\" where the glossary requires the term \"значения\" for default values.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Repeated use of \"замечания\" instead of the required term \"значения\" for default values.",
+      "quote": "примененные замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Incorrect translation of \"safe value\" as \"замечание\", which changes the meaning.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Incorrect translation of \"neutral (explicitly set, never inferred)\" as \"нейтральная (явно задача, не выводится)\".",
+      "quote": "нейтральная (явно задача, не выводится)"
+    }
+  ],
+  "score": 40,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:19:21"
+  }
+}

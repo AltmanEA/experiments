@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'Замечания' (required for 'Concerns') is used to translate 'Notes', creating a terminology collision with the actual translation of 'Concerns' in the table body.",
+      "quote": "Замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The technical identifier 'phase_state' was partially translated to 'Фаза_state', which is incorrect for code-related variables and may break technical references.",
+      "quote": "Фаза_state"
+    }
+  ],
+  "score": 73,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S3",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:19:18"
+  }
+}

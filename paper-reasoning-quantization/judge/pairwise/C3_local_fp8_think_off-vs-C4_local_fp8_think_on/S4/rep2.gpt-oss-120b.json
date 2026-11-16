@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.95,
+  "reason": "A keeps original identifiers and enum values, preserving technical accuracy, and correctly translates only necessary terms (e.g., severity). B incorrectly localises code identifiers and enum values, breaking the specification.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:36:25"
+  }
+}

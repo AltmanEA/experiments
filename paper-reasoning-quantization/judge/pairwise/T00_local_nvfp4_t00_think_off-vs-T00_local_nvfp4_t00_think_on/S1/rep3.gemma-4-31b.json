@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.95,
+  "reason": "B uses the standard technical term 'Фреймворк' for 'Framework', whereas A uses 'Рамка', which is a literal translation and sounds unnatural in a software/AI context. B also has slightly better fluency and a more appropriate translation of 'core design' as 'базовой архитектуры'.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:37:10"
+  }
+}

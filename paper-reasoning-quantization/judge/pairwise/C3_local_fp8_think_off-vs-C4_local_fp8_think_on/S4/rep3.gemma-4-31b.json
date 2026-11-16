@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B makes a critical error by translating code identifiers, keys, and enum values (e.g., translating 'consensus' to 'консенсус' inside the enum list and 'subject_id' to 'Объект обсуждения_id' inside the JSON-like structure). Technical documentation must preserve these identifiers. Translation A correctly keeps them in English.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:36:51"
+  }
+}

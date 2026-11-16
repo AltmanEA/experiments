@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The heading \"Network Servers\" is translated as \"Сеть Серверы\", which is ungrammatical and unnatural in Russian.",
+      "quote": "Сеть Серверы"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The term \"Origin\" is translated as \"Начало\", which does not convey the intended meaning of the zone origin.",
+      "quote": "Начало"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The phrase \"Блок IP-адресов требует записей Обратная запись DNS (IP в имя хоста)\" is grammatically incorrect; the word order and case are wrong.",
+      "quote": "записей Обратная запись DNS"
+    }
+  ],
+  "score": 94,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:47:55"
+  }
+}

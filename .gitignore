@@ -12,3 +12,4 @@ __pycache__/
 
 # Preprocessing snapshots kept on disk only, not in history
 .backup_*/
+judge*/.payload.*

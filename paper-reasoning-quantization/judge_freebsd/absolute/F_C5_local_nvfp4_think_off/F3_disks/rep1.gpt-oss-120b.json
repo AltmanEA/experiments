@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect rendering of the glossary term \"disk quota\"; used \"Диск квоты\" instead of the required \"дисковая квота\".",
+      "quote": "Диск квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect rendering of the glossary term \"disk quota\"; used \"квоты дисков\" instead of the required \"дисковая квота\".",
+      "quote": "квоты дисков"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect rendering of the glossary term \"disk quota\"; used \"квоты дискового пространства\" instead of the required \"дисковая квота\".",
+      "quote": "квоты дискового пространства"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect rendering of the glossary term \"disk quota\"; used \"квоты для дисков\" instead of the required \"дисковая квота\".",
+      "quote": "квоты для дисков"
+    }
+  ],
+  "score": 92,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F3_disks",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:32:12"
+  }
+}

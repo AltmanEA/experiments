@@ -1,0 +1,5 @@
+[judge 2026-11-16T08:31:10] START judging batch (night window: auto)
+[judge 2026-11-16T08:31:10] === P-005 absolute (120) (25 args) ===
+[08:31:10] START mode=absolute tasks=60 requests=120 judges=gpt-oss-120b,gemma-4-31b workers=8 rpm=40
+[08:31:25] OK   F_C5_local_nvfp4_think_off F1_config rep2 gpt-oss-120b score=100
+[08:31:26] OK   F_C5_local_nvfp4_think_off F1_config rep3 gpt-oss-120b score=100

@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.95,
+  "reason": "A preserves code identifiers, uses correct glossary terms, and provides accurate, fluent footnotes. B alters identifiers and mis‑translates technical terms, reducing accuracy.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:39:32"
+  }
+}

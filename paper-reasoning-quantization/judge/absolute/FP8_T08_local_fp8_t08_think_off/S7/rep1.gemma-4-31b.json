@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender mismatch: 'сценарий' is masculine, but the adjective 'активной' is feminine.",
+      "quote": "активной сценарии"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Typo in the word 'Документатор'.",
+      "quote": "Докуматора"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect usage of glossary term 'Роль'. The translation 'Роль-ядра' is grammatically incorrect (should be in Genitive case 'Роли ядра') and uses a non-standard compound construction.",
+      "quote": "Роль-ядра"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical case error: the verb 'обходит' (bypasses) requires the Accusative case, but 'целостности' is in the Genitive case. It should be 'шлюзы целостности'.",
+      "quote": "целостности шлюзов Эскалации"
+    }
+  ],
+  "score": 84,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:22:22"
+  }
+}

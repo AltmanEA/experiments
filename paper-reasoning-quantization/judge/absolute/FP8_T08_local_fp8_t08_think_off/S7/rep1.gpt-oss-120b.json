@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required glossary term \"Role\" is replaced with the compound \"Роль-ядра\" instead of the correct lemma \"Роль\" (inflected as needed).",
+      "quote": "наличие Роль-ядра"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"Documenter\" is misspelled as \"Докуматора\" instead of the required \"Документатор\" (genitive: \"Документатора\").",
+      "quote": "Докуматора"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical case error: \"из активной сценарии\" should be \"из активного сценария\" (genitive case agreement).",
+      "quote": "из активной сценарии"
+    }
+  ],
+  "score": 78,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:20:16"
+  }
+}

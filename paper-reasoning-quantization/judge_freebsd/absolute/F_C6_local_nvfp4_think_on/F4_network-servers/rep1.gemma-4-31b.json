@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatical error: the list is inconsistent. 'корневых' is used as an adjective without a noun, and 'домен верхнего уровня' is in the nominative case while the rest of the list is in the genitive.",
+      "quote": "авторитетных корневых, домен верхнего уровня (TLD) и других серверов имён"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Incorrect translation of the technical term 'Origin' in the context of DNS zone files; 'Начало' (beginning) does not accurately convey the meaning of the base domain of a zone.",
+      "quote": "Начало"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Literal translation of the English impersonal 'One wants', which is unnatural in Russian technical style.",
+      "quote": "Один хочет предоставлять"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the glossary term 'Обратная запись DNS' is not inflected to fit the sentence structure, resulting in a redundant and incorrect phrase ('записей [Обратная запись DNS]').",
+      "quote": "записей Обратная запись DNS"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the participle 'называемый' requires the instrumental case ('подчиненным сервером'), but the nominative was used.",
+      "quote": "называемый подчиненный сервер"
+    }
+  ],
+  "score": 82,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C6_local_nvfp4_think_on",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:42:33"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A is significantly better. Translation B contains a critical grammatical error in the 'Irresolvable conflict' section ('Оператор... просит принять окончательное решение' implies the operator is asking someone else, whereas the source says the operator is the one being asked). Additionally, B incorrectly partially translates a technical identifier ('ЭскалацияRecord'), whereas A correctly leaves it as 'EscalationRecord'. While B followed the glossary for 'Subject' more strictly, A's overall accuracy and fluency are superior.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:35:58"
+  }
+}

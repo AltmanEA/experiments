@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect term used for \"authoritative name server\"; the translation uses \"авторитативные имена серверов\" instead of the required \"авторитетный сервер имён\".",
+      "quote": "авторитативные имена серверов"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The phrase \"имена серверов\" is used where the required term is \"серверы имён\" (e.g., \"Имена серверов, как правило, бывают двух видов\").",
+      "quote": "Имена серверов, как правило, бывают двух видов"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:43:40"
+  }
+}

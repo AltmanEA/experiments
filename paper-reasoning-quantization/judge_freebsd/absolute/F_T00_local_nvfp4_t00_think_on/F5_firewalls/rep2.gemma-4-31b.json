@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'firewall' translated as 'Брандмауэры' instead of 'межсетевой экран'.",
+      "quote": "Брандмауэры"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'logging' (in the context of 'being logged') translated using the lemma 'логируется' instead of the required 'ведение журнала' (e.g., 'записывается в журнал').",
+      "quote": "логируется"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F5_firewalls",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:50:30"
+  }
+}

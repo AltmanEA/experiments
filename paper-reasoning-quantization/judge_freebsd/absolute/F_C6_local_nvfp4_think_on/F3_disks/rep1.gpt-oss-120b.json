@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “disk quota” is translated inconsistently (e.g., “Диск квоты”, “Диск‑квоты”, “квот диска”, “квоты дисков”) instead of the required Russian equivalent “дисковая квота”.",
+      "quote": "Диск квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The phrase “quota support” is rendered as “квоты на дисках” rather than the required “поддержка квот”.",
+      "quote": "поддерживает ли ядро FreeBSD квоты на дисках"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C6_local_nvfp4_think_on",
+    "fixture": "F3_disks",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:37:23"
+  }
+}

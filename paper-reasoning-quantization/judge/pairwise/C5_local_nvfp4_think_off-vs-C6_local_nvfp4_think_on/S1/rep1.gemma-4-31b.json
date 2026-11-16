@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation B is significantly better due to the use of standard technical terminology. Specifically, it translates 'Framework' as 'Фреймворк' (standard in IT), whereas Translation A uses 'Рамка' (a literal translation that sounds unnatural in this context). B also provides better translations for 'General-purpose chat' ('Чат общего назначения' vs 'Универсальный чат') and 'Core design' ('базовой архитектуры' vs 'базового дизайна'). Both followed the glossary correctly.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S1",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:39:09"
+  }
+}

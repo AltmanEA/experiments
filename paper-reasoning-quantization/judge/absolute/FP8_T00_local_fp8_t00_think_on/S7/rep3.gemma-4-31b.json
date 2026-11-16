@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Header left untranslated.",
+      "quote": "Verdict Logic"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Header left untranslated.",
+      "quote": "Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the term 'Фаза' is used in the nominative case instead of the required genitive case ('переход фазы').",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the term 'Роль' is used in the nominative case instead of the required genitive case ('наличие роли').",
+      "quote": "наличие Роль Core"
+    }
+  ],
+  "score": 92,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:16:09"
+  }
+}

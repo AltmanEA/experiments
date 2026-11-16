@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.9,
+  "reason": "A is coherent, uses required terminology correctly and avoids the draft notes and duplicated fragments present in B; only minor heading/phrase issues remain.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:43:05"
+  }
+}

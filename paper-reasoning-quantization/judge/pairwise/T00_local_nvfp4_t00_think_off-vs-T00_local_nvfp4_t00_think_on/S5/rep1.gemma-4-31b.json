@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A is significantly better because it preserves technical identifiers and keys (e.g., 'escalation_reason', 'no-consensus'), whereas Translation B incorrectly translates these into Russian (e.g., 'причина_эскалации'), which would break the technical meaning of the documentation. Additionally, A uses more appropriate technical terminology ('интерфейс' instead of 'поверхность' for 'surface', and 'обзор' instead of 'отзыв' for 'review').",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:39:31"
+  }
+}

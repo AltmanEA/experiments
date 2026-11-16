@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'Name servers' is mistranslated as 'Имена серверов' (Names of servers), changing the meaning from the hardware/software entity to the names themselves. Additionally, 'authoritative' is translated as 'авторитативные', which is an incorrect word choice in this technical context.",
+      "quote": "Имена серверов, как правило, бывают двух видов: авторитативные имена серверов и кэширующие (также известные как разрешающие) имена серверов."
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error caused by the literal insertion of the glossary term 'Обратная запись DNS' into a phrase, resulting in a redundant and incorrect construction 'записей Обратная запись DNS'.",
+      "quote": "записей Обратная запись DNS"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect grammatical case (nominative instead of prepositional) for the word 'Конфигурация', and unnecessary bolding not present in the source text.",
+      "quote": "в новой **Конфигурация** Unbound"
+    }
+  ],
+  "score": 78,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F4_network-servers",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:45:56"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.73,
+  "reason": "B uses the required glossary terms (e.g., Объект обсуждения, Эскалация, Резолюция) and correctly translates the ValidationResult fields, whereas A leaves key terms in English. Although B’s field‑name translation is less conventional, its higher terminology accuracy outweighs the minor format and fluency drawbacks.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:36:42"
+  }
+}

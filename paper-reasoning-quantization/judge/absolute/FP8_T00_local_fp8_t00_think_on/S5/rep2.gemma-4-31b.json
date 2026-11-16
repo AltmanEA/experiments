@@ -1,0 +1,74 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `consensus` was translated; must be byte-identical.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `no-consensus` was translated; must be byte-identical.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` was translated; must be byte-identical.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `escalation_reason` was translated; must be byte-identical.",
+      "quote": "`reason_эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `escalation_id` was translated; must be byte-identical.",
+      "quote": "`id_эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `agree` was translated; must be byte-identical.",
+      "quote": "`согласие`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for glossary term 'Фаза' (should be 'Фазу').",
+      "quote": "вход в Фаза 3"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for glossary term 'Роль' (should be 'роли').",
+      "quote": "Отсутствие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for glossary term 'Роль' (should be 'роли').",
+      "quote": "наличия Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect word order/grammar for 'Session Manifest' (should be 'Манифест сессии').",
+      "quote": "§Сессия Манифест"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:13:50"
+  }
+}

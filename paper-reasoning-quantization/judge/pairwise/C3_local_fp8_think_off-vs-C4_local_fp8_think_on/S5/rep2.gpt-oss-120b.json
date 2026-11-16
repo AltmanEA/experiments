@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.75,
+  "reason": "B preserves code identifiers and uses glossary terms correctly, while A mistranslates table headings and state names, reducing technical accuracy.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:37:19"
+  }
+}

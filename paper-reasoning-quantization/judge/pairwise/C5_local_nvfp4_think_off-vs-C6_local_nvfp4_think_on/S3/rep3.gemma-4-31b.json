@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.9,
+  "reason": "Translation A is superior because it preserves technical variable names (e.g., 'phase_state') and uses the industry-standard term 'runtime-контракт'. Translation B incorrectly translates part of a variable name ('Фаза_state') and uses a literal, clunky translation for 'runtime contract' ('контракту времени выполнения').",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:40:59"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.85,
+  "reason": "B follows glossary terms more closely (e.g., uses Ролей, Консенсус, согласие) and maintains proper case and forms, while A leaves several terms untranslated or in wrong case (agree, role forms). Minor phrasing issues in B are outweighed by its higher terminology accuracy.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:39:22"
+  }
+}

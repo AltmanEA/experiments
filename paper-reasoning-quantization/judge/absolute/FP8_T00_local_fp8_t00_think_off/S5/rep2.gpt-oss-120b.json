@@ -1,0 +1,86 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around code token",
+      "quote": "locked_roles"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around code token",
+      "quote": "operator_approval"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around code token",
+      "quote": "service-contract/index.md"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around code token",
+      "quote": "extraction = parsed"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around code token",
+      "quote": "awaiting-operator"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around code token",
+      "quote": "protocol-core"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around code token",
+      "quote": "resolved"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around code token",
+      "quote": "council.override_precheck"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around code token",
+      "quote": "precheck.overridden"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around code token",
+      "quote": "pre_check_override"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around code token",
+      "quote": "agree"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around code token",
+      "quote": "service-contract/error-management/index.md"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T00_local_fp8_t00_think_off",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:01:49"
+  }
+}

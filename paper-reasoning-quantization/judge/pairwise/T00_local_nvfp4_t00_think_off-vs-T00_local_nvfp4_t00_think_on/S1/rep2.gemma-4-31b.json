@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "B uses the standard technical term 'Фреймворк' for 'Framework', whereas A uses 'Рамка', which is a literal translation and sounds unnatural in a technical context. B also has a more professional and formal tone ('излагаются на' vs 'написаны на', 'базовой архитектуры' vs 'базового дизайна'). While A followed the glossary term 'Консенсус' more strictly in the body text, B's overall fluency and terminology make it the superior translation.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S1",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:37:47"
+  }
+}

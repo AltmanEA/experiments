@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A is accurate and maintains the integrity of code values. Translation B contains a significant error in the first sentence, translating 'value' as 'замечание' (concern/remark), and critically fails by translating parts of code values (e.g., 'blocked-эскалация' instead of 'blocked-escalation'), which is unacceptable in technical documentation.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:36:58"
+  }
+}

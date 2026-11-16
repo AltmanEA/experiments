@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token \"role_agent_config\" was altered to \"Роль_agent_config\", breaking the required literal key.",
+      "quote": "Роль_agent_config"
+    }
+  ],
+  "score": 75,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:07:58"
+  }
+}

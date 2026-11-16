@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token/key modified: 'role_agent_config' was partially translated, violating the requirement for byte-identical code tokens.",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'value' (and 'defaults' referring to values) is incorrectly translated as 'замечание' (remark/note) instead of 'значение'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical construction and literal translation of the compound 'analytical-task reviews'.",
+      "quote": "аналитическая-задача обзоры"
+    }
+  ],
+  "score": 63,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:31:55"
+  }
+}

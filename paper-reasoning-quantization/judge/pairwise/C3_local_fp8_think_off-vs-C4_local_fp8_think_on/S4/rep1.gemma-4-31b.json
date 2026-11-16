@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A correctly preserves the technical identifiers (field names like session_id, escalation_id) and data types (string, integer), which is essential for technical documentation. Translation B incorrectly translates these identifiers into Russian (e.g., 'эскалация_id', 'сессия_id'), making the documentation useless for developers.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:37:15"
+  }
+}

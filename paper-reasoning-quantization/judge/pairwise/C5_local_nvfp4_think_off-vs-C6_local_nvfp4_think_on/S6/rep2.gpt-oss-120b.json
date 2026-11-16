@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.95,
+  "reason": "A follows the source more faithfully, uses correct terminology and grammar (e.g., proper plural of Фаза, accurate handling of analytical-task phrase), and maintains better fluency and formatting. B contains several inaccuracies and awkward translations.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:41:14"
+  }
+}

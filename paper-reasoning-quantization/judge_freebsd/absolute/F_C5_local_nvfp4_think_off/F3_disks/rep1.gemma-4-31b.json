@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'disk quota' ('дисковая квота') is used incorrectly and is grammatically wrong in the heading.",
+      "quote": "Диск квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'disk quota' ('дисковая квота') is replaced by 'квоты дисков' or 'квоты для дисков'.",
+      "quote": "квоты дисков"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'disk quota' ('дисковая квота') is replaced by 'квот дискового пространства'.",
+      "quote": "Включение квот дискового пространства"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Mixed language in the reference title; 'Kernel' is translated to 'Ядро' while the rest of the title remains in English.",
+      "quote": "[Configuring the FreeBSD Ядро]"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect grammatical case (nominative instead of genitive) and unnecessary bolding.",
+      "quote": "После завершения **Конфигурация**"
+    }
+  ],
+  "score": 74,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F3_disks",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:34:05"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'brute force attacks' translated as 'атаки методом перебора' instead of the required 'атаки методом грубой силы'.",
+      "quote": "атаки методом перебора"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The word 'клетка' (cage/cell) is used instead of 'клиента' (client), resulting in a nonsensical phrase.",
+      "quote": "настроек клетка"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F2_security",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:48:26"
+  }
+}

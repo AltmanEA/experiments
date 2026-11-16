@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Heading incorrectly translates the source title \"Network Servers\".",
+      "quote": "Сеть Серверы"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The term \"Origin\" is mistranslated as \"Начало\", which does not convey the intended meaning of the zone's domain.",
+      "quote": "Начало"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Awkward phrasing in the bullet about reverse DNS entries; the construction \"записей Обратная запись DNS\" is grammatically incorrect.",
+      "quote": "записей Обратная запись DNS"
+    }
+  ],
+  "score": 94,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F4_network-servers",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:48:09"
+  }
+}

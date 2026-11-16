@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"logging\" is translated as \"регистируется\" instead of the required glossary equivalent \"ведение журнала\".",
+      "quote": "регистируется"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case and unnecessary capitalization in the phrase \"соответствовали **Конфигурация** системы\"; should be \"соответствовали конфигурации системы\".",
+      "quote": "соответствовали **Конфигурация** системы"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F5_firewalls",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:35:47"
+  }
+}

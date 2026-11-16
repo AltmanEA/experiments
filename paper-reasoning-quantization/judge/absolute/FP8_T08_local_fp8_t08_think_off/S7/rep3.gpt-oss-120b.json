@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "English term \"Documenter\" used in heading instead of required Russian equivalent \"Документатор\".",
+      "quote": "Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the term \"Фаза\"; should be genitive \"фазы\" in this context.",
+      "quote": "один последующий переход **Фаза** без свежего аудита"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the term \"Эскалация\"; should be genitive \"Эскалации\".",
+      "quote": "целостности **Эскалация**"
+    }
+  ],
+  "score": 94,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:22:19"
+  }
+}

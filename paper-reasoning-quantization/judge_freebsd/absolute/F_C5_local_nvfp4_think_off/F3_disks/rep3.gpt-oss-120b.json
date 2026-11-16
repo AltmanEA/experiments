@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Heading uses incorrect term; should use the required term \"дисковая квота\" (or appropriate plural) instead of \"Диск квоты\".",
+      "quote": "## Диск квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Phrase \"квоты дисков\" does not match the required term \"дисковая квота\".",
+      "quote": "как настроить квоты дисков для файловой системы UFS."
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Heading \"Включение квот дискового пространства\" uses a non‑standard formulation; the required term is \"дисковая квота\" (or its plural).",
+      "quote": "### Включение квот дискового пространства"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Expression \"квоты на дисках\" does not follow the required terminology \"дисковая квота\".",
+      "quote": "поддерживает ли ядро FreeBSD квоты на дисках"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Phrase \"квоты на Диск\" incorrectly renders the required term \"дисковая квота\".",
+      "quote": "Далее включите квоты на **Диск** в /etc/rc.conf:"
+    }
+  ],
+  "score": 90,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F3_disks",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:33:08"
+  }
+}

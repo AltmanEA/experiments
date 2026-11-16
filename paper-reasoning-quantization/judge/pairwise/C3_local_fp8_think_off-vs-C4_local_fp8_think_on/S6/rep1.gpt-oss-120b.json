@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.85,
+  "reason": "A follows glossary terms more accurately, uses correct keys and terminology, and avoids critical errors like the wrong key name and mistranslation of 'findings' as 'выходов' found in B. Minor phrasing issues are less serious than B's mistakes.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:37:36"
+  }
+}

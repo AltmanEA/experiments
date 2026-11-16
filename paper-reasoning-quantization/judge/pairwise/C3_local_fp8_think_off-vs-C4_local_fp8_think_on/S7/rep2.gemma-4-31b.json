@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A is grammatically correct and fluent. Translation B has severe grammatical errors in the final section, where it fails to decline glossary terms (e.g., 'переход Фаза' instead of 'переход фазы', 'наличие Роль Core' instead of 'наличие роли Core', 'правила Консенсус' instead of 'правила консенсуса'), making it read like a poor machine translation.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:38:36"
+  }
+}

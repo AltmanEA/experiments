@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.95,
+  "reason": "A preserves terminology, accurately translates key concepts (e.g., joins findings → объединяет выводы), maintains correct table structure and clear formatting, and is fluent. B contains numerous errors: broken table, mistranslations, inconsistent terminology, and formatting issues.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:44:06"
+  }
+}

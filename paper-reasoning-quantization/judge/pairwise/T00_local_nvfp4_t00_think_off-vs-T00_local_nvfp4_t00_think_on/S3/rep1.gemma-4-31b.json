@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B makes a critical error by translating code identifiers/values (e.g., 'no-consensus' to 'no-консенсус', 'phase_state' to 'фаза_состояние'), which is unacceptable in technical documentation. Translation B also contains grammatical errors ('Отсутствие Роль Core') and unnecessary capitalization of glossary terms. Translation A is accurate, fluent, and correctly preserves all technical identifiers.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:37:24"
+  }
+}

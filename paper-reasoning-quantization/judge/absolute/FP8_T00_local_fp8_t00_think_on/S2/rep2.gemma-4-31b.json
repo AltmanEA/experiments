@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The following headers were left untranslated in the Russian candidate: '## Escalation Protocol', '### Escalation Reasons', '### Escalation Document', and '### Escalation Resolution Paths'.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `EscalationRecord` was partially translated, violating the requirement for byte-identical code tokens.",
+      "quote": "`ЭскалацияRecord`"
+    }
+  ],
+  "score": 65,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:04:05"
+  }
+}

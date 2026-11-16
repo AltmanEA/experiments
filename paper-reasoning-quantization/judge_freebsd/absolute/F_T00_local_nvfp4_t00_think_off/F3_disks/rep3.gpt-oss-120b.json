@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect translation of the term \"disk quota\"; should use the required equivalent \"дисковая квота\" (or correct plural form).",
+      "quote": "Диск квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Term \"disk quota\" rendered as \"квоты дисков\", which does not match the required equivalent.",
+      "quote": "квоты дисков"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Heading uses non‑standard phrase \"квот дискового пространства\" instead of the required term for \"disk quota\".",
+      "quote": "квот дискового пространства"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Phrase \"включите квоты дисков\" does not use the required glossary term for \"disk quota\".",
+      "quote": "квоты дисков"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Phrase \"включить квоты дискового пространства\" incorrectly translates the term \"disk quota\".",
+      "quote": "квоты дискового пространства"
+    }
+  ],
+  "score": 50,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F3_disks",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:43:32"
+  }
+}

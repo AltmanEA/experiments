@@ -37,6 +37,28 @@ T_GRID = [("0.0", "T00_local_nvfp4_t00_think"), ("0.2", None), ("0.4", "T04_loca
           ("1.0", "T10_local_nvfp4_t10_think")]
 
 
+# P-006: temperature transfer on FP8 (legacy frozen engine, T in {0.0, 0.8} x thinking).
+# C3/C4 (T=0.2) are the same engine's anchor; NVFP4 pairs test H4 (quantization x
+# temperature interaction at the same T).
+FP8_PAIRS = [
+    ("FP8_T00_local_fp8_t00_think_off", "FP8_T00_local_fp8_t00_think_on",
+     "thinking ON vs OFF, FP8 T=0.0"),
+    ("FP8_T08_local_fp8_t08_think_off", "FP8_T08_local_fp8_t08_think_on",
+     "thinking ON vs OFF, FP8 T=0.8"),
+    ("FP8_T00_local_fp8_t00_think_off", "FP8_T08_local_fp8_t08_think_off",
+     "T=0.8 vs T=0 anchor, FP8 thinking OFF"),
+    ("FP8_T00_local_fp8_t00_think_on", "FP8_T08_local_fp8_t08_think_on",
+     "T=0.8 vs T=0 anchor, FP8 thinking ON"),
+    ("FP8_T00_local_fp8_t00_think_off", "T00_local_nvfp4_t00_think_off",
+     "NVFP4 vs FP8, T=0.0 thinking OFF"),
+    ("FP8_T00_local_fp8_t00_think_on", "T00_local_nvfp4_t00_think_on",
+     "NVFP4 vs FP8, T=0.0 thinking ON"),
+    ("C3_local_fp8_think_off", "FP8_T00_local_fp8_t00_think_off",
+     "T=0.0 vs T=0.2, FP8 thinking OFF (legacy engine)"),
+    ("C4_local_fp8_think_on", "FP8_T08_local_fp8_t08_think_on",
+     "T=0.8 vs T=0.2, FP8 thinking ON (legacy engine)"),
+]
+
 # P-005: second domain (FreeBSD Handbook, NVFP4 local, T in {0.0, 0.2} x thinking).
 FREEBSD_PAIRS = [
     ("F_C5_local_nvfp4_think_off", "F_C6_local_nvfp4_think_on",
@@ -104,21 +126,26 @@ def main():
     ap.add_argument("--out-prefix", default="judge_effects")
     ap.add_argument("--all-temperature", action="store_true",
                     help="add P-004 contrasts (per-T thinking + T=0 anchor trends)")
-    ap.add_argument("--domain", choices=["council", "freebsd"], default="council",
+    ap.add_argument("--domain", choices=["council", "freebsd", "fp8"], default="council",
                     help="freebsd: P-005 contrasts on the second domain (implies "
-                         "--judge-dir judge_freebsd/absolute --out-prefix judge_effects_freebsd)")
+                         "--judge-dir judge_freebsd/absolute --out-prefix judge_effects_freebsd); "
+                         "fp8: P-006 FP8 temperature contrasts (out prefix judge_effects_fp8)")
     a = ap.parse_args()
     if a.domain == "freebsd":
         if a.judge_dir == "judge/absolute":
             a.judge_dir = "judge_freebsd/absolute"
         if a.out_prefix == "judge_effects":
             a.out_prefix = "judge_effects_freebsd"
+    if a.domain == "fp8" and a.out_prefix == "judge_effects":
+        a.out_prefix = "judge_effects_fp8"
 
     sc = load(a.judge_dir)
     judges = sorted({k[3] for k in sc})
     units = sorted({k[1:3] for k in sc})
     if a.domain == "freebsd":
         pairs = FREEBSD_PAIRS
+    elif a.domain == "fp8":
+        pairs = FP8_PAIRS
     else:
         pairs = MAIN + (temperature_pairs() if a.all_temperature else [])
     rows, lines = [], ["| contrast | judge | n | Δ mean | 95% CI | W/T/L |",

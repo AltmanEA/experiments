@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation B is more fluent and technically accurate. Specifically, it translates 'operator surface' as 'интерфейс оператора' (natural) instead of 'поверхность оператора' (too literal). It also correctly translates 'gated transitions' as 'переходы с контролем' rather than 'переходы с блокировкой' (which implies they are always blocked). Additionally, B's translation of 'The override records reason' ('Обход фиксирует reason') is more accurate than A's version.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:39:47"
+  }
+}

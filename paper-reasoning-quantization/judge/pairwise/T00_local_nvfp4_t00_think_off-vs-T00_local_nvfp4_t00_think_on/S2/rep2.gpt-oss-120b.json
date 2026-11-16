@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.85,
+  "reason": "B follows glossary terms more closely, avoids the inaccurate addition of “по Объекту обсуждения” in the risk paragraph, and correctly uses subject terminology; A’s extra phrase introduces factual error despite a correct identifier.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:36:53"
+  }
+}

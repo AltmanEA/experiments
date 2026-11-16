@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "B is more accurate and adheres better to the glossary (specifically the term 'Subject' -> 'Объект обсуждения'). A contains a significant meaning reversal in the 'Irresolvable conflict' section ('is asked to make' translated as 'просит', meaning the operator is the one asking) and a hallucination in the 'Risk threshold breach' section ('по Объекту обсуждения' is added where it doesn't exist in the source). While B incorrectly translates part of a code identifier ('ЭскалацияRecord'), this is a minor technical error compared to A's accuracy and grammar issues.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:38:23"
+  }
+}

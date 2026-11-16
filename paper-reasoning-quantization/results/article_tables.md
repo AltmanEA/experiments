@@ -62,3 +62,36 @@
 | 1.0 | 75.8 | 12.9 / 7.6 | 0.19 | 9 | 69.4 | 18.7 / 14.6 | 2.43 | 179 |
 
 _noise mix = sd over 3 repeats x 2 judges (mixed generation + judge noise, as in STATUS.md P-004); noise gen = sd over judge-averaged repeats (generation/server noise only)._
+
+## Table 6. Temperature grid on FP8 (P-006, legacy engine, MQM mean of judges)
+
+| T | MQM off | noise off (mix/gen) | D3 off | wall off, s | MQM on | noise on (mix/gen) | D3 on | wall on, s |
+|---|---|---|---|---|---|---|---|---|
+| 0.0 | 78.9 | 13.3 / 3.9 | 0.43 | 18 | 47.1 | 9.0 / 4.6 | 2.90 | 299 |
+| 0.2 (C3/C4) | 82.5 | 16.9 / 5.1 | 0.48 | 18 | 56.1 | 20.2 / 12.1 | 1.90 | 299 |
+| 0.8 | 78.1 | 18.9 / 15.4 | 0.81 | 18 | 62.2 | 23.3 / 12.7 | 2.57 | 315 |
+
+### Table 6b. Paired MQM effects on FP8 (21 fixture x rep pairs)
+
+| contrast | Δ MQM | 95% CI | W/T/L | n |
+|---|---|---|---|---|
+| thinking ON vs OFF, FP8 T=0.0 | -31.7 | -45.1 – -19.0 | 1/3/17 | 21 |
+| thinking ON vs OFF, FP8 T=0.8 | -15.9 | -25.9 – -7.3 | 4/2/15 | 21 |
+| T=0.8 vs T=0 anchor, FP8 thinking OFF | -0.7 | -9.0 – +9.0 | 6/4/11 | 21 |
+| T=0.8 vs T=0 anchor, FP8 thinking ON | +15.1 | +4.8 – +26.8 | 13/4/4 | 21 |
+| NVFP4 vs FP8, T=0.0 thinking OFF | +11.3 | +4.2 – +19.4 | 9/3/9 | 21 |
+| NVFP4 vs FP8, T=0.0 thinking ON | -0.7 | -6.7 – +4.7 | 6/8/7 | 21 |
+| T=0.0 vs T=0.2, FP8 thinking OFF (legacy engine) | -3.6 | -9.0 – +1.1 | 7/5/9 | 21 |
+| T=0.8 vs T=0.2, FP8 thinking ON (legacy engine) | +6.1 | +1.9 – +10.9 | 14/3/4 | 21 |
+
+## Table 7. FreeBSD domain (P-005, NVFP4): defects, MQM, chrF vs official RU
+
+| condition | D3 code | D4 num | D5nc term | D6 echo | D7nc contr | MQM mean | 95% CI | crit/run | chrF | n |
+|---|---|---|---|---|---|---|---|---|---|---|
+| F_C5 NVFP4, off (T=0.2) | 0.00 | 0.00 | 2.20 | 0.00 | 2.20 | **83.0** | 76.5–88.6 | 0.10 | 84.4 | 30 |
+| F_C6 NVFP4, on (T=0.2) | 0.00 | 0.00 | 2.13 | 0.00 | 2.27 | **90.3** | 87.0–93.3 | 0.00 | 83.6 | 30 |
+| F_T00 NVFP4, off (T=0.0) | 0.00 | 0.00 | 2.20 | 0.00 | 2.20 | **82.2** | 76.8–87.3 | 0.07 | 84.7 | 30 |
+| F_T00 NVFP4, on (T=0.0) | 0.00 | 0.00 | 2.00 | 0.00 | 2.20 | **90.0** | 86.1–93.6 | 0.00 | 84.0 | 30 |
+| REF official RU (human ceiling) | — | — | — | — | — | **92.2** | 83.8–98.2 | — | — | 10 |
+
+_chrF = sacrebleu vs official RU reference (only FreeBSD domain has a human reference); MQM scale is shifted down ~7-9 pts even on the reference itself (judge ceiling, see judge_agreement.md) — compare MQM within domain only._

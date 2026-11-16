@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "B follows the source more accurately, especially in the risk‑threshold and veto sections, uses the required glossary terms with correct capitalization, and translates 'fallback' appropriately; overall it is more faithful while remaining fluent.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:39:20"
+  }
+}

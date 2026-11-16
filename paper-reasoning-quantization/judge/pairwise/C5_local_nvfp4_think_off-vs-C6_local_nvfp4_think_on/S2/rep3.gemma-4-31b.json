@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation B is more accurate and adheres better to the provided glossary. Translation A contains a hallucination in the 'Risk threshold breach' section, adding 'по Объекту обсуждения' (regarding the Subject) where it does not exist in the source text. Additionally, B correctly uses the glossary term 'Объект обсуждения' for 'subject', whereas A uses 'объект'. B also provides a better translation for 'Runtime' ('Среда выполнения') compared to A, which leaves it in English.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:41:49"
+  }
+}

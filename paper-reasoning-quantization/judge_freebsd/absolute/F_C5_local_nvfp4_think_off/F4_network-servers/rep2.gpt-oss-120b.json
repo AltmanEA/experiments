@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Used term \"авторитативные серверы имен\" instead of the required glossary equivalent \"авторитетный сервер имён\" (or its correct inflected forms).",
+      "quote": "авторитативные серверы имен"
+    }
+  ],
+  "score": 90,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F4_network-servers",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:34:10"
+  }
+}

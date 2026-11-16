@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked state name `awaiting-operator` must be byte-identical; translated to `ожидание оператора`.",
+      "quote": "`ожидание оператора`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked state name `resolved` must be byte-identical; translated to `разрешено`.",
+      "quote": "`разрешено`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked state name `failed` must be byte-identical; translated to `не удалось`.",
+      "quote": "`не удалось`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation omits the 'high' severity level from 'high/critical Documenter finding'.",
+      "quote": "критическом Выводе Документатора"
+    }
+  ],
+  "score": 15,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:25:10"
+  }
+}

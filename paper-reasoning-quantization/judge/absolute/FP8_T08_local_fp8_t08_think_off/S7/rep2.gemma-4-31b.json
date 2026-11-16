@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Typo in the word 'ДОЛЖЕН' (written as 'ДОЛЖНБ').",
+      "quote": "НЕ ДОЛЖНБ"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:22:04"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A is far superior in terms of grammar and fluency. Translation B suffers from severe grammatical issues, specifically failing to decline glossary terms (e.g., 'выходов Роль' instead of 'выходов Роли', 'Отсутствие Роль Core' instead of 'Отсутствие Роли Core', 'Вывод Документатор' instead of 'Выводе Документатора'). Additionally, B mistranslates 'falls back to' as 'возвращается к', which is incorrect in this technical context. A handles the technical terminology naturally and correctly.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:37:56"
+  }
+}

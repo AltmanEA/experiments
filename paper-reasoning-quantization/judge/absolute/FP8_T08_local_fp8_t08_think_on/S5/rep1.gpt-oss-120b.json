@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Heading contains English term \"Phase\" which should be replaced by the required Russian equivalent \"Фаза\".",
+      "quote": "## Phase State Machine"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Heading contains English term \"Role Status\" which should be replaced by the required Russian equivalent \"Статус роли\".",
+      "quote": "## Role Status Handling"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `blocked-эскалация` does not match the source token `blocked-escalation`; code tokens must be byte‑identical.",
+      "quote": "`blocked-эскалация`"
+    }
+  ],
+  "score": 71,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:28:59"
+  }
+}

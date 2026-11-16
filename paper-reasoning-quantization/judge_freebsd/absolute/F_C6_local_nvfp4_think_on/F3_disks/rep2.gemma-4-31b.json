@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatically incorrect header; should be 'Дисковые квоты'.",
+      "quote": "Диск квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'дисковая квота' replaced by various other constructions ('Квоты на диске', 'квоты дисков', 'квоты на дисках', 'квоты диска').",
+      "quote": "Квоты на диске"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C6_local_nvfp4_think_on",
+    "fixture": "F3_disks",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:40:45"
+  }
+}

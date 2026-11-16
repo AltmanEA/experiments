@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect translation of the glossary term \"brute force attacks\".",
+      "quote": "атаки методом перебора"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Inaccurate translation of \"drive by attacks\".",
+      "quote": "на лету"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Ungrammatical construction; the phrase should use the genitive case for the term.",
+      "quote": "средством **удалённое администрирование**"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Awkward phrasing; the instruction to reload the configuration is not idiomatic Russian.",
+      "quote": "сообщите sshd перезагрузить файл конфигурации"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect capitalization within a sentence.",
+      "quote": "Файл конфигурации"
+    }
+  ],
+  "score": 82,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F2_security",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:32:24"
+  }
+}

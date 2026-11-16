@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary requires the term \"авторитетный сервер имён\" (or its correct inflection). The translation uses \"авторитетные серверы имен\", replacing the required noun form \"имён\" with \"имен\".",
+      "quote": "авторитетные серверы имен"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary requires the term \"кэширующий сервер имён\" (or its correct inflection). The translation uses \"кэширующие (также известные как разрешающие) серверы имен\", again using the incorrect noun form \"имен\" instead of \"имён\".",
+      "quote": "кэширующие (также известные как разрешающие) серверы имен"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C6_local_nvfp4_think_on",
+    "fixture": "F4_network-servers",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:39:15"
+  }
+}

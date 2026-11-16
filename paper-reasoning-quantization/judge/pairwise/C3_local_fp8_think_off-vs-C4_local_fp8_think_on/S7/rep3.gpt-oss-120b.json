@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.95,
+  "reason": "A uses correct glossary forms, proper case and grammar (e.g., \"шлюзы целостности эскалации\"), consistent terminology, and clearer phrasing. B has several terminology errors and awkward constructions, especially in the final bullet points.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:38:38"
+  }
+}

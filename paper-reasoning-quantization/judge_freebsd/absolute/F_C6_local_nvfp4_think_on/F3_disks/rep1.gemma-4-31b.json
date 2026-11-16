@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatically incorrect header; 'Диск' is used as a noun instead of the required adjective 'Дисковые'.",
+      "quote": "Диск квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'дисковая квота' is replaced by a non-standard hyphenated construction.",
+      "quote": "Диск-квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'дисковая квота' is replaced by a noun-noun construction ('квот диска') instead of the required adjective-noun form.",
+      "quote": "квот диска"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'дисковая квота' is replaced by a different construction ('квоты на дисках').",
+      "quote": "квоты на дисках"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'дисковая квота' is replaced by a different lemma ('квоты дисков').",
+      "quote": "квоты дисков"
+    }
+  ],
+  "score": 82,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C6_local_nvfp4_think_on",
+    "fixture": "F3_disks",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:39:45"
+  }
+}

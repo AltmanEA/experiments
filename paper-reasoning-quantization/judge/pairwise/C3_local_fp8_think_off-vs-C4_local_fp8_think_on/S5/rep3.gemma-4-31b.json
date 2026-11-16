@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.95,
+  "reason": "Translation A is grammatically correct and fluent. Translation B contains several significant grammatical errors (e.g., 'высоком/критическом Вывод Документатор' and 'Отсутствие Роль Core' instead of using the correct Russian cases) and mistranslates 'override' as 'отмена' (cancellation) instead of 'обход' or 'переопределение'. While A's translation of 'Guard' as 'Охрана' is a bit literal, it is far superior to B's broken grammar and terminology.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:38:05"
+  }
+}

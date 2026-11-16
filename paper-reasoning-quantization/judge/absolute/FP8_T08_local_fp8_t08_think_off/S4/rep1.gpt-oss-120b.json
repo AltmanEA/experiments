@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `severity` was replaced with `Уровень серьёзности`, breaking the required byte‑identical code snippet.",
+      "quote": "Уровень серьёзности: severity|null"
+    }
+  ],
+  "score": 75,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:16:15"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'disk quota' translated as 'Диск Квоты' (incorrect lemma and grammar).",
+      "quote": "Диск Квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'disk quota' translated as 'Диск-квоты' (incorrect lemma).",
+      "quote": "Диск-квоты"
+    },
+    {
+      "category": "format",
+      "severity": "major",
+      "description": "Heading is not translated.",
+      "quote": "Enabling Disk Quotas"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'disk quota' translated as 'квоты на диск' instead of 'дисковая квота'.",
+      "quote": "квоты на диск"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'disk quota' translated as 'квот на диске' instead of 'дисковая квота'.",
+      "quote": "квот на диске"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'disk quota' translated as 'квоты дисков' instead of 'дисковая квота'.",
+      "quote": "квоты дисков"
+    }
+  ],
+  "score": 64,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F3_disks",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:49:40"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect translation of the term “brute force attacks”. The required Russian equivalent is “атаки методом грубой силы”.",
+      "quote": "атаки методом перебора"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Nonsensical word “клетка” inserted in the tip sentence, breaking readability.",
+      "quote": "клетка см."
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Awkward phrasing and missing punctuation in the sentence about reloading the configuration file.",
+      "quote": "После внесения изменений и проверки корректности Файл конфигурации, сообщите sshd перезагрузить файл конфигурации, выполнив"
+    }
+  ],
+  "score": 86,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:42:47"
+  }
+}

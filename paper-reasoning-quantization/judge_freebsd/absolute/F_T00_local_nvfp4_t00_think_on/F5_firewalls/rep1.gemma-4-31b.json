@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'ведение журнала' (logging) is not used; instead, the loanword 'логируется' is used.",
+      "quote": "логируется"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F5_firewalls",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:50:24"
+  }
+}

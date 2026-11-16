@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.85,
+  "reason": "B is more fluent and accurate in several key technical areas. Specifically, 'Gated transitions' is better translated as 'Переходы с контролем' (B) than 'Переходы с блокировкой' (A), as the gate controls the transition rather than simply blocking it. B also translates 'records reason' more accurately as 'фиксирует reason' compared to A's 'Записи обхода содержат reason'. B adheres more strictly to the glossary for 'Resolution' ('резолюция'). While B is slightly inconsistent with the term 'surface' (using both 'интерфейс' and 'поверхность'), 'интерфейс' is a much more natural translation for 'operator surface' than the literal 'поверхность'.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:42:13"
+  }
+}

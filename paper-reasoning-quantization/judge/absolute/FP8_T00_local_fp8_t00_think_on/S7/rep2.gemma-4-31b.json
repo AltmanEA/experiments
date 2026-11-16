@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Section header left untranslated.",
+      "quote": "Scope and Enforcement Point"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Section header left untranslated.",
+      "quote": "Verdict Logic"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Section header left untranslated.",
+      "quote": "Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case inflection for glossary term 'Phase' (Фаза); nominative used instead of genitive.",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case inflection for glossary term 'Role' (Роль); nominative used instead of genitive.",
+      "quote": "наличие Роль Core"
+    }
+  ],
+  "score": 66,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:16:55"
+  }
+}

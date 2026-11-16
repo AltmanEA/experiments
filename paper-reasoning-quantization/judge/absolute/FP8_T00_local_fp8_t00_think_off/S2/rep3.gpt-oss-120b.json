@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required glossary term for EN \"Subject\" (Объект обсуждения) is not used; a generic phrase \"объекта из списка объектов задачи\" is used instead.",
+      "quote": "объекта из списка объектов задачи"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T00_local_fp8_t00_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:53:34"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'brute force attacks' was translated as 'атаки методом перебора' instead of the required 'атаки методом грубой силы'.",
+      "quote": "атаки методом перебора"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case usage: 'удалённое администрирование' should be in the genitive case ('удалённого администрирования') after 'средством'.",
+      "quote": "средством удалённое администрирование"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The word 'клетка' (meaning 'cage' or 'cell') is a hallucination or typo; it should be 'клиента' to translate 'client settings'.",
+      "quote": "настроек клетка"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case usage: 'Файл конфигурации' should be in the genitive case ('файла конфигурации') after 'корректности'.",
+      "quote": "корректности Файл конфигурации"
+    }
+  ],
+  "score": 61,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:44:29"
+  }
+}

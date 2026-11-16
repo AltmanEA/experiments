@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A is much better for technical documentation. Translation B makes a critical error by translating code keys/variable names (e.g., 'escalation_reason' became 'причина_эскалации'), which would break the technical meaning. Additionally, Translation A uses a natural term for 'operator surface' ('интерфейс оператора'), whereas B uses a literal, incorrect translation ('поверхность оператора'). Translation B also contains grammatical errors in the table ('Вывод Документатор').",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:41:03"
+  }
+}

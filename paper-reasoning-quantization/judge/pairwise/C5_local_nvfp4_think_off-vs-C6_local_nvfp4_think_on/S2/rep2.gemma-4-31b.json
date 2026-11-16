@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Both translations failed to translate the sub-headings. However, B is significantly better in terms of terminology and accuracy. B correctly used the glossary term 'Объект обсуждения' (Subject), whereas A failed to use it consistently and produced a grammatically broken phrase ('списка обсуждаемых объекта задачи'). B also translated 'Runtime' as 'Среда выполнения', which is more professional than leaving it in English. B has one minor case error ('прерогативой Роль' instead of 'Роли'), but A's errors are more severe.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:40:39"
+  }
+}

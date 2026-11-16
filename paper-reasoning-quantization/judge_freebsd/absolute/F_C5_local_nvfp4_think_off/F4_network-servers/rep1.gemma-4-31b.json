@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'authoritative name servers' is translated as 'авторитативные серверы имен', which is a non-existent word in Russian and violates the required glossary term 'авторитетный сервер имён'.",
+      "quote": "авторитативные серверы имен"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Redundant phrasing: 'записей Обратной записи DNS' literally translates to 'entries of Reverse DNS record'.",
+      "quote": "записей Обратной записи DNS"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Unnecessary bolding and capitalization of the word 'Конфигурации' which is not present in the source text.",
+      "quote": "**Конфигурации**"
+    }
+  ],
+  "score": 86,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:35:15"
+  }
+}

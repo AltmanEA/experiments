@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.93,
+  "reason": "A follows glossary terms (консенсус, Эскалация, Артефакт, Документ консенсуса) and mirrors the source wording more accurately, while B substitutes key terms (согласие, согласованности) and adds minor deviations.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S1",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:36:40"
+  }
+}

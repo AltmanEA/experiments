@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.97,
+  "reason": "A uses correct glossary terms, proper grammar, and fluent Russian; B contains multiple term misuse and grammatical errors.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:37:15"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatically incorrect header; 'Disk Quotas' should be translated as 'Дисковые квоты'.",
+      "quote": "Диск квоты"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Mixed language in the reference link; only one word was translated, resulting in an unnatural phrase.",
+      "quote": "[Configuring the FreeBSD Ядро]"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatical error (incorrect case) and unjustified bolding of the word 'Конфигурация'.",
+      "quote": "После завершения **Конфигурация**"
+    }
+  ],
+  "score": 78,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F3_disks",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:44:56"
+  }
+}

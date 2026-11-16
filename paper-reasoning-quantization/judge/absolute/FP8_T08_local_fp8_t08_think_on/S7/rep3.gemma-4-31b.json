@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "English word 'indefinite' left untranslated and used incorrectly as an adjective instead of the adverb 'indefinitely'.",
+      "quote": "indefinite"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "Unnecessary backticks added to the glossary term 'Фаза', which were not present in the source text.",
+      "quote": "переход `Фаза`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case usage for glossary terms; nominative case used where genitive is required by Russian grammar.",
+      "quote": "наличие Core-Роль, правила Консенсус или шлюзы целостности Эскалация"
+    }
+  ],
+  "score": 86,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:34:36"
+  }
+}

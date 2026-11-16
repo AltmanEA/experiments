@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.7,
+  "reason": "A is slightly more accurate and fluent, uses glossary terms correctly (e.g., \"консенсуса\" in principle 1) and maintains consistent terminology, while B has minor deviations and less natural phrasing.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:38:58"
+  }
+}

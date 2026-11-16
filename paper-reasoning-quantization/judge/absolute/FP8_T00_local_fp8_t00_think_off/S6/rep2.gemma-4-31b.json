@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Finding' (Вывод) replaced by 'результаты'.",
+      "quote": "объединяет результаты по `subject_id`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The word 'value' (and 'defaults') is mistranslated as 'замечание' (remark/note) instead of 'значение'.",
+      "quote": "из задокументированного безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The word 'defaults' is mistranslated as 'замечания по умолчанию'.",
+      "quote": "Все применённые замечания по умолчанию"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Complete mistranslation of 'explicitly set, never inferred'. The translation 'явно задача, никогда не выводится' is nonsensical in this context; 'inferred' refers to logical derivation, not outputting data.",
+      "quote": "явно задача, никогда не выводится"
+    }
+  ],
+  "score": 53,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_off",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:00:42"
+  }
+}

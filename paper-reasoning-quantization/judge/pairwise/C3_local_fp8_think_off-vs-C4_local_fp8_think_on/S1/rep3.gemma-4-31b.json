@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.95,
+  "reason": "Translation B uses standard Russian IT terminology. Specifically, it correctly translates 'Framework' as 'Фреймворк' (whereas A uses the literal and uncommon 'Рамка'), 'runtime monitoring' as 'мониторинг среды выполнения', and 'General-purpose chat' as 'Чат общего назначения'. B is more fluent and professional in a technical context.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:36:00"
+  }
+}

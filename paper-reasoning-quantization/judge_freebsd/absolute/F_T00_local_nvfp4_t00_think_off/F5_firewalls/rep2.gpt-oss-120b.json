@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Брандмауэры\" is used for the heading, but the required glossary equivalent for \"firewall\" is \"межсетевой экран\" (or its appropriate form).",
+      "quote": "Брандмауэры"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F5_firewalls",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:45:10"
+  }
+}

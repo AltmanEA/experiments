@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.9,
+  "reason": "Translation A is more fluent and contextually accurate. It correctly translates 'emit event' as 'сгенерировать событие' (whereas B uses 'отправить', which is less precise). A also handles the term 'override' more naturally as 'обход' (bypass) when referring to the action of bypassing the gate, while B uses the literal 'переопределение', which sounds awkward in several sentences. Additionally, A translates 'Layer' and 'reason' (in the verdict list), making the text more consistent for a Russian reader.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:43:40"
+  }
+}

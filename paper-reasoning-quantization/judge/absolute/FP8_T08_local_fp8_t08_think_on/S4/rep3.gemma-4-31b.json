@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (enum values) must be byte-identical to the source.",
+      "quote": "консенсус, blocked-эскалация"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' should be translated as 'Объект обсуждения', not 'Субъект'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens inside backticks must be byte-identical to the source.",
+      "quote": "Объект обсуждения-reference|justification-format|status-extraction, Объект обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), Уровень серьёзности: Уровень серьёзности|null"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (field names) in the table must be byte-identical to the source.",
+      "quote": "эскалация_id, сессия_id, инициировавший_ролью, причина, уровень_серьёзности, блокатор, позиции, запрос_оператора, стратегия_замены, время_тайм_аута, резолюция, возобновление_фазы"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens in the 'Rule' column must be byte-identical to the source.",
+      "quote": "эскалация_причина, {роль_id, позиция, краткое_описание}"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistent translation of 'yes' in the 'Required' column (translated as 'да' in the first table, but left as 'yes' in the third).",
+      "quote": "yes"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:31:06"
+  }
+}

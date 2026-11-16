@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'brute force attacks' was translated as 'атаки методом перебора' instead of the required 'атаки методом грубой силы'.",
+      "quote": "атаки методом перебора"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the term 'удалённое администрирование' is used in the nominative case where the genitive case ('удалённого администрирования') is required by the preceding word 'средством'.",
+      "quote": "средством удалённое администрирование"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The word 'клетка' (cell/cage) is used instead of 'клиента' (client), making the sentence nonsensical.",
+      "quote": "настроек клетка"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error and incorrect capitalization: 'Файл конфигурации' should be in the genitive case ('файла конфигурации') and not capitalized.",
+      "quote": "проверки корректности Файл конфигурации"
+    }
+  ],
+  "score": 76,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F2_security",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:44:45"
+  }
+}

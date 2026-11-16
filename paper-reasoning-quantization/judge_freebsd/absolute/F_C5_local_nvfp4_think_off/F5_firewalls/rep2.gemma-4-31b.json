@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'firewall' translated as 'Брандмауэры' instead of 'межсетевой экран'.",
+      "quote": "Брандмауэры"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the word 'конфигурация' (should be dative/genitive 'конфигурации') and unnecessary bolding.",
+      "quote": "**Конфигурация** системы"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F5_firewalls",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:36:38"
+  }
+}

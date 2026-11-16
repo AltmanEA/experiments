@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation B is significantly more accurate in terms of meaning and terminology. Translation A contains a meaning error in the 'Irresolvable conflict' section ('Оператор... просит' implies the operator is the one asking, whereas the source says the operator is asked), a hallucination in the 'Risk threshold breach' section (adding 'по Объекту обсуждения' where it doesn't exist in the source), and fails to use the full glossary term for 'Subject' (Объект обсуждения). While Translation B makes a technical error by partially translating the identifier 'EscalationRecord' to 'ЭскалацияRecord', its overall prose and adherence to the glossary are far superior.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:38:13"
+  }
+}

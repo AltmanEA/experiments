@@ -294,6 +294,11 @@ def run(args):
                  ("C1_cloud_bf16_think_off", "C2_clean"),
                  ("C1_cloud_bf16_think_off", "K0_cloud_no_glossary")]
     tasks = repair_tasks(args.mode) if args.repair else task_list(args.mode, conds, pairs)
+    if args.mode == "pairwise" and not args.repair and pairs:
+        got = {t["pair"] for t in tasks}
+        want = {f"{a}-vs-{b}" for a, b in pairs}
+        if want - got:
+            log(f"WARN pairs with 0 tasks (typo or missing runs): {sorted(want - got)}")
     total = sum(len(t.get("judges", args.judges)) for t in tasks)
     log(f"START mode={args.mode} tasks={len(tasks)} requests={total} "
         f"judges={','.join(args.judges)} workers={args.workers} rpm={args.rpm}")

@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.85,
+  "reason": "B correctly translates the key clause about voting (no erroneous 'по Объекту обсуждения') and otherwise matches terminology and fluency; A’s mistake alters meaning despite a minor typo in B’s class name.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:36:54"
+  }
+}

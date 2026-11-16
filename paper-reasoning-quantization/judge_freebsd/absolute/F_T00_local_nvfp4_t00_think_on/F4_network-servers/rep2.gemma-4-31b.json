@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatically incorrect title; literal translation of 'Network Servers' without proper adjective agreement.",
+      "quote": "Сеть Серверы"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of parallel structure in the list; 'корневых' is an adjective while 'домен верхнего уровня' is a noun phrase, making the sentence grammatically disjointed.",
+      "quote": "авторитетных корневых, домен верхнего уровня (TLD) и других серверов"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Incorrect translation of the technical term 'Origin' in the context of DNS zone files; 'Начало' is too generic and does not reflect the technical meaning.",
+      "quote": "Начало"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Literal translation (calque) of the impersonal pronoun 'One'; 'Один хочет' is unnatural in Russian technical documentation.",
+      "quote": "Один хочет предоставлять"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Redundant and grammatically incorrect phrasing resulting from the literal insertion of the glossary term 'Обратная запись DNS' into the phrase 'reverse DNS entries'.",
+      "quote": "записей Обратная запись DNS"
+    }
+  ],
+  "score": 82,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F4_network-servers",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:49:36"
+  }
+}

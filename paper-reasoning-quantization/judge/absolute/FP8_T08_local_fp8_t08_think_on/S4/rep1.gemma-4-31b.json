@@ -1,0 +1,122 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Subject' translated as 'Субъекты' instead of 'Объект обсуждения'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token inside backticks modified.",
+      "quote": "blocked-эскалация"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens inside backticks translated; must be byte-identical to source.",
+      "quote": "Объект обсуждения-reference|формат-обоснования|извлечение-статуса, Объект обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), Уровень серьёзности: Уровень серьёзности|null"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (field names) inside backticks translated; must be byte-identical to source.",
+      "quote": "id_эскалации"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (field names) inside backticks translated; must be byte-identical to source.",
+      "quote": "id_сессии"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (field names) inside backticks translated; must be byte-identical to source.",
+      "quote": "поднято_ролью"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (field names) inside backticks translated; must be byte-identical to source.",
+      "quote": "причина"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (field names) inside backticks translated; must be byte-identical to source.",
+      "quote": "уровень_серьёзности"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (field names) inside backticks translated; must be byte-identical to source.",
+      "quote": "блокатор"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (field names) inside backticks translated; must be byte-identical to source.",
+      "quote": "позиции"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (field names) inside backticks translated; must be byte-identical to source.",
+      "quote": "запрос_оператора"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (field names) inside backticks translated; must be byte-identical to source.",
+      "quote": "стратегия_резервного_варианта"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (field names) inside backticks translated; must be byte-identical to source.",
+      "quote": "время_тайм-аута"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (field names) inside backticks translated; must be byte-identical to source.",
+      "quote": "разрешение"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens (field names) inside backticks translated; must be byte-identical to source.",
+      "quote": "возобновление_фазы"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code token inside backticks modified.",
+      "quote": "эскалация_reason"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Code tokens inside backticks translated; must be byte-identical to source.",
+      "quote": "id_роли, позиция"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Resolution' translated as 'разрешение' instead of 'Резолюция'.",
+      "quote": "разрешение"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:29:02"
+  }
+}

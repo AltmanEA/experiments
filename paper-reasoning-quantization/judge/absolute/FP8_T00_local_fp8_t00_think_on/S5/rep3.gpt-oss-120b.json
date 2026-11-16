@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `consensus` was translated to Russian, breaking the requirement for byte‑identical tokens.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `no-consensus` was altered to `no-консенсус`, violating the exact token rule.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `escalation_id` was changed to `id_эскалации`, which must remain unchanged.",
+      "quote": "`id_эскалации`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Backticked code token `agree` was replaced with the Russian word `согласие`, breaking the byte‑identical token requirement.",
+      "quote": "`согласие`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:08:04"
+  }
+}

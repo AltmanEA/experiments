@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Missing required backticked code token `council.override_precheck(reason, operator_id)` from the source.",
+      "quote": "`council.override_precheck(reason, operator_id)`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the noun \"Фаза\" in the phrase \"переход Фаза\"; should be genitive \"переход Фазы\".",
+      "quote": "переход Фаза"
+    }
+  ],
+  "score": 73,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:32:31"
+  }
+}

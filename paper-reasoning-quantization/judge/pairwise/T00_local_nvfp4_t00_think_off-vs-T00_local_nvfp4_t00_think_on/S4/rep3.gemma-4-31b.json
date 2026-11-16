@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A correctly preserves the technical field names (keys) in English, which is essential for API/schema documentation. Translation B translates these keys (e.g., 'escalation_id' to 'id_эскалации'), which makes the documentation incorrect and unusable for developers. Additionally, B incorrectly translates a key within the ValidationResult code string.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:38:23"
+  }
+}

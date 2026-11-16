@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens must be byte-identical to the source. The state identifiers were translated into Russian.",
+      "quote": "`ожидание оператора`, `разрешено`, `не выполнено`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The phrase 'falls back to' (meaning to use a default/alternative) is mistranslated as 'подагент' (sub-agent), which is a hallucination and changes the meaning of the sentence.",
+      "quote": "Загрузка Сценария подагент на `default-council-session`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender mismatch: the adjectives 'высокой/критической' (feminine) do not agree with the masculine noun 'Вывод' (Finding).",
+      "quote": "высокой/критической Вывод Документатора"
+    }
+  ],
+  "score": 63,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:28:49"
+  }
+}

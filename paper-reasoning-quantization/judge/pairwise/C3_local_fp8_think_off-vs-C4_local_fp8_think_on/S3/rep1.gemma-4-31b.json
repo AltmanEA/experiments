@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation B is more fluent and professional. It correctly translates 'canonical reference' as 'основной справочник' (whereas A uses a literal 'каноническая ссылка') and 'outcome' as 'исход', which is more precise in the context of state transitions. B also handles the technical term 'invalid-format status' more naturally for a developer audience by keeping the status value in English.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:36:03"
+  }
+}

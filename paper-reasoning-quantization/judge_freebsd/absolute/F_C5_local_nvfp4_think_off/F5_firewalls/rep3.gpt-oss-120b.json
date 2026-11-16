@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The title uses the term \"Брандмауэры\" instead of the required glossary term \"межсетевой экран\" (or its plural form).",
+      "quote": "# Брандмауэры"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect word form and unnecessary formatting in the phrase \"чтобы они соответствовали **Конфигурация** системы\"; should be \"чтобы они соответствовали конфигурации системы\".",
+      "quote": "чтобы они соответствовали **Конфигурация** системы"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F5_firewalls",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:35:20"
+  }
+}

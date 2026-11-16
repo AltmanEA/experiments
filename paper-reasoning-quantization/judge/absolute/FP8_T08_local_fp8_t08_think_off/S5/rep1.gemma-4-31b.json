@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the glossary term 'Роль' is not inflected to the required genitive case ('Роли') in the phrase 'выходов Роль'.",
+      "quote": "выходов Роль"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect word order and lack of inflection for the phrase 'Session Manifest'.",
+      "quote": "Сессия Манифест"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Non-standard transliteration or typo; 'перечек' is not a recognized technical term or correct translation of 'precheck' (which appears as 'percheck' in the source typo).",
+      "quote": "перечек"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Gender mismatch: 'Критическое' (neuter) does not agree with 'вывод' (masculine).",
+      "quote": "Критическое вывод"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistency in state name translation: 'resolved' is translated as 'разрешено' in the list but left as 'resolved' in the table.",
+      "quote": "разрешено"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistency in state name translation: 'failed' is translated as 'не удалось' in the list but left as 'failed' in the table.",
+      "quote": "не удалось"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistency in state name translation: 'awaiting-operator' is translated as 'ожидание оператора' in the list and 'ожидание-оператора' in the table.",
+      "quote": "ожидание оператора"
+    }
+  ],
+  "score": 86,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:23:54"
+  }
+}

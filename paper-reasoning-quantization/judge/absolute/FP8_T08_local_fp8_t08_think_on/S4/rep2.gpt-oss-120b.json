@@ -1,0 +1,68 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Field name not translated: required term “Subject” should be rendered as “Объект обсуждения”.",
+      "quote": "blocking_subjects"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Field name not translated: required term “Subject” should be rendered as “Объект обсуждения”.",
+      "quote": "disagreement_subjects"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Field name not translated: required term “Role” should be rendered as “Роль”.",
+      "quote": "raised_by_role"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Field name not translated: required term “Severity” should be rendered as “Уровень серьёзности”.",
+      "quote": "severity"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Field name not translated: required term “Resolution” should be rendered as “Резолюция”.",
+      "quote": "resolution"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Field name not translated: required term “Phase” should be rendered as “Фаза”.",
+      "quote": "resume_phase"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Property name inside positions not translated: required term “Role” should be rendered as “Роль”.",
+      "quote": "role_id"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Property name inside positions not translated: required term “Stance” should be rendered as “Позиция”.",
+      "quote": "stance"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token altered: the back‑ticked object must be byte‑identical to the source; it contains translated terms and formatting changes.",
+      "quote": "`{check: Объект обсуждения-reference|justification-format|status-extraction, Объект обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), Уровень серьёзности: Уровень серьёзности|null}`"
+    }
+  ],
+  "score": 59,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:27:37"
+  }
+}

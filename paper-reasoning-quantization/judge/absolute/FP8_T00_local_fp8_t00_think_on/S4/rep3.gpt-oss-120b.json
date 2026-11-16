@@ -1,0 +1,68 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `subject` was replaced with Russian text \"Объект обсуждения\" inside the ValidationResult structure.",
+      "quote": "Объект обсуждения-reference"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `subject_id` was replaced with Russian text \"Объект обсуждения_id\" inside the ValidationResult structure.",
+      "quote": "Объект обсуждения_id"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `severity` was replaced with Russian text \"Уровень серьёзности\" inside the ValidationResult structure.",
+      "quote": "Уровень серьёзности:"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `escalation_id` was changed to Russian \"id_эскалации\" in the EscalationRecord table.",
+      "quote": "`id_эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `session_id` was changed to Russian \"id_сессии\" in the EscalationRecord table.",
+      "quote": "`id_сессии`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `raised_by_role` was changed to Russian \"поднято_ролью\" in the EscalationRecord table.",
+      "quote": "`поднято_ролью`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `severity` was changed to Russian \"уровень_серьёзности\" in the EscalationRecord table.",
+      "quote": "`уровень_серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `resolution` was changed to Russian \"резолюция\" in the EscalationRecord table.",
+      "quote": "`резолюция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `resume_phase` was changed to Russian \"фаза_возобновления\" in the EscalationRecord table.",
+      "quote": "`фаза_возобновления`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:06:34"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B makes critical errors by translating technical identifiers, including field names (e.g., 'severity' -> 'Уровень серьёзности', 'resolution' -> 'Резолюция') and enum values (e.g., 'consensus' -> 'консенсус'). In technical documentation, these must remain in English to match the code. Translation A correctly preserves these identifiers while translating the descriptive text.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:40:46"
+  }
+}

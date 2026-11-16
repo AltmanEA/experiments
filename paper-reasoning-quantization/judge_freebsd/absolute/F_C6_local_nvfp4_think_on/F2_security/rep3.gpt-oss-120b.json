@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect translation of glossary term \"brute force attacks\"; used \"атаки методом перебора\" instead of required \"атаки методом грубой силы\".",
+      "quote": "атаки методом перебора"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Extraneous nonsensical word \"клетка\" inserted in the sentence about ssh_config reference.",
+      "quote": "клетка"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C6_local_nvfp4_think_on",
+    "fixture": "F2_security",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:37:22"
+  }
+}

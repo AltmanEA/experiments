@@ -1,0 +1,20 @@
+level,family,contrast,metric,n,nonzero,delta,W,p_raw,p_holm,thr_p95,sig_test,sig_vs_noise
+mqm,thinking,"thinking ON vs OFF, FP8 T=0.0",MQM,21,18,-31.714286,2.0,0.000276,0.000552,18.85,True,True
+mqm,thinking,"thinking ON vs OFF, FP8 T=0.8",MQM,21,19,-15.928571,17.5,0.001814,0.001814,60.7,True,False
+mqm,quantization,"NVFP4 vs FP8, T=0.0 thinking OFF",MQM,21,18,11.285714,45.0,0.076993,0.153986,17.45,False,False
+mqm,quantization,"NVFP4 vs FP8, T=0.0 thinking ON",MQM,21,13,-0.714286,45.0,0.972083,0.972083,32.35,False,False
+mqm,temperature,"T=0.0 vs T=0.2, FP8 thinking OFF (legacy engine)",MQM,21,16,-3.642857,48.0,0.300407,0.600814,18.0,False,False
+mqm,temperature,"T=0.8 vs T=0 anchor, FP8 thinking OFF",MQM,21,17,-0.738095,59.5,0.4209,0.600814,44.4,False,False
+mqm,temperature,"T=0.8 vs T=0 anchor, FP8 thinking ON",MQM,21,17,15.047619,29.0,0.02442,0.073261,35.375,False,False
+mqm,temperature,"T=0.8 vs T=0.2, FP8 thinking ON (legacy engine)",MQM,21,18,6.119048,30.0,0.015512,0.062047,76.8,False,False
+defect,defect/code_missing,"thinking ON vs OFF, FP8 T=0.0",D3 code,21,13,2.47619,0.0,0.001088,0.004352,1.0,True,True
+defect,defect/code_missing,"thinking ON vs OFF, FP8 T=0.8",D3 code,21,10,1.761905,4.0,0.012864,0.038593,5.85,True,False
+defect,defect/code_missing,"T=0.8 vs T=0 anchor, FP8 thinking OFF",D3 code,21,5,0.380952,2.0,0.130797,0.261594,2.9,False,False
+defect,defect/code_missing,"T=0.8 vs T=0 anchor, FP8 thinking ON",D3 code,21,5,-0.333333,4.0,0.343028,0.343028,7.0,False,False
+defect,defect/term_missing_nc,"thinking ON vs OFF, FP8 T=0.0",D5nc term,21,7,-0.142857,8.0,0.256839,0.770518,1.0,False,False
+defect,defect/term_missing_nc,"thinking ON vs OFF, FP8 T=0.8",D5nc term,21,6,0.0,10.5,1.0,1.0,1.0,False,False
+defect,defect/term_missing_nc,"T=0.8 vs T=0 anchor, FP8 thinking OFF",D5nc term,21,8,-0.047619,16.0,0.763025,1.0,1.0,False,False
+defect,defect/term_missing_nc,"T=0.8 vs T=0 anchor, FP8 thinking ON",D5nc term,21,2,0.095238,0.0,0.157299,0.629197,1.0,False,False
+defect,defect/contam_nc,"thinking ON vs OFF, FP8 T=0.8",D7nc contr,21,2,-0.047619,1.0,0.654721,0.951932,1.0,False,False
+defect,defect/contam_nc,"T=0.8 vs T=0 anchor, FP8 thinking OFF",D7nc contr,21,1,0.095238,0.0,0.317311,0.951932,0.0,False,False
+defect,defect/contam_nc,"T=0.8 vs T=0 anchor, FP8 thinking ON",D7nc contr,21,1,0.047619,0.0,0.317311,0.951932,0.0,False,False

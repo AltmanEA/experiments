@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required glossary equivalent for 'brute force attacks' ('атаки методом грубой силы') was not used; the English term was kept instead.",
+      "quote": "brute-force"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The word 'клетка' (cell/cage) is used instead of 'клиента' (client), which is a hallucination or a severe typo.",
+      "quote": "настроек клетка"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for the list items following the preposition 'для' (should be genitive, but nominative is used throughout the list).",
+      "quote": "Создание и управление закрытыми ключами, открытыми ключами и параметрами"
+    }
+  ],
+  "score": 78,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C6_local_nvfp4_think_on",
+    "fixture": "F2_security",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:39:24"
+  }
+}

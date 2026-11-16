@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Section headers are not translated into Russian.",
+      "quote": "## `pre_check` Gate"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The verdict value 'fail' is translated as 'неудача', while the verdict value 'pass' is left in English, creating inconsistency with the 'Verdict Logic' table where both are kept in English.",
+      "quote": "неудача"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the noun 'Роль' should be in the genitive case ('Роли') to agree with the word 'присутствие'.",
+      "quote": "присутствие Core-Роль"
+    }
+  ],
+  "score": 86,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:35:52"
+  }
+}

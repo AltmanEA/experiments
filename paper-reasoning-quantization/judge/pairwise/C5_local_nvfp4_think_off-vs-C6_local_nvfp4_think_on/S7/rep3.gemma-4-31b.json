@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation A is grammatically correct and flows naturally. Translation B has severe grammatical errors in the final section, where it inserts glossary terms in the nominative case regardless of the sentence structure (e.g., 'переход Фаза', 'присутствие Роль Core', 'правила Консенсус'), which is unacceptable in Russian.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:43:11"
+  }
+}

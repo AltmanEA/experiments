@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.92,
+  "reason": "A follows the required glossary terms (Консенсус, Эскалация, Артефакт, Документ консенсуса) consistently, while B replaces Консенсус with согласие, violating terminology rules. Both are fluent, but A’s terminology accuracy makes it superior.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:36:22"
+  }
+}

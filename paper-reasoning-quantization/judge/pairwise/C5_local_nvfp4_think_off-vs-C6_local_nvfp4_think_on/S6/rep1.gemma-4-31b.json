@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B contains critical errors: it translates a JSON key (\"role_agent_config\" -> \"Роль_agent_config\"), which breaks technical accuracy, and the table translations are grammatically incorrect and nonsensical (\"аналитическая-задача обзоры\", \"задача явно, никогда не выводится\"). Translation A is much more professional and preserves technical identifiers, although both translations mistakenly translated 'value/defaults' as 'замечания' in one section.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:42:13"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required Russian equivalent for the glossary term \"Documenter\" is missing; the English term is left unchanged in the heading.",
+      "quote": "Documenter Unavailable — Override Mode"
+    }
+  ],
+  "score": 98,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:12:55"
+  }
+}

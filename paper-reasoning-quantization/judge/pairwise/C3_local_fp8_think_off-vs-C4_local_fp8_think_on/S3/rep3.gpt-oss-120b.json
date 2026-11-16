@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.96,
+  "reason": "A preserves code identifiers, uses correct term 'значение' and matches glossary (e.g., Раунд обсуждения). B mistranslates identifiers (blocked-эскалация) and mislabels the source term.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:36:28"
+  }
+}

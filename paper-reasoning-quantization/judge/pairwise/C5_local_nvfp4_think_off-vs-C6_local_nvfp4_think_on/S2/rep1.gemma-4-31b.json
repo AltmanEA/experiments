@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 1,
+  "reason": "Translation B is significantly better in terms of accuracy and grammar. Translation A contains a critical grammatical error in the 'Irresolvable conflict' section: 'Оператор получает сводку обеих позиций и просит принять окончательное решение' implies the operator is the one asking for a decision, whereas the source says the operator 'is asked' to make the decision. B correctly translates this as 'ему предлагается принять окончательное решение'. Additionally, B adheres better to the glossary (using 'объект обсуждения' for 'subject') and provides a more natural translation for 'runtime' ('среда выполнения').",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:39:50"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect translation of the term \"disk quota\"; used \"Диск квоты\" instead of the required \"дисковая квота\" (plural \"дисковые квоты\").",
+      "quote": "Диск квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect order of words for \"disk quotas\"; used \"квоты дисков\" instead of the required \"дисковые квоты\".",
+      "quote": "квоты дисков"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect phrase \"квоты дисков\" in the sentence describing configuration of disk quotas for UFS.",
+      "quote": "квоты дисков"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Heading uses wrong term \"Включение квот дискового пространства\" instead of the required \"Включение дисковых квот\".",
+      "quote": "Включение квот дискового пространства"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Phrase \"квоты для дисков\" is not the required translation for \"disk quotas\".",
+      "quote": "квоты для дисков"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Phrase \"квоты дисков\" used again when enabling quotas in /etc/rc.conf; should be \"дисковые квоты\".",
+      "quote": "квоты дисков"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Phrase \"квоты дискового пространства\" used instead of the required \"дисковые квоты\" when editing /etc/fstab.",
+      "quote": "квоты дискового пространства"
+    }
+  ],
+  "score": 30,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F3_disks",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:32:47"
+  }
+}

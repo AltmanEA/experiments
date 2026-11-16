@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token inside backticks changed from `consensus` to Russian `Консенсус`.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token inside backticks changed from `blocked-escalation` to Russian `blocked-Эскалация`.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token inside backticks changed from `escalation_reason` to Russian `Эскалация_reason`.",
+      "quote": "`Эскалация_reason`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token inside backticks changed from `escalation_id` to Russian `Эскалация_id`.",
+      "quote": "`Эскалация_id`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:07:08"
+  }
+}

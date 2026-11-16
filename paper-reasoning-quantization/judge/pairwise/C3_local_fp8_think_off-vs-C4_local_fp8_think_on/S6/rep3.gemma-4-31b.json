@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.9,
+  "reason": "Translation B has severe grammatical errors, treating glossary terms as immutable strings and failing to decline them (e.g., 'статусы Роль', 'маршрутизирует Эскалация', 'Решения по Фаза'), which makes the text look like a raw machine output. Translation A is fluent and grammatically correct. Both translations incorrectly translated 'value' as 'замечание' (remark) in the defaults policy section, and A struggled with 'explicitly set' in the table, but A is far superior in overall quality and readability.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:38:08"
+  }
+}

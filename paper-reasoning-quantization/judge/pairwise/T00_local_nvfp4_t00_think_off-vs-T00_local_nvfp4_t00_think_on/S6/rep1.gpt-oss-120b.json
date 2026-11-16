@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.85,
+  "reason": "A preserves terminology, uses correct glossary terms, and maintains fluent, accurate phrasing. B introduces awkward translations (e.g., table values), misnames the config key, and has minor grammatical errors, reducing overall accuracy.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:39:04"
+  }
+}

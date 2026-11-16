@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.92,
+  "reason": "A follows the glossary (uses Консенсус, Роль, Артефакт) and matches source terms (артефакт дизайна, путь эскалации) more precisely, while maintaining fluent, well‑formatted Russian. B deviates on key terminology (согласия instead of консенсус) and some phrasing.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S1",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:35:10"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.75,
+  "reason": "A follows glossary more consistently and has fewer grammatical mix‑ups; B introduces several awkward hybrid terms and a genitive error.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:41:22"
+  }
+}

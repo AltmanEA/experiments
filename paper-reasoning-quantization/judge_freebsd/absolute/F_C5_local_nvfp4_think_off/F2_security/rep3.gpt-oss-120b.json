@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect term used for \"brute force attacks\"; required term is \"атаки методом грубой силы\".",
+      "quote": "атаки методом перебора"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Spurious word \"клетка\" inserted, making the sentence nonsensical.",
+      "quote": "клетка"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect capitalization and misplaced word \"Файл конфигурации\" in the sentence about reloading configuration.",
+      "quote": "Файл конфигурации"
+    }
+  ],
+  "score": 86,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F2_security",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:32:00"
+  }
+}

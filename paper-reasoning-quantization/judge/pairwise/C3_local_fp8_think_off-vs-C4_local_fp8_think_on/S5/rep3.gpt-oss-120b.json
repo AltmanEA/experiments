@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.71,
+  "reason": "B translates most glossary terms (Consensus, Escalation, etc.) correctly, meeting terminology requirements, while A leaves several key terms in English. Minor fluency issues in B are outweighed by its higher terminology accuracy.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:37:20"
+  }
+}

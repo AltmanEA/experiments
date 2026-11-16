@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B contains a critical error by translating a code key/string literal (\"role_agent_config\" -> \"Роль_agent_config\"), which would break the technical documentation. Additionally, B's translation of the table is grammatically incorrect and nonsensical (\"аналитическая-задача обзоры\"), whereas A correctly left the technical terms in English. Both translations mistakenly translated 'value' as 'замечание' (remark/note), but A is far superior in terms of technical accuracy and fluency.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:39:53"
+  }
+}

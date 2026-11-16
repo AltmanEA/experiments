@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "B is more consistent with technical terminology, specifically using 'вердикт' (verdict) and 'переопределение' (override) throughout, whereas A switches between 'вердикт' and 'решение'. B also correctly translates the verb 'records' ('фиксирует'), while A mistranslates it as a noun ('записи'). B's phrasing in the 'Scope and Enforcement Point' section is more precise and professional.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:43:37"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' is translated as 'Субъекты' instead of the required glossary equivalent 'Объект обсуждения'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "A code token inside backticks ('severity') was translated, which violates the requirement for byte-identical code tokens.",
+      "quote": "Уровень серьёзности|null"
+    }
+  ],
+  "score": 65,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_off",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:57:24"
+  }
+}

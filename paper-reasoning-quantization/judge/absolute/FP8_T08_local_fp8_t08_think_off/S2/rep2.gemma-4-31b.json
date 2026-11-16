@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Headers were left untranslated in English.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation incorrectly states that the operator is the one asking for a decision, whereas the source states the operator is being asked to make the decision.",
+      "quote": "и просит вынести окончательное решение"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'Subject' (Объект обсуждения) was translated as 'объект'.",
+      "quote": "объект из списка объектов задачи"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "'Runtime' (referring to the execution environment/system) was mistranslated as 'Время выполнения' (referring to the duration of execution).",
+      "quote": "Время выполнения"
+    }
+  ],
+  "score": 68,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:17:53"
+  }
+}

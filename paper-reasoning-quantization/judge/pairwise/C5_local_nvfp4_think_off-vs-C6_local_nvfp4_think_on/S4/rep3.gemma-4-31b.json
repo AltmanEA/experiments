@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B makes a critical error by translating field names and enum values inside code blocks and technical rules (e.g., 'subject_id' to 'Объект обсуждения_id' and 'blocked-escalation' to 'блокированная-эскалация'). In technical documentation, identifiers and enum values must remain in their original form to be useful. Translation A correctly preserves these while translating the descriptive text.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:41:22"
+  }
+}

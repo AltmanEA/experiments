@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.9,
+  "reason": "Both translations share a grammatical error in the 'Irresolvable conflict' section ('и просит' instead of 'и его просят'), and both kept English headings. However, Translation B committed a critical technical error by partially translating a code identifier ('EscalationRecord' became 'ЭскалацияRecord'), which is unacceptable in technical documentation. Translation A preserved the identifier correctly. While Translation B followed the glossary for 'Subject' more precisely, Translation A's overall technical accuracy makes it the better choice.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:36:46"
+  }
+}

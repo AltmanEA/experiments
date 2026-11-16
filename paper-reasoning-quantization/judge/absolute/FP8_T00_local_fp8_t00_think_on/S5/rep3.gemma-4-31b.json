@@ -1,0 +1,68 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `consensus` must be byte-identical; translated as `Консенсус`.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `no-consensus` must be byte-identical; translated as `no-консенсус`.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` must be byte-identical; translated as `blocked-эскалация`.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `escalation_reason` must be byte-identical; translated as `reason_эскалации`.",
+      "quote": "`reason_эскалации`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `escalation_id` must be byte-identical; translated as `id_эскалации`.",
+      "quote": "`id_эскалации`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `agree` must be byte-identical; translated as `согласие`.",
+      "quote": "`согласие`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect word order and grammar for a section title; should be 'Манифест Сессии'.",
+      "quote": "Сессия Манифест"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the glossary term 'Фаза' (should be accusative 'Фазу').",
+      "quote": "в Фаза 3"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the glossary term 'Роль' (should be genitive 'Роли').",
+      "quote": "Роль Core"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:13:05"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.85,
+  "reason": "A preserves original identifiers, follows glossary consistently, and has cleaner fluency; B alters code terms and leaves some English fragments.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:39:43"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header is not translated",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header is not translated",
+      "quote": "### Escalation Reasons"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header is not translated",
+      "quote": "### Escalation Document"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Header is not translated",
+      "quote": "### Escalation Resolution Paths"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Resolution' (Резолюция) was replaced by 'исхода'",
+      "quote": "исхода эскалации"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of proper case inflection for glossary term 'Роль' (should be 'роли')",
+      "quote": "название Роль"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of proper case inflection for glossary term 'Эскалация' (should be 'эскалацию')",
+      "quote": "инициировала Эскалация"
+    }
+  ],
+  "score": 54,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:28:19"
+  }
+}

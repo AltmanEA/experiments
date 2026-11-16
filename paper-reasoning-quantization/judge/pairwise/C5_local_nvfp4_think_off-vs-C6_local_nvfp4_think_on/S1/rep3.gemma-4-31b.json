@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation B is significantly better because it uses standard technical terminology. Specifically, it translates 'Framework' as 'Фреймворк', whereas Translation A uses 'Рамка', which is a literal translation and sounds unnatural in a software/AI context. B also provides a more professional translation for 'runtime monitoring' ('мониторинг среды выполнения' vs 'мониторинг во время выполнения') and 'core design' ('базовой архитектуры' vs 'базового дизайна').",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:39:59"
+  }
+}

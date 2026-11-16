@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect term used for \"authoritative name server\"; required glossary equivalent is \"авторитетный сервер имён\".",
+      "quote": "авторитативные имена серверов"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect term used for \"caching name server\"; required glossary equivalent is \"кэширующий сервер имён\".",
+      "quote": "кэширующие (также известные как разрешающие) имена серверов"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F4_network-servers",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:44:25"
+  }
+}

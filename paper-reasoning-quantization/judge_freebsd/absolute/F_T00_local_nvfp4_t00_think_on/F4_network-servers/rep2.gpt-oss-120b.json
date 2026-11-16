@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The term “Origin” is translated as “Начало”, which does not convey the correct technical meaning of the source term.",
+      "quote": "Начало"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The sentence “Блок IP-адресов требует записей Обратная запись DNS (IP в имя хоста).” is awkward and inaccurate; it should reflect “requires reverse DNS entries”.",
+      "quote": "Блок IP-адресов требует записей Обратная запись DNS (IP в имя хоста)."
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The phrase “части DNS, управляемой одним и тем же органом” uses “органом” instead of the correct technical term “authority”.",
+      "quote": "части DNS, управляемой одним и тем же органом"
+    }
+  ],
+  "score": 94,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F4_network-servers",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:47:48"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.75,
+  "reason": "A uses more accurate term for 'gate' (Шлюз) and overall phrasing aligns closely with source while correctly applying all glossary terms; B's 'Контрольная точка' is less precise.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:40:23"
+  }
+}

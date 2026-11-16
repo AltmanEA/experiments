@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token modified: 'no-consensus' translated to 'no-консенсус'.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token modified: 'blocked-escalation' translated to 'blocked-эскалация'.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token modified: 'phase_state' translated to 'фаза_state'.",
+      "quote": "`фаза_state`"
+    }
+  ],
+  "score": 25,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:05:34"
+  }
+}

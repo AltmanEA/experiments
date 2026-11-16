@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required term \"Причина эскалации\" (Escalation Reason) is not used in the heading; a generic word \"причин\" is used instead.",
+      "quote": "Система направляет задачу оператору по одной из следующих трёх причин."
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required term \"Резолюция\" (Resolution) is omitted in the heading; a generic phrase \"исхода эскалации\" is used instead.",
+      "quote": "Существует три возможных исхода эскалации:"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:23:54"
+  }
+}

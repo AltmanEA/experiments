@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Headers are not translated into Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The passive construction 'is asked' is translated as active 'просит', which incorrectly implies that the operator is the one making the request rather than receiving it.",
+      "quote": "и просит принять окончательное решение"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'Subject' (Объект обсуждения) is translated as 'объект'.",
+      "quote": "объект из списка объектов задачи"
+    }
+  ],
+  "score": 78,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:55:50"
+  }
+}

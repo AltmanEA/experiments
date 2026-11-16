@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.78,
+  "reason": "A follows glossary more closely overall and translates key concepts accurately (e.g., fallback as “Отложенное резервное решение”). B makes a notable mistranslation “Отложенный возврат” for Deferred fallback and uses a less natural “блокер”. Minor phrasing differences in object list do not outweigh B’s error.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S2",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:35:09"
+  }
+}

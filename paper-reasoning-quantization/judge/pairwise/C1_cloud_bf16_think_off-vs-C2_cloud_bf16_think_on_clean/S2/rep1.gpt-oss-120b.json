@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.85,
+  "reason": "A provides a more accurate, fluent translation with correct terminology and cleaner formatting. B contains several grammatical and structural errors (e.g., wrong phrase order, stray backticks, duplicated text) and less precise terminology.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:43:04"
+  }
+}

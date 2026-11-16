@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "English word \"indefinite\" left untranslated; should be Russian equivalent (e.g., \"бесконечно\").",
+      "quote": "indefinite"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token backticked term should be identical to source; used Russian \"Фаза\" instead of English \"Phase\".",
+      "quote": "`Фаза`"
+    }
+  ],
+  "score": 73,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:32:23"
+  }
+}

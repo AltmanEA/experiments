@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token modified: 'blocked-escalation' translated to 'blocked-эскалация'.",
+      "quote": "blocked-эскалация"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' translated as 'Субъекты' instead of the required 'Объект обсуждения'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token and field name 'severity' translated to 'уровень_серьёзности'.",
+      "quote": "уровень_серьёзности"
+    }
+  ],
+  "score": 40,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:20:29"
+  }
+}

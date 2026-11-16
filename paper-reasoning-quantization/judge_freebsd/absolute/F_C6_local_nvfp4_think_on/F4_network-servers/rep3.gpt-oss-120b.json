@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Used plural form \"авторитетные серверы имён\" instead of required singular term \"авторитетный сервер имён\".",
+      "quote": "авторитетные серверы имён"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Used plural form \"кэширующие серверы имён\" instead of required singular term \"кэширующий сервер имён\".",
+      "quote": "кэширующие серверы имён"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C6_local_nvfp4_think_on",
+    "fixture": "F4_network-servers",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:38:36"
+  }
+}

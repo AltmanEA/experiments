@@ -32,7 +32,7 @@ from pathlib import Path
 import numpy as np
 from scipy import stats
 
-from judge_effects import MAIN, temperature_pairs, load
+from judge_effects import FP8_PAIRS, FREEBSD_PAIRS, MAIN, temperature_pairs, load
 
 ROOT = Path(__file__).resolve().parent.parent
 RES = ROOT / "results"
@@ -42,6 +42,16 @@ DEFECT_METRICS = [("code_missing", "D3 code"), ("num_lost", "D4 num"),
                   ("contam_nc", "D7nc contr")]
 FLOOR_CONDS = {"T00_local_nvfp4_t00_think_off": "T00 off",
                "T00_local_nvfp4_t00_think_on": "T00 on"}
+# per-domain overrides (see --domain): contrasts, defects CSV, noise floors
+DOMAINS = {
+    "council": {"pairs": None, "defects": "defects.csv", "floors": FLOOR_CONDS},
+    "freebsd": {"pairs": FREEBSD_PAIRS, "defects": "defects_freebsd.csv",
+                "floors": {"F_T00_local_nvfp4_t00_think_off": "F T00 off",
+                           "F_T00_local_nvfp4_t00_think_on": "F T00 on"}},
+    "fp8": {"pairs": FP8_PAIRS, "defects": "defects_fp8.csv",
+            "floors": {"FP8_T00_local_fp8_t00_think_off": "FP8 T00 off",
+                       "FP8_T00_local_fp8_t00_think_on": "FP8 T00 on"}},
+}
 
 
 def family(label):
@@ -49,16 +59,19 @@ def family(label):
         return "thinking"
     if "vs FP8" in label or "vs cloud bf16" in label:
         return "quantization"
-    if "vs T=0 anchor" in label:
+    if "vs T=0 anchor" in label or "vs T=0.2" in label:
         return "temperature"
     return "other"
 
 
-def contrast_list():
-    """MAIN + temperature contrasts, deduplicated on the condition pair
-    (C5:C6 repeats as 'T=0.2'); the per-T label wins."""
+def contrast_list(domain="council"):
+    """Contrasts for the domain, deduplicated on the condition pair (C5:C6 repeats
+    as 'T=0.2'); the per-T label wins."""
+    pairs = DOMAINS[domain]["pairs"]
+    if pairs is None:
+        pairs = MAIN + temperature_pairs()
     by_key = {}
-    for ca, cb, label in MAIN + temperature_pairs():
+    for ca, cb, label in pairs:
         by_key[(ca, cb)] = label
     out = [(ca, cb, label) for (ca, cb), label in by_key.items()]
     order = {"thinking": 0, "quantization": 1, "temperature": 2, "other": 3}
@@ -114,9 +127,9 @@ def load_mqm(judge_dir):
     return unit
 
 
-def load_defects():
+def load_defects(defects_csv="defects.csv"):
     per = defaultdict(dict)  # metric -> {(cond,fix,rep): value}
-    with open(RES / "defects.csv") as fh:
+    with open(RES / defects_csv) as fh:
         rows = list(csv.DictReader(fh))
     seen = defaultdict(int)
     for r in rows:
@@ -137,13 +150,20 @@ def by_cond_fix(data):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--alpha", type=float, default=0.05)
-    ap.add_argument("--judge-dir", default="judge/absolute")
-    ap.add_argument("--out-prefix", default="stats_tests")
+    ap.add_argument("--judge-dir", default=None,
+                    help="default: judge/absolute (council/fp8), "
+                         "judge_freebsd/absolute (freebsd)")
+    ap.add_argument("--out-prefix", default=None)
+    ap.add_argument("--domain", choices=["council", "freebsd", "fp8"], default="council")
     a = ap.parse_args()
+    if a.judge_dir is None:
+        a.judge_dir = "judge_freebsd/absolute" if a.domain == "freebsd" else "judge/absolute"
+    if a.out_prefix is None:
+        a.out_prefix = "stats_tests" if a.domain == "council" else f"stats_tests_{a.domain}"
 
     mqm = load_mqm(a.judge_dir)
-    defects = load_defects()
-    contrasts = contrast_list()
+    defects = load_defects(DOMAINS[a.domain]["defects"])
+    contrasts = contrast_list(a.domain)
 
     def unit_delta(data_a, data_b):
         """Paired deltas keyed by (fixture, rep), condition stripped."""
@@ -208,7 +228,7 @@ def main():
         return out.values()
 
     floors = []
-    for cond, clabel in FLOOR_CONDS.items():
+    for cond, clabel in DOMAINS[a.domain]["floors"].items():
         d = rep_absdiffs(mqm_cf[cond])
         sd_mix = [statistics.stdev(xs) for xs in mqm_cf[cond].values() if len(xs) > 1]
         per_metric = {}

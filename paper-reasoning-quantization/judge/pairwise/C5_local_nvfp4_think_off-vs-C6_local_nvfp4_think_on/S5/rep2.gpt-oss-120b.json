@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.85,
+  "reason": "B follows glossary more closely (e.g., translates 'agree' to Согласие, uses required terms), has more natural phrasing, and fewer untranslated glossary items despite minor mixed English/Russian tokens.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:41:18"
+  }
+}

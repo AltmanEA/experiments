@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.85,
+  "reason": "A uses the required glossary term \"Консенсус\" consistently, while B substitutes it with \"согласие\". Although B's choice of \"Фреймворк\" is more idiomatic than A's \"Рамка\", the terminology accuracy outweighs that. Overall A is more faithful to the source and glossary.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:35:13"
+  }
+}

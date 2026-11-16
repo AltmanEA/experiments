@@ -1,0 +1,68 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Incorrect translation of “falls back to” – the word “подагент” is nonsensical.",
+      "quote": "Загрузка Сценария подагент на `default-council-session`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` was altered to a different string.",
+      "quote": "`ожидание оператора`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around the code token `awaiting-operator` in the transition table (row 2 → awaiting-operator).",
+      "quote": "awaiting-operator"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around the code token `awaiting-operator` in the transition table (row 4 → awaiting-operator).",
+      "quote": "awaiting-operator"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around the code token `awaiting-operator` in the transition table (awaiting-operator → `resume_phase`).",
+      "quote": "awaiting-operator"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around the code token `resolved` in the transition table (row 5 → resolved).",
+      "quote": "resolved"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Missing backticks around the code token `failed` in the transition table (any → failed).",
+      "quote": "failed"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resolved` was replaced with a different string “разрешено”.",
+      "quote": "`разрешено`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `failed` was replaced with a different string “не выполнено”.",
+      "quote": "`не выполнено`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:24:13"
+  }
+}

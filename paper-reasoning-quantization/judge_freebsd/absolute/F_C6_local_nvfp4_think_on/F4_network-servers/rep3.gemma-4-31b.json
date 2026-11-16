@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical inconsistency in the list: 'домен верхнего уровня' is in the nominative case, while the other elements in the list are in the genitive case modifying the word 'серверов'.",
+      "quote": "авторитетных корневых, домен верхнего уровня (TLD) и других серверов"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case usage: the verb 'требует' requires the genitive case ('обратной записи'), but the nominative case was used.",
+      "quote": "требует Обратная запись DNS"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C6_local_nvfp4_think_on",
+    "fixture": "F4_network-servers",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:40:33"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.86,
+  "reason": "A translates all glossary terms correctly, renders the 'invalid-format' status into proper Russian, and maintains fluent, accurate phrasing throughout the notes and explanatory section. B leaves an English code term untranslated and has minor stylistic issues.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:35:06"
+  }
+}

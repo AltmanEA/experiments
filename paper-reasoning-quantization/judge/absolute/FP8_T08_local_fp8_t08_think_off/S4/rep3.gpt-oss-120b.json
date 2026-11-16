@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Enum value changed from `blocked-escalation` to `blocked-эскалация`; code token must be identical.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Field name `severity` renamed to `уровень_серьёзности`; code token must be identical.",
+      "quote": "уровень_серьёзности"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Term 'Subject' should be translated as 'Объект обсуждения', but 'Субъекты' is used.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Term 'Subject' should be translated as 'Объект обсуждения', but 'Субъекты' is used.",
+      "quote": "Субъекты с обеими `support` и `oppose` в финальном раунде"
+    }
+  ],
+  "score": 46,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:17:28"
+  }
+}

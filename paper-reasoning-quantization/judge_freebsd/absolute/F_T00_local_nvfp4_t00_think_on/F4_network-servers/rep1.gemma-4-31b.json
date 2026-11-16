@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect translation of the header; 'Сеть Серверы' is a literal word-for-word translation that is grammatically incorrect in Russian. Should be 'Сетевые серверы'.",
+      "quote": "Сеть Серверы"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatical inconsistency in the list of servers. 'авторитетных корневых' (adjectives) and 'домен верхнего уровня' (noun) are mixed, creating a broken sentence structure.",
+      "quote": "авторитетных корневых, домен верхнего уровня (TLD) и других серверов"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The term 'Origin' in the context of DNS zone files refers to the base domain of the zone, not the 'beginning' or 'start' of something.",
+      "quote": "Начало"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Redundant and grammatically incorrect phrasing caused by literal glossary insertion ('entries Reverse DNS entry').",
+      "quote": "записей Обратная запись DNS"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case. The word 'подчиненный сервер' should be in the instrumental case ('подчиненным сервером') after 'называемый'.",
+      "quote": "называемый подчиненный сервер"
+    }
+  ],
+  "score": 74,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:52:26"
+  }
+}

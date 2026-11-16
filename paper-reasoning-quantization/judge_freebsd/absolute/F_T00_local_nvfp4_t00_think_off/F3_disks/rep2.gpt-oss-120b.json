@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect translation of the term “disk quota”. The required Russian equivalent is “дисковая квота” (or its correct inflection).",
+      "quote": "Диск квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Incorrect order and lemma for the term “disk quota”. The phrase “квоты дисков” does not use the required equivalent “дисковая квота” (or its correct inflection).",
+      "quote": "квоты дисков"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F3_disks",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:43:44"
+  }
+}

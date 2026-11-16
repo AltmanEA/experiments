@@ -1,0 +1,68 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `locked_roles` is not enclosed in backticks.",
+      "quote": "locked_roles"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `operator_approval` is not enclosed in backticks.",
+      "quote": "operator_approval"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `awaiting-operator` is not enclosed in backticks.",
+      "quote": "awaiting-operator"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `resolved` is not enclosed in backticks.",
+      "quote": "resolved"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `precheck` is not enclosed in backticks.",
+      "quote": "precheck"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `council.override_precheck` is not enclosed in backticks.",
+      "quote": "council.override_precheck"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `precheck.overridden` is not enclosed in backticks.",
+      "quote": "precheck.overridden"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `pre_check_override` is not enclosed in backticks.",
+      "quote": "pre_check_override"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `failed` is not enclosed in backticks.",
+      "quote": "failed"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T00_local_fp8_t00_think_off",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:57:16"
+  }
+}

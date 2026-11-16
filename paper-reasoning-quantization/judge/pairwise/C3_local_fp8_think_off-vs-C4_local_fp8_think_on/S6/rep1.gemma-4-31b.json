@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.8,
+  "reason": "Both translations suffer from a strange recurring mistranslation of 'value' as 'замечание' (remark/note) and 'inferred' as 'выводится'. However, Translation B contains a critical error by translating a technical JSON key ('role_agent_config' -> 'Роль_agent_config'), which is unacceptable in technical documentation. B also has a blatant grammar error in the first paragraph ('Решения по Фаза и Консенсус') and uses non-standard capitalization for glossary terms. Translation A is more professional in its formatting and grammar, despite some clunkiness in the table.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:38:56"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.85,
+  "reason": "A follows glossary more closely, uses correct Russian terms, maintains table format and fluency. B contains numerous case errors, mixed English/Russian tokens, and mis‑translations (e.g., ‘Консенсус’ left untranslated, wrong case for ‘Роль’, inconsistent headings).",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:37:07"
+  }
+}

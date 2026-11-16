@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.8,
+  "reason": "B uses the standard technical term 'Фреймворк' for 'Framework', whereas A uses 'Рамка', which is too literal and unnatural in this context. B also provides a better translation for 'General-purpose chat' ('Чат общего назначения' vs 'Универсальный чат') and 'start minimal' ('начинаем с минимума' vs 'начинаем с минимализма'). While B uses synonyms for 'Consensus' in the body text instead of strictly adhering to the glossary, this improves the flow of the Russian text without losing meaning.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S1",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:36:29"
+  }
+}

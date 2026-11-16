@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The configuration key is partially translated, which breaks the technical reference.",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'value' is incorrectly translated as 'замечание' (remark/note), which changes the meaning of the technical requirement.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'defaults' is incorrectly translated as 'замечания по умолчанию' (default remarks), which is technically incorrect.",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Poor grammar and awkward phrasing; the translation is a literal word-for-word substitution that does not follow Russian syntax.",
+      "quote": "аналитическая-Задача обзоры"
+    }
+  ],
+  "score": 53,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:12:43"
+  }
+}

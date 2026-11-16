@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "Translation B is superior primarily because it uses the industry-standard term 'Фреймворк' for 'Framework', whereas Translation A uses 'Рамка', which is a literal translation and sounds unnatural in a technical context. B also provides a better translation for 'core design' as 'базовой архитектуры'. Although B has a minor capitalization error in one of the headers ('Возможность Эскалации'), it is overall more professional and fluent.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S1",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:37:26"
+  }
+}

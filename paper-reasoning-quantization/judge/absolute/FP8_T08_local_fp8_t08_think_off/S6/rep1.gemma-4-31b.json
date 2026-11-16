@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term 'findings' is translated as 'результаты', but the glossary requires 'Вывод'.",
+      "quote": "результаты"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'safe value' is mistranslated as 'безопасного замечания'. 'Замечание' means 'remark' or 'note', whereas 'value' in this technical context should be 'значение'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'applied defaults' is mistranslated as 'примененные замечания'. 'Defaults' should be 'значения по умолчанию'.",
+      "quote": "примененные замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The phrase 'explicitly set, never inferred' is mistranslated as 'явно задача, не выводится'. 'Задача' means 'task', which is incorrect here; it should be 'явно задано' (explicitly set).",
+      "quote": "явно задача, не выводится"
+    }
+  ],
+  "score": 68,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:21:50"
+  }
+}

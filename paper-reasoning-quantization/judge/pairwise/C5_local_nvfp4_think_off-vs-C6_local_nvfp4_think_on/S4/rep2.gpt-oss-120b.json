@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.97,
+  "reason": "A keeps original field names and enum identifiers, preserving technical accuracy, and follows glossary for terms. B incorrectly translates enum values and field identifiers, breaking correctness.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:40:13"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'firewall' was translated as 'Брандмауэры' instead of the required 'межсетевой экран'.",
+      "quote": "Брандмауэры"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatical error: the word 'Конфигурация' is used in the nominative case instead of the required dative case ('конфигурации') following the verb 'соответствовали'. Additionally, unnecessary bolding was added.",
+      "quote": "**Конфигурация**"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F5_firewalls",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:47:00"
+  }
+}

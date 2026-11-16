@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “Subject” should be translated as “Объект обсуждения”, but the translation uses “Субъекты”.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “Subject” should be translated as “Объект обсуждения”, but the translation uses “Субъекты”.",
+      "quote": "Субъекты, имеющие и `support` и `oppose` в финальном раунде"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The enum value “no-consensus” contains the term “consensus” which must be translated to “Консенсус”. The translation leaves it unchanged.",
+      "quote": "`no-consensus`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code snippet is wrapped in backticks, which alters the required byte‑identical code tokens.",
+      "quote": "`{check: Объект обсуждения-reference|justification-format|status-extraction, Объект обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), Уровень серьёзности: Уровень серьёзности|null}`"
+    }
+  ],
+  "score": 69,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:28:41"
+  }
+}

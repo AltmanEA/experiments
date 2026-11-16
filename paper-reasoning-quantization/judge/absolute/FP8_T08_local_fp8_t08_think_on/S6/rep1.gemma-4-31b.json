@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token modified; must be byte-identical to source.",
+      "quote": "`id_объекта_обсуждения`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'value' (and 'defaults' as values) is mistranslated as 'замечание' (remark/note), which is incorrect in this technical context.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'defaults' (referring to default values) is mistranslated as 'замечания по умолчанию'.",
+      "quote": "примененные замечания по умолчанию"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Lack of required grammatical inflection for glossary terms, resulting in unnatural phrasing.",
+      "quote": "Идентификатор Роль совпадает с известной Ролью... определения Роль и контекста Сценарий"
+    }
+  ],
+  "score": 53,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:31:43"
+  }
+}

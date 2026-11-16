@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect translation of the header; 'Network Servers' should be translated as 'Сетевые серверы' or 'Серверы сети', not as two disconnected nouns.",
+      "quote": "Сеть Серверы"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatical inconsistency in the list of servers; 'домен верхнего уровня' is a noun and cannot modify 'серверов' in this structure. It should be 'серверов домена верхнего уровня'.",
+      "quote": "авторитетных корневых, домен верхнего уровня (TLD) и других серверов"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Incorrect translation of the technical term 'Origin' in the context of DNS zone files. 'Начало' (Beginning) is too literal and inaccurate; it should be 'точка начала' or 'исходный домен'.",
+      "quote": "Начало"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Literal translation of the English indefinite pronoun 'One'. 'Один хочет' is unnatural in Russian; it should be 'Если необходимо' or 'Когда нужно'.",
+      "quote": "Один хочет"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Poor phrasing due to literal insertion of the glossary term; 'записей Обратная запись DNS' is redundant and ungrammatical.",
+      "quote": "записей Обратная запись DNS"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the participle 'называемый' requires the instrumental case ('подчиненным сервером'), not the nominative.",
+      "quote": "называемый подчиненный сервер"
+    }
+  ],
+  "score": 72,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F4_network-servers",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:50:38"
+  }
+}

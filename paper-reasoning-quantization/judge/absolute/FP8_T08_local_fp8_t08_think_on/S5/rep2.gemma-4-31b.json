@@ -1,0 +1,56 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens in backticks must be byte-identical to the source. The term 'escalation' was translated inside the token.",
+      "quote": "`blocked-Эскалация`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for the glossary term 'Фаза' (should be accusative 'Фазу').",
+      "quote": "в Фаза 3"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for the glossary term 'Консенсус' (should be genitive 'Консенсуса').",
+      "quote": "для Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for the glossary term 'Роль' (should be genitive 'Роли').",
+      "quote": "Отсутствие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for the glossary term 'Роль' (should be genitive 'Роли').",
+      "quote": "Присутствие Роль Core"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect grammatical case for the glossary term 'Статус роли' (should be genitive 'Статуса роли').",
+      "quote": "извлечения Статус роли"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Partial translation of a section reference; 'Manifest' remains in English while 'Session' is translated.",
+      "quote": "§Сессия Manifest"
+    }
+  ],
+  "score": 63,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:34:17"
+  }
+}

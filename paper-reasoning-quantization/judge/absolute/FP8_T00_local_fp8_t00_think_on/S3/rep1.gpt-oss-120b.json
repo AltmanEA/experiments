@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `no-consensus` was altered to `no-консенсус` inside backticks.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` was altered to `blocked-эскалация` inside backticks.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `phase_state` was altered to `фаза_state` inside backticks.",
+      "quote": "`фаза_state`"
+    }
+  ],
+  "score": 25,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:04:24"
+  }
+}

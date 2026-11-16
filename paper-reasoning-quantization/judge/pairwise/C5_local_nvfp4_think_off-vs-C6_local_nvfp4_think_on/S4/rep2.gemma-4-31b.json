@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B makes a critical error by translating enum values (e.g., 'консенсус', 'blocked-эскалация') and object keys within the code snippet (e.g., 'Объект обсуждения_id'). In technical documentation, identifiers, keys, and enum values must remain in their original form to be useful. Translation A correctly preserves these technical elements.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:40:58"
+  }
+}

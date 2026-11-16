@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The translation 'Если ни один... не поддерживает' (If none support) completely reverses the meaning of the source 'If any... do not support' (If at least one does not support).",
+      "quote": "Если ни один из перечисленных серверов имён не поддерживает DNSSEC"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'авторитативные' is used instead of the required glossary equivalent 'авторитетный'.",
+      "quote": "авторитативные серверы имен"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatical error: the word 'Конфигурация' is used in the nominative case instead of the required prepositional case ('конфигурации') after the preposition 'в'.",
+      "quote": "в новой Конфигурация Unbound"
+    },
+    {
+      "category": "format",
+      "severity": "minor",
+      "description": "The word is bolded in the translation, but it is not bolded in the source text.",
+      "quote": "**Конфигурация**"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Redundant phrasing: 'записей обратной записи' literally translates to 'entries of the reverse record'.",
+      "quote": "записей обратной записи DNS"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "The list is grammatically inconsistent; 'авторитетных корневых' is an adjective phrase lacking a noun, while the following item is a noun phrase.",
+      "quote": "авторитетных корневых, доменов верхнего уровня"
+    }
+  ],
+  "score": 49,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F4_network-servers",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:38:03"
+  }
+}

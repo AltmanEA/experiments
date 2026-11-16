@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.95,
+  "reason": "A follows glossary terms accurately, uses correct Russian equivalents (e.g., Статус роли, Вывод, Фаза, Консенсус, Эскалация) and maintains proper fluency and formatting. B contains multiple terminology errors, incorrect translations, and inconsistent key names, reducing its overall quality.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:41:40"
+  }
+}

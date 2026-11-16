@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Several headers are left untranslated in the candidate text.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'Subject' (Объект обсуждения) is translated as 'объект'.",
+      "quote": "объект из списка объектов задачи"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:56:57"
+  }
+}

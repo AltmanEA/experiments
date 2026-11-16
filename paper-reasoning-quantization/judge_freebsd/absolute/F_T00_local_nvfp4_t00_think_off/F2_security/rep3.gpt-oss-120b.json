@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term \"brute force attacks\" was translated as \"атаки методом перебора\" instead of the required \"атаки методом грубой силы\".",
+      "quote": "атаки методом перебора"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Nonsensical word \"клетка\" appears in the sentence about the list of available settings.",
+      "quote": "клетка"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect capitalization and case in the phrase \"корректности Файл конфигурации\"; should be \"корректности файла конфигурации\".",
+      "quote": "корректности Файл конфигурации"
+    }
+  ],
+  "score": 78,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F2_security",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:42:57"
+  }
+}

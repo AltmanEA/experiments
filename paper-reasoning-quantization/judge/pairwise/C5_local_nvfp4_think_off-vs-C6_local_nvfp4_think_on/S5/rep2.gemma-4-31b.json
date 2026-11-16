@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.9,
+  "reason": "Translation A is significantly more grammatically correct and fluent. Translation B contains several blatant grammatical errors (e.g., 'Отсутствие Роль Core' instead of 'роли Core') and awkward phrasing (e.g., 'возвращается к' for 'falls back to'). A also correctly preserves technical constants like `agree` in English, whereas B translates them, which is typically avoided in technical documentation for state values. While A's translation of 'Guard' as 'Охрана' is too literal, it is far less problematic than B's grammatical failures.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:42:39"
+  }
+}

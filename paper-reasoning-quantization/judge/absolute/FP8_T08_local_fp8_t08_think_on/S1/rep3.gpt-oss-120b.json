@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required term \"Консенсус\" is replaced with the synonym \"согласия\".",
+      "quote": "до достижения согласия"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required term \"Консенсус\" is replaced with the synonym \"согласия\".",
+      "quote": "когда достижение согласия невозможно"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S1",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:23:06"
+  }
+}

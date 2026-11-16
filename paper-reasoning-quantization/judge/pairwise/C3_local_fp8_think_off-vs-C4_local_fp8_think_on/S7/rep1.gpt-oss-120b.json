@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.93,
+  "reason": "A follows glossary terms correctly (e.g., роль Core, правила консенсуса, эскалации), uses consistent Russian for Layer 1, and has more accurate terminology and phrasing; B has several case/translation errors and retains English terms.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:37:26"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' is translated as 'Субъект' instead of the required glossary equivalent 'Объект обсуждения'.",
+      "quote": "Субъекты со статусом блокировки"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "The field key 'severity' in the technical schema was translated, which breaks the specification.",
+      "quote": "Уровень серьёзности: severity|null"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The field name 'severity' is translated in the descriptive text, creating inconsistency with the other field 'subject_id' which remained in English.",
+      "quote": "Уровень серьёзности"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Enum values for the 'outcome' field were translated; technical identifiers/constants should remain in English.",
+      "quote": "`консенсус`, `условный`, `нет-консенсуса`, `блокировка-эскалации`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The enum value 'blocked-escalation' was translated within a logic rule, which changes the technical meaning of the condition.",
+      "quote": "outcome = блокировка-эскалации"
+    }
+  ],
+  "score": 35,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:19:39"
+  }
+}

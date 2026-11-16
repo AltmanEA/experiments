@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required glossary term 'атаки методом грубой силы' was replaced by a synonym 'атаки методом перебора'.",
+      "quote": "атаки методом перебора"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical case error: the term 'удалённое администрирование' is used in the nominative case instead of the required genitive case after 'средством'.",
+      "quote": "удалённое администрирование"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "The word 'клетка' (cell/cage) is a hallucination or mistranslation of 'client' (клиента).",
+      "quote": "настроек клетка"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical case error and incorrect capitalization: 'Файл конфигурации' should be in the genitive case ('файла конфигурации') and not capitalized.",
+      "quote": "Файл конфигурации"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Unnatural phrasing: 'сообщите sshd перезагрузить' is a literal translation of 'tell sshd to reload', which is not standard technical Russian for interacting with a daemon.",
+      "quote": "сообщите sshd перезагрузить"
+    }
+  ],
+  "score": 59,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F2_security",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:44:42"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Section headers are not translated from English to Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Объект обсуждения' (Subject) is used where the English term 'subject' does not occur as a noun, but as part of the phrase 'subject to a vote'.",
+      "quote": "на Объект обсуждения"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The translation changes the meaning from passive ('is asked to make') to active ('просит принять'), suggesting the operator is the one requesting the decision rather than the one being asked to provide it.",
+      "quote": "и просит принять окончательное решение"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "'Fallback' is translated as 'откат' (rollback), which is incorrect in the context of a fallback strategy/mechanism.",
+      "quote": "Отложенный откат"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The required glossary equivalent 'Объект обсуждения' is replaced by the shortened lemma 'объект'.",
+      "quote": "один объект из списка объектов"
+    }
+  ],
+  "score": 58,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:18:39"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Mistranslation of 'safe value'; 'замечание' means 'remark' or 'note', whereas 'value' in this technical context should be 'значение'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Mistranslation of 'applied defaults'; 'замечания по умолчанию' is incorrect. 'Defaults' should be translated as 'значения по умолчанию'.",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token modified; the string must be byte-identical to the source.",
+      "quote": "\"Роль_agent_config\""
+    }
+  ],
+  "score": 55,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:31:29"
+  }
+}

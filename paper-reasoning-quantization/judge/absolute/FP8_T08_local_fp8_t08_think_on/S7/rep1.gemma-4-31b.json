@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the glossary term 'Фаза' (should be genitive 'фазы').",
+      "quote": "переход Фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the glossary term 'Роль' (should be genitive 'Роли').",
+      "quote": "присутствие Core-Роль"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the glossary term 'Консенсус' (should be genitive 'Консенсуса').",
+      "quote": "правила Консенсус"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case for the glossary term 'Эскалация' (should be genitive 'Эскалации').",
+      "quote": "контрольные точки целостности Эскалация"
+    }
+  ],
+  "score": 92,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S7",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:35:46"
+  }
+}

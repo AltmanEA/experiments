@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “Firewalls” is translated as “Брандмауэры”, which does not match the required glossary equivalent “межсетевой экран”.",
+      "quote": "Брандмауэры"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect case and unnecessary markup in the translation of “to fit the configuration of the system”. The word “Конфигурация” is capitalized and bolded, which is not present in the source and is grammatically incorrect.",
+      "quote": "чтобы они соответствовали **Конфигурация** системы"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F5_firewalls",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:45:15"
+  }
+}

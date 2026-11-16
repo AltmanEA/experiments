@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B makes a critical error common in poor technical translations: it translates literal code values, enum members, and JSON keys (e.g., translating 'subject-reference' to 'объект-обсуждения' and 'outcome' values to Russian). This renders the technical documentation useless for developers. Translation A correctly preserves these identifiers in English while translating the descriptive text.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:36:55"
+  }
+}

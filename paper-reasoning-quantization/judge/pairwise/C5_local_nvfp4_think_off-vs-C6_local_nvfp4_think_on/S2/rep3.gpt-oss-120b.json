@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.78,
+  "reason": "B follows the source more closely, especially in the risk‑threshold paragraph (no extraneous phrase) and correctly uses the glossary term \"объекта обсуждения\". A contains a formatting error and an inaccurate addition. The only minor issue in B is the use of \"блокера\" instead of the more precise \"блокирующего фактора\", but overall B is more accurate and faithful.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:39:54"
+  }
+}

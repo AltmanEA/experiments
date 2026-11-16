@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Required glossary term “brute force attacks” was not translated; the English term “brute-force” remains unchanged.",
+      "quote": "brute-force"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Spurious word “клетка” appears in the sentence, making it nonsensical.",
+      "quote": "клетка"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C6_local_nvfp4_think_on",
+    "fixture": "F2_security",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:37:36"
+  }
+}

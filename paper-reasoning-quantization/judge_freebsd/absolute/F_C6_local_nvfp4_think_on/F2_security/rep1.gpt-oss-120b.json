@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Incorrect translation of the glossary term “brute force attacks”. The required Russian equivalent is “атаки методом грубой силы”, but the translation uses “атаки методом перебора”.",
+      "quote": "атаки методом перебора"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Nonsensical word inserted in the translation of the tip sentence, making the meaning unclear.",
+      "quote": "Список доступных настроек клетка см. в `ssh_config(5)`."
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C6_local_nvfp4_think_on",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:37:13"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect case agreement: the noun \"Роль\" should be in genitive (\"роли\") and the verb \"инициировала\" requires the accusative form \"Эскалацию\".",
+      "quote": "название Роль, которая инициировала Эскалация"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect case agreement after the verb \"инициировала\": should be \"Эскалацию\" (accusative) instead of nominative \"Эскалация\".",
+      "quote": "инициировала Эскалация"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:23:41"
+  }
+}

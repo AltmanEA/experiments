@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.97,
+  "reason": "A keeps original field names and enum values, uses correct glossary terms where needed, and maintains API syntax. B incorrectly translates code identifiers, enum values, and field names, breaking accuracy despite minor fluency issues.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:37:37"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.9,
+  "reason": "Translation B contains several critical errors: it translates a code key ('role_agent_config' to 'Роль_agent_config'), has poor grammar in the first paragraph ('Решения по Фаза и Консенсус'), and provides a nonsensical translation in the table ('аналитическая-задача обзоры'). Translation A is much more fluent and maintains technical integrity, although both translations incorrectly translated 'value' as 'замечание' (remark) instead of 'значение'.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:39:40"
+  }
+}

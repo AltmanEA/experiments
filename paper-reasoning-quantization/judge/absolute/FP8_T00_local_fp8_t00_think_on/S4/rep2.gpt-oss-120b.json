@@ -1,0 +1,104 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `subject_id` was altered to `Объект обсуждения_id`; code identifiers must be byte‑identical.",
+      "quote": "`Объект обсуждения_id`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token `severity` was altered to `Уровень серьёзности`; code identifiers must be byte‑identical.",
+      "quote": "`Уровень серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `escalation_id` was changed to `id_эскалации`; field identifiers must be unchanged.",
+      "quote": "`id_эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `session_id` was changed to `id_сессии`; field identifiers must be unchanged.",
+      "quote": "`id_сессии`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `raised_by_role` was changed to `поднято_ролью`; field identifiers must be unchanged.",
+      "quote": "`поднято_ролью`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `severity` was changed to `уровень_серьёзности`; field identifiers must be unchanged.",
+      "quote": "`уровень_серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Object property `role_id` was changed to `id_роли`; property names must be unchanged.",
+      "quote": "`id_роли`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Object property `stance` was changed to `позиция`; property names must be unchanged.",
+      "quote": "`позиция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Object property `summary` was changed to `краткое_описание`; property names must be unchanged.",
+      "quote": "`краткое_описание`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `resolution` was changed to `резолюция`; field identifiers must be unchanged.",
+      "quote": "`резолюция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Field name `resume_phase` was changed to `фаза_возобновления`; field identifiers must be unchanged.",
+      "quote": "`фаза_возобновления`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Enum value `consensus` was changed to `консенсус`; enum literals must be identical.",
+      "quote": "`консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Enum value `no-consensus` was changed to `no-консенсус`; enum literals must be identical.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Enum value `blocked-escalation` was changed to `blocked-эскалация`; enum literals must be identical.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Term \"Subject\" was translated as \"Субъекты\" instead of the required \"Объект обсуждения\".",
+      "quote": "Субъекты"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:05:45"
+  }
+}

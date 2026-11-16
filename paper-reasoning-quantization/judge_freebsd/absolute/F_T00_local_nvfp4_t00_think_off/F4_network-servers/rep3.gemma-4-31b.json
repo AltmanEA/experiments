@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'Name servers' is incorrectly translated as 'Имена серверов' (Names of servers), changing the meaning of the subject.",
+      "quote": "Имена серверов"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required glossary term 'авторитетный сервер имён' is replaced by 'авторитативные имена серверов', which is both a terminology violation and a linguistic error ('авторитативные' is not the correct adjective for 'authoritative' in this context).",
+      "quote": "авторитативные имена серверов"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required glossary term 'кэширующий сервер имён' is replaced by 'кэширующие... имена серверов'.",
+      "quote": "кэширующие (также известные как разрешающие) имена серверов"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Awkward phrasing and grammatical mismatch when integrating the glossary term 'Обратная запись DNS' into the phrase 'reverse DNS entries'.",
+      "quote": "записей Обратная запись DNS"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Grammatical case error: 'Конфигурация' is in the nominative case, but the context requires the prepositional case ('конфигурации'). Additionally, unnecessary bolding was added.",
+      "quote": "**Конфигурация**"
+    }
+  ],
+  "score": 58,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F4_network-servers",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:47:07"
+  }
+}

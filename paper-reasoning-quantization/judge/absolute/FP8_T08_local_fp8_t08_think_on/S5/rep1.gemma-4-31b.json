@@ -1,0 +1,68 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token in backticks must be byte-identical to the source.",
+      "quote": "`ожидание оператора`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token in backticks must be byte-identical to the source.",
+      "quote": "`выполнено`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token in backticks must be byte-identical to the source.",
+      "quote": "`сбой`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token in backticks must be byte-identical to the source.",
+      "quote": "`Согласие`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistent translation of a technical identifier; other similar identifiers in the same table (e.g., 'no-consensus') were left in English.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistent mixed-language translation of a section title.",
+      "quote": "§Сессия Manifest"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Inconsistent mixed-language translation of a section title.",
+      "quote": "§Critical Вывод Validation Process"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: incorrect case for the noun 'фаза' (should be 'фаз').",
+      "quote": "на границах фаза"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: incorrect case for the noun 'Роль' (should be 'Роли').",
+      "quote": "Наличие базовой Роль"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S5",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:36:00"
+  }
+}

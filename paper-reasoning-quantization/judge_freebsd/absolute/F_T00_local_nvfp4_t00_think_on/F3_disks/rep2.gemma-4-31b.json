@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'дисковая квота' not used; incorrect form 'Диск Квоты' used in heading.",
+      "quote": "Диск Квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'дисковая квота' not used; incorrect form 'Диск-квоты' used.",
+      "quote": "Диск-квоты"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Heading remains untranslated.",
+      "quote": "Enabling Disk Quotas"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'дисковая квота' not used.",
+      "quote": "квоты на диск"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'дисковая квота' not used.",
+      "quote": "квоты на диске"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'дисковая квота' not used.",
+      "quote": "квоты дисков"
+    }
+  ],
+  "score": 64,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F3_disks",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:50:11"
+  }
+}

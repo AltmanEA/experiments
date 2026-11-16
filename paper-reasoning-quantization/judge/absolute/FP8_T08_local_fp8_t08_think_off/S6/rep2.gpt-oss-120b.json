@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term “findings” from the source should be rendered with the required glossary equivalent “Вывод”. The translation uses “результаты”, which is not the prescribed term.",
+      "quote": "результаты"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "The phrase “safe value” is incorrectly translated as “замечание”. The correct translation should be “значение”. This error appears twice (for parameters and defaults).",
+      "quote": "замечания"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S6",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:20:04"
+  }
+}

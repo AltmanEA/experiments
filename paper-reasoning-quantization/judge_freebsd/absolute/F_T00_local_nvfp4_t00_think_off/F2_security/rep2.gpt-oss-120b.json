@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The required glossary term “brute force attacks” was translated as “атаки методом перебора” instead of the mandated “атаки методом грубой силы”.",
+      "quote": "атаки методом перебора"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the phrase “средством удалённое администрирование” is ungrammatical; it should be “средством удалённого администрирования”.",
+      "quote": "удалённое администрирование"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Nonsensical word “клетка” appears in the tip sentence, making the sentence unintelligible.",
+      "quote": "клетка"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect capitalization and missing preposition in “Файл конфигурации”; should be “файла конфигурации”.",
+      "quote": "Файл конфигурации"
+    }
+  ],
+  "score": 76,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F2_security",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:42:53"
+  }
+}

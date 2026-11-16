@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'agent group' is incorrectly translated as 'группы операторов' (operator group). In the context of this protocol, agents (AI) and operators (humans) are distinct entities.",
+      "quote": "группы операторов"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Section headers are not translated into Russian.",
+      "quote": "## Escalation Protocol"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'Subject' (Объект обсуждения) is replaced by 'тема' (theme/topic).",
+      "quote": "тема из списка тем задачи"
+    }
+  ],
+  "score": 70,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:18:18"
+  }
+}

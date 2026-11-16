@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.95,
+  "reason": "Translation B is superior because it uses standard technical terminology. Specifically, it translates 'Framework' as 'Фреймворк' (industry standard) rather than 'Рамка' (literal translation), and 'general-purpose' as 'общего назначения' rather than 'универсальный'. Additionally, B's phrasing in the 'Core Principles' section is more natural and professional.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S1",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:35:52"
+  }
+}

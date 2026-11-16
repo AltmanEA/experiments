@@ -1,0 +1,128 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'Subject' is translated as 'Субъекты' instead of the required glossary equivalent 'Объект обсуждения'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked enum values must be byte-identical; they were translated into Russian.",
+      "quote": "`консенсус`, `условный`, `без-консенсуса`, `блокировка-эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked token in the rule for 'escalation_reason' was translated.",
+      "quote": "`блокировка-эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked tokens inside the code block for 'ValidationResult' were translated.",
+      "quote": "`Объект обсуждения-reference|justification-format|status-extraction, Объект обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), Уровень серьёзности: Уровень серьёзности|null`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked tokens in the description of 'ValidationResult' were translated.",
+      "quote": "`Объект обсуждения_id` и `Уровень серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names in the 'EscalationRecord' table were translated.",
+      "quote": "`id_эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names in the 'EscalationRecord' table were translated.",
+      "quote": "`id_сессии`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names in the 'EscalationRecord' table were translated.",
+      "quote": "`роль_инициатора`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names in the 'EscalationRecord' table were translated.",
+      "quote": "`причина`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names in the 'EscalationRecord' table were translated.",
+      "quote": "`уровень_серьёзности`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names in the 'EscalationRecord' table were translated.",
+      "quote": "`блокатор`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names in the 'EscalationRecord' table were translated.",
+      "quote": "`позиции`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names in the 'EscalationRecord' table were translated.",
+      "quote": "`запрос_оператора`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names in the 'EscalationRecord' table were translated.",
+      "quote": "`стратегия_резервного_варианта`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names in the 'EscalationRecord' table were translated.",
+      "quote": "`время_тайм-аута`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names in the 'EscalationRecord' table were translated.",
+      "quote": "`резолюция`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked field names in the 'EscalationRecord' table were translated.",
+      "quote": "`фаза_возобновления`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked token in the rule for 'reason' was translated.",
+      "quote": "`reason_эскалации`"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked token in the rule for 'positions' was translated.",
+      "quote": "`позиция`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:10:34"
+  }
+}

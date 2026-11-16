@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Role Status\" should be rendered as the required glossary equivalent \"Статус роли\" (inflection allowed), but the translation uses \"статусы ролей\".",
+      "quote": "статусы ролей"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token must be byte‑identical. The source token \"role_agent_config\" was altered to \"Роль_agent_config\", breaking the required exact match.",
+      "quote": "\"Роль_agent_config\""
+    }
+  ],
+  "score": 73,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:11:12"
+  }
+}

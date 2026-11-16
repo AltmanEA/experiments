@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Section header was not translated into Russian.",
+      "quote": "Documenter Unavailable — Override Mode"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Unnatural word choice for 'emit event' in a technical context; 'генерировать' or 'отправлять' is preferred, especially as 'генерируется' is used later in the same text.",
+      "quote": "издать событие"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect case/grammar; the term 'Фаза' is used in the nominative case instead of the genitive ('фазы') to modify 'переход'.",
+      "quote": "переход **Фаза**"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect case/grammar; the term 'Роль' is used in the nominative case instead of the genitive ('роли') to modify 'присутствия'.",
+      "quote": "присутствия **Роль**-ядра"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "Incorrect case/grammar; the term 'Эскалация' is used in the nominative case instead of the genitive ('эскалации') to modify 'целостности'.",
+      "quote": "целостности **Эскалация**"
+    }
+  ],
+  "score": 66,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:26:55"
+  }
+}

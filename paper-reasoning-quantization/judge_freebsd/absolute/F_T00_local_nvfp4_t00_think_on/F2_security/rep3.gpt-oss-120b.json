@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term “brute force attacks” is not translated with the required glossary equivalent “атаки методом грубой силы”.",
+      "quote": "атаки методом перебора"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The word “клетка” is an incorrect translation of “Refer to” and makes the sentence unintelligible.",
+      "quote": "клетка"
+    }
+  ],
+  "score": 80,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F2_security",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:47:41"
+  }
+}

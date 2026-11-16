@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B makes a critical error by translating technical identifiers/enum values (e.g., 'no-consensus' to 'no-консенсус', 'blocked-escalation' to 'blocked-эскалация'), which would break the technical meaning as these are code values. Translation A correctly preserves these identifiers. Additionally, Translation B has grammatical errors (e.g., 'Отсутствие Роль Core' instead of 'Роли').",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S3",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:38:13"
+  }
+}

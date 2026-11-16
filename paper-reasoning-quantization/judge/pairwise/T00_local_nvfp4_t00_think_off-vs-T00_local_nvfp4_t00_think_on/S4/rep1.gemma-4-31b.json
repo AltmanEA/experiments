@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B committed a critical error by translating code identifiers, field names, and JSON keys (e.g., 'Эскалация_id', 'Объект обсуждения_id'). In technical documentation, schema fields and keys must remain in the source language to be usable. Translation A correctly kept these identifiers in English while translating the descriptive text.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:38:12"
+  }
+}

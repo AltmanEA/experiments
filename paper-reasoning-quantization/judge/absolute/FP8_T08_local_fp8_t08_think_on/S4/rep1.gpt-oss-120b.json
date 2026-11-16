@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Subject\" should be translated as \"Объект обсуждения\", but the translation uses \"Субъекты\".",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Subject\" should be translated as \"Объект обсуждения\", but the translation uses \"Субъекты\".",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"Resolution\" should be translated as \"Резолюция\", but the translation uses \"разрешение\".",
+      "quote": "разрешение"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code snippet inside backticks must be byte‑identical to the source; the translation altered identifiers and terms.",
+      "quote": "`{check: Объект обсуждения-reference|формат-обоснования|извлечение-статуса, Объект обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), Уровень серьёзности: Уровень серьёзности|null}`"
+    }
+  ],
+  "score": 69,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S4",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:26:39"
+  }
+}

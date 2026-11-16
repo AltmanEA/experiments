@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token altered; must be byte‑identical to source.",
+      "quote": "`ЭскалацияRecord`"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term \"Architect\" should appear as \"Архитектор\" (capitalized).",
+      "quote": "архитектор"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term \"Moderator\" should appear as \"Модератор\" (capitalized).",
+      "quote": "модератор"
+    }
+  ],
+  "score": 71,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:24:14"
+  }
+}

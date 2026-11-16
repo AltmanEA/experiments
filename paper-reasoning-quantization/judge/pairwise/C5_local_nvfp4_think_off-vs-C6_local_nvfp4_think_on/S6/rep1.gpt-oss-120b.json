@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.86,
+  "reason": "A preserves key terminology (выводы, слой 0, role_agent_config), uses correct Russian equivalents and maintains original keys, while B introduces several inaccuracies and mistranslations.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S6",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:41:25"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Headers are left untranslated in the candidate text.",
+      "quote": "pre_check Gate"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Headers are left untranslated in the candidate text.",
+      "quote": "Scope and Enforcement Point"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Headers are left untranslated in the candidate text.",
+      "quote": "Verdict Logic"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Headers are left untranslated in the candidate text.",
+      "quote": "Documenter Unavailable — Override Mode"
+    }
+  ],
+  "score": 92,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_off",
+    "fixture": "S7",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:06:28"
+  }
+}

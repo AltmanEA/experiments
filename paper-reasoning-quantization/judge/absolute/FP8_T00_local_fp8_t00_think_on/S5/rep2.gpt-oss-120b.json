@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `consensus` was replaced with Russian equivalent, breaking required byte‑identical token.",
+      "quote": "`Консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `no-consensus` was replaced with Russian equivalent, breaking required byte‑identical token.",
+      "quote": "`no-консенсус`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `blocked-escalation` was replaced with Russian equivalent, breaking required byte‑identical token.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `escalation_reason` was replaced with Russian equivalent, breaking required byte‑identical token.",
+      "quote": "`reason_эскалации`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `escalation_id` was replaced with Russian equivalent, breaking required byte‑identical token.",
+      "quote": "`id_эскалации`"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Code token `agree` was replaced with Russian equivalent, breaking required byte‑identical token.",
+      "quote": "`согласие`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:07:58"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.65,
+  "reason": "A preserves code identifiers and overall terminology, with only minor phrasing issues, while B introduces a typo in the class name and mixes languages.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S2",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:35:29"
+  }
+}

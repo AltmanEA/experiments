@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.92,
+  "reason": "A follows glossary terms (Консенсус, Эскалация, Артефакт) accurately, especially using \"консенсуса\" for consensus, while B substitutes with generic words. Both are fluent, but A’s terminology adherence makes it superior.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S1",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:38:28"
+  }
+}

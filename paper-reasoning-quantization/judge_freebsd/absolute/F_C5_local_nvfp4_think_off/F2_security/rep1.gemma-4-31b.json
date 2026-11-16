@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the term is used in the nominative case instead of the required genitive case after 'средством'.",
+      "quote": "удалённое администрирование"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The glossary term 'brute force attacks' was translated as 'атаки методом перебора' instead of the required 'атаки методом грубой силы'.",
+      "quote": "методом перебора"
+    },
+    {
+      "category": "fluency",
+      "severity": "major",
+      "description": "The word 'клетка' (cell/cage) is a hallucination and does not belong in the sentence.",
+      "quote": "клетка"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the term is used in the nominative case instead of the required genitive case after 'корректности'.",
+      "quote": "Файл конфигурации"
+    }
+  ],
+  "score": 76,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:33:50"
+  }
+}

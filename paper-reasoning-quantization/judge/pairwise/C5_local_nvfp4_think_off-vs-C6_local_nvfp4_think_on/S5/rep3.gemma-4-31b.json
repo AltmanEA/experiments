@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B makes a critical error by translating parts of technical identifiers and variable names (e.g., 'no-Консенсус', 'Эскалация_reason', 'Эскалация_id'), which would break the technical meaning. Translation A preserves these identifiers. Additionally, Translation B has several grammatical errors in the table (e.g., 'Вывод Документатор'). While Translation A's use of 'Охранник' for 'Guard' is a bit too literal, it is far superior to B's broken technical strings.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C5_local_nvfp4_think_off-vs-C6_local_nvfp4_think_on",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:42:11"
+  }
+}

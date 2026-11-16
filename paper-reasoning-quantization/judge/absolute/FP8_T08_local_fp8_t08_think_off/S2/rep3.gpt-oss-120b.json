@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The heading \"Escalation Reasons\" is not translated to the required term \"Причина эскалации\" (or its plural form).",
+      "quote": "Escalation Reasons"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The heading \"Escalation Document\" is left in English instead of being translated.",
+      "quote": "Escalation Document"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The heading \"Escalation Resolution Paths\" is left in English instead of being translated.",
+      "quote": "Escalation Resolution Paths"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The phrase adds an incorrect prepositional phrase \"на Объект обсуждения\", which does not exist in the source and changes the meaning of the sentence.",
+      "quote": "не подлежит голосованию на Объект обсуждения"
+    }
+  ],
+  "score": 60,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S2",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:15:10"
+  }
+}

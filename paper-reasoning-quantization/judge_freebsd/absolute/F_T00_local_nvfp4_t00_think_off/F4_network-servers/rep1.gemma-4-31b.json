@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The term 'name server' (сервер имён) and 'authoritative name server' (авторитетный сервер имён) are incorrectly translated as 'имена серверов' (names of servers) and 'авторитативные имена серверов', which changes the meaning and violates the glossary.",
+      "quote": "Имена серверов, как правило, бывают двух видов: авторитативные имена серверов и кэширующие (также известные как разрешающие) имена серверов."
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatically incorrect construction; the glossary term 'Обратная запись DNS' is inserted as a noun phrase where an adjective/modifier is required, resulting in 'записей Обратная запись DNS'.",
+      "quote": "записей Обратная запись DNS"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical case mismatch ('новой' is genitive, but 'Конфигурация' is nominative) and unnecessary bolding not present in the source.",
+      "quote": "**Конфигурация**"
+    }
+  ],
+  "score": 86,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_off",
+    "fixture": "F4_network-servers",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:45:24"
+  }
+}

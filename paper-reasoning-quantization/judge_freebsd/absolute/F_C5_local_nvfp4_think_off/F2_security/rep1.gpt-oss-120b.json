@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The term \"brute force attacks\" is translated as \"атаки методом перебора\" instead of the required \"атаки методом грубой силы\".",
+      "quote": "атаки методом перебора"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Awkward grammatical construction: \"... наиболее широко используемым средством удалённое администрирование\" should be \"... наиболее широко используемым средством удалённого администрирования\".",
+      "quote": "наиболее широко используемым средством **удалённое администрирование**"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Nonsensical word \"клетка\" inserted in the tip sentence, making the sentence unintelligible.",
+      "quote": "Список доступных настроек клетка см. в справке"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect capitalization and missing pronoun in the phrase \"... проверки корректности Файл конфигурации, сообщите sshd перезагрузить файл конфигурации\".",
+      "quote": "проверки корректности Файл конфигурации, сообщите sshd перезагрузить файл конфигурации"
+    }
+  ],
+  "score": 92,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C5_local_nvfp4_think_off",
+    "fixture": "F2_security",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:32:07"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Backticked code tokens must be byte-identical to the source. The state identifiers were translated into Russian.",
+      "quote": "`ожидание оператора`, `разрешено`, `не удалось`"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect word order and grammar for the section reference; 'Session Manifest' should be translated as 'Манифест сессии'.",
+      "quote": "§Сессия Манифест"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatical error: the preposition 'в' requires the accusative case ('в Фазу 3' instead of 'в Фаза 3').",
+      "quote": "в Фаза 3"
+    }
+  ],
+  "score": 71,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_off",
+    "fixture": "S5",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:00:58"
+  }
+}

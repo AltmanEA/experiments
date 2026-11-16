@@ -1,0 +1,32 @@
+{
+  "defects": [
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Incorrect translation of “safe value” as “безопасного замечания”.",
+      "quote": "задокументированного безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "minor",
+      "description": "Incorrect translation of “applied defaults” as “применённые замечания по умолчанию”.",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token changed: the JSON key should be \"role_agent_config\" but is translated to \"Роль_agent_config\".",
+      "quote": "\"Роль_agent_config\""
+    }
+  ],
+  "score": 71,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:29:40"
+  }
+}

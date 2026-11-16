@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "The heading uses the term \"Брандмауэры\" instead of the required glossary term \"межсетевой экран\" (plural form).",
+      "quote": "Брандмауэры"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "For the `UNKNOWN` entry the translation uses \"правил межсетевого экрана\" instead of the required glossary equivalent for \"ruleset\" which is \"набор правил\".",
+      "quote": "отключает загрузку правил межсетевого экрана"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_C6_local_nvfp4_think_on",
+    "fixture": "F5_firewalls",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:40:12"
+  }
+}

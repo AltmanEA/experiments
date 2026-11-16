@@ -1,0 +1,14 @@
+{
+  "winner": "B",
+  "confidence": 0.9,
+  "reason": "B is more accurate and fluent. Specifically, it correctly translates 'The override records reason' as 'Обход фиксирует reason', whereas A mistranslates it as 'Записи обхода содержат reason' (The records contain). B also follows the glossary more strictly for 'Resolution' and provides a more natural translation for 'operator surface' ('интерфейс оператора' vs 'поверхность оператора'). While B is slightly inconsistent with 'Layer 1' vs 'уровень 2', its overall technical accuracy is higher.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "T00_local_nvfp4_t00_think_off-vs-T00_local_nvfp4_t00_think_on",
+    "fixture": "S7",
+    "rep": 2,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T09:40:45"
+  }
+}

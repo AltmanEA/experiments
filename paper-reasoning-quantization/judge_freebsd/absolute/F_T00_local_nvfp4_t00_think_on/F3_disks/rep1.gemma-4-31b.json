@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'дисковая квота' was replaced by the construction 'Квоты на диске'.",
+      "quote": "Квоты на диске"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'дисковая квота' was replaced by the construction 'квоты диска'.",
+      "quote": "квоты диска"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'дисковая квота' was replaced by the construction 'квоты на диск'.",
+      "quote": "квоты на диск"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "The glossary term 'дисковая квота' was replaced by the construction 'квоты на дисках'.",
+      "quote": "квоты на дисках"
+    }
+  ],
+  "score": 92,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F3_disks",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:49:45"
+  }
+}

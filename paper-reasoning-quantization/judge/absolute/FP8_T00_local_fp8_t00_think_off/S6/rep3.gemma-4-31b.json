@@ -1,0 +1,38 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Glossary term 'Finding' (Вывод) replaced by 'результаты'.",
+      "quote": "объединяет результаты"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'safe value' is mistranslated as 'безопасного замечания' (safe remark/note).",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "The term 'applied defaults' is mistranslated as 'применённые замечания по умолчанию' (applied remarks by default).",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "accuracy",
+      "severity": "critical",
+      "description": "Complete mistranslation of technical constraints: 'explicitly set, never inferred' translated as 'явно задача, никогда не выводится' (explicitly a task, never outputted).",
+      "quote": "явно задача, никогда не выводится"
+    }
+  ],
+  "score": 53,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_off",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:02:36"
+  }
+}

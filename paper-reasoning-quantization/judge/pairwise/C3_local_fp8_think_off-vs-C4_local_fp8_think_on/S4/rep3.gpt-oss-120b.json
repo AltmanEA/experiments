@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 0.97,
+  "reason": "A preserves original enum identifiers and field names, uses correct terminology per glossary, and maintains accurate descriptions. B translates enum values and field names, breaking technical fidelity.",
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "C3_local_fp8_think_off-vs-C4_local_fp8_think_on",
+    "fixture": "S4",
+    "rep": 3,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:36:22"
+  }
+}

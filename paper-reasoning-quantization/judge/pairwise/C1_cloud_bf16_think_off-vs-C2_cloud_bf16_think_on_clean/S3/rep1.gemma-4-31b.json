@@ -1,0 +1,14 @@
+{
+  "winner": "A",
+  "confidence": 1,
+  "reason": "Translation B is completely broken: it has severe formatting issues in the table (repeated headers and broken markdown) and, more critically, it translates code identifiers/enum values (e.g., 'consensus' to 'Консенсус'), which is unacceptable in technical documentation. Translation A is accurate and follows the glossary, despite one minor grammatical error in the first sentence.",
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "C1_cloud_bf16_think_off-vs-C2_cloud_bf16_think_on_clean",
+    "fixture": "S3",
+    "rep": 1,
+    "mode": "pairwise",
+    "attempt": 1,
+    "ts": "2026-11-16T10:43:38"
+  }
+}

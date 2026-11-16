@@ -1,0 +1,50 @@
+{
+  "defects": [
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Heading uses incorrect term; should be \"дисковая квота\" (or \"дисковые квоты\").",
+      "quote": "Диск Квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "First paragraph uses \"Диск-квоты\" instead of the required term \"дисковая квота\".",
+      "quote": "Диск-квоты"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Phrase \"квоты на диск\" does not match the required term \"дисковая квота\".",
+      "quote": "квоты на диск"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Expression \"поддержку для квот на диске\" deviates from the required term \"поддержка квот\".",
+      "quote": "поддержку для квот на диске"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Phrase \"квоты дисков\" should be \"дисковые квоты\" (or \"дисковая квота\").",
+      "quote": "квоты дисков"
+    },
+    {
+      "category": "terminology",
+      "severity": "minor",
+      "description": "Phrase \"квоты на диске\" does not use the required term \"дисковая квота\".",
+      "quote": "квоты на диске"
+    }
+  ],
+  "score": 88,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "F_T00_local_nvfp4_t00_think_on",
+    "fixture": "F3_disks",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T08:47:30"
+  }
+}

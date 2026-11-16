@@ -1,0 +1,44 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code token/key modified: 'role_agent_config' was translated to 'Роль_agent_config'.",
+      "quote": "\"Роль_agent_config\""
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Incorrect translation of 'safe value' as 'безопасного замечания' (safe remark/note). Should be 'безопасного значения'.",
+      "quote": "безопасного замечания"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Incorrect translation of 'applied defaults' as 'применённые замечания по умолчанию' (applied remarks by default). Should be 'применённые значения по умолчанию'.",
+      "quote": "применённые замечания по умолчанию"
+    },
+    {
+      "category": "accuracy",
+      "severity": "major",
+      "description": "Incorrect translation of 'never inferred' as 'никогда не выводится'. In this context, 'inferred' refers to logical deduction/guessing of a value, whereas 'выводится' typically means 'is outputted/printed'.",
+      "quote": "никогда не выводится"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Grammatically incorrect and awkward phrasing for 'analytical-task reviews'.",
+      "quote": "аналитическая-Задача обзоры"
+    }
+  ],
+  "score": 43,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S6",
+    "rep": 3,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:13:04"
+  }
+}

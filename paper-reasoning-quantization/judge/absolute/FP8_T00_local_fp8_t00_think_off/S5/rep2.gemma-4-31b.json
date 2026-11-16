@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "format",
+      "severity": "critical",
+      "description": "Code tokens in backticks must be byte-identical to the source; they cannot be translated.",
+      "quote": "`ожидание оператора`, `разрешено`, `не удалось`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Headers are not translated, and required glossary equivalents for 'Phase' and 'Role Status' are omitted.",
+      "quote": "## Deterministic Control Plane"
+    }
+  ],
+  "score": 65,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_off",
+    "fixture": "S5",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:11:45"
+  }
+}

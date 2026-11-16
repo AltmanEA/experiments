@@ -1,0 +1,26 @@
+{
+  "defects": [
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Incorrect noun form; should be nominative singular \"Рамка\" instead of genitive plural \"Рамок\".",
+      "quote": "Рамок для совместного принятия решений"
+    },
+    {
+      "category": "fluency",
+      "severity": "minor",
+      "description": "Pronoun gender mismatch; refers to \"Рамка\" (feminine) but uses masculine \"Он\".",
+      "quote": "Он применяется"
+    }
+  ],
+  "score": 96,
+  "_meta": {
+    "judge": "gpt-oss-120b",
+    "condition": "FP8_T08_local_fp8_t08_think_off",
+    "fixture": "S1",
+    "rep": 1,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:13:00"
+  }
+}

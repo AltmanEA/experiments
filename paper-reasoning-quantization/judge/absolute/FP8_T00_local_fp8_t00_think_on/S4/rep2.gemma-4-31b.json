@@ -1,0 +1,92 @@
+{
+  "defects": [
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Backticked code tokens (enum values) must be byte-identical.",
+      "quote": "`консенсус`, `conditional`, `no-консенсус`, `blocked-эскалация`"
+    },
+    {
+      "category": "terminology",
+      "severity": "major",
+      "description": "Glossary term 'Subject' must be translated as 'Объект обсуждения', not 'Субъект'.",
+      "quote": "Субъекты"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Backticked code tokens (enum value) must be byte-identical.",
+      "quote": "`blocked-эскалация`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Backticked code tokens in the ValidationResult template must be byte-identical.",
+      "quote": "`{check: Объект обсуждения-reference|justification-format|status-extraction, Объект обсуждения_id: string|null, valid: boolean, code: VAL.*|PROT.*, message: string (redacted), Уровень серьёзности: Уровень серьёзности|null}`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Backticked code token 'severity' must be byte-identical.",
+      "quote": "`Уровень серьёзности`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Backticked field names must be byte-identical and retain backticks.",
+      "quote": "id_эскалации"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Backticked field names must be byte-identical and retain backticks.",
+      "quote": "id_сессии"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Backticked field names must be byte-identical and retain backticks.",
+      "quote": "поднято_ролью"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Backticked field names must be byte-identical and retain backticks.",
+      "quote": "уровень_серьёзности"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Backticked field names must be byte-identical and retain backticks.",
+      "quote": "резолюция"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Backticked field names must be byte-identical and retain backticks.",
+      "quote": "фаза_возобновления"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Backticked code tokens in rules must be byte-identical.",
+      "quote": "`причина_эскалации`"
+    },
+    {
+      "category": "critical",
+      "severity": "critical",
+      "description": "Backticked code tokens in rules must be byte-identical.",
+      "quote": "`{id_роли, позиция, краткое_описание}`"
+    }
+  ],
+  "score": 0,
+  "_meta": {
+    "judge": "gemma-4-31b",
+    "condition": "FP8_T00_local_fp8_t00_think_on",
+    "fixture": "S4",
+    "rep": 2,
+    "mode": "absolute",
+    "attempt": 1,
+    "ts": "2026-11-16T09:12:23"
+  }
+}
