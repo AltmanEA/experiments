@@ -35,6 +35,6 @@ within-config repeat spread (E-008 threshold).
 
 | cond | MQM p95 of |Δrep| | MQM sd (mixed) | D3 code | D4 num | D5nc term | D6 echo | D7nc contr (pure repeat sd) |
 |---|---|---|---|---|---|---|---|
-| P8 cloud FP8 (T=0.2) | 54.50 | 8.44 | 0.20 | 0.00 | 0.11 | 0.00 | 0.00 |
+| P8 cloud FP8 (T=0.2) | 54.50 | 8.44 | 0.20 | 0.00 | 0.07 | 0.00 | 0.00 |
 
 _MQM sd (mixed) here is sd over the 3 repeat means (judges averaged); the STATUS.md column 'noise' is sd over all 6 scores (3 reps × 2 judges)._

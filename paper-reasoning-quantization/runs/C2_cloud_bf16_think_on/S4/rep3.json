@@ -24,17 +24,14 @@
     "1": 1,
     "2000": 1
   },
-  "D5_terms_found": 11,
+  "D5_terms_found": 10,
   "D5_terms_missing": [
     "Session",
     "Disagreement",
-    "ConsensusVerdict",
     "Resolution"
   ],
-  "D5_nc_terms_found": 3,
-  "D5_nc_terms_missing": [
-    "ConsensusVerdict"
-  ],
+  "D5_nc_terms_found": 2,
+  "D5_nc_terms_missing": [],
   "D6_echo": [
     "(?im)^\\s*(translation|перевод)\\s*[:：]",
     "(?i)\\b(Let's|Wait|I need to|As an AI)\\b"

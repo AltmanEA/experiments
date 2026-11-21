@@ -24,10 +24,13 @@ DO_FIGS=0
 step() { echo "== $*"; }
 
 # ── defect metrics (per domain; original --out-prefix values) ──────────────────────
+# IMPORTANT: council/fp8 defects must use the FROZEN glossary snapshot (54 terms,
+# corpus/glossary_council_2026-11-11.md) — the live ~/council glossary has drifted
+# (73 terms) and D5/D7 depend on it. Without GLOSS= the rebuild is not reproducible.
 step "defects: council (defects.csv)"
-python3 metrics/aggregate.py >/dev/null
+GLOSS=corpus/glossary_council_2026-11-11.md python3 metrics/aggregate.py >/dev/null
 step "defects: FP8 temperature grid (defects_fp8.csv)"
-python3 metrics/aggregate.py \
+GLOSS=corpus/glossary_council_2026-11-11.md python3 metrics/aggregate.py \
   --conditions FP8_T00_local_fp8_t00_think_off FP8_T00_local_fp8_t00_think_on \
                FP8_T08_local_fp8_t08_think_off FP8_T08_local_fp8_t08_think_on \
   --out-prefix _fp8 >/dev/null
@@ -93,6 +96,9 @@ step "chrF vs official RU (FreeBSD)"
 
 step "pairwise report (main + position control + tie probe + verbosity)"
 "$PYV" metrics/pairwise_report.py >/dev/null
+
+step "D9 blind human annotation agreement (B1, v4; requires frozen answers)"
+"$PYV" metrics/d9_agreement_v4.py >/dev/null
 
 step "article tables (Tables 3-7)"
 "$PYV" metrics/article_tables.py >/dev/null
