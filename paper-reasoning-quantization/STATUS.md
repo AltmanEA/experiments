@@ -72,7 +72,10 @@ reverse + 40 null-пробы A-vs-A, контроль позиции C1) + 42 (P
   92/92, mean |Δ| 9.71 при межсудейском 19.24; `judge_retest.md`) и C3 (pairwise FreeBSD
   vs official RU, 80/80, официальный стабильно впереди; `pairwise_freebsd.md`) закрыты
   ночным батчем `run_c2c3_night.sh`.
-- [К] D1 (решение про push), D2 (вычитка), D3 («Как воспроизвести»).
+- [К] D1 (решение про push) — ждёт оператора. ✅ 21.11: D2 (вычитка: union-вердикты C1
+      в §5.10, CI в §8, определение «MQM = среднее двух судей», trace_analysis в механизме
+      H1, fig6–9 вписаны; попутно — фикс GLOSS= в rebuild_all и порядок MANIFEST/VERSIONS)
+      и D3 (§12 «Как воспроизвести») закрыты.
 - Пересборка всех артефактов: `bash metrics/rebuild_all.sh --figures`
   (проверено 16.11, MANIFEST + VERSIONS пишутся).
 

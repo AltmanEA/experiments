@@ -111,7 +111,8 @@ fi
 
 # ── provenance ─────────────────────────────────────────────────────────────────────
 step "manifest + versions"
-( cd results && sha256sum *.csv *.md figs/*.png 2>/dev/null > MANIFEST.sha256 )
+# VERSIONS.md must be written BEFORE the manifest: MANIFEST.sha256 hashes *.md, which
+# includes VERSIONS.md itself. Writing it first keeps `sha256sum -c MANIFEST.sha256` clean.
 {
   echo "# Версии окружения анализа"
   echo
@@ -126,5 +127,6 @@ step "manifest + versions"
   echo "Bootstrap seed во всех скриптах зафиксирован (20 000). Статистика: Wilcoxon + Holm,"
   echo "порог эффекта — 95-й перцентиль внутриконфигурного разброса (E-008)."
 } > results/VERSIONS.md
+( cd results && sha256sum *.csv *.md figs/*.png 2>/dev/null > MANIFEST.sha256 )
 
 echo "== done. results/MANIFEST.sha256 + results/VERSIONS.md written."
